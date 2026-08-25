@@ -18,7 +18,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import api_client
-from config import LEAGUES
+from config import FIXTURE_LEAGUES
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CLUBS_PATH = DATA_DIR / "jp_clubs.json"
@@ -35,7 +35,7 @@ def main() -> None:
     clubs_data = json.loads(CLUBS_PATH.read_text(encoding="utf-8"))
     clubs = clubs_data["clubs"]
     club_by_team_id = {str(c["team_id"]): c for c in clubs}
-    league_by_id = {league["id"]: league for league in LEAGUES}
+    league_by_id = {league["id"]: league for league in FIXTURE_LEAGUES}
 
     matches_by_team: dict[str, list[dict]] = {team_id: [] for team_id in club_by_team_id}
     all_matches: list[dict] = []

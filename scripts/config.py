@@ -22,6 +22,30 @@ LEAGUES = [
     {"id": 203, "name": "スュペル・リグ", "country_code": "tur", "country_ja": "トルコ"},
 ]
 
+# 国内カップ戦。fetch_fixtures.pyは日付ベースで世界中の試合を取得してから
+# LEAGUESに載っている大会だけを抽出する方式のため、ここに追加しても
+# APIリクエスト数は増えない(取得後のフィルタ対象が増えるだけ)。
+# 要検証: 無料枠が復活したら /leagues?id=<id> で正しいIDか確認すること。
+CUP_LEAGUES = [
+    {"id": 45, "name": "FAカップ", "country_code": "eng", "country_ja": "イングランド"},
+    {"id": 48, "name": "EFLカップ", "country_code": "eng", "country_ja": "イングランド"},
+    {"id": 143, "name": "コパ・デル・レイ", "country_code": "esp", "country_ja": "スペイン"},
+    {"id": 81, "name": "DFBポカール", "country_code": "ger", "country_ja": "ドイツ"},
+    {"id": 137, "name": "コッパ・イタリア", "country_code": "ita", "country_ja": "イタリア"},
+    {"id": 66, "name": "クープ・ド・フランス", "country_code": "fra", "country_ja": "フランス"},
+    {"id": 90, "name": "KNVBベーカー", "country_code": "ned", "country_ja": "オランダ"},
+    {"id": 97, "name": "ポルトガルカップ", "country_code": "por", "country_ja": "ポルトガル"},
+    {"id": 147, "name": "ベルギーカップ", "country_code": "bel", "country_ja": "ベルギー"},
+    {"id": 180, "name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},
+    {"id": 206, "name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},
+]
+
+# fetch_fixtures.py用: discover(所属クラブ発見)は上のLEAGUES(1部+2部)だけを
+# 対象にする(カップ戦は下部リーグの弱小クラブも大量に参加するため、
+# discoverの対象に含めると無関係なチームまで走査してしまう)。
+# fixtures取得側だけ、カップ戦を含めたこちらを使う。
+FIXTURE_LEAGUES = LEAGUES + CUP_LEAGUES
+
 # API-Football無料プランの /players/squads は国籍情報を返さないため、
 # 現在の登録選手名をこの名字リストと照合して日本人選手かどうかを判定する。
 # (ローマ字表記は "K. Mitoma" のように「頭文字. 名字」形式で入ってくる)
