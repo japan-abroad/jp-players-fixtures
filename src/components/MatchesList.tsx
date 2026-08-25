@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Match } from "@/lib/data";
 import { toJstDateKey, toJstDateLabel } from "@/lib/time";
-import { countryColor, countryFlag } from "@/lib/countryStyle";
+import { countryColor } from "@/lib/countryStyle";
 import MatchRow from "./MatchRow";
 
 const COUNTRIES: { code: string; label: string }[] = [
@@ -78,10 +78,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
         </div>
       </div>
 
-      <div
-        className="mt-3 flex items-center gap-2 overflow-x-auto pb-1"
-        style={{ scrollbarWidth: "none" }}
-      >
+      <div className="country-filter-scroll mt-3 flex items-center gap-2 overflow-x-auto pb-1">
         {COUNTRIES.map((c) => (
           <button
             key={c.code}
@@ -93,7 +90,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
             }
             onClick={() => toggleCountry(c.code)}
           >
-            {countryFlag(c.code)} {c.label}
+            {c.label}
           </button>
         ))}
         {activeCountries.size > 0 && (

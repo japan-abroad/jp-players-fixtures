@@ -53,6 +53,14 @@ body {
   animation: flap-in 0.5s ease-out both;
 }
 
+.country-filter-scroll {
+  scrollbar-width: none;
+}
+
+.country-filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 .match-row {
   display: flex;
   flex-wrap: wrap;

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import MatchRow from "@/components/MatchRow";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
+import { translatePlayerName } from "@/lib/playerNames";
 
 export function generateStaticParams() {
   return getAllPlayers().map((p) => ({ playerSlug: p.slug }));
@@ -18,9 +19,10 @@ export async function generateMetadata({
   const player = getPlayerBySlug(playerSlug);
   if (!player) return {};
   const clubNameJa = translateTeamName(player.club.team_name);
+  const playerNameJa = translatePlayerName(player.name);
   return {
-    title: `${player.name}の試合予定 | 日本人選手フットボール便`,
-    description: `${clubNameJa}(${player.club.league_name})所属 ${player.name}の直近の試合予定を日本時間で表示。`,
+    title: `${playerNameJa}の試合予定 | 日本人選手フットボール便`,
+    description: `${clubNameJa}(${player.club.league_name})所属 ${playerNameJa}の直近の試合予定を日本時間で表示。`,
   };
 }
 
@@ -42,7 +44,9 @@ export default async function PlayerPage({
             <p className="text-xs uppercase tracking-widest text-white/70">
               {translateTeamName(player.club.team_name)} ・ {player.position ?? ""}
             </p>
-            <h1 className="font-display text-3xl font-bold text-white">{player.name}</h1>
+            <h1 className="font-display text-3xl font-bold text-white">
+              {translatePlayerName(player.name)}
+            </h1>
           </div>
         </div>
       </div>

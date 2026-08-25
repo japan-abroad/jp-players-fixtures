@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import MatchRow from "@/components/MatchRow";
 import { getClubById, getClubs, getAllPlayers } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
+import { translatePlayerName } from "@/lib/playerNames";
 
 export function generateStaticParams() {
   return getClubs().map((c) => ({ teamId: String(c.team_id) }));
@@ -21,7 +22,7 @@ export async function generateMetadata({
   return {
     title: `${clubNameJa}の試合予定 | 日本人選手フットボール便`,
     description: `${clubNameJa}(${club.league_name})に所属する${club.players
-      .map((p) => p.name)
+      .map((p) => translatePlayerName(p.name))
       .join("・")}の直近の試合予定。`,
   };
 }
@@ -62,7 +63,7 @@ export default async function ClubPage({
               href={`/players/${p.slug}/`}
               className="rounded-full bg-[var(--samurai)]/10 px-4 py-1.5 text-sm font-semibold text-[var(--samurai)] hover:bg-[var(--samurai)]/20"
             >
-              {p.name}
+              {translatePlayerName(p.name)}
               {p.position ? ` (${p.position})` : ""}
             </Link>
           ))}

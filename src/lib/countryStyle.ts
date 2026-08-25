@@ -11,23 +11,6 @@ export const COUNTRY_COLOR: Record<string, string> = {
   tur: "#b91c1c",
 };
 
-export const COUNTRY_FLAG: Record<string, string> = {
-  eng: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-  esp: "🇪🇸",
-  ger: "🇩🇪",
-  ita: "🇮🇹",
-  fra: "🇫🇷",
-  ned: "🇳🇱",
-  por: "🇵🇹",
-  bel: "🇧🇪",
-  sco: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-  tur: "🇹🇷",
-};
-
 export function countryColor(code: string): string {
   return COUNTRY_COLOR[code] ?? "#4a5160";
-}
-
-export function countryFlag(code: string): string {
-  return COUNTRY_FLAG[code] ?? "";
 }
