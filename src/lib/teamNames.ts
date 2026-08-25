@@ -15,7 +15,6 @@ const TEAM_NAME_JA: Record<string, string> = {
   "Crystal Palace": "クリスタル・パレス",
   Everton: "エヴァートン",
   Fulham: "フラム",
-  Leeds: "リーズ",
   Liverpool: "リバプール",
   "Manchester City": "マンチェスター・シティ",
   "Manchester United": "マンチェスター・ユナイテッド",
@@ -130,6 +129,21 @@ const TEAM_NAME_JA: Record<string, string> = {
   // その他、日本人選手所属実績のあるクラブ
   Southampton: "サウサンプトン",
   "Stade Brestois 29": "ブレスト",
+
+  // チャンピオンシップ(イングランド2部)
+  "Coventry City": "コヴェントリー・シティ",
+  "Stoke City": "ストーク・シティ",
+  "Hull City": "ハル・シティ",
+  "Blackburn Rovers": "ブラックバーン",
+  "Birmingham City": "バーミンガム・シティ",
+  Leeds: "リーズ・ユナイテッド",
+
+  // スコットランド
+  Rangers: "レンジャーズ",
+
+  // ベルギー
+  "Sint-Truiden": "シント＝トロイデン",
+  Gent: "ゲント",
 };
 
 export function translateTeamName(name: string): string {
