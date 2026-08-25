@@ -1,11 +1,12 @@
-"""試合予定を取得する(ESPN版)。
+"""試合予定を取得する(API-Football版)。
 
 サイトの一覧は「対象リーグの全試合」を表示し、日本人選手が所属するクラブの
-試合にはタグを付けて強調する方式にした(以前は日本人選手所属クラブの
-試合だけに絞り込んでいたが、それ以外の試合も見たいという要望に対応)。
+試合にはタグを付けて強調する。無料プランでは /fixtures?team=X&next=N が
+使えないため、直近N日分について /fixtures?date=YYYY-MM-DD (全世界の試合)を
+1日1リクエストで取得し、対象リーグの試合だけを抽出する。
 
-ESPNの/scoreboardは「リーグ単位・期間指定」で全試合を1リクエストで返すため、
-対象リーグの数だけリクエストすればよい。
+このリクエスト数(日数分、クラブ数に依存しない)は discover に比べて
+軽量なため、6時間毎の自動実行でも1日100リクエストの上限に収まる。
 
 使い方:
     python fetch_fixtures.py
@@ -16,14 +17,14 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-import espn_client
+import api_client
 from config import LEAGUES
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CLUBS_PATH = DATA_DIR / "jp_clubs.json"
 OUTPUT_PATH = DATA_DIR / "fixtures.json"
 
-DAYS_AHEAD = 14
+DAYS_AHEAD = 10
 
 
 def main() -> None:
@@ -34,24 +35,30 @@ def main() -> None:
     clubs_data = json.loads(CLUBS_PATH.read_text(encoding="utf-8"))
     clubs = clubs_data["clubs"]
     club_by_team_id = {str(c["team_id"]): c for c in clubs}
-
-    today = date.today()
-    date_from = today.strftime("%Y%m%d")
-    date_to = (today + timedelta(days=DAYS_AHEAD)).strftime("%Y%m%d")
-
-    # 同じリーグを複数回叩かないよう espn_slug でまとめて処理する
-    seen_slugs: dict[str, dict] = {}
-    for league in LEAGUES:
-        seen_slugs.setdefault(league["espn_slug"], league)
+    league_by_id = {league["id"]: league for league in LEAGUES}
 
     matches_by_team: dict[str, list[dict]] = {team_id: [] for team_id in club_by_team_id}
     all_matches: list[dict] = []
+    seen_fixture_ids: set[int] = set()
 
-    for slug, league in seen_slugs.items():
-        fixtures = espn_client.get_fixtures(slug, date_from, date_to)
-        for m in fixtures:
-            home_id = str(m["home_team_id"])
-            away_id = str(m["away_team_id"])
+    today = date.today()
+    for offset in range(DAYS_AHEAD):
+        day = today + timedelta(days=offset)
+        fixtures = api_client.get_fixtures_by_date(day.isoformat())
+        for item in fixtures:
+            league_id = item["league"]["id"]
+            league = league_by_id.get(league_id)
+            if league is None:
+                continue  # 対象リーグ以外の試合は無視
+
+            fixture = item["fixture"]
+            if fixture["id"] in seen_fixture_ids:
+                continue
+            seen_fixture_ids.add(fixture["id"])
+
+            teams = item["teams"]
+            home_id = str(teams["home"]["id"])
+            away_id = str(teams["away"]["id"])
 
             jp_players = []
             for team_id in (home_id, away_id):
@@ -62,19 +69,19 @@ def main() -> None:
                     )
 
             match = {
-                "fixture_id": m["fixture_id"],
-                "kickoff_utc": m["kickoff_utc"],
-                "venue": m["venue"],
+                "fixture_id": fixture["id"],
+                "kickoff_utc": fixture["date"],
+                "venue": (fixture.get("venue") or {}).get("name"),
                 "league_name": league["name"],
                 "country_code": league["country_code"],
                 "country_ja": league["country_ja"],
-                "round": m["round"],
-                "home_team_id": m["home_team_id"],
-                "home_team": m["home_team"],
-                "home_logo": m["home_logo"],
-                "away_team_id": m["away_team_id"],
-                "away_team": m["away_team"],
-                "away_logo": m["away_logo"],
+                "round": item["league"].get("round"),
+                "home_team_id": teams["home"]["id"],
+                "home_team": teams["home"]["name"],
+                "home_logo": teams["home"]["logo"],
+                "away_team_id": teams["away"]["id"],
+                "away_team": teams["away"]["name"],
+                "away_logo": teams["away"]["logo"],
                 "jp_players": jp_players,
             }
             all_matches.append(match)
@@ -107,7 +114,8 @@ def main() -> None:
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     jp_count = sum(1 for m in all_matches if m["jp_players"])
     print(
-        f"完了: 全{len(all_matches)}試合(うち日本人選手所属{jp_count}試合)を {OUTPUT_PATH} に出力しました。"
+        f"完了: 全{len(all_matches)}試合(うち日本人選手所属{jp_count}試合)を "
+        f"{api_client.request_count}リクエストで {OUTPUT_PATH} に出力しました。"
     )
 
 
