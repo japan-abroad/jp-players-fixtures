@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import MatchCard from "@/components/MatchCard";
+import MatchRow from "@/components/MatchRow";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 
@@ -61,9 +61,9 @@ export default async function PlayerPage({
         <h2 className="mt-8 border-b border-[var(--line)] pb-2 font-display text-lg font-semibold uppercase tracking-tight text-[var(--ink)]">
           直近の試合予定
         </h2>
-        <div className="mt-4 flex flex-col gap-3">
+        <div className="mt-4">
           {player.club.matches.map((m) => (
-            <MatchCard key={m.fixture_id} match={{ ...m, club: player.club }} />
+            <MatchRow key={m.fixture_id} match={m} />
           ))}
           {player.club.matches.length === 0 && (
             <p className="text-sm text-[var(--ink-soft)]">現在表示できる試合がありません。</p>

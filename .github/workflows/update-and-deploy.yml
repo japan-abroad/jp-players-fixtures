@@ -1,9 +1,8 @@
 name: Update fixtures and deploy to GitHub Pages
 
-# discoverフェーズ(所属クラブの発見)は無料APIプランの1日100リクエスト上限を
-# 使い切ってしまうため、この定期実行には含めない。頻度が低くても問題ない
-# discoverは discover-clubs.yml で手動トリガーのみとし、
-# こちらは軽量なfixtures取得(1日あたり約40リクエスト)だけを回す。
+# discover(所属クラブの発見)はESPNの全チームをスキャンするため実行に
+# 数分かかる。頻度が低くても問題ないため discover-clubs.yml で手動実行のみ
+# とし、こちらは軽量なfixtures取得(対象リーグ数だけのリクエスト)だけを回す。
 
 on:
   schedule:
@@ -33,8 +32,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch upcoming fixtures
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/fetch_fixtures.py
 
       - name: Commit updated data

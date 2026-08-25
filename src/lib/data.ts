@@ -6,16 +6,26 @@ export type ClubPlayer = {
   position: string | null;
 };
 
+export type JpPlayerRef = {
+  name: string;
+  team_id: number;
+};
+
 export type Match = {
   fixture_id: number;
   kickoff_utc: string;
   venue: string | null;
   league_name: string;
+  country_code: string;
+  country_ja: string;
   round: string | null;
+  home_team_id: number;
   home_team: string;
   home_logo: string;
+  away_team_id: number;
   away_team: string;
   away_logo: string;
+  jp_players: JpPlayerRef[];
 };
 
 export type Club = {
@@ -30,6 +40,7 @@ export type Club = {
 export type FixturesData = {
   fetched_at: string;
   clubs: Club[];
+  matches: Match[];
 };
 
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -41,7 +52,7 @@ function readJson<T>(filename: string, fallback: T): T {
 }
 
 export function getFixturesData(): FixturesData {
-  return readJson<FixturesData>("fixtures.json", { fetched_at: "", clubs: [] });
+  return readJson<FixturesData>("fixtures.json", { fetched_at: "", clubs: [], matches: [] });
 }
 
 export function getClubs(): Club[] {
@@ -78,17 +89,7 @@ export function getPlayerBySlug(slug: string): PlayerEntry | undefined {
   return getAllPlayers().find((p) => p.slug === slug);
 }
 
-/** すべての試合をキックオフ日時(UTC)昇順で並べ、所属選手情報も付与したフラットな配列にする */
-export type MatchWithClub = Match & { club: Club };
-
-export function getAllMatchesSorted(): MatchWithClub[] {
-  const matches: MatchWithClub[] = [];
-  for (const club of getClubs()) {
-    for (const m of club.matches) {
-      matches.push({ ...m, club });
-    }
-  }
-  return matches.sort(
-    (a, b) => new Date(a.kickoff_utc).getTime() - new Date(b.kickoff_utc).getTime()
-  );
+/** 対象リーグの全試合(日本人選手の有無を問わない)をキックオフ日時(UTC)昇順で返す */
+export function getAllMatches(): Match[] {
+  return getFixturesData().matches;
 }

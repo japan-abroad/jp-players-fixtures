@@ -6,18 +6,23 @@
       "team_name": "Brighton",
       "logo": "https://media.api-sports.io/football/teams/51.png",
       "league_name": "プレミアリーグ",
-      "players": [{ "name": "三笘薫", "position": "Attacker" }],
+      "players": [{ "name": "K. Mitoma", "position": "Attacker" }],
       "matches": [
         {
           "fixture_id": 1001,
           "kickoff_utc": "2026-08-26T19:00:00+00:00",
           "venue": "American Express Stadium",
           "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
           "round": "Regular Season - 3",
+          "home_team_id": 51,
           "home_team": "Brighton",
           "home_logo": "https://media.api-sports.io/football/teams/51.png",
+          "away_team_id": 50,
           "away_team": "Manchester City",
-          "away_logo": "https://media.api-sports.io/football/teams/50.png"
+          "away_logo": "https://media.api-sports.io/football/teams/50.png",
+          "jp_players": [{ "name": "K. Mitoma", "team_id": 51 }]
         }
       ]
     },
@@ -26,18 +31,23 @@
       "team_name": "Real Sociedad",
       "logo": "https://media.api-sports.io/football/teams/548.png",
       "league_name": "ラ・リーガ",
-      "players": [{ "name": "久保建英", "position": "Attacker" }],
+      "players": [{ "name": "T. Kubo", "position": "Attacker" }],
       "matches": [
         {
           "fixture_id": 1002,
           "kickoff_utc": "2026-08-27T18:30:00+00:00",
           "venue": "Reale Arena",
           "league_name": "ラ・リーガ",
+          "country_code": "esp",
+          "country_ja": "スペイン",
           "round": "Regular Season - 3",
+          "home_team_id": 548,
           "home_team": "Real Sociedad",
           "home_logo": "https://media.api-sports.io/football/teams/548.png",
+          "away_team_id": 533,
           "away_team": "Villarreal",
-          "away_logo": "https://media.api-sports.io/football/teams/533.png"
+          "away_logo": "https://media.api-sports.io/football/teams/533.png",
+          "jp_players": [{ "name": "T. Kubo", "team_id": 548 }]
         }
       ]
     },
@@ -46,20 +56,107 @@
       "team_name": "Liverpool",
       "logo": "https://media.api-sports.io/football/teams/40.png",
       "league_name": "プレミアリーグ",
-      "players": [{ "name": "遠藤航", "position": "Midfielder" }],
+      "players": [{ "name": "W. Endo", "position": "Midfielder" }],
       "matches": [
         {
-          "fixture_id": 1003,
+          "fixture_id": 1004,
           "kickoff_utc": "2026-08-28T11:30:00+00:00",
           "venue": "Anfield",
           "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
           "round": "Regular Season - 3",
+          "home_team_id": 40,
           "home_team": "Liverpool",
           "home_logo": "https://media.api-sports.io/football/teams/40.png",
+          "away_team_id": 42,
           "away_team": "Arsenal",
-          "away_logo": "https://media.api-sports.io/football/teams/42.png"
+          "away_logo": "https://media.api-sports.io/football/teams/42.png",
+          "jp_players": [{ "name": "W. Endo", "team_id": 40 }]
         }
       ]
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": 1001,
+      "kickoff_utc": "2026-08-26T19:00:00+00:00",
+      "venue": "American Express Stadium",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": "Regular Season - 3",
+      "home_team_id": 51,
+      "home_team": "Brighton",
+      "home_logo": "https://media.api-sports.io/football/teams/51.png",
+      "away_team_id": 50,
+      "away_team": "Manchester City",
+      "away_logo": "https://media.api-sports.io/football/teams/50.png",
+      "jp_players": [{ "name": "K. Mitoma", "team_id": 51 }]
+    },
+    {
+      "fixture_id": 1002,
+      "kickoff_utc": "2026-08-27T18:30:00+00:00",
+      "venue": "Reale Arena",
+      "league_name": "ラ・リーガ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": "Regular Season - 3",
+      "home_team_id": 548,
+      "home_team": "Real Sociedad",
+      "home_logo": "https://media.api-sports.io/football/teams/548.png",
+      "away_team_id": 533,
+      "away_team": "Villarreal",
+      "away_logo": "https://media.api-sports.io/football/teams/533.png",
+      "jp_players": [{ "name": "T. Kubo", "team_id": 548 }]
+    },
+    {
+      "fixture_id": 1003,
+      "kickoff_utc": "2026-08-27T11:30:00+00:00",
+      "venue": "Stamford Bridge",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": "Regular Season - 3",
+      "home_team_id": 49,
+      "home_team": "Chelsea",
+      "home_logo": "https://media.api-sports.io/football/teams/49.png",
+      "away_team_id": 45,
+      "away_team": "Everton",
+      "away_logo": "https://media.api-sports.io/football/teams/45.png",
+      "jp_players": []
+    },
+    {
+      "fixture_id": 1004,
+      "kickoff_utc": "2026-08-28T11:30:00+00:00",
+      "venue": "Anfield",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": "Regular Season - 3",
+      "home_team_id": 40,
+      "home_team": "Liverpool",
+      "home_logo": "https://media.api-sports.io/football/teams/40.png",
+      "away_team_id": 42,
+      "away_team": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "jp_players": [{ "name": "W. Endo", "team_id": 40 }]
+    },
+    {
+      "fixture_id": 1005,
+      "kickoff_utc": "2026-08-28T18:30:00+00:00",
+      "venue": "Allianz Arena",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": "Regular Season - 3",
+      "home_team_id": 157,
+      "home_team": "Bayern Munich",
+      "home_logo": "https://media.api-sports.io/football/teams/157.png",
+      "away_team_id": 165,
+      "away_team": "Borussia Dortmund",
+      "away_logo": "https://media.api-sports.io/football/teams/165.png",
+      "jp_players": []
     }
   ]
 }

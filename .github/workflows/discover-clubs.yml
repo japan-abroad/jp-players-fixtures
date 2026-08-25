@@ -1,9 +1,7 @@
 name: Discover clubs with Japanese players
 
-# 全チームのスカッドをスキャンするため無料APIプランの1日100リクエストを
-# 使い切る可能性が高い。移籍市場が動いた後などに手動で実行する想定。
-# --max-requests の上限で自動的に進捗保存されるので、1回で終わらなければ
-# 同じワークフローをもう一度手動実行すれば続きから再開する。
+# 全チームのロースターをスキャンするため数分かかる。
+# 移籍市場が動いた後などに手動で実行する想定。
 
 on:
   workflow_dispatch:
@@ -22,9 +20,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Discover clubs with Japanese players
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/discover_jp_clubs.py --max-requests 90
+        run: python scripts/discover_jp_clubs.py
 
       - name: Commit updated data
         run: |

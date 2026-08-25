@@ -11,6 +11,8 @@
   --samurai-deep: #10254d;
   --pitch: #1f8a55;
   --line: #dcdfd8;
+  --hinomaru: #b3123c;
+  --hinomaru-soft: #e8a6b6;
 }
 
 body {
@@ -49,4 +51,88 @@ body {
 
 .flap-animate {
   animation: flap-in 0.5s ease-out both;
+}
+
+.match-row {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  background: #fff;
+  border-radius: 0.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.match-row[data-jp="true"] {
+  background: linear-gradient(90deg, rgb(179 18 60 / 0.05), transparent 55%), #fff;
+  border-left-color: var(--hinomaru);
+}
+
+.match-row-hidden {
+  display: none !important;
+}
+
+.jp-player-badge {
+  font-family: var(--font-display), sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--hinomaru);
+  border-bottom: 1px solid var(--hinomaru-soft);
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+}
+
+.country-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.date-heading {
+  font-family: var(--font-display), sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--samurai);
+  padding: 0.9rem 0 0.4rem;
+  border-bottom: 1px solid var(--line);
+  margin-top: 1.25rem;
+}
+
+.date-heading:first-child {
+  margin-top: 0;
+}
+
+.chip-btn {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 9999px;
+  border: 1.5px solid var(--line);
+  background: #fff;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.12s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.chip-btn.active {
+  color: #fff;
+  border-color: transparent;
+}
+
+.chip-btn:not(.active):hover {
+  border-color: var(--samurai);
+  color: var(--samurai);
 }
