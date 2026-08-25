@@ -9,11 +9,6 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
-    inputs:
-      skip_fetch:
-        description: "fixtures取得をスキップし、既存のdata/fixtures.jsonのままビルド・公開する(見た目確認用)"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -38,13 +33,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch upcoming fixtures
-        if: github.event.inputs.skip_fetch != 'true'
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/fetch_fixtures.py
 
       - name: Commit updated data
-        if: github.event.inputs.skip_fetch != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
