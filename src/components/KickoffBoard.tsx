@@ -1,5 +1,6 @@
 import type { MatchWithClub } from "@/lib/data";
 import { toJstDateLabel, toJstTime } from "@/lib/time";
+import { translateTeamName } from "@/lib/teamNames";
 
 export default function KickoffBoard({ matches }: { matches: MatchWithClub[] }) {
   if (matches.length === 0) {
@@ -32,7 +33,7 @@ export default function KickoffBoard({ matches }: { matches: MatchWithClub[] }) 
               </span>
               <span className="text-xs text-white/70">{toJstDateLabel(m.kickoff_utc)}</span>
               <span className="text-sm font-semibold text-white">
-                {m.home_team} vs {m.away_team}
+                {translateTeamName(m.home_team)} vs {translateTeamName(m.away_team)}
               </span>
               <span className="truncate text-xs text-[#8fd6ac]">
                 {m.club.players.map((p) => p.name).join("・")}

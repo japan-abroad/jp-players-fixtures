@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import MatchCard from "@/components/MatchCard";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
+import { translateTeamName } from "@/lib/teamNames";
 
 export function generateStaticParams() {
   return getAllPlayers().map((p) => ({ playerSlug: p.slug }));
@@ -16,9 +17,10 @@ export async function generateMetadata({
   const { playerSlug } = await params;
   const player = getPlayerBySlug(playerSlug);
   if (!player) return {};
+  const clubNameJa = translateTeamName(player.club.team_name);
   return {
     title: `${player.name}の試合予定 | 日本人選手フットボール便`,
-    description: `${player.club.team_name}(${player.club.league_name})所属 ${player.name}の直近の試合予定を日本時間で表示。`,
+    description: `${clubNameJa}(${player.club.league_name})所属 ${player.name}の直近の試合予定を日本時間で表示。`,
   };
 }
 
@@ -38,7 +40,7 @@ export default async function PlayerPage({
           <Image src={player.club.logo} alt="" width={56} height={56} unoptimized />
           <div>
             <p className="text-xs uppercase tracking-widest text-white/70">
-              {player.club.team_name} ・ {player.position ?? ""}
+              {translateTeamName(player.club.team_name)} ・ {player.position ?? ""}
             </p>
             <h1 className="font-display text-3xl font-bold text-white">{player.name}</h1>
           </div>
@@ -52,7 +54,7 @@ export default async function PlayerPage({
             href={`/clubs/${player.club.team_id}/`}
             className="font-semibold text-[var(--samurai)] hover:underline"
           >
-            {player.club.team_name}
+            {translateTeamName(player.club.team_name)}
           </Link>
         </p>
 

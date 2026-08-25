@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getClubs } from "@/lib/data";
+import { translateTeamName } from "@/lib/teamNames";
 
 export const metadata = {
   title: "所属クラブ一覧 | 日本人選手フットボール便",
@@ -22,7 +23,9 @@ export default function ClubsPage() {
           >
             <Image src={club.logo} alt="" width={40} height={40} unoptimized />
             <div>
-              <p className="font-semibold text-[var(--ink)]">{club.team_name}</p>
+              <p className="font-semibold text-[var(--ink)]">
+                {translateTeamName(club.team_name)}
+              </p>
               <p className="text-xs text-[var(--ink-soft)]">
                 {club.league_name} ・ {club.players.map((p) => p.name).join("・")}
               </p>

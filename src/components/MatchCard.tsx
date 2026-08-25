@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import type { MatchWithClub } from "@/lib/data";
 import { toJstTime, toLocalKickoffLabel } from "@/lib/time";
+import { translateTeamName } from "@/lib/teamNames";
+import { translateRound, translateVenueName } from "@/lib/venueNames";
 
 export default function MatchCard({ match }: { match: MatchWithClub }) {
   return (
@@ -12,13 +14,13 @@ export default function MatchCard({ match }: { match: MatchWithClub }) {
       <div className="flex items-center justify-between text-xs text-[var(--ink-soft)]">
         <span>
           {match.league_name}
-          {match.round ? ` · ${match.round}` : ""}
+          {match.round ? ` · ${translateRound(match.round)}` : ""}
         </span>
-        <span>{match.venue}</span>
+        <span>{translateVenueName(match.venue)}</span>
       </div>
 
       <div className="mt-3 flex items-center justify-between gap-4">
-        <TeamBlock name={match.home_team} logo={match.home_logo} />
+        <TeamBlock name={translateTeamName(match.home_team)} logo={match.home_logo} />
         <div className="flex flex-col items-center">
           <span className="flap-digit font-mono text-2xl font-bold text-[var(--samurai)]">
             {toJstTime(match.kickoff_utc)}
@@ -28,7 +30,11 @@ export default function MatchCard({ match }: { match: MatchWithClub }) {
             現地 {toLocalKickoffLabel(match.kickoff_utc)}
           </span>
         </div>
-        <TeamBlock name={match.away_team} logo={match.away_logo} align="right" />
+        <TeamBlock
+          name={translateTeamName(match.away_team)}
+          logo={match.away_logo}
+          align="right"
+        />
       </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-[var(--line)] pt-3">
@@ -37,7 +43,7 @@ export default function MatchCard({ match }: { match: MatchWithClub }) {
           href={`/clubs/${match.club.team_id}/`}
           className="rounded-full bg-[var(--pitch)]/10 px-3 py-1 text-xs font-semibold text-[var(--pitch)] hover:bg-[var(--pitch)]/20"
         >
-          {match.club.team_name}
+          {translateTeamName(match.club.team_name)}
         </Link>
         {match.club.players.map((p) => (
           <span
