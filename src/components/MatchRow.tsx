@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Match } from "@/lib/data";
 import { toJstTime } from "@/lib/time";
@@ -27,8 +28,16 @@ export default function MatchRow({ match }: { match: Match }) {
         {toJstTime(match.kickoff_utc)}
       </div>
 
-      <div className="text-sm font-semibold text-[var(--ink)] min-w-0">
-        {translateTeamName(match.home_team)} vs {translateTeamName(match.away_team)}
+      <div className="matchup min-w-0">
+        <div className="team team-home">
+          <Image src={match.home_logo} alt="" width={22} height={22} unoptimized />
+          <span>{translateTeamName(match.home_team)}</span>
+        </div>
+        <span className="vs">vs</span>
+        <div className="team team-away">
+          <Image src={match.away_logo} alt="" width={22} height={22} unoptimized />
+          <span>{translateTeamName(match.away_team)}</span>
+        </div>
       </div>
 
       <div className="flex flex-col items-end gap-0.5 shrink-0">
