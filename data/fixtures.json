@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-08-25T00:00:00+00:00",
+  "clubs": [
+    {
+      "team_id": 51,
+      "team_name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png",
+      "league_name": "プレミアリーグ",
+      "players": [{ "name": "三笘薫", "position": "Attacker" }],
+      "matches": [
+        {
+          "fixture_id": 1001,
+          "kickoff_utc": "2026-08-26T19:00:00+00:00",
+          "venue": "American Express Stadium",
+          "league_name": "プレミアリーグ",
+          "round": "Regular Season - 3",
+          "home_team": "Brighton",
+          "home_logo": "https://media.api-sports.io/football/teams/51.png",
+          "away_team": "Manchester City",
+          "away_logo": "https://media.api-sports.io/football/teams/50.png"
+        }
+      ]
+    },
+    {
+      "team_id": 548,
+      "team_name": "Real Sociedad",
+      "logo": "https://media.api-sports.io/football/teams/548.png",
+      "league_name": "ラ・リーガ",
+      "players": [{ "name": "久保建英", "position": "Attacker" }],
+      "matches": [
+        {
+          "fixture_id": 1002,
+          "kickoff_utc": "2026-08-27T18:30:00+00:00",
+          "venue": "Reale Arena",
+          "league_name": "ラ・リーガ",
+          "round": "Regular Season - 3",
+          "home_team": "Real Sociedad",
+          "home_logo": "https://media.api-sports.io/football/teams/548.png",
+          "away_team": "Villarreal",
+          "away_logo": "https://media.api-sports.io/football/teams/533.png"
+        }
+      ]
+    },
+    {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png",
+      "league_name": "プレミアリーグ",
+      "players": [{ "name": "遠藤航", "position": "Midfielder" }],
+      "matches": [
+        {
+          "fixture_id": 1003,
+          "kickoff_utc": "2026-08-28T11:30:00+00:00",
+          "venue": "Anfield",
+          "league_name": "プレミアリーグ",
+          "round": "Regular Season - 3",
+          "home_team": "Liverpool",
+          "home_logo": "https://media.api-sports.io/football/teams/40.png",
+          "away_team": "Arsenal",
+          "away_logo": "https://media.api-sports.io/football/teams/42.png"
+        }
+      ]
+    }
+  ]
+}

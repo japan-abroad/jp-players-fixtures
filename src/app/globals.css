@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f5f6f2;
+  --paper-raised: #ffffff;
+  --ink: #14181f;
+  --ink-soft: #4a5160;
+  --samurai: #1b3a78;
+  --samurai-deep: #10254d;
+  --pitch: #1f8a55;
+  --line: #dcdfd8;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.flap {
+  background: linear-gradient(180deg, var(--samurai-deep) 0%, var(--samurai) 100%);
+}
+
+.flap-digit {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes flap-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.flap-animate {
+  animation: flap-in 0.5s ease-out both;
+}
