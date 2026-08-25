@@ -1,0 +1,35 @@
+name: Discover clubs with Japanese players
+
+# 全チームのスカッドをスキャンするため無料APIプランの1日100リクエストを
+# 使い切る可能性が高い。移籍市場が動いた後などに手動で実行する想定。
+# --max-requests の上限で自動的に進捗保存されるので、1回で終わらなければ
+# 同じワークフローをもう一度手動実行すれば続きから再開する。
+
+on:
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Discover clubs with Japanese players
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/discover_jp_clubs.py --max-requests 90
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data/
+          git diff --cached --quiet || git commit -m "chore: update jp_clubs discovery data"
+          git push || true

@@ -4,12 +4,6 @@ API-FootballのリーグIDは https://www.api-football.com/documentation-v3#tag/
 一覧、または /leagues エンドポイントで確認できる。
 """
 
-import datetime
-
-# 現在シーズンの開始年(欧州は秋開幕・年またぎのため8月以降は当年、それ以前は前年を使う)
-_now = datetime.date.today()
-CURRENT_SEASON = _now.year if _now.month >= 7 else _now.year - 1
-
 # 日本人選手が所属しやすい欧州主要リーグ(1部)
 LEAGUES = [
     {"id": 39, "name": "プレミアリーグ", "country": "England"},
@@ -24,6 +18,40 @@ LEAGUES = [
     {"id": 203, "name": "スュペル・リグ", "country": "Turkey"},
 ]
 
-JAPAN_NATIONALITY = "Japan"
+# API-Football無料プランの /players/squads は国籍情報を返さないため、
+# 現在の登録選手名をこの名字リストと照合して日本人選手かどうかを判定する。
+# (ローマ字表記は "K. Mitoma" のように「頭文字. 名字」形式で入ってくる)
+# 移籍によるクラブの変化は自動追従するが、このリスト自体は
+# 新戦力の台頭・引退などに応じて年に数回程度の手動更新が必要。
+JAPANESE_SURNAMES = [
+    "Mitoma",
+    "Kubo",
+    "Endo",
+    "Tomiyasu",
+    "Kamada",
+    "Doan",
+    "Minamino",
+    "Maeda",
+    "Asano",
+    "Ueda",
+    "Taniguchi",
+    "Itakura",
+    "Hatate",
+    "Suzuki",
+    "Nakamura",
+    "Morita",
+    "Kawashima",
+    "Sugawara",
+    "Hashioka",
+    "Seko",
+    "Machida",
+    "Osako",
+    "Tanaka",
+    "Yamane",
+    "Sakai",
+]
+
+# API-Football無料プランは2022〜2024シーズンのデータのみアクセス可能
+FREE_PLAN_SEASON = 2024
 
 API_BASE_URL = "https://v3.football.api-sports.io"

@@ -14,18 +14,24 @@ import sys
 from pathlib import Path
 
 import api_client
-from config import CURRENT_SEASON, JAPAN_NATIONALITY, LEAGUES
+from config import FREE_PLAN_SEASON, JAPANESE_SURNAMES, LEAGUES
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 PROGRESS_PATH = DATA_DIR / "discover_progress.json"
 OUTPUT_PATH = DATA_DIR / "jp_clubs.json"
 
 
+def _is_japanese_player(name: str) -> bool:
+    # API-Footballの選手名は "K. Mitoma" のように「頭文字. 名字」形式で入っている
+    surname = name.split(".")[-1].strip() if "." in name else name
+    return surname in JAPANESE_SURNAMES
+
+
 def _load_progress() -> dict | None:
     if not PROGRESS_PATH.exists():
         return None
     progress = json.loads(PROGRESS_PATH.read_text(encoding="utf-8"))
-    if progress.get("season") != CURRENT_SEASON:
+    if progress.get("season") != FREE_PLAN_SEASON:
         return None
     return progress
 
@@ -33,7 +39,7 @@ def _load_progress() -> dict | None:
 def _init_progress() -> dict:
     pending = []
     for league in LEAGUES:
-        teams = api_client.get_teams(league["id"], CURRENT_SEASON)
+        teams = api_client.get_teams(league["id"], FREE_PLAN_SEASON)
         for team in teams:
             pending.append(
                 {
@@ -44,7 +50,7 @@ def _init_progress() -> dict:
                     "league_name": league["name"],
                 }
             )
-    return {"season": CURRENT_SEASON, "pending_teams": pending, "found_clubs": {}}
+    return {"season": FREE_PLAN_SEASON, "pending_teams": pending, "found_clubs": {}}
 
 
 def _save_progress(progress: dict) -> None:
@@ -58,7 +64,7 @@ def _write_output(found_clubs: dict) -> None:
     clubs = sorted(found_clubs.values(), key=lambda c: c["team_name"])
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
-        json.dumps({"season": CURRENT_SEASON, "clubs": clubs}, ensure_ascii=False, indent=2),
+        json.dumps({"season": FREE_PLAN_SEASON, "clubs": clubs}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
@@ -76,7 +82,7 @@ def main(max_requests: int) -> None:
         jp_players = [
             {"name": p["name"], "position": p.get("position")}
             for p in squad
-            if p.get("nationality") == JAPAN_NATIONALITY
+            if _is_japanese_player(p["name"])
         ]
         if jp_players:
             found_clubs[str(team["team_id"])] = {

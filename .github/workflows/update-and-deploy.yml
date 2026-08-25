@@ -1,5 +1,10 @@
 name: Update fixtures and deploy to GitHub Pages
 
+# discoverフェーズ(所属クラブの発見)は無料APIプランの1日100リクエスト上限を
+# 使い切ってしまうため、この定期実行には含めない。頻度が低くても問題ない
+# discoverは discover-clubs.yml で手動トリガーのみとし、
+# こちらは軽量なfixtures取得(1日あたり約40リクエスト)だけを回す。
+
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -27,11 +32,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Discover clubs with Japanese players
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/discover_jp_clubs.py --max-requests 90
-
       - name: Fetch upcoming fixtures
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jp_clubs.json data/fixtures.json data/discover_progress.json || true
+          git add data/fixtures.json
           git diff --cached --quiet || git commit -m "chore: update fixtures data"
           git push || true
 
