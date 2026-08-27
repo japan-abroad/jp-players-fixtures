@@ -31,12 +31,15 @@ DAYS_AHEAD = 10
 
 
 def main() -> None:
-    if not CLUBS_PATH.exists():
-        print(f"{CLUBS_PATH} が見つかりません。先に discover_jp_clubs.py を実行してください。", file=sys.stderr)
-        sys.exit(1)
-
-    clubs_data = json.loads(CLUBS_PATH.read_text(encoding="utf-8"))
-    clubs = clubs_data["clubs"]
+    if CLUBS_PATH.exists():
+        clubs_data = json.loads(CLUBS_PATH.read_text(encoding="utf-8"))
+        clubs = clubs_data["clubs"]
+    else:
+        # scrape_jp_clubs.py/resolve_jp_clubs.py での日本人選手所属クラブ
+        # 特定が完了する前でも、対象リーグの試合更新自体は止めない
+        # (6時間毎の自動実行がここで失敗し続けるとエラーメールが飛び続けるため)。
+        print(f"警告: {CLUBS_PATH} が見つかりません。日本人選手のタグ付けなしで続行します。", file=sys.stderr)
+        clubs = []
     club_by_team_id = {str(c["team_id"]): c for c in clubs}
     league_by_id = {league["id"]: league for league in FIXTURE_LEAGUES}
 
