@@ -14,12 +14,36 @@ discover_jp_clubs.py同様、残りクオータを自動検出して安全マー
 """
 
 import argparse
+import difflib
 import json
+import re
 import sys
 from pathlib import Path
 
 import api_client
 from config import COUNTRY_JA, COUNTRY_TOP_LEAGUE_JA, FREE_PLAN_SEASON
+
+# 育成年代・リザーブ・女子チームの命名によく含まれるトークン。検索結果に
+# トップチームとこれらが混在する場合、誤ってこちらを拾わないよう除外する。
+_NON_FIRST_TEAM_RE = re.compile(
+    r"(?:^|\s)(U1[0-9]|U2[0-3]|U9|II|III|IV|B|W|2|Youth|Yth|Reserves?|Fem\w*|Women|Ladies|Girls|Jugend|Jeugd)(?:$|\s)",
+    re.IGNORECASE,
+)
+
+# 検索クエリから除いても意味が変わらない、クラブ名によくある一般的な
+# 接頭辞・接尾辞トークン。例: "Aston Villa F.C." は "Aston Villa" の方が
+# ヒットしやすく、"TSG 1899 Hoffenheim" は "TSG" が無い方がヒットする。
+_GENERIC_CLUB_TOKENS = {
+    "FC", "CF", "AFC", "SC", "AC", "SV", "TSG", "FSV", "VFL", "VFB", "TSV",
+    "SPVGG", "AS", "CD", "UD", "1",
+}
+
+# サッカーキング側の英語表記とAPI-Football側の登録名が大きく異なり、
+# 段階的な単純化でも解決できない既知のクラブ(soccer-king名 -> 検索クエリ)。
+_MANUAL_QUERY_OVERRIDES = {
+    "Alkmaar Zaanstreek": "AZ",
+    "LA Galaxy": "Los Angeles Galaxy",
+}
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -41,11 +65,55 @@ def _save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def _resolve_team(name_en: str) -> dict | None:
-    candidates = api_client.search_team(name_en)
-    if not candidates:
+def _sanitize_search_query(name_en: str) -> str:
+    # API-Footballの/teams?searchは英数字とスペースのみ許可(記号はエラーになる)。
+    # ピリオドは空白に置換せず除去する("F.C." -> "FC" の1トークンにする。
+    # 空白に置換すると "F" "C" のバラバラなトークンになり検索がヒットしなくなる)。
+    cleaned = name_en.replace(".", "")
+    cleaned = re.sub(r"[^A-Za-z0-9 ]+", " ", cleaned)
+    tokens = [t for t in cleaned.split() if t.upper() not in _GENERIC_CLUB_TOKENS]
+    return " ".join(tokens) if tokens else cleaned.strip()
+
+
+def _search_queries(name_en: str) -> list[str]:
+    """段階的に単純化した検索クエリ候補を順番に返す(最初にヒットしたもので確定)。"""
+    queries = []
+    if name_en in _MANUAL_QUERY_OVERRIDES:
+        queries.append(_MANUAL_QUERY_OVERRIDES[name_en])
+    primary = _sanitize_search_query(name_en)
+    queries.append(primary)
+    words = primary.split()
+    if len(words) > 1:
+        queries.append(words[0])
+        queries.append(words[-1])
+    seen: set[str] = set()
+    unique = []
+    for q in queries:
+        if q and q not in seen:
+            seen.add(q)
+            unique.append(q)
+    return unique
+
+
+def _best_first_team(candidates: list[dict], name_en: str) -> dict | None:
+    first_team_only = [t for t in candidates if not _NON_FIRST_TEAM_RE.search(t["name"])]
+    if not first_team_only:
         return None
-    team = candidates[0]
+    target = _sanitize_search_query(name_en).lower()
+    return max(
+        first_team_only, key=lambda t: difflib.SequenceMatcher(None, target, t["name"].lower()).ratio()
+    )
+
+
+def _resolve_team(name_en: str) -> dict | None:
+    team = None
+    for query in _search_queries(name_en):
+        candidates = api_client.search_team(query)
+        team = _best_first_team(candidates, name_en)
+        if team is not None:
+            break
+    if team is None:
+        return None
     country_ja = COUNTRY_JA.get(team.get("country"), team.get("country") or "")
     return {
         "team_id": team["id"],
