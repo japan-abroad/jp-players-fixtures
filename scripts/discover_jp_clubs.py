@@ -20,6 +20,9 @@ from pathlib import Path
 import api_client
 from config import FREE_PLAN_SEASON, JAPANESE_SURNAMES, LEAGUES
 
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 PROGRESS_PATH = DATA_DIR / "discover_progress.json"
 OUTPUT_PATH = DATA_DIR / "jp_clubs.json"

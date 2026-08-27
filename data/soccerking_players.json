@@ -1,0 +1,484 @@
+{
+  "scraped_at": "2026-08-27T04:17:07.375991+00:00",
+  "source_url": "https://www.soccer-king.jp/league/japanese",
+  "players": [
+    {
+      "name_ja": "酒井宏樹",
+      "club_name_ja": "オークランドFC"
+    },
+    {
+      "name_ja": "長澤和輝",
+      "club_name_ja": "ウェリントン・フェニックスFC"
+    },
+    {
+      "name_ja": "坂元達裕",
+      "club_name_ja": "コヴェントリー"
+    },
+    {
+      "name_ja": "指宿洋史",
+      "club_name_ja": "ウェスタン・シドニー・ワンダラーズ"
+    },
+    {
+      "name_ja": "金森健志",
+      "club_name_ja": "メルボルン・シティ"
+    },
+    {
+      "name_ja": "田中碧",
+      "club_name_ja": "リーズ"
+    },
+    {
+      "name_ja": "前田大然",
+      "club_name_ja": "イプスウィッチ"
+    },
+    {
+      "name_ja": "高井幸大",
+      "club_name_ja": "トッテナム・ホットスパー"
+    },
+    {
+      "name_ja": "遠藤航",
+      "club_name_ja": "リヴァプール"
+    },
+    {
+      "name_ja": "冨安健洋",
+      "club_name_ja": "クリスタル・パレス"
+    },
+    {
+      "name_ja": "鎌田大地",
+      "club_name_ja": "クリスタル・パレス"
+    },
+    {
+      "name_ja": "三笘薫",
+      "club_name_ja": "ブライトン"
+    },
+    {
+      "name_ja": "守田英正",
+      "club_name_ja": "ハル・シティ"
+    },
+    {
+      "name_ja": "宮代大聖",
+      "club_name_ja": "ラス・パルマス"
+    },
+    {
+      "name_ja": "鈴木彩艶",
+      "club_name_ja": "アストン・ヴィラ"
+    },
+    {
+      "name_ja": "久保建英",
+      "club_name_ja": "レアル・ソシエダ"
+    },
+    {
+      "name_ja": "喜多壱也",
+      "club_name_ja": "レアル・ソシエダ"
+    },
+    {
+      "name_ja": "三好康児",
+      "club_name_ja": "ボーフム"
+    },
+    {
+      "name_ja": "後藤啓介",
+      "club_name_ja": "フライブルク"
+    },
+    {
+      "name_ja": "山本理仁",
+      "club_name_ja": "フライブルク"
+    },
+    {
+      "name_ja": "鈴木唯人",
+      "club_name_ja": "フライブルク"
+    },
+    {
+      "name_ja": "古川陽介",
+      "club_name_ja": "ダルムシュタット"
+    },
+    {
+      "name_ja": "秋山裕紀",
+      "club_name_ja": "ダルムシュタット"
+    },
+    {
+      "name_ja": "町田浩樹",
+      "club_name_ja": "ホッフェンハイム"
+    },
+    {
+      "name_ja": "佐野海舟",
+      "club_name_ja": "マインツ"
+    },
+    {
+      "name_ja": "川﨑颯太",
+      "club_name_ja": "マインツ"
+    },
+    {
+      "name_ja": "田中聡",
+      "club_name_ja": "シャルケ"
+    },
+    {
+      "name_ja": "伊藤洋輝",
+      "club_name_ja": "バイエルン"
+    },
+    {
+      "name_ja": "町野修斗",
+      "club_name_ja": "ボルシアMG"
+    },
+    {
+      "name_ja": "宇野禅斗",
+      "club_name_ja": "ボルシアMG"
+    },
+    {
+      "name_ja": "橋岡大樹",
+      "club_name_ja": "ボルシアMG"
+    },
+    {
+      "name_ja": "板倉滉",
+      "club_name_ja": "ボルシアMG"
+    },
+    {
+      "name_ja": "堂安律",
+      "club_name_ja": "フランクフルト"
+    },
+    {
+      "name_ja": "小杉啓太",
+      "club_name_ja": "フランクフルト"
+    },
+    {
+      "name_ja": "神代慶人",
+      "club_name_ja": "フランクフルト"
+    },
+    {
+      "name_ja": "福井太智",
+      "club_name_ja": "アロウカ"
+    },
+    {
+      "name_ja": "水多海斗",
+      "club_name_ja": "ル・アーヴル"
+    },
+    {
+      "name_ja": "中村草太",
+      "club_name_ja": "ル・アーヴル"
+    },
+    {
+      "name_ja": "瀬古歩夢",
+      "club_name_ja": "ル・アーヴル"
+    },
+    {
+      "name_ja": "南野拓実",
+      "club_name_ja": "モナコ"
+    },
+    {
+      "name_ja": "中村敬斗",
+      "club_name_ja": "スタッド・ランス"
+    },
+    {
+      "name_ja": "森下龍矢",
+      "club_name_ja": "ブラックバーン"
+    },
+    {
+      "name_ja": "大橋祐紀",
+      "club_name_ja": "ブラックバーン"
+    },
+    {
+      "name_ja": "三戸舜介",
+      "club_name_ja": "スパルタ・ロッテルダム"
+    },
+    {
+      "name_ja": "北野颯太",
+      "club_name_ja": "ザルツブルク"
+    },
+    {
+      "name_ja": "チェイス・アンリ",
+      "club_name_ja": "ザルツブルク"
+    },
+    {
+      "name_ja": "古橋亨梧",
+      "club_name_ja": "バーミンガム"
+    },
+    {
+      "name_ja": "藤本寛也",
+      "club_name_ja": "バーミンガム"
+    },
+    {
+      "name_ja": "岩田智輝",
+      "club_name_ja": "バーミンガム"
+    },
+    {
+      "name_ja": "斉藤光毅",
+      "club_name_ja": "クイーンズ・パーク・レンジャーズ"
+    },
+    {
+      "name_ja": "菅原由勢",
+      "club_name_ja": "サウサンプトン"
+    },
+    {
+      "name_ja": "松木玖生",
+      "club_name_ja": "サウサンプトン"
+    },
+    {
+      "name_ja": "鈴木淳之介",
+      "club_name_ja": "コペンハーゲン"
+    },
+    {
+      "name_ja": "旗手怜央",
+      "club_name_ja": "セルティック"
+    },
+    {
+      "name_ja": "市原吏音",
+      "club_name_ja": "AZ"
+    },
+    {
+      "name_ja": "毎熊晟矢",
+      "club_name_ja": "AZ"
+    },
+    {
+      "name_ja": "渡辺剛",
+      "club_name_ja": "フェイエノールト"
+    },
+    {
+      "name_ja": "上田綺世",
+      "club_name_ja": "フェイエノールト"
+    },
+    {
+      "name_ja": "佐野航大",
+      "club_name_ja": "PSV"
+    },
+    {
+      "name_ja": "木村誠二",
+      "club_name_ja": "ウェステルロー"
+    },
+    {
+      "name_ja": "齋藤俊輔",
+      "club_name_ja": "ウェステルロー"
+    },
+    {
+      "name_ja": "坂本一彩",
+      "club_name_ja": "ウェステルロー"
+    },
+    {
+      "name_ja": "荻原拓也",
+      "club_name_ja": "ルーヴェン"
+    },
+    {
+      "name_ja": "安藤晃希",
+      "club_name_ja": "ロイヤル・アントワープ"
+    },
+    {
+      "name_ja": "野澤大志ブランドン",
+      "club_name_ja": "ロイヤル・アントワープ"
+    },
+    {
+      "name_ja": "綱島悠斗",
+      "club_name_ja": "ロイヤル・アントワープ"
+    },
+    {
+      "name_ja": "伊東純也",
+      "club_name_ja": "ゲンク"
+    },
+    {
+      "name_ja": "吉永夢希",
+      "club_name_ja": "ゲンク"
+    },
+    {
+      "name_ja": "横山歩夢",
+      "club_name_ja": "ゲンク"
+    },
+    {
+      "name_ja": "藤田譲瑠チマ",
+      "club_name_ja": "ザンクトパウリ"
+    },
+    {
+      "name_ja": "安藤智哉",
+      "club_name_ja": "ザンクトパウリ"
+    },
+    {
+      "name_ja": "原大智",
+      "club_name_ja": "ザンクトパウリ"
+    },
+    {
+      "name_ja": "荒木遼太郎",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "石渡ネルソン",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "谷口彰悟",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "小久保玲央ブライアン",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "新川志音",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "松澤海斗",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "畑大雅",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "伊藤涼太郎",
+      "club_name_ja": "シント・トロイデン"
+    },
+    {
+      "name_ja": "倍井謙",
+      "club_name_ja": "コルトレイク"
+    },
+    {
+      "name_ja": "佃颯太",
+      "club_name_ja": "ヘント"
+    },
+    {
+      "name_ja": "伊藤敦樹",
+      "club_name_ja": "ヘント"
+    },
+    {
+      "name_ja": "塩貝健人",
+      "club_name_ja": "ヴォルフスブルク"
+    },
+    {
+      "name_ja": "松田隼風",
+      "club_name_ja": "ハノーファー"
+    },
+    {
+      "name_ja": "横田大祐",
+      "club_name_ja": "ハノーファー"
+    },
+    {
+      "name_ja": "碇明日麻",
+      "club_name_ja": "ハノーファー"
+    },
+    {
+      "name_ja": "濃野公人",
+      "club_name_ja": "DCユナイテッド"
+    },
+    {
+      "name_ja": "黒川圭介",
+      "club_name_ja": "DCユナイテッド"
+    },
+    {
+      "name_ja": "富樫敬真",
+      "club_name_ja": "アトランタ・ユナイテッド"
+    },
+    {
+      "name_ja": "高丘陽平",
+      "club_name_ja": "バンクーバー・ホワイトキャップス"
+    },
+    {
+      "name_ja": "吉田麻也",
+      "club_name_ja": "ロサンゼルス・ギャラクシー"
+    },
+    {
+      "name_ja": "中埜信吾",
+      "club_name_ja": "ラインドルフ・アルタッハ"
+    },
+    {
+      "name_ja": "高岡伶颯",
+      "club_name_ja": "パトロ・アイスデン・マースメヘレン"
+    },
+    {
+      "name_ja": "笠柳翼",
+      "club_name_ja": "パトロ・アイスデン・マースメヘレン"
+    },
+    {
+      "name_ja": "小林友希",
+      "club_name_ja": "ヤギエロニア・ビャウィストク"
+    },
+    {
+      "name_ja": "永長鷹虎",
+      "club_name_ja": "ベールスホット"
+    },
+    {
+      "name_ja": "ポープ・ウィリアム",
+      "club_name_ja": "ベールスホット"
+    },
+    {
+      "name_ja": "原口元気",
+      "club_name_ja": "ベールスホット"
+    },
+    {
+      "name_ja": "福田翔生",
+      "club_name_ja": "ブレンビー"
+    },
+    {
+      "name_ja": "島佑成",
+      "club_name_ja": "ハンマルビー"
+    },
+    {
+      "name_ja": "常本佳吾",
+      "club_name_ja": "バーゼル"
+    }
+  ],
+  "club_name_map": {
+    "アストン・ヴィラ": "Aston Villa F.C.",
+    "フランクフルト": "Eintracht Frankfurt",
+    "バイエルン": "F.C. Bayern Munich",
+    "ボルシアMG": "Borussia Monchengladbach",
+    "ハノーファー": "Hannover 96",
+    "ホッフェンハイム": "TSG 1899 Hoffenheim",
+    "マインツ": "1. FSV Mainz 05",
+    "シャルケ": "F.C. Schalke 04",
+    "ブレーメン": "SV Werder Bremen",
+    "ヴォルフスブルク": "VfL Wolfsburg",
+    "レアル・ソシエダ": "Real Sociedad",
+    "スタッド・ランス": "Stade de Reims",
+    "AZ": "Alkmaar Zaanstreek",
+    "フェイエノールト": "Feyenoord Rotterdam",
+    "PSV": "PSV Eindhoven",
+    "ラス・パルマス": "UD Las Palmas",
+    "ダルムシュタット": "SV Darmstadt 98",
+    "モナコ": "A.S. Monaco F.C.",
+    "ヘント": "K.A.A. Gent",
+    "バーゼル": "FC Basel 1893",
+    "ハル・シティ": "Hull City A.F.C.",
+    "フライブルク": "SC Freiburg",
+    "レガネス": "CD Leganes",
+    "セルティック": "Celtic F.C.",
+    "コペンハーゲン": "F.C. Copenhagen",
+    "ブライトン": "Brighton & Hove Albion F.C.",
+    "クリスタル・パレス": "Crystal Palace F.C.",
+    "リヴァプール": "Liverpool F.C.",
+    "サウサンプトン": "Southampton F.C.",
+    "トッテナム・ホットスパー": "Tottenham Hotspur F.C.",
+    "デュッセルドルフ": "Fortuna Dusseldorf",
+    "クイーンズ・パーク・レンジャーズ": "Queens Park Rangers F.C.",
+    "ロサンゼルス・ギャラクシー": "LA Galaxy",
+    "バンクーバー・ホワイトキャップス": "Vancouver Whitecaps FC",
+    "イプスウィッチ": "Ipswich Town Football Club",
+    "ハンマルビー": "Hammarby Idrottsforening",
+    "ニュルンベルク": "1.FC Nurnberg",
+    "リーズ": "Leeds United F.C.",
+    "バーミンガム": "Birmingham City Football Club",
+    "コルトレイク": "Koninklijke Voetbalclub Kortrijk",
+    "シント・トロイデン": "Sint-Truidense",
+    "ザンクトパウリ": "FC St. Pauli",
+    "ルツェルン": "FC Luzern",
+    "ボーフム": "VfL Bochum",
+    "メルボルン・シティ": "Melbourne City FC",
+    "ゲンク": "K.R.C. Genk",
+    "ウェスタン・シドニー・ワンダラーズ": "Western Sydney Wanderers FC",
+    "ニューカッスル・ジェッツ": "Newcastle Jets FC",
+    "ザルツブルク": "FC Red Bull Salzburg",
+    "蔚山HD": "Ulsan Hyundai FC",
+    "パルマ・カルチョ": "Parma Calcio 1913",
+    "ロイヤル・アントワープ": "Royal Antwerp F.C.",
+    "アトランタ・ユナイテッド": "Atlanta United FC",
+    "ル・アーヴル": "Le Havre AC",
+    "コヴェントリー": "Coventry City",
+    "スパルタ・ロッテルダム": "Sparta Rotterdam",
+    "ルーヴェン": "Oud-Heverlee Leuven",
+    "ブレンビー": "Bundby IF",
+    "アロウカ": "Futebol Clube de Arouca",
+    "ベールスホット": "Koninklijke Beerschot Voetbalclub Antwerpen",
+    "ウェステルロー": "KVC Westerlo",
+    "ウェリントン・フェニックスFC": "Wellington Phoenix Football Club",
+    "ブラックバーン": "Blackburn Rovers F.C.",
+    "ヤギエロニア・ビャウィストク": "Jagiellonia Bialystok",
+    "オークランドFC": "Auckland FC",
+    "DCユナイテッド": "D.C. United",
+    "パトロ・アイスデン・マースメヘレン": "Patro Eisden Maasmechelen",
+    "ラインドルフ・アルタッハ": "Rheindorf Altach"
+  }
+}

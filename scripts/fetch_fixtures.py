@@ -18,7 +18,10 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import api_client
-from config import FIXTURE_LEAGUES
+from config import COUNTRY_JA, FIXTURE_LEAGUES
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CLUBS_PATH = DATA_DIR / "jp_clubs.json"
@@ -48,17 +51,19 @@ def main() -> None:
         for item in fixtures:
             league_id = item["league"]["id"]
             league = league_by_id.get(league_id)
-            if league is None:
-                continue  # 対象リーグ以外の試合は無視
+
+            teams = item["teams"]
+            home_id = str(teams["home"]["id"])
+            away_id = str(teams["away"]["id"])
+            has_jp_club = home_id in club_by_team_id or away_id in club_by_team_id
+
+            if league is None and not has_jp_club:
+                continue  # 対象リーグ以外かつ日本人選手所属クラブも絡まない試合は無視
 
             fixture = item["fixture"]
             if fixture["id"] in seen_fixture_ids:
                 continue
             seen_fixture_ids.add(fixture["id"])
-
-            teams = item["teams"]
-            home_id = str(teams["home"]["id"])
-            away_id = str(teams["away"]["id"])
 
             jp_players = []
             for team_id in (home_id, away_id):
@@ -68,13 +73,25 @@ def main() -> None:
                         {"name": p["name"], "team_id": club["team_id"]} for p in club["players"]
                     )
 
+            if league is not None:
+                league_name = league["name"]
+                country_code = league["country_code"]
+                country_ja = league["country_ja"]
+            else:
+                # 対象11リーグ以外(オセアニア・北米・アジア等)は日本人選手
+                # 所属クラブの試合のみ拾うため、API側の英語名をそのまま使う
+                league_name = item["league"]["name"]
+                country_en = item["league"].get("country") or ""
+                country_ja = COUNTRY_JA.get(country_en, country_en)
+                country_code = country_en[:3].lower()
+
             match = {
                 "fixture_id": fixture["id"],
                 "kickoff_utc": fixture["date"],
                 "venue": (fixture.get("venue") or {}).get("name"),
-                "league_name": league["name"],
-                "country_code": league["country_code"],
-                "country_ja": league["country_ja"],
+                "league_name": league_name,
+                "country_code": country_code,
+                "country_ja": country_ja,
                 "round": item["league"].get("round"),
                 "home_team_id": teams["home"]["id"],
                 "home_team": teams["home"]["name"],

@@ -1,9 +1,11 @@
 name: Discover clubs with Japanese players
 
-# 全チームのスカッドをスキャンするため無料APIプランの1日100リクエストを
-# 使い切る可能性が高い。移籍市場が動いた後などに手動で実行する想定。
-# discover_jp_clubs.pyが残りクオータを自動検出して安全な範囲で実行するため
-# --max-requestsは指定しない。1回で終わらなければ進捗が保存されるので、
+# 日本人選手所属クラブの特定は、サッカーキング(soccer-king.jp)の
+# 「海外クラブ在籍日本人選手」一覧をスクレイピングし(APIクオータ消費なし)、
+# 得られたクラブ名をAPI-Footballでteam_idに解決する(クラブ数分のリクエスト、
+# 一度解決したクラブは data/team_id_cache.json に永続キャッシュされ再解決不要)。
+# 移籍市場が動いた後などに手動で実行する想定。resolve_jp_clubs.pyが
+# 残りクオータを自動検出して安全な範囲で実行するため、1回で終わらなければ
 # 同じワークフローをもう一度手動実行すれば続きから再開する。
 
 on:
@@ -22,15 +24,18 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Discover clubs with Japanese players
+      - name: Scrape Japanese players list from soccer-king.jp
+        run: python scripts/scrape_jp_clubs.py
+
+      - name: Resolve club names to API-Football team IDs
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/discover_jp_clubs.py
+        run: python scripts/resolve_jp_clubs.py
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A data/
+          git add data/soccerking_players.json data/team_id_cache.json data/jp_clubs.json
           git diff --cached --quiet || git commit -m "chore: update jp_clubs discovery data"
           git push || true
