@@ -45,6 +45,19 @@ _MANUAL_QUERY_OVERRIDES = {
     "LA Galaxy": "Los Angeles Galaxy",
 }
 
+# API-Footballの/teams?searchは短すぎる語をエラーにするため、これ未満の
+# クエリは投げずにスキップする。
+_MIN_QUERY_LENGTH = 3
+
+# 候補との類似度がこれを下回る場合は「見つからなかった」扱いにする。
+# 閾値を設けないと、フォールバック段階の緩いクエリで無関係なクラブを
+# 誤って採用し、気づかれないままキャッシュに残ってしまう。
+_MIN_MATCH_RATIO = 0.5
+
+
+class _BudgetExceeded(Exception):
+    """クラブ解決の途中で残りリクエスト数の上限に達したことを示す。"""
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
@@ -100,15 +113,27 @@ def _best_first_team(candidates: list[dict], name_en: str) -> dict | None:
     if not first_team_only:
         return None
     target = _sanitize_search_query(name_en).lower()
-    return max(
+    best = max(
         first_team_only, key=lambda t: difflib.SequenceMatcher(None, target, t["name"].lower()).ratio()
     )
+    ratio = difflib.SequenceMatcher(None, target, best["name"].lower()).ratio()
+    return best if ratio >= _MIN_MATCH_RATIO else None
 
 
-def _resolve_team(name_en: str) -> dict | None:
+def _resolve_team(name_en: str, max_requests: int) -> dict | None:
     team = None
     for query in _search_queries(name_en):
-        candidates = api_client.search_team(query)
+        if len(query) < _MIN_QUERY_LENGTH:
+            continue
+        if api_client.request_count >= max_requests:
+            raise _BudgetExceeded()
+        try:
+            candidates = api_client.search_team(query)
+        except RuntimeError as exc:
+            # クエリが短すぎる等、APIエラーで1件も返らなかった場合は
+            # 次の(より緩い)クエリを試す。処理全体は止めない。
+            print(f"    検索エラー(クエリ={query!r}): {exc}", file=sys.stderr)
+            continue
         team = _best_first_team(candidates, name_en)
         if team is not None:
             break
@@ -153,10 +178,16 @@ def main(max_requests: int | None) -> None:
     ]
 
     while pending and api_client.request_count < max_requests:
-        club_ja, name_en = pending.pop(0)
-        resolved = _resolve_team(name_en)
+        club_ja, name_en = pending[0]
+        try:
+            resolved = _resolve_team(name_en, max_requests)
+        except _BudgetExceeded:
+            # このクラブは複数クエリを試す途中で予算に達した。
+            # 未解決のまま確定させず、次回実行時に最初からやり直す。
+            break
+        pending.pop(0)
         if resolved is None:
-            print(f"  未解決: {club_ja} ({name_en}) - 検索結果0件")
+            print(f"  未解決: {club_ja} ({name_en}) - 一致するトップチームが見つかりません")
             cache[name_en] = {"unresolved": True}
         else:
             cache[name_en] = resolved
