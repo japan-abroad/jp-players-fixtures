@@ -1,0 +1,853 @@
+{
+  "season": 2024,
+  "clubs": [
+    {
+      "team_id": 740,
+      "team_name": "Antwerp",
+      "logo": "https://media.api-sports.io/football/teams/740.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "安藤晃希",
+          "position": null
+        },
+        {
+          "name": "野澤大志ブランドン",
+          "position": null
+        },
+        {
+          "name": "綱島悠斗",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 240,
+      "team_name": "Arouca",
+      "logo": "https://media.api-sports.io/football/teams/240.png",
+      "league_name": "リーガ・ポルトガル",
+      "country_code": "por",
+      "country_ja": "ポルトガル",
+      "players": [
+        {
+          "name": "福井太智",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 66,
+      "team_name": "Aston Villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "鈴木彩艶",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 1608,
+      "team_name": "Atlanta United FC",
+      "logo": "https://media.api-sports.io/football/teams/1608.png",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "players": [
+        {
+          "name": "富樫敬真",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 24608,
+      "team_name": "Auckland",
+      "logo": "https://media.api-sports.io/football/teams/24608.png",
+      "league_name": "ニュージーランド・ナショナルリーグ",
+      "country_code": "new",
+      "country_ja": "ニュージーランド",
+      "players": [
+        {
+          "name": "酒井宏樹",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern München",
+      "logo": "https://media.api-sports.io/football/teams/157.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "伊藤洋輝",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 54,
+      "team_name": "Birmingham",
+      "logo": "https://media.api-sports.io/football/teams/54.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "古橋亨梧",
+          "position": null
+        },
+        {
+          "name": "藤本寛也",
+          "position": null
+        },
+        {
+          "name": "岩田智輝",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 67,
+      "team_name": "Blackburn",
+      "logo": "https://media.api-sports.io/football/teams/67.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "森下龍矢",
+          "position": null
+        },
+        {
+          "name": "大橋祐紀",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia Mönchengladbach",
+      "logo": "https://media.api-sports.io/football/teams/163.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "町野修斗",
+          "position": null
+        },
+        {
+          "name": "宇野禅斗",
+          "position": null
+        },
+        {
+          "name": "橋岡大樹",
+          "position": null
+        },
+        {
+          "name": "板倉滉",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 247,
+      "team_name": "Celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "players": [
+        {
+          "name": "旗手怜央",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 1346,
+      "team_name": "Coventry",
+      "logo": "https://media.api-sports.io/football/teams/1346.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "坂元達裕",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 52,
+      "team_name": "Crystal Palace",
+      "logo": "https://media.api-sports.io/football/teams/52.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "冨安健洋",
+          "position": null
+        },
+        {
+          "name": "鎌田大地",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 1615,
+      "team_name": "DC United",
+      "logo": "https://media.api-sports.io/football/teams/1615.png",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "players": [
+        {
+          "name": "濃野公人",
+          "position": null
+        },
+        {
+          "name": "黒川圭介",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 169,
+      "team_name": "Eintracht Frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "堂安律",
+          "position": null
+        },
+        {
+          "name": "小杉啓太",
+          "position": null
+        },
+        {
+          "name": "神代慶人",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 551,
+      "team_name": "FC Basel 1893",
+      "logo": "https://media.api-sports.io/football/teams/551.png",
+      "league_name": "スイス・スーパーリーグ",
+      "country_code": "swi",
+      "country_ja": "スイス",
+      "players": [
+        {
+          "name": "常本佳吾",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 400,
+      "team_name": "FC Copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png",
+      "league_name": "スーペルリーガ",
+      "country_code": "den",
+      "country_ja": "デンマーク",
+      "players": [
+        {
+          "name": "鈴木淳之介",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 174,
+      "team_name": "FC Schalke 04",
+      "logo": "https://media.api-sports.io/football/teams/174.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "田中聡",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 186,
+      "team_name": "FC St. Pauli",
+      "logo": "https://media.api-sports.io/football/teams/186.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "藤田譲瑠チマ",
+          "position": null
+        },
+        {
+          "name": "安藤智哉",
+          "position": null
+        },
+        {
+          "name": "原大智",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 742,
+      "team_name": "Genk",
+      "logo": "https://media.api-sports.io/football/teams/742.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "伊東純也",
+          "position": null
+        },
+        {
+          "name": "吉永夢希",
+          "position": null
+        },
+        {
+          "name": "横山歩夢",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 631,
+      "team_name": "Gent",
+      "logo": "https://media.api-sports.io/football/teams/631.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "佃颯太",
+          "position": null
+        },
+        {
+          "name": "伊藤敦樹",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 363,
+      "team_name": "Hammarby FF",
+      "logo": "https://media.api-sports.io/football/teams/363.png",
+      "league_name": "アルスヴェンスカン",
+      "country_code": "swe",
+      "country_ja": "スウェーデン",
+      "players": [
+        {
+          "name": "島佑成",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 166,
+      "team_name": "Hannover 96",
+      "logo": "https://media.api-sports.io/football/teams/166.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "松田隼風",
+          "position": null
+        },
+        {
+          "name": "横田大祐",
+          "position": null
+        },
+        {
+          "name": "碇明日麻",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 64,
+      "team_name": "Hull City",
+      "logo": "https://media.api-sports.io/football/teams/64.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "守田英正",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 57,
+      "team_name": "Ipswich",
+      "logo": "https://media.api-sports.io/football/teams/57.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "前田大然",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 336,
+      "team_name": "Jagiellonia",
+      "logo": "https://media.api-sports.io/football/teams/336.png",
+      "league_name": "エクストラクラサ",
+      "country_code": "pol",
+      "country_ja": "ポーランド",
+      "players": [
+        {
+          "name": "小林友希",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 261,
+      "team_name": "KVC Westerlo",
+      "logo": "https://media.api-sports.io/football/teams/261.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "木村誠二",
+          "position": null
+        },
+        {
+          "name": "齋藤俊輔",
+          "position": null
+        },
+        {
+          "name": "坂本一彩",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 734,
+      "team_name": "Kortrijk",
+      "logo": "https://media.api-sports.io/football/teams/734.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "倍井謙",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 111,
+      "team_name": "Le Havre",
+      "logo": "https://media.api-sports.io/football/teams/111.png",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "players": [
+        {
+          "name": "水多海斗",
+          "position": null
+        },
+        {
+          "name": "中村草太",
+          "position": null
+        },
+        {
+          "name": "瀬古歩夢",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 63,
+      "team_name": "Leeds",
+      "logo": "https://media.api-sports.io/football/teams/63.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "田中碧",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "遠藤航",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 945,
+      "team_name": "Melbourne City",
+      "logo": "https://media.api-sports.io/football/teams/945.png",
+      "league_name": "Aリーグ",
+      "country_code": "aus",
+      "country_ja": "オーストラリア",
+      "players": [
+        {
+          "name": "金森健志",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 260,
+      "team_name": "OH Leuven",
+      "logo": "https://media.api-sports.io/football/teams/260.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "荻原拓也",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 197,
+      "team_name": "PSV Eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png",
+      "league_name": "エールディヴィジ",
+      "country_code": "net",
+      "country_ja": "オランダ",
+      "players": [
+        {
+          "name": "佐野航大",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 6222,
+      "team_name": "Patro Eisden",
+      "logo": "https://media.api-sports.io/football/teams/6222.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "高岡伶颯",
+          "position": null
+        },
+        {
+          "name": "笠柳翼",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 18212,
+      "team_name": "Queens Park Rangers",
+      "logo": "https://media.api-sports.io/football/teams/18212.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "斉藤光毅",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 548,
+      "team_name": "Real Sociedad",
+      "logo": "https://media.api-sports.io/football/teams/548.png",
+      "league_name": "ラ・リーガ",
+      "country_code": "spa",
+      "country_ja": "スペイン",
+      "players": [
+        {
+          "name": "久保建英",
+          "position": null
+        },
+        {
+          "name": "喜多壱也",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 571,
+      "team_name": "Red Bull Salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png",
+      "league_name": "オーストリア・ブンデスリーガ",
+      "country_code": "aus",
+      "country_ja": "オーストリア",
+      "players": [
+        {
+          "name": "北野颯太",
+          "position": null
+        },
+        {
+          "name": "チェイス・アンリ",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 93,
+      "team_name": "Reims",
+      "logo": "https://media.api-sports.io/football/teams/93.png",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "players": [
+        {
+          "name": "中村敬斗",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 160,
+      "team_name": "SC Freiburg",
+      "logo": "https://media.api-sports.io/football/teams/160.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "後藤啓介",
+          "position": null
+        },
+        {
+          "name": "山本理仁",
+          "position": null
+        },
+        {
+          "name": "鈴木唯人",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 618,
+      "team_name": "SCR Altach",
+      "logo": "https://media.api-sports.io/football/teams/618.png",
+      "league_name": "オーストリア・ブンデスリーガ",
+      "country_code": "aus",
+      "country_ja": "オーストリア",
+      "players": [
+        {
+          "name": "中埜信吾",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 181,
+      "team_name": "SV Darmstadt 98",
+      "logo": "https://media.api-sports.io/football/teams/181.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "古川陽介",
+          "position": null
+        },
+        {
+          "name": "秋山裕紀",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 4796,
+      "team_name": "Sintrense",
+      "logo": "https://media.api-sports.io/football/teams/4796.png",
+      "league_name": "リーガ・ポルトガル",
+      "country_code": "por",
+      "country_ja": "ポルトガル",
+      "players": [
+        {
+          "name": "荒木遼太郎",
+          "position": null
+        },
+        {
+          "name": "石渡ネルソン",
+          "position": null
+        },
+        {
+          "name": "谷口彰悟",
+          "position": null
+        },
+        {
+          "name": "小久保玲央ブライアン",
+          "position": null
+        },
+        {
+          "name": "新川志音",
+          "position": null
+        },
+        {
+          "name": "松澤海斗",
+          "position": null
+        },
+        {
+          "name": "畑大雅",
+          "position": null
+        },
+        {
+          "name": "伊藤涼太郎",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 41,
+      "team_name": "Southampton",
+      "logo": "https://media.api-sports.io/football/teams/41.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "菅原由勢",
+          "position": null
+        },
+        {
+          "name": "松木玖生",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 426,
+      "team_name": "Sparta Rotterdam",
+      "logo": "https://media.api-sports.io/football/teams/426.png",
+      "league_name": "エールディヴィジ",
+      "country_code": "net",
+      "country_ja": "オランダ",
+      "players": [
+        {
+          "name": "三戸舜介",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 47,
+      "team_name": "Tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "高井幸大",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 1603,
+      "team_name": "Vancouver Whitecaps",
+      "logo": "https://media.api-sports.io/football/teams/1603.png",
+      "league_name": "カナディアン・プレミアリーグ",
+      "country_code": "can",
+      "country_ja": "カナダ",
+      "players": [
+        {
+          "name": "高丘陽平",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 176,
+      "team_name": "VfL Bochum",
+      "logo": "https://media.api-sports.io/football/teams/176.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "三好康児",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 161,
+      "team_name": "VfL Wolfsburg",
+      "logo": "https://media.api-sports.io/football/teams/161.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "塩貝健人",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 942,
+      "team_name": "Wellington Phoenix",
+      "logo": "https://media.api-sports.io/football/teams/942.png",
+      "league_name": "ニュージーランド・ナショナルリーグ",
+      "country_code": "new",
+      "country_ja": "ニュージーランド",
+      "players": [
+        {
+          "name": "長澤和輝",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 939,
+      "team_name": "Western Sydney Wanderers",
+      "logo": "https://media.api-sports.io/football/teams/939.png",
+      "league_name": "Aリーグ",
+      "country_code": "aus",
+      "country_ja": "オーストラリア",
+      "players": [
+        {
+          "name": "指宿洋史",
+          "position": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "Eintracht Frankfurt": {
+    "team_id": 169,
+    "team_name": "Eintracht Frankfurt",
+    "logo": "https://media.api-sports.io/football/teams/169.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Borussia Monchengladbach": {
+    "team_id": 163,
+    "team_name": "Borussia Mönchengladbach",
+    "logo": "https://media.api-sports.io/football/teams/163.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Hannover 96": {
+    "team_id": 166,
+    "team_name": "Hannover 96",
+    "logo": "https://media.api-sports.io/football/teams/166.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "VfL Wolfsburg": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "logo": "https://media.api-sports.io/football/teams/161.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Real Sociedad": {
+    "team_id": 548,
+    "team_name": "Real Sociedad",
+    "logo": "https://media.api-sports.io/football/teams/548.png",
+    "country_code": "spa",
+    "country_ja": "スペイン",
+    "league_name": "ラ・リーガ"
+  },
+  "PSV Eindhoven": {
+    "team_id": 197,
+    "team_name": "PSV Eindhoven",
+    "logo": "https://media.api-sports.io/football/teams/197.png",
+    "country_code": "net",
+    "country_ja": "オランダ",
+    "league_name": "エールディヴィジ"
+  },
+  "SV Darmstadt 98": {
+    "team_id": 181,
+    "team_name": "SV Darmstadt 98",
+    "logo": "https://media.api-sports.io/football/teams/181.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "FC Basel 1893": {
+    "team_id": 551,
+    "team_name": "FC Basel 1893",
+    "logo": "https://media.api-sports.io/football/teams/551.png",
+    "country_code": "swi",
+    "country_ja": "スイス",
+    "league_name": "スイス・スーパーリーグ"
+  },
+  "SC Freiburg": {
+    "team_id": 160,
+    "team_name": "SC Freiburg",
+    "logo": "https://media.api-sports.io/football/teams/160.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Fortuna Dusseldorf": {
+    "team_id": 158,
+    "team_name": "Fortuna Düsseldorf",
+    "logo": "https://media.api-sports.io/football/teams/158.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "FC Luzern": {
+    "team_id": 644,
+    "team_name": "FC Luzern",
+    "logo": "https://media.api-sports.io/football/teams/644.png",
+    "country_code": "swi",
+    "country_ja": "スイス",
+    "league_name": "スイス・スーパーリーグ"
+  },
+  "VfL Bochum": {
+    "team_id": 176,
+    "team_name": "VfL Bochum",
+    "logo": "https://media.api-sports.io/football/teams/176.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Ulsan Hyundai FC": {
+    "team_id": 2767,
+    "team_name": "Ulsan Hyundai FC",
+    "logo": "https://media.api-sports.io/football/teams/2767.png",
+    "country_code": "sou",
+    "country_ja": "韓国",
+    "league_name": "Kリーグ1"
+  },
+  "Atlanta United FC": {
+    "team_id": 1608,
+    "team_name": "Atlanta United FC",
+    "logo": "https://media.api-sports.io/football/teams/1608.png",
+    "country_code": "usa",
+    "country_ja": "アメリカ",
+    "league_name": "MLS"
+  },
+  "Sparta Rotterdam": {
+    "team_id": 426,
+    "team_name": "Sparta Rotterdam",
+    "logo": "https://media.api-sports.io/football/teams/426.png",
+    "country_code": "net",
+    "country_ja": "オランダ",
+    "league_name": "エールディヴィジ"
+  },
+  "KVC Westerlo": {
+    "team_id": 261,
+    "team_name": "KVC Westerlo",
+    "logo": "https://media.api-sports.io/football/teams/261.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Aston Villa F.C.": {
+    "team_id": 66,
+    "team_name": "Aston Villa",
+    "logo": "https://media.api-sports.io/football/teams/66.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "TSG 1899 Hoffenheim": {
+    "unresolved": true
+  },
+  "1. FSV Mainz 05": {
+    "unresolved": true
+  },
+  "F.C. Schalke 04": {
+    "team_id": 174,
+    "team_name": "FC Schalke 04",
+    "logo": "https://media.api-sports.io/football/teams/174.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "SV Werder Bremen": {
+    "unresolved": true
+  },
+  "Alkmaar Zaanstreek": {
+    "unresolved": true
+  },
+  "Feyenoord Rotterdam": {
+    "unresolved": true
+  },
+  "UD Las Palmas": {
+    "unresolved": true
+  },
+  "A.S. Monaco F.C.": {
+    "unresolved": true
+  },
+  "Hull City A.F.C.": {
+    "team_id": 64,
+    "team_name": "Hull City",
+    "logo": "https://media.api-sports.io/football/teams/64.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "CD Leganes": {
+    "unresolved": true
+  },
+  "Celtic F.C.": {
+    "team_id": 247,
+    "team_name": "Celtic",
+    "logo": "https://media.api-sports.io/football/teams/247.png",
+    "country_code": "sco",
+    "country_ja": "スコットランド",
+    "league_name": "スコティッシュ・プレミアシップ"
+  },
+  "F.C. Copenhagen": {
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "logo": "https://media.api-sports.io/football/teams/400.png",
+    "country_code": "den",
+    "country_ja": "デンマーク",
+    "league_name": "スーペルリーガ"
+  },
+  "Brighton & Hove Albion F.C.": {
+    "unresolved": true
+  },
+  "Crystal Palace F.C.": {
+    "team_id": 52,
+    "team_name": "Crystal Palace",
+    "logo": "https://media.api-sports.io/football/teams/52.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Liverpool F.C.": {
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "logo": "https://media.api-sports.io/football/teams/40.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Southampton F.C.": {
+    "team_id": 41,
+    "team_name": "Southampton",
+    "logo": "https://media.api-sports.io/football/teams/41.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Queens Park Rangers F.C.": {
+    "team_id": 18212,
+    "team_name": "Queens Park Rangers",
+    "logo": "https://media.api-sports.io/football/teams/18212.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "LA Galaxy": {
+    "unresolved": true
+  },
+  "Vancouver Whitecaps FC": {
+    "team_id": 1603,
+    "team_name": "Vancouver Whitecaps",
+    "logo": "https://media.api-sports.io/football/teams/1603.png",
+    "country_code": "can",
+    "country_ja": "カナダ",
+    "league_name": "カナディアン・プレミアリーグ"
+  },
+  "1.FC Nurnberg": {
+    "team_id": 171,
+    "team_name": "1. FC Nürnberg",
+    "logo": "https://media.api-sports.io/football/teams/171.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Leeds United F.C.": {
+    "team_id": 63,
+    "team_name": "Leeds",
+    "logo": "https://media.api-sports.io/football/teams/63.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Sint-Truidense": {
+    "team_id": 4796,
+    "team_name": "Sintrense",
+    "logo": "https://media.api-sports.io/football/teams/4796.png",
+    "country_code": "por",
+    "country_ja": "ポルトガル",
+    "league_name": "リーガ・ポルトガル"
+  },
+  "FC St. Pauli": {
+    "team_id": 186,
+    "team_name": "FC St. Pauli",
+    "logo": "https://media.api-sports.io/football/teams/186.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Melbourne City FC": {
+    "team_id": 945,
+    "team_name": "Melbourne City",
+    "logo": "https://media.api-sports.io/football/teams/945.png",
+    "country_code": "aus",
+    "country_ja": "オーストラリア",
+    "league_name": "Aリーグ"
+  },
+  "Western Sydney Wanderers FC": {
+    "team_id": 939,
+    "team_name": "Western Sydney Wanderers",
+    "logo": "https://media.api-sports.io/football/teams/939.png",
+    "country_code": "aus",
+    "country_ja": "オーストラリア",
+    "league_name": "Aリーグ"
+  },
+  "Newcastle Jets FC": {
+    "team_id": 946,
+    "team_name": "Newcastle Jets",
+    "logo": "https://media.api-sports.io/football/teams/946.png",
+    "country_code": "aus",
+    "country_ja": "オーストラリア",
+    "league_name": "Aリーグ"
+  },
+  "FC Red Bull Salzburg": {
+    "team_id": 571,
+    "team_name": "Red Bull Salzburg",
+    "logo": "https://media.api-sports.io/football/teams/571.png",
+    "country_code": "aus",
+    "country_ja": "オーストリア",
+    "league_name": "オーストリア・ブンデスリーガ"
+  },
+  "Parma Calcio 1913": {
+    "unresolved": true
+  },
+  "Le Havre AC": {
+    "team_id": 111,
+    "team_name": "Le Havre",
+    "logo": "https://media.api-sports.io/football/teams/111.png",
+    "country_code": "fra",
+    "country_ja": "フランス",
+    "league_name": "リーグ・アン"
+  },
+  "Oud-Heverlee Leuven": {
+    "team_id": 260,
+    "team_name": "OH Leuven",
+    "logo": "https://media.api-sports.io/football/teams/260.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Bundby IF": {
+    "unresolved": true
+  },
+  "Koninklijke Beerschot Voetbalclub Antwerpen": {
+    "unresolved": true
+  },
+  "Wellington Phoenix Football Club": {
+    "team_id": 942,
+    "team_name": "Wellington Phoenix",
+    "logo": "https://media.api-sports.io/football/teams/942.png",
+    "country_code": "new",
+    "country_ja": "ニュージーランド",
+    "league_name": "ニュージーランド・ナショナルリーグ"
+  },
+  "Blackburn Rovers F.C.": {
+    "team_id": 67,
+    "team_name": "Blackburn",
+    "logo": "https://media.api-sports.io/football/teams/67.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Jagiellonia Bialystok": {
+    "team_id": 336,
+    "team_name": "Jagiellonia",
+    "logo": "https://media.api-sports.io/football/teams/336.png",
+    "country_code": "pol",
+    "country_ja": "ポーランド",
+    "league_name": "エクストラクラサ"
+  },
+  "Auckland FC": {
+    "team_id": 24608,
+    "team_name": "Auckland",
+    "logo": "https://media.api-sports.io/football/teams/24608.png",
+    "country_code": "new",
+    "country_ja": "ニュージーランド",
+    "league_name": "ニュージーランド・ナショナルリーグ"
+  },
+  "D.C. United": {
+    "team_id": 1615,
+    "team_name": "DC United",
+    "logo": "https://media.api-sports.io/football/teams/1615.png",
+    "country_code": "usa",
+    "country_ja": "アメリカ",
+    "league_name": "MLS"
+  },
+  "Patro Eisden Maasmechelen": {
+    "team_id": 6222,
+    "team_name": "Patro Eisden",
+    "logo": "https://media.api-sports.io/football/teams/6222.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Rheindorf Altach": {
+    "team_id": 618,
+    "team_name": "SCR Altach",
+    "logo": "https://media.api-sports.io/football/teams/618.png",
+    "country_code": "aus",
+    "country_ja": "オーストリア",
+    "league_name": "オーストリア・ブンデスリーガ"
+  },
+  "Ipswich Town Football Club": {
+    "team_id": 57,
+    "team_name": "Ipswich",
+    "logo": "https://media.api-sports.io/football/teams/57.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Hammarby Idrottsforening": {
+    "team_id": 363,
+    "team_name": "Hammarby FF",
+    "logo": "https://media.api-sports.io/football/teams/363.png",
+    "country_code": "swe",
+    "country_ja": "スウェーデン",
+    "league_name": "アルスヴェンスカン"
+  },
+  "Birmingham City Football Club": {
+    "team_id": 54,
+    "team_name": "Birmingham",
+    "logo": "https://media.api-sports.io/football/teams/54.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "K.R.C. Genk": {
+    "team_id": 742,
+    "team_name": "Genk",
+    "logo": "https://media.api-sports.io/football/teams/742.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Coventry City": {
+    "team_id": 1346,
+    "team_name": "Coventry",
+    "logo": "https://media.api-sports.io/football/teams/1346.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "Futebol Clube de Arouca": {
+    "team_id": 240,
+    "team_name": "Arouca",
+    "logo": "https://media.api-sports.io/football/teams/240.png",
+    "country_code": "por",
+    "country_ja": "ポルトガル",
+    "league_name": "リーガ・ポルトガル"
+  },
+  "Koninklijke Voetbalclub Kortrijk": {
+    "team_id": 734,
+    "team_name": "Kortrijk",
+    "logo": "https://media.api-sports.io/football/teams/734.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Royal Antwerp F.C.": {
+    "team_id": 740,
+    "team_name": "Antwerp",
+    "logo": "https://media.api-sports.io/football/teams/740.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "F.C. Bayern Munich": {
+    "team_id": 157,
+    "team_name": "Bayern München",
+    "logo": "https://media.api-sports.io/football/teams/157.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Stade de Reims": {
+    "team_id": 93,
+    "team_name": "Reims",
+    "logo": "https://media.api-sports.io/football/teams/93.png",
+    "country_code": "fra",
+    "country_ja": "フランス",
+    "league_name": "リーグ・アン"
+  },
+  "K.A.A. Gent": {
+    "team_id": 631,
+    "team_name": "Gent",
+    "logo": "https://media.api-sports.io/football/teams/631.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Tottenham Hotspur F.C.": {
+    "team_id": 47,
+    "team_name": "Tottenham",
+    "logo": "https://media.api-sports.io/football/teams/47.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  }
+}
