@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29T12:07:37.142731+00:00",
+  "fetched_at": "2026-08-29T18:06:55.243289+00:00",
   "clubs": [
     {
       "team_id": 740,
@@ -67,7 +67,7 @@
         {
           "fixture_id": 1575475,
           "kickoff_utc": "2026-08-29T14:30:00+00:00",
-          "venue": null,
+          "venue": "Estádio Municipal de Arouca",
           "league_name": "リーガ・ポルトガル",
           "country_code": "por",
           "country_ja": "ポルトガル",
@@ -1317,7 +1317,7 @@
         {
           "fixture_id": 1552457,
           "kickoff_utc": "2026-08-29T12:00:00+00:00",
-          "venue": "Stade Bauer",
+          "venue": "Stade de Paris",
           "league_name": "Ligue 2",
           "country_code": "fra",
           "country_ja": "フランス",
@@ -1588,7 +1588,7 @@
         {
           "fixture_id": 1563115,
           "kickoff_utc": "2026-08-29T14:00:00+00:00",
-          "venue": null,
+          "venue": "St. Mary's Stadium",
           "league_name": "チャンピオンシップ",
           "country_code": "eng",
           "country_ja": "イングランド",
@@ -1838,7 +1838,7 @@
     {
       "fixture_id": 1563112,
       "kickoff_utc": "2026-08-29T11:30:00+00:00",
-      "venue": "Pride Park",
+      "venue": "Pride Park Stadium",
       "league_name": "チャンピオンシップ",
       "country_code": "eng",
       "country_ja": "イングランド",
@@ -1886,7 +1886,7 @@
     {
       "fixture_id": 1552457,
       "kickoff_utc": "2026-08-29T12:00:00+00:00",
-      "venue": "Stade Bauer",
+      "venue": "Stade de Paris",
       "league_name": "Ligue 2",
       "country_code": "fra",
       "country_ja": "フランス",
@@ -2296,7 +2296,7 @@
     {
       "fixture_id": 1563115,
       "kickoff_utc": "2026-08-29T14:00:00+00:00",
-      "venue": null,
+      "venue": "St. Mary's Stadium",
       "league_name": "チャンピオンシップ",
       "country_code": "eng",
       "country_ja": "イングランド",
@@ -2358,7 +2358,7 @@
     {
       "fixture_id": 1575474,
       "kickoff_utc": "2026-08-29T14:30:00+00:00",
-      "venue": "FC Alverca Sports Complex",
+      "venue": "Complexo Desportivo FC Alverca",
       "league_name": "リーガ・ポルトガル",
       "country_code": "por",
       "country_ja": "ポルトガル",
@@ -2374,7 +2374,7 @@
     {
       "fixture_id": 1575475,
       "kickoff_utc": "2026-08-29T14:30:00+00:00",
-      "venue": null,
+      "venue": "Estádio Municipal de Arouca",
       "league_name": "リーガ・ポルトガル",
       "country_code": "por",
       "country_ja": "ポルトガル",
@@ -2395,7 +2395,7 @@
     {
       "fixture_id": 1570357,
       "kickoff_utc": "2026-08-29T15:00:00+00:00",
-      "venue": null,
+      "venue": "Ciudad de Valencia",
       "league_name": "ラ・リーガ",
       "country_code": "esp",
       "country_ja": "スペイン",
