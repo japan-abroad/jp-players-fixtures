@@ -135,12 +135,6 @@
     "country_ja": "イングランド",
     "league_name": "プレミアリーグ"
   },
-  "TSG 1899 Hoffenheim": {
-    "unresolved": true
-  },
-  "1. FSV Mainz 05": {
-    "unresolved": true
-  },
   "F.C. Schalke 04": {
     "team_id": 174,
     "team_name": "FC Schalke 04",
@@ -149,21 +143,6 @@
     "country_ja": "ドイツ",
     "league_name": "ブンデスリーガ"
   },
-  "SV Werder Bremen": {
-    "unresolved": true
-  },
-  "Alkmaar Zaanstreek": {
-    "unresolved": true
-  },
-  "Feyenoord Rotterdam": {
-    "unresolved": true
-  },
-  "UD Las Palmas": {
-    "unresolved": true
-  },
-  "A.S. Monaco F.C.": {
-    "unresolved": true
-  },
   "Hull City A.F.C.": {
     "team_id": 64,
     "team_name": "Hull City",
@@ -171,9 +150,6 @@
     "country_code": "eng",
     "country_ja": "イングランド",
     "league_name": "プレミアリーグ"
-  },
-  "CD Leganes": {
-    "unresolved": true
   },
   "Celtic F.C.": {
     "team_id": 247,
@@ -190,9 +166,6 @@
     "country_code": "den",
     "country_ja": "デンマーク",
     "league_name": "スーペルリーガ"
-  },
-  "Brighton & Hove Albion F.C.": {
-    "unresolved": true
   },
   "Crystal Palace F.C.": {
     "team_id": 52,
@@ -225,9 +198,6 @@
     "country_code": "eng",
     "country_ja": "イングランド",
     "league_name": "プレミアリーグ"
-  },
-  "LA Galaxy": {
-    "unresolved": true
   },
   "Vancouver Whitecaps FC": {
     "team_id": 1603,
@@ -301,9 +271,6 @@
     "country_ja": "オーストリア",
     "league_name": "オーストリア・ブンデスリーガ"
   },
-  "Parma Calcio 1913": {
-    "unresolved": true
-  },
   "Le Havre AC": {
     "team_id": 111,
     "team_name": "Le Havre",
@@ -319,12 +286,6 @@
     "country_code": "bel",
     "country_ja": "ベルギー",
     "league_name": "ベルギー・プロリーグ"
-  },
-  "Bundby IF": {
-    "unresolved": true
-  },
-  "Koninklijke Beerschot Voetbalclub Antwerpen": {
-    "unresolved": true
   },
   "Wellington Phoenix Football Club": {
     "team_id": 942,
@@ -477,5 +438,99 @@
     "country_code": "eng",
     "country_ja": "イングランド",
     "league_name": "プレミアリーグ"
+  },
+  "TSG 1899 Hoffenheim": {
+    "team_id": 167,
+    "team_name": "1899 Hoffenheim",
+    "logo": "https://media.api-sports.io/football/teams/167.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "1. FSV Mainz 05": {
+    "team_id": 164,
+    "team_name": "FSV Mainz 05",
+    "logo": "https://media.api-sports.io/football/teams/164.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "SV Werder Bremen": {
+    "team_id": 162,
+    "team_name": "Werder Bremen",
+    "logo": "https://media.api-sports.io/football/teams/162.png",
+    "country_code": "ger",
+    "country_ja": "ドイツ",
+    "league_name": "ブンデスリーガ"
+  },
+  "Alkmaar Zaanstreek": {
+    "team_id": 201,
+    "team_name": "AZ Alkmaar",
+    "logo": "https://media.api-sports.io/football/teams/201.png",
+    "country_code": "net",
+    "country_ja": "オランダ",
+    "league_name": "エールディヴィジ"
+  },
+  "Feyenoord Rotterdam": {
+    "team_id": 209,
+    "team_name": "Feyenoord",
+    "logo": "https://media.api-sports.io/football/teams/209.png",
+    "country_code": "net",
+    "country_ja": "オランダ",
+    "league_name": "エールディヴィジ"
+  },
+  "UD Las Palmas": {
+    "team_id": 534,
+    "team_name": "Las Palmas",
+    "logo": "https://media.api-sports.io/football/teams/534.png",
+    "country_code": "spa",
+    "country_ja": "スペイン",
+    "league_name": "ラ・リーガ"
+  },
+  "A.S. Monaco F.C.": {
+    "team_id": 91,
+    "team_name": "Monaco",
+    "logo": "https://media.api-sports.io/football/teams/91.png",
+    "country_code": "fra",
+    "country_ja": "フランス",
+    "league_name": "リーグ・アン"
+  },
+  "CD Leganes": {
+    "team_id": 537,
+    "team_name": "Leganes",
+    "logo": "https://media.api-sports.io/football/teams/537.png",
+    "country_code": "spa",
+    "country_ja": "スペイン",
+    "league_name": "ラ・リーガ"
+  },
+  "Brighton & Hove Albion F.C.": {
+    "team_id": 51,
+    "team_name": "Brighton",
+    "logo": "https://media.api-sports.io/football/teams/51.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "プレミアリーグ"
+  },
+  "LA Galaxy": {
+    "team_id": 1605,
+    "team_name": "Los Angeles Galaxy",
+    "logo": "https://media.api-sports.io/football/teams/1605.png",
+    "country_code": "usa",
+    "country_ja": "アメリカ",
+    "league_name": "MLS"
+  },
+  "Parma Calcio 1913": {
+    "team_id": 523,
+    "team_name": "Parma",
+    "logo": "https://media.api-sports.io/football/teams/523.png",
+    "country_code": "ita",
+    "country_ja": "イタリア",
+    "league_name": "セリエA"
+  },
+  "Bundby IF": {
+    "unresolved": true
+  },
+  "Koninklijke Beerschot Voetbalclub Antwerpen": {
+    "unresolved": true
   }
 }

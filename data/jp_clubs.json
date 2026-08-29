@@ -2,6 +2,38 @@
   "season": 2024,
   "clubs": [
     {
+      "team_id": 167,
+      "team_name": "1899 Hoffenheim",
+      "logo": "https://media.api-sports.io/football/teams/167.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "町田浩樹",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 201,
+      "team_name": "AZ Alkmaar",
+      "logo": "https://media.api-sports.io/football/teams/201.png",
+      "league_name": "エールディヴィジ",
+      "country_code": "net",
+      "country_ja": "オランダ",
+      "players": [
+        {
+          "name": "市原吏音",
+          "position": null
+        },
+        {
+          "name": "毎熊晟矢",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 740,
       "team_name": "Antwerp",
       "logo": "https://media.api-sports.io/football/teams/740.png",
@@ -160,6 +192,20 @@
       ]
     },
     {
+      "team_id": 51,
+      "team_name": "Brighton",
+      "logo": "https://media.api-sports.io/football/teams/51.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "三笘薫",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 247,
       "team_name": "Celtic",
       "logo": "https://media.api-sports.io/football/teams/247.png",
@@ -305,6 +351,42 @@
         },
         {
           "name": "原大智",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 164,
+      "team_name": "FSV Mainz 05",
+      "logo": "https://media.api-sports.io/football/teams/164.png",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "players": [
+        {
+          "name": "佐野海舟",
+          "position": null
+        },
+        {
+          "name": "川﨑颯太",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 209,
+      "team_name": "Feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png",
+      "league_name": "エールディヴィジ",
+      "country_code": "net",
+      "country_ja": "オランダ",
+      "players": [
+        {
+          "name": "渡辺剛",
+          "position": null
+        },
+        {
+          "name": "上田綺世",
           "position": null
         }
       ]
@@ -464,6 +546,20 @@
       ]
     },
     {
+      "team_id": 534,
+      "team_name": "Las Palmas",
+      "logo": "https://media.api-sports.io/football/teams/534.png",
+      "league_name": "ラ・リーガ",
+      "country_code": "spa",
+      "country_ja": "スペイン",
+      "players": [
+        {
+          "name": "宮代大聖",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 111,
       "team_name": "Le Havre",
       "logo": "https://media.api-sports.io/football/teams/111.png",
@@ -514,6 +610,20 @@
       ]
     },
     {
+      "team_id": 1605,
+      "team_name": "Los Angeles Galaxy",
+      "logo": "https://media.api-sports.io/football/teams/1605.png",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "players": [
+        {
+          "name": "吉田麻也",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 945,
       "team_name": "Melbourne City",
       "logo": "https://media.api-sports.io/football/teams/945.png",
@@ -523,6 +633,20 @@
       "players": [
         {
           "name": "金森健志",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 91,
+      "team_name": "Monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "players": [
+        {
+          "name": "南野拓実",
           "position": null
         }
       ]
