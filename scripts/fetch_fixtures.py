@@ -27,7 +27,10 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CLUBS_PATH = DATA_DIR / "jp_clubs.json"
 OUTPUT_PATH = DATA_DIR / "fixtures.json"
 
-DAYS_AHEAD = 10
+# 無料プランは/fixtures?date=で「当日から2〜3日先まで」しかアクセスできない
+# (2026-08-29時点で確認: 当日を含め3日分のみ)。それ以上は毎回エラーになり
+# 無駄なリクエストを消費するだけなので、実際にアクセス可能な範囲に絞る。
+DAYS_AHEAD = 3
 
 
 def main() -> None:
@@ -48,9 +51,18 @@ def main() -> None:
     seen_fixture_ids: set[int] = set()
 
     today = date.today()
+    days_fetched = 0
     for offset in range(DAYS_AHEAD):
         day = today + timedelta(days=offset)
-        fixtures = api_client.get_fixtures_by_date(day.isoformat())
+        try:
+            fixtures = api_client.get_fixtures_by_date(day.isoformat())
+        except RuntimeError as exc:
+            # API-Footballの日次クオータ切れ等。ここで例外を投げて終了すると
+            # 6時間毎の自動実行がその日のうちに何度も失敗しエラーメールが
+            # 飛び続けるため、それまでに取得できた分だけで出力を確定させる。
+            print(f"警告: {day.isoformat()}分の取得に失敗したため打ち切ります: {exc}", file=sys.stderr)
+            break
+        days_fetched += 1
         for item in fixtures:
             league_id = item["league"]["id"]
             league = league_by_id.get(league_id)
@@ -109,6 +121,12 @@ def main() -> None:
             for team_id in (home_id, away_id):
                 if team_id in matches_by_team:
                     matches_by_team[team_id].append(match)
+
+    if days_fetched == 0:
+        # 1日分も取得できなかった(クオータ切れ等)。既存のfixtures.jsonを
+        # 空データで上書きしてサイトを壊すより、前回分をそのまま残す方が良い。
+        print("警告: 1日分も取得できなかったため、既存のfixtures.jsonは更新せず終了します。", file=sys.stderr)
+        return
 
     all_matches.sort(key=lambda m: m["kickoff_utc"])
 
