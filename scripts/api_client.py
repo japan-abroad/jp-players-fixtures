@@ -9,7 +9,7 @@
 - 動作確認・デバッグのために本番APIを直接叩かない(get_remaining_quota以外)。
   ローカル動作確認は data/fixtures.json のサンプルデータで行うこと。
 - 一括処理(discover等)を始める前に、必ず get_remaining_quota() で
-  残量を確認してから実行数を決めること(discover_jp_clubs.pyは自動で行う)。
+  残量を確認してから実行数を決めること(resolve_jp_clubs.pyは自動で行う)。
 """
 
 import os

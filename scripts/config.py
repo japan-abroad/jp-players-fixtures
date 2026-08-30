@@ -48,24 +48,6 @@ CUP_LEAGUES = [
 # fixtures取得側だけ、カップ戦を含めたこちらを使う。
 FIXTURE_LEAGUES = LEAGUES + CUP_LEAGUES
 
-# API-Football無料プランの /players/squads は国籍情報を返さないため、
-# 現在の登録選手名をこの名字リストと照合して日本人選手かどうかを判定する。
-# (ローマ字表記は "K. Mitoma" のように「頭文字. 名字」形式で入ってくる)
-# 移籍によるクラブの変化は自動追従するが、このリスト自体は
-# 新戦力の台頭・引退などに応じて年に数回程度の手動更新が必要。
-JAPANESE_SURNAMES = [
-    "Mitoma", "Kubo", "Endo", "Tomiyasu", "Kamada", "Doan", "Minamino", "Maeda",
-    "Asano", "Ueda", "Taniguchi", "Itakura", "Hatate", "Suzuki", "Nakamura",
-    "Morita", "Kawashima", "Sugawara", "Hashioka", "Seko", "Machida", "Osako",
-    "Tanaka", "Yamane", "Sakai", "Ito", "Abe", "Mitsuta", "Hirakawa", "Kobayashi",
-    # 2026-08時点でスポーツサイト(addfoot.net)を参照して追加した実在選手の名字
-    "Sakamoto", "Takai", "Matsuki", "Ohashi", "Morishita", "Iwata", "Fujimoto",
-    "Yokota", "Kokubo", "Matsuzawa", "Hata", "Shinkawa", "Ishiwatari", "Araki",
-    "Mizuta", "Osada", "Yamamoto", "Goto", "Shiogai", "Sano", "Kawasaki",
-    "Machino", "Uno", "Kosugi", "Fujita", "Ando", "Hara", "Sekine", "Takahashi",
-    "Onoda", "Fukui", "Fukuda", "Karashima",
-]
-
 # サッカーキング(soccer-king.jp)の「海外クラブ在籍日本人選手」一覧には、
 # 上記11リーグ以外の国(オセアニア・北米・アジア等)のクラブも登場する。
 # API-Footballのteam.country(英語国名)を日本語表示名・代表的リーグ名に
