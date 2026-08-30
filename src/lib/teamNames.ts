@@ -184,7 +184,6 @@ const TEAM_NAME_JA: Record<string, string> = {
   "SC Freiburg": "フライブルク",
   "SCR Altach": "アルタッハ",
   "SV Darmstadt 98": "ダルムシュタット",
-  Sintrense: "シント＝トロイデン",
   "Vancouver Whitecaps": "バンクーバー・ホワイトキャップス",
   "VfL Bochum": "ボーフム",
   "VfL Wolfsburg": "ヴォルフスブルク",
