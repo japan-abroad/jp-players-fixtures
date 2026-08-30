@@ -8,8 +8,7 @@ API-FootballのリーグIDは https://www.api-football.com/documentation-v3#tag/
 # country_code/country_ja はサイト側の国別フィルター・国旗表示に使う
 LEAGUES = [
     {"id": 39, "name": "プレミアリーグ", "country_code": "eng", "country_ja": "イングランド"},
-    # 要検証: API-Footballのリーグ一覧が取得できる状態になったら
-    # /leagues?name=Championship&country=England で正しいIDか確認すること
+    # 2026-08-30 検証済み: /leagues?id=40 -> "Championship League" (England)
     {"id": 40, "name": "チャンピオンシップ", "country_code": "eng", "country_ja": "イングランド"},
     {"id": 140, "name": "ラ・リーガ", "country_code": "esp", "country_ja": "スペイン"},
     {"id": 78, "name": "ブンデスリーガ", "country_code": "ger", "country_ja": "ドイツ"},
@@ -25,7 +24,10 @@ LEAGUES = [
 # 国内カップ戦。fetch_fixtures.pyは日付ベースで世界中の試合を取得してから
 # LEAGUESに載っている大会だけを抽出する方式のため、ここに追加しても
 # APIリクエスト数は増えない(取得後のフィルタ対象が増えるだけ)。
-# 要検証: 無料枠が復活したら /leagues?id=<id> で正しいIDか確認すること。
+# 2026-08-30 全件 /leagues?id=<id> で検証済み。
+# 発覚した誤り: ポルトガルは97(Taça da Liga=リーグカップ)ではなく96
+# (Taça de Portugal=本来のカップ戦)、スコットランドは180(Championship=
+# 2部リーグ)ではなく181(FA Cup Scotland)が正しい値だった。
 CUP_LEAGUES = [
     {"id": 45, "name": "FAカップ", "country_code": "eng", "country_ja": "イングランド"},
     {"id": 48, "name": "EFLカップ", "country_code": "eng", "country_ja": "イングランド"},
@@ -34,9 +36,9 @@ CUP_LEAGUES = [
     {"id": 137, "name": "コッパ・イタリア", "country_code": "ita", "country_ja": "イタリア"},
     {"id": 66, "name": "クープ・ド・フランス", "country_code": "fra", "country_ja": "フランス"},
     {"id": 90, "name": "KNVBベーカー", "country_code": "ned", "country_ja": "オランダ"},
-    {"id": 97, "name": "ポルトガルカップ", "country_code": "por", "country_ja": "ポルトガル"},
+    {"id": 96, "name": "ポルトガルカップ", "country_code": "por", "country_ja": "ポルトガル"},
     {"id": 147, "name": "ベルギーカップ", "country_code": "bel", "country_ja": "ベルギー"},
-    {"id": 180, "name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},
+    {"id": 181, "name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},
     {"id": 206, "name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},
 ]
 
