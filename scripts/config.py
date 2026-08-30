@@ -102,6 +102,23 @@ COUNTRY_TOP_LEAGUE_JA = {
     "カナダ": "カナディアン・プレミアリーグ",
 }
 
+# fetch_fixtures.py用: 対象11リーグ外の試合(日本人選手所属クラブ絡みのみ拾う)で
+# 実際に出現した大会名(英語)の日本語訳。COUNTRY_TOP_LEAGUE_JAは「その国の
+# 代表的な1部リーグ名」の推定でしかなく、2部リーグやカップ戦をそのまま
+# 1部リーグ名で表示すると誤りになるため、具体的な大会名は個別に訳す。
+# ("Bundesliga"は対象11リーグのブンデスリーガ(ドイツ)がFIXTURE_LEAGUES側で
+# 先に処理されるため、このフォールバックに来る時点でオーストリアに限られる)
+LEAGUE_NAME_JA = {
+    "2. Bundesliga": "2.ブンデスリーガ",
+    "Bundesliga": "オーストリア・ブンデスリーガ",
+    "Allsvenskan": "アルスヴェンスカン",
+    "Ekstraklasa": "エクストラクラサ",
+    "Major League Soccer": "MLS",
+    "Superliga": "スーペルリーガ",
+    "A-League Men": "Aリーグ",
+    "K League 1": "Kリーグ1",
+}
+
 # API-Football無料プランは2022〜2024シーズンのデータのみアクセス可能
 FREE_PLAN_SEASON = 2024
 

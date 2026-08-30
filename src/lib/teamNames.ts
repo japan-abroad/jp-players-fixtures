@@ -144,6 +144,102 @@ const TEAM_NAME_JA: Record<string, string> = {
   // ベルギー
   "Sint-Truiden": "シント＝トロイデン",
   Gent: "ゲント",
+
+  // 日本人選手所属クラブ(対象11リーグ以外・上記の表記ゆれを含む)
+  "1899 Hoffenheim": "ホッフェンハイム",
+  Antwerp: "アントワープ",
+  Arouca: "アロウカ",
+  "Atlanta United FC": "アトランタ・ユナイテッド",
+  Auckland: "オークランドFC",
+  "Bayern München": "バイエルン・ミュンヘン",
+  "Beerschot VA": "ベールスホット",
+  Birmingham: "バーミンガム",
+  Blackburn: "ブラックバーン",
+  "Borussia Mönchengladbach": "ボルシア・メンヒェングラートバッハ",
+  Brondby: "ブレンビーIF",
+  Celtic: "セルティック",
+  Coventry: "コヴェントリー",
+  "DC United": "DCユナイテッド",
+  "FC Basel 1893": "バーゼル",
+  "FC Copenhagen": "コペンハーゲン",
+  "FC Schalke 04": "シャルケ04",
+  "FC St. Pauli": "ザンクトパウリ",
+  "FSV Mainz 05": "マインツ",
+  Genk: "ヘンク",
+  "Hammarby FF": "ハンマルビー",
+  "Hannover 96": "ハノーファー96",
+  Ipswich: "イプスウィッチ",
+  Jagiellonia: "ヤギェロニア・ビャウィストク",
+  "KVC Westerlo": "ウェステルロー",
+  Kortrijk: "コルトレイク",
+  "Las Palmas": "ラス・パルマス",
+  "Los Angeles Galaxy": "ロサンゼルス・ギャラクシー",
+  "Melbourne City": "メルボルン・シティ",
+  "OH Leuven": "OHルーヴェン",
+  "PSV Eindhoven": "PSVアイントホーフェン",
+  "Patro Eisden": "パトロ・アイスデン",
+  "Queens Park Rangers": "クイーンズ・パーク・レンジャーズ",
+  "Red Bull Salzburg": "レッドブル・ザルツブルク",
+  Reims: "スタッド・ランス",
+  "SC Freiburg": "フライブルク",
+  "SCR Altach": "アルタッハ",
+  "SV Darmstadt 98": "ダルムシュタット",
+  Sintrense: "シント＝トロイデン",
+  "Vancouver Whitecaps": "バンクーバー・ホワイトキャップス",
+  "VfL Bochum": "ボーフム",
+  "VfL Wolfsburg": "ヴォルフスブルク",
+  "Wellington Phoenix": "ウェリントン・フェニックス",
+  "Western Sydney Wanderers": "ウェスタン・シドニー・ワンダラーズ",
+
+  // リーガ・ポルトガル(1部。国内カップ戦の下位アマチュアクラブは
+  // 対戦相手が毎回変わり維持が非現実的なため対象外とする)
+  Benfica: "ベンフィカ",
+  "CF Benfica": "ベンフィカ",
+  "SC Braga": "スポルティングCP・ブラガ",
+  "Vitória SC": "ヴィトーリアSC",
+  Moreirense: "モレイレンセ",
+  Estoril: "エストリル",
+  "GIL Vicente": "ジル・ヴィセンテ",
+  Famalicao: "ファマリカオン",
+  "Casa Pia": "カサ・ピア",
+  Nacional: "ナシオナル",
+  Estrela: "エストレーラ・アマドーラ",
+
+  // スコティッシュ・プレミアシップ(未収録分)
+  Aberdeen: "アバディーン",
+  Hibernian: "ハイバーニアン",
+  Motherwell: "マザーウェル",
+  Dundee: "ダンディー",
+  "ST Mirren": "セント・ミレン",
+
+  // ベルギー・プロリーグ(未収録分)
+  Anderlecht: "アンデルレヒト",
+  "Club Brugge KV": "クラブ・ブルッヘ",
+  "Union St. Gilloise": "ユニオン・サンジロワーズ",
+  "Zulte Waregem": "ズルテ・ワレヘム",
+
+  // スュペル・リグ(未収録分)
+  Alanyaspor: "アラニヤスポル",
+  "Fenerbahçe": "フェネルバフチェ",
+  "Beşiktaş": "ベシクタシュ",
+  Trabzonspor: "トラブゾンスポル",
+  "Kasımpaşa": "カスンパシャ",
+  Samsunspor: "サムスンスポル",
+  Eyüpspor: "エユプスポル",
+  "Başakşehir": "バシャクシェヒル",
+  "Çorum FK": "チョルムFK",
+
+  // エールディヴィジ(未収録分・オランダ杯の下部リーグ相手含む)
+  Cambuur: "カンブール",
+  Twente: "FCトゥエンテ",
+  "Willem II": "ヴィレムII",
+  Utrecht: "FCユトレヒト",
+  "ADO Den Haag": "ADOデン・ハーグ",
+
+  // その他、国内カップ戦で対象リーグクラブと対戦する主要クラブ
+  Malaga: "マラガ",
+  "Deportivo La Coruna": "デポルティボ・ラ・コルーニャ",
+  "1. FC Kaiserslautern": "カイザースラウテルン",
 };
 
 export function translateTeamName(name: string): string {

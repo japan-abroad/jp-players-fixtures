@@ -18,7 +18,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import api_client
-from config import COUNTRY_JA, FIXTURE_LEAGUES
+from config import COUNTRY_JA, FIXTURE_LEAGUES, LEAGUE_NAME_JA
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -94,8 +94,9 @@ def main() -> None:
                 country_ja = league["country_ja"]
             else:
                 # 対象11リーグ以外(オセアニア・北米・アジア等)は日本人選手
-                # 所属クラブの試合のみ拾うため、API側の英語名をそのまま使う
-                league_name = item["league"]["name"]
+                # 所属クラブの試合のみ拾う。大会名はLEAGUE_NAME_JAで既知のものを
+                # 日本語化し、未収録のものはAPI側の英語名のままにする
+                league_name = LEAGUE_NAME_JA.get(item["league"]["name"], item["league"]["name"])
                 country_en = item["league"].get("country") or ""
                 country_ja = COUNTRY_JA.get(country_en, country_en)
                 country_code = country_en[:3].lower()
