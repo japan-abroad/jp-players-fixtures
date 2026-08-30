@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T13:45:35.139831+00:00",
+  "fetched_at": "2026-08-30T18:06:44.966794+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2089,7 +2089,7 @@
     {
       "fixture_id": 1575480,
       "kickoff_utc": "2026-08-30T14:30:00+00:00",
-      "venue": null,
+      "venue": "Estádio da Madeira",
       "league_name": "リーガ・ポルトガル",
       "country_code": "por",
       "country_ja": "ポルトガル",
@@ -2121,7 +2121,7 @@
     {
       "fixture_id": 1570360,
       "kickoff_utc": "2026-08-30T15:00:00+00:00",
-      "venue": null,
+      "venue": "Bernabéu",
       "league_name": "ラ・リーガ",
       "country_code": "esp",
       "country_ja": "スペイン",
@@ -2232,7 +2232,7 @@
     {
       "fixture_id": 1584388,
       "kickoff_utc": "2026-08-30T16:00:00+00:00",
-      "venue": null,
+      "venue": "Recep Tayyip Erdogan Stadium",
       "league_name": "スュペル・リグ",
       "country_code": "tur",
       "country_ja": "トルコ",
@@ -2833,7 +2833,7 @@
     {
       "fixture_id": 1575478,
       "kickoff_utc": "2026-08-30T17:00:00+00:00",
-      "venue": null,
+      "venue": "Estádio Municipal de Rio Maior",
       "league_name": "リーガ・ポルトガル",
       "country_code": "por",
       "country_ja": "ポルトガル",
