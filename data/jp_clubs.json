@@ -852,12 +852,44 @@
       ]
     },
     {
-      "team_id": 4796,
-      "team_name": "Sintrense",
-      "logo": "https://media.api-sports.io/football/teams/4796.png",
-      "league_name": "リーガ・ポルトガル",
-      "country_code": "por",
-      "country_ja": "ポルトガル",
+      "team_id": 41,
+      "team_name": "Southampton",
+      "logo": "https://media.api-sports.io/football/teams/41.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "菅原由勢",
+          "position": null
+        },
+        {
+          "name": "松木玖生",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 426,
+      "team_name": "Sparta Rotterdam",
+      "logo": "https://media.api-sports.io/football/teams/426.png",
+      "league_name": "エールディヴィジ",
+      "country_code": "net",
+      "country_ja": "オランダ",
+      "players": [
+        {
+          "name": "三戸舜介",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 735,
+      "team_name": "St. Truiden",
+      "logo": "https://media.api-sports.io/football/teams/735.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
       "players": [
         {
           "name": "荒木遼太郎",
@@ -889,38 +921,6 @@
         },
         {
           "name": "伊藤涼太郎",
-          "position": null
-        }
-      ]
-    },
-    {
-      "team_id": 41,
-      "team_name": "Southampton",
-      "logo": "https://media.api-sports.io/football/teams/41.png",
-      "league_name": "プレミアリーグ",
-      "country_code": "eng",
-      "country_ja": "イングランド",
-      "players": [
-        {
-          "name": "菅原由勢",
-          "position": null
-        },
-        {
-          "name": "松木玖生",
-          "position": null
-        }
-      ]
-    },
-    {
-      "team_id": 426,
-      "team_name": "Sparta Rotterdam",
-      "logo": "https://media.api-sports.io/football/teams/426.png",
-      "league_name": "エールディヴィジ",
-      "country_code": "net",
-      "country_ja": "オランダ",
-      "players": [
-        {
-          "name": "三戸舜介",
           "position": null
         }
       ]

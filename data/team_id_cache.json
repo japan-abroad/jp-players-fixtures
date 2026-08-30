@@ -224,12 +224,12 @@
     "league_name": "プレミアリーグ"
   },
   "Sint-Truidense": {
-    "team_id": 4796,
-    "team_name": "Sintrense",
-    "logo": "https://media.api-sports.io/football/teams/4796.png",
-    "country_code": "por",
-    "country_ja": "ポルトガル",
-    "league_name": "リーガ・ポルトガル"
+    "team_id": 735,
+    "team_name": "St. Truiden",
+    "logo": "https://media.api-sports.io/football/teams/735.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
   },
   "FC St. Pauli": {
     "team_id": 186,

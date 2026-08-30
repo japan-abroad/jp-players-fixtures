@@ -61,6 +61,10 @@ _MANUAL_QUERY_OVERRIDES = {
     # "Antwerpen"単体だと球団史上のBeerschot以外の候補が混ざるため、
     # 現行クラブの正式名の一部を直接指定する。
     "Koninklijke Beerschot Voetbalclub Antwerpen": "Beerschot VA",
+    # "Sint-Truidense"はポルトガルの無関係なクラブ"Sintrense"と綴りが
+    # 似ているため類似度判定で誤って一致してしまった(2026-08-30発覚、
+    # 本来はベルギーのSt. Truiden)。
+    "Sint-Truidense": "Truiden",
     # 注意: "F.C. Bayern Munich"(男子トップチームはドイツ語表記"München"で
     # 登録されている)はここでは解決できない — "München"はAPIの検索クエリ
     # (英数字とスペースのみ許可)に使えず、"Bayern"単体だと無関係な弱小クラブ
