@@ -240,6 +240,17 @@ const TEAM_NAME_JA: Record<string, string> = {
   Malaga: "マラガ",
   "Deportivo La Coruna": "デポルティボ・ラ・コルーニャ",
   "1. FC Kaiserslautern": "カイザースラウテルン",
+  "AIK Stockholm": "AIKストックホルム",
+  "AS Roma": "ローマ",
+  "Austria Vienna": "アウストリア・ウィーン",
+  "CF Os Belenenses": "オス・ベレネンセス",
+  "FC Augsburg": "アウクスブルク",
+  "FC Nordsjaelland": "ノアシェラン",
+  "Le Mans": "ル・マン",
+  "Raków Częstochowa": "ラコフ・チェンストホヴァ",
+  "Sporting Kansas City": "スポルティング・カンザスシティ",
+  "St. Truiden": "シント＝トロイデン",
+  Telstar: "テルスター",
 };
 
 export function translateTeamName(name: string): string {
