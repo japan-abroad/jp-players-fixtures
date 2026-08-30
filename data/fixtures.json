@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T13:33:36.976083+00:00",
+  "fetched_at": "2026-08-30T13:40:10.151460+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -77,6 +77,38 @@
             {
               "name": "綱島悠斗",
               "team_id": 740
+            },
+            {
+              "name": "荒木遼太郎",
+              "team_id": 735
+            },
+            {
+              "name": "石渡ネルソン",
+              "team_id": 735
+            },
+            {
+              "name": "谷口彰悟",
+              "team_id": 735
+            },
+            {
+              "name": "小久保玲央ブライアン",
+              "team_id": 735
+            },
+            {
+              "name": "新川志音",
+              "team_id": 735
+            },
+            {
+              "name": "松澤海斗",
+              "team_id": 735
+            },
+            {
+              "name": "畑大雅",
+              "team_id": 735
+            },
+            {
+              "name": "伊藤涼太郎",
+              "team_id": 735
             }
           ]
         }
@@ -819,7 +851,7 @@
         {
           "fixture_id": 1553150,
           "kickoff_utc": "2026-08-30T12:45:00+00:00",
-          "venue": "Miejski Stadion Pilkarski Rakow",
+          "venue": "Miejski Stadion Piłkarski Raków w Częstochowie",
           "league_name": "エクストラクラサ",
           "country_code": "pol",
           "country_ja": "ポーランド",
@@ -1339,10 +1371,40 @@
       ]
     },
     {
-      "team_id": 4796,
-      "team_name": "Sintrense",
-      "logo": "https://media.api-sports.io/football/teams/4796.png",
-      "league_name": "リーガ・ポルトガル",
+      "team_id": 41,
+      "team_name": "Southampton",
+      "logo": "https://media.api-sports.io/football/teams/41.png",
+      "league_name": "プレミアリーグ",
+      "players": [
+        {
+          "name": "菅原由勢",
+          "position": null
+        },
+        {
+          "name": "松木玖生",
+          "position": null
+        }
+      ],
+      "matches": []
+    },
+    {
+      "team_id": 426,
+      "team_name": "Sparta Rotterdam",
+      "logo": "https://media.api-sports.io/football/teams/426.png",
+      "league_name": "エールディヴィジ",
+      "players": [
+        {
+          "name": "三戸舜介",
+          "position": null
+        }
+      ],
+      "matches": []
+    },
+    {
+      "team_id": 735,
+      "team_name": "St. Truiden",
+      "logo": "https://media.api-sports.io/football/teams/735.png",
+      "league_name": "ベルギー・プロリーグ",
       "players": [
         {
           "name": "荒木遼太郎",
@@ -1379,85 +1441,67 @@
       ],
       "matches": [
         {
-          "fixture_id": 1619861,
-          "kickoff_utc": "2026-08-30T16:00:00+00:00",
-          "venue": "Campo da Mata",
-          "league_name": "ポルトガルカップ",
-          "country_code": "por",
-          "country_ja": "ポルトガル",
-          "round": "1/128-finals",
-          "home_team_id": 4733,
-          "home_team": "Caldas",
-          "home_logo": "https://media.api-sports.io/football/teams/4733.png",
-          "away_team_id": 4796,
-          "away_team": "Sintrense",
-          "away_logo": "https://media.api-sports.io/football/teams/4796.png",
+          "fixture_id": 1558614,
+          "kickoff_utc": "2026-08-30T14:00:00+00:00",
+          "venue": "Bosuilstadion",
+          "league_name": "ベルギー・プロリーグ",
+          "country_code": "bel",
+          "country_ja": "ベルギー",
+          "round": "Regular Season - 4",
+          "home_team_id": 740,
+          "home_team": "Antwerp",
+          "home_logo": "https://media.api-sports.io/football/teams/740.png",
+          "away_team_id": 735,
+          "away_team": "St. Truiden",
+          "away_logo": "https://media.api-sports.io/football/teams/735.png",
           "jp_players": [
             {
+              "name": "安藤晃希",
+              "team_id": 740
+            },
+            {
+              "name": "野澤大志ブランドン",
+              "team_id": 740
+            },
+            {
+              "name": "綱島悠斗",
+              "team_id": 740
+            },
+            {
               "name": "荒木遼太郎",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "石渡ネルソン",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "谷口彰悟",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "小久保玲央ブライアン",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "新川志音",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "松澤海斗",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "畑大雅",
-              "team_id": 4796
+              "team_id": 735
             },
             {
               "name": "伊藤涼太郎",
-              "team_id": 4796
+              "team_id": 735
             }
           ]
         }
       ]
-    },
-    {
-      "team_id": 41,
-      "team_name": "Southampton",
-      "logo": "https://media.api-sports.io/football/teams/41.png",
-      "league_name": "プレミアリーグ",
-      "players": [
-        {
-          "name": "菅原由勢",
-          "position": null
-        },
-        {
-          "name": "松木玖生",
-          "position": null
-        }
-      ],
-      "matches": []
-    },
-    {
-      "team_id": 426,
-      "team_name": "Sparta Rotterdam",
-      "logo": "https://media.api-sports.io/football/teams/426.png",
-      "league_name": "エールディヴィジ",
-      "players": [
-        {
-          "name": "三戸舜介",
-          "position": null
-        }
-      ],
-      "matches": []
     },
     {
       "team_id": 47,
@@ -1812,7 +1856,7 @@
     {
       "fixture_id": 1553150,
       "kickoff_utc": "2026-08-30T12:45:00+00:00",
-      "venue": "Miejski Stadion Pilkarski Rakow",
+      "venue": "Miejski Stadion Piłkarski Raków w Częstochowie",
       "league_name": "エクストラクラサ",
       "country_code": "pol",
       "country_ja": "ポーランド",
@@ -2007,6 +2051,38 @@
         {
           "name": "綱島悠斗",
           "team_id": 740
+        },
+        {
+          "name": "荒木遼太郎",
+          "team_id": 735
+        },
+        {
+          "name": "石渡ネルソン",
+          "team_id": 735
+        },
+        {
+          "name": "谷口彰悟",
+          "team_id": 735
+        },
+        {
+          "name": "小久保玲央ブライアン",
+          "team_id": 735
+        },
+        {
+          "name": "新川志音",
+          "team_id": 735
+        },
+        {
+          "name": "松澤海斗",
+          "team_id": 735
+        },
+        {
+          "name": "畑大雅",
+          "team_id": 735
+        },
+        {
+          "name": "伊藤涼太郎",
+          "team_id": 735
         }
       ]
     },
@@ -2215,40 +2291,7 @@
       "away_team_id": 4796,
       "away_team": "Sintrense",
       "away_logo": "https://media.api-sports.io/football/teams/4796.png",
-      "jp_players": [
-        {
-          "name": "荒木遼太郎",
-          "team_id": 4796
-        },
-        {
-          "name": "石渡ネルソン",
-          "team_id": 4796
-        },
-        {
-          "name": "谷口彰悟",
-          "team_id": 4796
-        },
-        {
-          "name": "小久保玲央ブライアン",
-          "team_id": 4796
-        },
-        {
-          "name": "新川志音",
-          "team_id": 4796
-        },
-        {
-          "name": "松澤海斗",
-          "team_id": 4796
-        },
-        {
-          "name": "畑大雅",
-          "team_id": 4796
-        },
-        {
-          "name": "伊藤涼太郎",
-          "team_id": 4796
-        }
-      ]
+      "jp_players": []
     },
     {
       "fixture_id": 1619862,
