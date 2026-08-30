@@ -55,6 +55,12 @@ _UNSAFE_STANDALONE_WORDS = {
 _MANUAL_QUERY_OVERRIDES = {
     "Alkmaar Zaanstreek": "AZ",
     "LA Galaxy": "Los Angeles Galaxy",
+    # サッカーキング側の表記"Bundby"はデンマーク語"Brøndby"の誤記/文字化けと
+    # 思われる(正しくは"Brondby")。
+    "Bundby IF": "Brondby",
+    # "Antwerpen"単体だと球団史上のBeerschot以外の候補が混ざるため、
+    # 現行クラブの正式名の一部を直接指定する。
+    "Koninklijke Beerschot Voetbalclub Antwerpen": "Beerschot VA",
     # 注意: "F.C. Bayern Munich"(男子トップチームはドイツ語表記"München"で
     # 登録されている)はここでは解決できない — "München"はAPIの検索クエリ
     # (英数字とスペースのみ許可)に使えず、"Bayern"単体だと無関係な弱小クラブ

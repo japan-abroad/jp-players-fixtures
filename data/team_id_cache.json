@@ -528,9 +528,19 @@
     "league_name": "セリエA"
   },
   "Bundby IF": {
-    "unresolved": true
+    "team_id": 407,
+    "team_name": "Brondby",
+    "logo": "https://media.api-sports.io/football/teams/407.png",
+    "country_code": "den",
+    "country_ja": "デンマーク",
+    "league_name": "スーペルリーガ"
   },
   "Koninklijke Beerschot Voetbalclub Antwerpen": {
-    "unresolved": true
+    "team_id": 263,
+    "team_name": "Beerschot VA",
+    "logo": "https://media.api-sports.io/football/teams/263.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
   }
 }

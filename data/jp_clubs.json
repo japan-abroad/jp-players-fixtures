@@ -126,6 +126,28 @@
       ]
     },
     {
+      "team_id": 263,
+      "team_name": "Beerschot VA",
+      "logo": "https://media.api-sports.io/football/teams/263.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "永長鷹虎",
+          "position": null
+        },
+        {
+          "name": "ポープ・ウィリアム",
+          "position": null
+        },
+        {
+          "name": "原口元気",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 54,
       "team_name": "Birmingham",
       "logo": "https://media.api-sports.io/football/teams/54.png",
@@ -201,6 +223,20 @@
       "players": [
         {
           "name": "三笘薫",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 407,
+      "team_name": "Brondby",
+      "logo": "https://media.api-sports.io/football/teams/407.png",
+      "league_name": "スーペルリーガ",
+      "country_code": "den",
+      "country_ja": "デンマーク",
+      "players": [
+        {
+          "name": "福田翔生",
           "position": null
         }
       ]
