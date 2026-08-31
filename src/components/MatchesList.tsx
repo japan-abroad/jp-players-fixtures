@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 import type { Match } from "@/lib/data";
-import { toJstDateKey, toJstDateLabel } from "@/lib/time";
+import { toJstDateLabel } from "@/lib/time";
+import { groupMatchesByDate } from "@/lib/matches";
 import { countryColor } from "@/lib/countryStyle";
 import MatchRow from "./MatchRow";
 
@@ -33,33 +34,15 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
     });
   };
 
-  const scoped = useMemo(() => {
-    const now = Date.now();
-    return matches.filter((m) =>
-      showPast ? new Date(m.kickoff_utc).getTime() < now : new Date(m.kickoff_utc).getTime() >= now
-    );
-  }, [matches, showPast]);
-
   const filtered = useMemo(() => {
-    return scoped.filter((m) => {
+    return matches.filter((m) => {
       const okJp = !jpOnly || m.jp_players.length > 0;
       const okCountry = activeCountries.size === 0 || activeCountries.has(m.country_code);
       return okJp && okCountry;
     });
-  }, [scoped, jpOnly, activeCountries]);
+  }, [matches, jpOnly, activeCountries]);
 
-  const groups = useMemo(() => {
-    const map = new Map<string, Match[]>();
-    for (const m of filtered) {
-      const key = toJstDateKey(m.kickoff_utc);
-      if (!map.has(key)) map.set(key, []);
-      map.get(key)!.push(m);
-    }
-    const entries = [...map.entries()];
-    // 過去の試合結果は直近日から新しい順、今後の試合は開催が近い順に並べる
-    entries.sort(([a], [b]) => (showPast ? (a < b ? 1 : -1) : a < b ? -1 : 1));
-    return entries;
-  }, [filtered, showPast]);
+  const groups = useMemo(() => groupMatchesByDate(filtered, showPast), [filtered, showPast]);
 
   return (
     <div>
