@@ -161,6 +161,7 @@ body {
   display: inline-flex;
   align-items: center;
   max-width: 100%;
+  min-width: 0;
   font-size: 0.6875rem;
   font-weight: 700;
   color: var(--samurai);
@@ -177,6 +178,7 @@ body {
   align-items: center;
   gap: 0.3rem;
   max-width: 100%;
+  min-width: 0;
   font-size: 0.6875rem;
   font-weight: 700;
   color: #fff;
