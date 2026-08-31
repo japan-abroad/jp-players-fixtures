@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-31T12:48:54.780838+00:00",
+  "fetched_at": "2026-08-31T12:55:13.430585+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -9385,6 +9385,25 @@
       "jp_players": []
     },
     {
+      "fixture_id": "bB8tNkd_173SHA4b77lVb",
+      "kickoff_utc": "2026-09-05T17:00:00.000Z",
+      "venue": "Chobani Stadyumu Fenerbahce Sukru Saracoglu Spor Kompleksi",
+      "league_name": "スュペル・リグ",
+      "country_code": "tur",
+      "country_ja": "トルコ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "8lroq0cbhdxj8124qtxwrhvmm",
+      "home_team": "フェネルバフチェ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_exgztvNgcpD9d4fNWmAS.png",
+      "home_score": null,
+      "away_team_id": "2ez9cvam9lp9jyhng3eh3znb4",
+      "away_team": "ベシクタシュ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WKE2EIP1R7rmdG3E5wVFf.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
       "fixture_id": "ikMSkIHOAol4OwaSUrtZ1",
       "kickoff_utc": "2026-09-05T18:00:00.000Z",
       "venue": "Johan Cruijff ArenA",
@@ -10347,25 +10366,6 @@
       "away_team_id": "89xivtxk59uzvhdsd6miao6tm",
       "away_team": "ヘンク",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "bB8tNkd_173SHA4b77lVb",
-      "kickoff_utc": "2026-09-06T17:00:00.000Z",
-      "venue": "Chobani Stadyumu Fenerbahce Sukru Saracoglu Spor Kompleksi",
-      "league_name": "スュペル・リグ",
-      "country_code": "tur",
-      "country_ja": "トルコ",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "8lroq0cbhdxj8124qtxwrhvmm",
-      "home_team": "フェネルバフチェ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_exgztvNgcpD9d4fNWmAS.png",
-      "home_score": null,
-      "away_team_id": "2ez9cvam9lp9jyhng3eh3znb4",
-      "away_team": "ベシクタシュ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WKE2EIP1R7rmdG3E5wVFf.png",
       "away_score": null,
       "jp_players": []
     },
