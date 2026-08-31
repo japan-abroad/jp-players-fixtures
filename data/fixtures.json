@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-31T12:08:03.746915+00:00",
+  "fetched_at": "2026-08-31T12:41:40.268654+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -8299,6 +8299,25 @@
       "away_team_id": "9bxav814mkuhueiyivyive82d",
       "away_team": "オセール",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YB7Zk23mKh7LByqaJ1Mqf.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "TbiG9f5U3QkVDcgJuBbzF",
+      "kickoff_utc": "2026-09-04T17:00:00.000Z",
+      "venue": "Basaksehir Fatih Terim Stadyumu",
+      "league_name": "スュペル・リグ",
+      "country_code": "tur",
+      "country_ja": "トルコ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "47njg6cmlx5q3fvdsupd2n6qu",
+      "home_team": "イスタンブールバサクセヒル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/lv7HzaNUayT0dxfXl_99T.png",
+      "home_score": null,
+      "away_team_id": "esa748l653sss1wurz5ps3228",
+      "away_team": "ガラタサライ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/3-2NYgRA5dm1M_VdeXR4q.png",
       "away_score": null,
       "jp_players": []
     },
