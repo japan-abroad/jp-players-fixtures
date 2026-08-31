@@ -12,19 +12,19 @@ export type JpPlayerRef = {
 };
 
 export type Match = {
-  fixture_id: number;
+  fixture_id: string;
   kickoff_utc: string;
   venue: string | null;
   league_name: string;
   country_code: string;
   country_ja: string;
   round: string | null;
-  home_team_id: number;
+  home_team_id: string;
   home_team: string;
-  home_logo: string;
-  away_team_id: number;
+  home_logo: string | null;
+  away_team_id: string;
   away_team: string;
-  away_logo: string;
+  away_logo: string | null;
   jp_players: JpPlayerRef[];
 };
 

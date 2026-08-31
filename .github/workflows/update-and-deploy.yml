@@ -1,9 +1,9 @@
 name: Update fixtures and deploy to GitHub Pages
 
-# discoverフェーズ(所属クラブの発見)は無料APIプランの1日100リクエスト上限を
-# 使い切ってしまうため、この定期実行には含めない。頻度が低くても問題ない
-# discoverは discover-clubs.yml で手動トリガーのみとし、
-# こちらは軽量なfixtures取得(1日あたり約40リクエスト)だけを回す。
+# 試合日程はgoal.com/jpをスクレイピングして取得する(API-Football無料プランの
+# 3日分ローリングウィンドウ制限を回避するため)。API-Footballはクラブ/選手の
+# 名寄せ(scripts/resolve_jp_clubs.py, 手動実行)にのみ使用し、この定期実行では
+# クオータを消費しない。
 
 on:
   schedule:
@@ -33,9 +33,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch upcoming fixtures
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/fetch_fixtures.py
+        run: python scripts/scrape_goal_fixtures.py
 
       - name: Commit updated data
         run: |

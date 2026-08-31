@@ -42,12 +42,6 @@ CUP_LEAGUES = [
     {"id": 206, "name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},
 ]
 
-# fetch_fixtures.py用: discover(所属クラブ発見)は上のLEAGUES(1部+2部)だけを
-# 対象にする(カップ戦は下部リーグの弱小クラブも大量に参加するため、
-# discoverの対象に含めると無関係なチームまで走査してしまう)。
-# fixtures取得側だけ、カップ戦を含めたこちらを使う。
-FIXTURE_LEAGUES = LEAGUES + CUP_LEAGUES
-
 # サッカーキング(soccer-king.jp)の「海外クラブ在籍日本人選手」一覧には、
 # 上記11リーグ以外の国(オセアニア・北米・アジア等)のクラブも登場する。
 # API-Footballのteam.country(英語国名)を日本語表示名・代表的リーグ名に
@@ -100,23 +94,6 @@ COUNTRY_TOP_LEAGUE_JA = {
     "ニュージーランド": "ニュージーランド・ナショナルリーグ",
     "アメリカ": "MLS",
     "カナダ": "カナディアン・プレミアリーグ",
-}
-
-# fetch_fixtures.py用: 対象11リーグ外の試合(日本人選手所属クラブ絡みのみ拾う)で
-# 実際に出現した大会名(英語)の日本語訳。COUNTRY_TOP_LEAGUE_JAは「その国の
-# 代表的な1部リーグ名」の推定でしかなく、2部リーグやカップ戦をそのまま
-# 1部リーグ名で表示すると誤りになるため、具体的な大会名は個別に訳す。
-# ("Bundesliga"は対象11リーグのブンデスリーガ(ドイツ)がFIXTURE_LEAGUES側で
-# 先に処理されるため、このフォールバックに来る時点でオーストリアに限られる)
-LEAGUE_NAME_JA = {
-    "2. Bundesliga": "2.ブンデスリーガ",
-    "Bundesliga": "オーストリア・ブンデスリーガ",
-    "Allsvenskan": "アルスヴェンスカン",
-    "Ekstraklasa": "エクストラクラサ",
-    "Major League Soccer": "MLS",
-    "Superliga": "スーペルリーガ",
-    "A-League Men": "Aリーグ",
-    "K League 1": "Kリーグ1",
 }
 
 # API-Football無料プランは2022〜2024シーズンのデータのみアクセス可能

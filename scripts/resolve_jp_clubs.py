@@ -268,6 +268,7 @@ def main(max_requests: int | None) -> None:
             {
                 "team_id": resolved["team_id"],
                 "team_name": resolved["team_name"],
+                "team_name_ja": club_ja,
                 "logo": resolved["logo"],
                 "league_name": resolved["league_name"],
                 "country_code": resolved["country_code"],
