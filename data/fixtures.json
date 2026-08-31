@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-31T10:43:52.538051+00:00",
+  "fetched_at": "2026-08-31T12:08:03.746915+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -10332,25 +10332,6 @@
       "jp_players": []
     },
     {
-      "fixture_id": "F9c82x-brZNFqrqsyyPMm",
-      "kickoff_utc": "2026-09-06T17:00:00.000Z",
-      "venue": "Estadio D. Afonso Henriques",
-      "league_name": "リーガ・ポルトガル",
-      "country_code": "por",
-      "country_ja": "ポルトガル",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "8gvg1ranyf93hprfkwx3ofl2y",
-      "home_team": "ギマランイス",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Nt6Bf0Yzd4RVrPznZbs22.png",
-      "home_score": null,
-      "away_team_id": "ewsf6evtguu9j7k6js4tlgl89",
-      "away_team": "カーザ・ピア",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MKps2GiUs8EVAldHkPN89.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
       "fixture_id": "bB8tNkd_173SHA4b77lVb",
       "kickoff_utc": "2026-09-06T17:00:00.000Z",
       "venue": "Chobani Stadyumu Fenerbahce Sukru Saracoglu Spor Kompleksi",
@@ -10370,21 +10351,21 @@
       "jp_players": []
     },
     {
-      "fixture_id": "TbiG9f5U3QkVDcgJuBbzF",
+      "fixture_id": "F9c82x-brZNFqrqsyyPMm",
       "kickoff_utc": "2026-09-06T17:00:00.000Z",
-      "venue": "Basaksehir Fatih Terim Stadyumu",
-      "league_name": "スュペル・リグ",
-      "country_code": "tur",
-      "country_ja": "トルコ",
+      "venue": "Estadio D. Afonso Henriques",
+      "league_name": "リーガ・ポルトガル",
+      "country_code": "por",
+      "country_ja": "ポルトガル",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "47njg6cmlx5q3fvdsupd2n6qu",
-      "home_team": "イスタンブールバサクセヒル",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/lv7HzaNUayT0dxfXl_99T.png",
+      "home_team_id": "8gvg1ranyf93hprfkwx3ofl2y",
+      "home_team": "ギマランイス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Nt6Bf0Yzd4RVrPznZbs22.png",
       "home_score": null,
-      "away_team_id": "esa748l653sss1wurz5ps3228",
-      "away_team": "ガラタサライ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/3-2NYgRA5dm1M_VdeXR4q.png",
+      "away_team_id": "ewsf6evtguu9j7k6js4tlgl89",
+      "away_team": "カーザ・ピア",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MKps2GiUs8EVAldHkPN89.png",
       "away_score": null,
       "jp_players": []
     },
