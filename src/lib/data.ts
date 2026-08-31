@@ -19,12 +19,15 @@ export type Match = {
   country_code: string;
   country_ja: string;
   round: string | null;
+  status: "FIXTURE" | "RESULT" | "POSTPONED" | "CANCELLED";
   home_team_id: string;
   home_team: string;
   home_logo: string | null;
+  home_score: number | null;
   away_team_id: string;
   away_team: string;
   away_logo: string | null;
+  away_score: number | null;
   jp_players: JpPlayerRef[];
 };
 

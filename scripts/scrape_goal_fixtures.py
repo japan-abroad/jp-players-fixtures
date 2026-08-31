@@ -38,6 +38,7 @@ OUTPUT_PATH = DATA_DIR / "fixtures.json"
 
 BASE_URL = "https://www.goal.com/jp/%E8%A9%A6%E5%90%88%E6%97%A5%E7%A8%8B/{date}"
 DAYS_AHEAD = 7
+DAYS_BEHIND = 7
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Accept-Language": "ja-JP,ja;q=0.9",
@@ -98,9 +99,13 @@ HEADER_RE = re.compile(
 MATCH_RE = re.compile(
     r'data-match-id="([^"]+)" data-match-status="([^"]+)">.*?'
     r'data-team-id="([^"]+)">.*?fco-full-name">([^<]+)</div>'
-    r'<div class="fco-team-name fco-code-name">([^<]+)</div>.*?'
+    r'<div class="fco-team-name fco-code-name">([^<]+)</div>'
+    r'<div class="fco-team-cards" data-side="team-a">.*?</div></div>'
+    r'(?:<div class="fco-team-score" data-side="team-a"><div class="fco-team-score__value">(\d+)</div></div>)?.*?'
     r'data-team-id="([^"]+)">.*?fco-full-name">([^<]+)</div>'
-    r'<div class="fco-team-name fco-code-name">([^<]+)</div>',
+    r'<div class="fco-team-name fco-code-name">([^<]+)</div>'
+    r'<div class="fco-team-cards" data-side="team-b">.*?</div></div>'
+    r'(?:<div class="fco-team-score" data-side="team-b"><div class="fco-team-score__value">(\d+)</div></div>)?',
     re.S,
 )
 LD_JSON_RE = re.compile(
@@ -149,7 +154,10 @@ def _parse_day(html: str) -> list[dict]:
 
     matches = []
     for m in MATCH_RE.finditer(html):
-        match_id, status, team_a_id, name_a, code_a, team_b_id, name_b, code_b = m.groups()
+        (
+            match_id, status, team_a_id, name_a, code_a, home_score,
+            team_b_id, name_b, code_b, away_score,
+        ) = m.groups()
 
         idx = _bisect_right(header_positions, m.start()) - 1
         league_name, area = (headers[idx][1], headers[idx][2]) if idx >= 0 else ("", "")
@@ -164,9 +172,11 @@ def _parse_day(html: str) -> list[dict]:
                 "home_team_id": team_a_id,
                 "home_team": name_a,
                 "home_code": code_a,
+                "home_score": int(home_score) if home_score is not None else None,
                 "away_team_id": team_b_id,
                 "away_team": name_b,
                 "away_code": code_b,
+                "away_score": int(away_score) if away_score is not None else None,
                 "kickoff_utc": ld["startDate"] if ld else None,
                 "venue": (ld.get("location") or {}).get("name") if ld else None,
                 "home_logo": (ld.get("homeTeam") or {}).get("logo") if ld else None,
@@ -254,7 +264,7 @@ def main() -> None:
     seen_match_ids: set[str] = set()
 
     today = date.today()
-    for offset in range(DAYS_AHEAD):
+    for offset in range(-DAYS_BEHIND, DAYS_AHEAD):
         day = today + timedelta(days=offset)
         try:
             html = _fetch_day(day)
@@ -306,12 +316,15 @@ def main() -> None:
                 "country_code": country_code,
                 "country_ja": country_ja,
                 "round": None,
+                "status": raw["status"],
                 "home_team_id": raw["home_team_id"],
                 "home_team": raw["home_team"],
                 "home_logo": raw["home_logo"],
+                "home_score": raw["home_score"],
                 "away_team_id": raw["away_team_id"],
                 "away_team": raw["away_team"],
                 "away_logo": raw["away_logo"],
+                "away_score": raw["away_score"],
                 "jp_players": jp_players,
             }
             all_matches.append(match)

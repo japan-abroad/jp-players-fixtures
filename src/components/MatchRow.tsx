@@ -6,8 +6,14 @@ import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
 import { countryColor } from "@/lib/countryStyle";
 
+const STATUS_LABEL_JA: Record<string, string> = {
+  POSTPONED: "延期",
+  CANCELLED: "中止",
+};
+
 export default function MatchRow({ match }: { match: Match }) {
   const isJp = match.jp_players.length > 0;
+  const hasScore = match.status === "RESULT" && match.home_score !== null && match.away_score !== null;
   return (
     <div
       className="match-row"
@@ -25,7 +31,7 @@ export default function MatchRow({ match }: { match: Match }) {
       <span className="league-chip shrink-0">{match.league_name}</span>
 
       <div className="font-mono text-[0.9375rem] font-bold text-[var(--samurai)] tabular-nums shrink-0">
-        {toJstTime(match.kickoff_utc)}
+        {hasScore ? "終了" : STATUS_LABEL_JA[match.status] ?? toJstTime(match.kickoff_utc)}
       </div>
 
       <div className="matchup min-w-0">
@@ -33,7 +39,7 @@ export default function MatchRow({ match }: { match: Match }) {
           {match.home_logo && <Image src={match.home_logo} alt="" width={22} height={22} unoptimized />}
           <span>{translateTeamName(match.home_team)}</span>
         </div>
-        <span className="vs">vs</span>
+        <span className="vs">{hasScore ? `${match.home_score} - ${match.away_score}` : "vs"}</span>
         <div className="team team-away">
           {match.away_logo && <Image src={match.away_logo} alt="" width={22} height={22} unoptimized />}
           <span>{translateTeamName(match.away_team)}</span>

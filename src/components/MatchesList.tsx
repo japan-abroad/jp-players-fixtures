@@ -21,6 +21,7 @@ const COUNTRIES: { code: string; label: string }[] = [
 
 export default function MatchesList({ matches }: { matches: Match[] }) {
   const [jpOnly, setJpOnly] = useState(false);
+  const [showPast, setShowPast] = useState(false);
   const [activeCountries, setActiveCountries] = useState<Set<string>>(new Set());
 
   const toggleCountry = (code: string) => {
@@ -32,18 +33,20 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
     });
   };
 
-  const upcoming = useMemo(
-    () => matches.filter((m) => new Date(m.kickoff_utc).getTime() >= Date.now()),
-    [matches]
-  );
+  const scoped = useMemo(() => {
+    const now = Date.now();
+    return matches.filter((m) =>
+      showPast ? new Date(m.kickoff_utc).getTime() < now : new Date(m.kickoff_utc).getTime() >= now
+    );
+  }, [matches, showPast]);
 
   const filtered = useMemo(() => {
-    return upcoming.filter((m) => {
+    return scoped.filter((m) => {
       const okJp = !jpOnly || m.jp_players.length > 0;
       const okCountry = activeCountries.size === 0 || activeCountries.has(m.country_code);
       return okJp && okCountry;
     });
-  }, [upcoming, jpOnly, activeCountries]);
+  }, [scoped, jpOnly, activeCountries]);
 
   const groups = useMemo(() => {
     const map = new Map<string, Match[]>();
@@ -52,12 +55,34 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
       if (!map.has(key)) map.set(key, []);
       map.get(key)!.push(m);
     }
-    return [...map.entries()];
-  }, [filtered]);
+    const entries = [...map.entries()];
+    // 過去の試合結果は直近日から新しい順、今後の試合は開催が近い順に並べる
+    entries.sort(([a], [b]) => (showPast ? (a < b ? 1 : -1) : a < b ? -1 : 1));
+    return entries;
+  }, [filtered, showPast]);
 
   return (
     <div>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="flex overflow-hidden rounded-full border border-[var(--line)]">
+          <button
+            className={`px-4 py-1.5 text-xs font-bold ${
+              !showPast ? "bg-[var(--samurai)] text-white" : "bg-white text-[var(--ink-soft)]"
+            }`}
+            onClick={() => setShowPast(false)}
+          >
+            今後の試合
+          </button>
+          <button
+            className={`px-4 py-1.5 text-xs font-bold ${
+              showPast ? "bg-[var(--samurai)] text-white" : "bg-white text-[var(--ink-soft)]"
+            }`}
+            onClick={() => setShowPast(true)}
+          >
+            過去の試合結果
+          </button>
+        </div>
+
         <div className="flex overflow-hidden rounded-full border border-[var(--line)]">
           <button
             className={`px-4 py-1.5 text-xs font-bold ${
