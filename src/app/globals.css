@@ -119,6 +119,24 @@ body {
   text-transform: uppercase;
 }
 
+.score {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-display), sans-serif;
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: var(--samurai);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.score-sep {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
 .match-row[data-jp="true"] {
   background: linear-gradient(90deg, rgb(179 18 60 / 0.05), transparent 55%), #fff;
   border-left-color: var(--hinomaru);
