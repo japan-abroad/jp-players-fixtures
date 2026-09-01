@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-01T12:18:47.356036+00:00",
+  "fetched_at": "2026-09-01T18:15:23.600065+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -7960,15 +7960,15 @@
       "country_code": "ita",
       "country_ja": "イタリア",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "5aosfavi55p40c65lkriqnqnl",
       "home_team": "パルマ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/G_RUYD43lljirbAuQpDvc.png",
-      "home_score": null,
+      "home_score": 0,
       "away_team_id": "af91jdcs6x0bqkmdb78rokod2",
       "away_team": "クレモネーゼ",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FnmfMzvcu_32_RynNiPom.png",
-      "away_score": null,
+      "away_score": 2,
       "jp_players": []
     },
     {
