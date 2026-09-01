@@ -5,7 +5,7 @@ import ClubMatchesList from "@/components/ClubMatchesList";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
-import { matchesToSportsEventJsonLd, SITE_URL } from "@/lib/structuredData";
+import { matchesToSportsEventJsonLd, breadcrumbJsonLd, SITE_URL } from "@/lib/structuredData";
 
 export function generateStaticParams() {
   return getAllPlayers().map((p) => ({ playerSlug: p.slug }));
@@ -43,12 +43,22 @@ export default async function PlayerPage({
     upcomingForJsonLd,
     `${SITE_URL}/players/${player.slug}/`
   );
+  const playerNameJa = translatePlayerName(player.name);
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "試合日程", url: `${SITE_URL}/` },
+    { name: translateTeamName(player.club.team_name), url: `${SITE_URL}/clubs/${player.club.team_id}/` },
+    { name: playerNameJa, url: `${SITE_URL}/players/${player.slug}/` },
+  ]);
 
   return (
     <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
@@ -57,9 +67,7 @@ export default async function PlayerPage({
             <p className="text-xs uppercase tracking-widest text-white/70">
               {translateTeamName(player.club.team_name)} ・ {player.position ?? ""}
             </p>
-            <h1 className="font-display text-3xl font-bold text-white">
-              {translatePlayerName(player.name)}
-            </h1>
+            <h1 className="font-display text-3xl font-bold text-white">{playerNameJa}</h1>
           </div>
         </div>
       </div>

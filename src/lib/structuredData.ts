@@ -33,4 +33,20 @@ export function matchesToSportsEventJsonLd(matches: Match[], pageUrl: string) {
   });
 }
 
+/** パンくずリストのJSON-LD(BreadcrumbList)を生成する。
+ *  検索結果にパンくず表示が出る可能性があり、CTR向上を狙う。
+ */
+export function breadcrumbJsonLd(items: { name: string; url: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
 export { SITE_URL };
