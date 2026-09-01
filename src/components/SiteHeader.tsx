@@ -19,6 +19,9 @@ export default function SiteHeader() {
           <Link href="/clubs" className="hover:text-[var(--samurai)]">
             クラブ一覧
           </Link>
+          <Link href="/players" className="hover:text-[var(--samurai)]">
+            選手一覧
+          </Link>
         </nav>
       </div>
     </header>

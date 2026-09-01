@@ -5,7 +5,12 @@ import ClubMatchesList from "@/components/ClubMatchesList";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
-import { matchesToSportsEventJsonLd, breadcrumbJsonLd, SITE_URL } from "@/lib/structuredData";
+import {
+  matchesToSportsEventJsonLd,
+  breadcrumbJsonLd,
+  playerJsonLd,
+  SITE_URL,
+} from "@/lib/structuredData";
 
 export function generateStaticParams() {
   return getAllPlayers().map((p) => ({ playerSlug: p.slug }));
@@ -52,6 +57,11 @@ export default async function PlayerPage({
     { name: translateTeamName(player.club.team_name), url: `${SITE_URL}/clubs/${player.club.team_id}/` },
     { name: playerNameJa, url: `${SITE_URL}/players/${player.slug}/` },
   ]);
+  const person = playerJsonLd(
+    playerNameJa,
+    translateTeamName(player.club.team_name),
+    `${SITE_URL}/players/${player.slug}/`
+  );
 
   return (
     <div>
@@ -62,6 +72,10 @@ export default async function PlayerPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(person) }}
       />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">

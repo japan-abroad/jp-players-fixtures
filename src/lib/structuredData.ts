@@ -67,4 +67,37 @@ export function clubsItemListJsonLd(clubs: { team_id: number; name: string }[]) 
   };
 }
 
+/** 選手ページ用のschema.org Person JSON-LD。
+ *  選手個人のエンティティとしての理解をGoogleに促す。
+ */
+export function playerJsonLd(playerNameJa: string, clubNameJa: string, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: playerNameJa,
+    memberOf: { "@type": "SportsTeam", name: clubNameJa },
+    url,
+  };
+}
+
+/** クラブページ用のschema.org SportsTeam JSON-LD。
+ *  クラブ・所属選手のエンティティとしての理解をGoogleに促す。
+ */
+export function clubJsonLd(
+  clubNameJa: string,
+  logo: string,
+  playerNamesJa: string[],
+  url: string
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SportsTeam",
+    name: clubNameJa,
+    logo,
+    sport: "Soccer",
+    athlete: playerNamesJa.map((name) => ({ "@type": "Person", name })),
+    url,
+  };
+}
+
 export { SITE_URL };

@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${SITE_URL}/`, changeFrequency: "hourly", priority: 1, lastModified },
     { url: `${SITE_URL}/clubs/`, changeFrequency: "daily", priority: 0.8, lastModified },
+    { url: `${SITE_URL}/players/`, changeFrequency: "daily", priority: 0.8, lastModified },
     ...clubs.map((c) => ({
       url: `${SITE_URL}/clubs/${c.team_id}/`,
       changeFrequency: "daily" as const,

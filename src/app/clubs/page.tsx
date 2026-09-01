@@ -6,6 +6,8 @@ import { SITE_URL, clubsItemListJsonLd } from "@/lib/structuredData";
 
 export const metadata = {
   title: "所属クラブ一覧 | 日本人選手フットボール便",
+  description:
+    "日本人選手が所属する欧州サッカークラブの一覧。リーグごとにクラブを探して、次の試合はいつかをチェックできます。",
   alternates: {
     canonical: `${SITE_URL}/clubs/`,
   },

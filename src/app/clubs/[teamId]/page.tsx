@@ -5,7 +5,12 @@ import ClubMatchesList from "@/components/ClubMatchesList";
 import { getClubById, getClubs, getAllPlayers } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
-import { matchesToSportsEventJsonLd, breadcrumbJsonLd, SITE_URL } from "@/lib/structuredData";
+import {
+  matchesToSportsEventJsonLd,
+  breadcrumbJsonLd,
+  clubJsonLd,
+  SITE_URL,
+} from "@/lib/structuredData";
 
 export function generateStaticParams() {
   return getClubs().map((c) => ({ teamId: String(c.team_id) }));
@@ -54,6 +59,12 @@ export default async function ClubPage({
     { name: "クラブ一覧", url: `${SITE_URL}/clubs/` },
     { name: clubNameJa, url: `${SITE_URL}/clubs/${club.team_id}/` },
   ]);
+  const team = clubJsonLd(
+    clubNameJa,
+    club.logo,
+    players.map((p) => translatePlayerName(p.name)),
+    `${SITE_URL}/clubs/${club.team_id}/`
+  );
 
   return (
     <div>
@@ -64,6 +75,10 @@ export default async function ClubPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(team) }}
       />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
