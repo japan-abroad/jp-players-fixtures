@@ -5,6 +5,7 @@ import ClubMatchesList from "@/components/ClubMatchesList";
 import { getClubById, getClubs, getAllPlayers } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
+import { matchesToSportsEventJsonLd, SITE_URL } from "@/lib/structuredData";
 
 export function generateStaticParams() {
   return getClubs().map((c) => ({ teamId: String(c.team_id) }));
@@ -38,8 +39,20 @@ export default async function ClubPage({
 
   const players = getAllPlayers().filter((p) => p.club.team_id === club.team_id);
 
+  const upcomingForJsonLd = club.matches.filter(
+    (m) => new Date(m.kickoff_utc).getTime() >= Date.now()
+  );
+  const jsonLd = matchesToSportsEventJsonLd(
+    upcomingForJsonLd,
+    `${SITE_URL}/clubs/${club.team_id}/`
+  );
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
           <Image src={club.logo} alt="" width={64} height={64} unoptimized />
