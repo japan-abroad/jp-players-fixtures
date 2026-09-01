@@ -38,6 +38,9 @@ export const metadata: Metadata = {
   // 異なり相対パスのままだとbasePathが付かない)ため、絶対URLで指定する。
   alternates: {
     canonical: `${SITE_URL}/`,
+    types: {
+      "application/rss+xml": `${SITE_URL}/feed.xml`,
+    },
   },
   openGraph: {
     title: TITLE,

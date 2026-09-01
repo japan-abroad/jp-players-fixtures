@@ -1,8 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
 import { getClubs, type Club } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { SITE_URL, clubsItemListJsonLd } from "@/lib/structuredData";
+import ClubsFilterList, { type ClubListItem } from "@/components/ClubsFilterList";
 
 export const metadata = {
   title: "所属クラブ一覧 | 日本人選手フットボール便",
@@ -48,7 +47,18 @@ function groupClubsByLeague(clubs: Club[]): [string, Club[]][] {
 
 export default function ClubsPage() {
   const clubs = getClubs();
-  const groups = groupClubsByLeague(clubs);
+  const groups = groupClubsByLeague(clubs).map(
+    ([leagueName, groupClubs]) =>
+      [
+        leagueName,
+        groupClubs.map((c) => ({
+          teamId: c.team_id,
+          name: translateTeamName(c.team_name),
+          logo: c.logo,
+          playerNames: c.players.map((p) => p.name),
+        })),
+      ] as [string, ClubListItem[]]
+  );
   const jsonLd = clubsItemListJsonLd(
     clubs.map((c) => ({ team_id: c.team_id, name: translateTeamName(c.team_name) }))
   );
@@ -61,38 +71,7 @@ export default function ClubsPage() {
       <h1 className="font-display text-2xl font-bold uppercase tracking-tight text-[var(--ink)]">
         日本人選手が所属するクラブ
       </h1>
-      {groups.map(([leagueName, clubs]) => (
-        <div key={leagueName} className="mt-8 first:mt-6">
-          <h2 className="font-display text-sm font-bold uppercase tracking-tight text-[var(--samurai)]">
-            {leagueName}
-          </h2>
-          <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {clubs.map((club) => (
-              <Link
-                key={club.team_id}
-                href={`/clubs/${club.team_id}/`}
-                className="flex items-center gap-3 rounded-md border border-[var(--line)] bg-[var(--paper-raised)] p-4 shadow-sm transition hover:border-[var(--samurai)]"
-              >
-                <Image
-                  src={club.logo}
-                  alt={translateTeamName(club.team_name)}
-                  width={40}
-                  height={40}
-                  unoptimized
-                />
-                <div>
-                  <p className="font-semibold text-[var(--ink)]">
-                    {translateTeamName(club.team_name)}
-                  </p>
-                  <p className="text-xs text-[var(--ink-soft)]">
-                    {club.players.map((p) => p.name).join("・")}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      ))}
+      <ClubsFilterList groups={groups} />
       {groups.length === 0 && (
         <p className="mt-6 text-sm text-[var(--ink-soft)]">データを準備中です。</p>
       )}

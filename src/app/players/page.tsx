@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { getAllPlayers, type PlayerEntry } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
 import { SITE_URL } from "@/lib/structuredData";
+import PlayersFilterList, { type PlayerListItem } from "@/components/PlayersFilterList";
 
 export const metadata = {
   title: "日本人選手一覧 | 日本人選手フットボール便",
@@ -48,7 +48,17 @@ function groupPlayersByLeague(players: PlayerEntry[]): [string, PlayerEntry[]][]
 
 export default function PlayersPage() {
   const players = getAllPlayers();
-  const groups = groupPlayersByLeague(players);
+  const groups = groupPlayersByLeague(players).map(
+    ([leagueName, groupPlayers]) =>
+      [
+        leagueName,
+        groupPlayers.map((p) => ({
+          slug: p.slug,
+          name: translatePlayerName(p.name),
+          teamName: translateTeamName(p.club.team_name),
+        })),
+      ] as [string, PlayerListItem[]]
+  );
   const playerJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -69,27 +79,7 @@ export default function PlayersPage() {
       <h1 className="font-display text-2xl font-bold uppercase tracking-tight text-[var(--ink)]">
         日本人選手一覧
       </h1>
-      {groups.map(([leagueName, groupPlayers]) => (
-        <div key={leagueName} className="mt-8 first:mt-6">
-          <h2 className="font-display text-sm font-bold uppercase tracking-tight text-[var(--samurai)]">
-            {leagueName}
-          </h2>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {groupPlayers.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/players/${p.slug}/`}
-                className="inline-block rounded-full bg-[var(--samurai)]/10 px-4 py-1.5 text-sm font-semibold text-[var(--samurai)] shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:bg-[var(--samurai)]/20 hover:shadow-md"
-              >
-                {translatePlayerName(p.name)}
-                <span className="ml-1 text-xs font-normal text-[var(--ink-soft)]">
-                  {translateTeamName(p.club.team_name)}
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      ))}
+      <PlayersFilterList groups={groups} />
       {groups.length === 0 && (
         <p className="mt-6 text-sm text-[var(--ink-soft)]">データを準備中です。</p>
       )}
