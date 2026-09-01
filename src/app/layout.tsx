@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Oswald, Inter, JetBrains_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -80,6 +81,7 @@ export default function RootLayout({
           <SiteFooter />
         </div>
       </body>
+      <GoogleAnalytics gaId="G-WZYXXR2SJQ" />
     </html>
   );
 }
