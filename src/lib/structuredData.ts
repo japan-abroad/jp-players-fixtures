@@ -25,7 +25,9 @@ export function matchesToSportsEventJsonLd(matches: Match[], pageUrl: string) {
       eventStatus: EVENT_STATUS[m.status],
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
       sport: "Soccer",
-      ...(m.venue ? { location: { "@type": "Place", name: m.venue } } : {}),
+      // locationはGoogleの構造化データで必須項目。goal.com側で会場情報が
+      // 取得できない試合もあるため、その場合は開催国名をフォールバックにする。
+      location: { "@type": "Place", name: m.venue ?? (m.country_ja || "未定") },
       homeTeam: { "@type": "SportsTeam", name: homeJa },
       awayTeam: { "@type": "SportsTeam", name: awayJa },
       url: `${pageUrl}#match-${m.fixture_id}`,
