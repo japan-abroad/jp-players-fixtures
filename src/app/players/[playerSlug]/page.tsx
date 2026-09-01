@@ -22,8 +22,8 @@ export async function generateMetadata({
   const clubNameJa = translateTeamName(player.club.team_name);
   const playerNameJa = translatePlayerName(player.name);
   return {
-    title: `${playerNameJa}の試合予定 | 日本人選手フットボール便`,
-    description: `${clubNameJa}(${player.club.league_name})所属 ${playerNameJa}の直近の試合予定を日本時間で表示。`,
+    title: `${playerNameJa}の次の試合はいつ？出場予定 | 日本人選手フットボール便`,
+    description: `${clubNameJa}(${player.club.league_name})所属${playerNameJa}の次の試合はいつ？日本時間での試合日程・出場予定をチェック。`,
   };
 }
 

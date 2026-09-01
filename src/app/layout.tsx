@@ -22,9 +22,9 @@ const mono = JetBrains_Mono({
 });
 
 const SITE_URL = "https://japan-abroad.github.io/jp-players-fixtures";
-const TITLE = "日本人選手フットボール便 | 欧州サッカー試合日程";
+const TITLE = "日本人選手フットボール便 | 海外組の次の試合はいつ？日本時間で試合日程をチェック";
 const DESCRIPTION =
-  "欧州サッカークラブに所属する日本人選手の直近の試合予定を日本時間でまとめてチェックできるサイト。";
+  "三笘薫・久保建英など欧州サッカークラブに所属する日本人選手(海外組)の次の試合はいつ？日本時間での試合日程・出場予定をまとめてチェックできるサイト。";
 
 export const metadata: Metadata = {
   // basePath("/jp-players-fixtures")はNext.jsがog:image等の相対パス解決時に

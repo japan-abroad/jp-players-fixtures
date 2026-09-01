@@ -20,11 +20,10 @@ export async function generateMetadata({
   const club = getClubById(Number(teamId));
   if (!club) return {};
   const clubNameJa = translateTeamName(club.team_name);
+  const playerNames = club.players.map((p) => translatePlayerName(p.name)).join("・");
   return {
-    title: `${clubNameJa}の試合予定 | 日本人選手フットボール便`,
-    description: `${clubNameJa}(${club.league_name})に所属する${club.players
-      .map((p) => translatePlayerName(p.name))
-      .join("・")}の直近の試合予定。`,
+    title: `${clubNameJa}の次の試合はいつ？日本人選手の出場予定 | 日本人選手フットボール便`,
+    description: `${clubNameJa}(${club.league_name})の次の試合はいつ？日本時間の試合日程と、所属する${playerNames}の出場予定をチェック。`,
   };
 }
 
