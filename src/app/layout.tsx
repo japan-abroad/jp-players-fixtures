@@ -61,6 +61,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja">
+      <head>
+        {/* チームロゴ画像を配信する外部CDN。事前に接続を確立し、
+            画像読み込み(LCP候補にはなりにくいが体感速度に寄与)を高速化する。 */}
+        <link rel="preconnect" href="https://cdn.sportfeeds.io" />
+        <link rel="preconnect" href="https://media.api-sports.io" />
+      </head>
       <body
         className={`${display.variable} ${body.variable} ${mono.variable} font-body antialiased`}
       >

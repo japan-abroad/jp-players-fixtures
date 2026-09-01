@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getClubs, type Club } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
-import { SITE_URL } from "@/lib/structuredData";
+import { SITE_URL, clubsItemListJsonLd } from "@/lib/structuredData";
 
 export const metadata = {
   title: "所属クラブ一覧 | 日本人選手フットボール便",
@@ -45,9 +45,17 @@ function groupClubsByLeague(clubs: Club[]): [string, Club[]][] {
 }
 
 export default function ClubsPage() {
-  const groups = groupClubsByLeague(getClubs());
+  const clubs = getClubs();
+  const groups = groupClubsByLeague(clubs);
+  const jsonLd = clubsItemListJsonLd(
+    clubs.map((c) => ({ team_id: c.team_id, name: translateTeamName(c.team_name) }))
+  );
   return (
     <section className="mx-auto max-w-5xl px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="font-display text-2xl font-bold uppercase tracking-tight text-[var(--ink)]">
         日本人選手が所属するクラブ
       </h1>

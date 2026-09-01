@@ -51,4 +51,20 @@ export function breadcrumbJsonLd(items: { name: string; url: string }[]) {
   };
 }
 
+/** クラブ一覧をschema.org ItemListのJSON-LDに変換する。
+ *  一覧ページであることをGoogleに明示し、理解を助ける。
+ */
+export function clubsItemListJsonLd(clubs: { team_id: number; name: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: clubs.map((c, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: c.name,
+      url: `${SITE_URL}/clubs/${c.team_id}/`,
+    })),
+  };
+}
+
 export { SITE_URL };
