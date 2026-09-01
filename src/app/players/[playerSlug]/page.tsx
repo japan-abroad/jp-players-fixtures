@@ -24,6 +24,9 @@ export async function generateMetadata({
   return {
     title: `${playerNameJa}の次の試合はいつ？出場予定 | 日本人選手フットボール便`,
     description: `${clubNameJa}(${player.club.league_name})所属${playerNameJa}の次の試合はいつ？日本時間での試合日程・出場予定をチェック。`,
+    alternates: {
+      canonical: `${SITE_URL}/players/${playerSlug}/`,
+    },
   };
 }
 
@@ -62,7 +65,13 @@ export default async function PlayerPage({
       />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
-          <Image src={player.club.logo} alt="" width={56} height={56} unoptimized />
+          <Image
+            src={player.club.logo}
+            alt={translateTeamName(player.club.team_name)}
+            width={56}
+            height={56}
+            unoptimized
+          />
           <div>
             <p className="text-xs uppercase tracking-widest text-white/70">
               {translateTeamName(player.club.team_name)} ・ {player.position ?? ""}

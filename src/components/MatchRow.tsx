@@ -36,7 +36,15 @@ export default function MatchRow({ match }: { match: Match }) {
 
       <div className="matchup min-w-0">
         <div className="team team-home">
-          {match.home_logo && <Image src={match.home_logo} alt="" width={22} height={22} unoptimized />}
+          {match.home_logo && (
+            <Image
+              src={match.home_logo}
+              alt={translateTeamName(match.home_team)}
+              width={22}
+              height={22}
+              unoptimized
+            />
+          )}
           <span>{translateTeamName(match.home_team)}</span>
         </div>
         {hasScore ? (
@@ -49,7 +57,15 @@ export default function MatchRow({ match }: { match: Match }) {
           <span className="vs">vs</span>
         )}
         <div className="team team-away">
-          {match.away_logo && <Image src={match.away_logo} alt="" width={22} height={22} unoptimized />}
+          {match.away_logo && (
+            <Image
+              src={match.away_logo}
+              alt={translateTeamName(match.away_team)}
+              width={22}
+              height={22}
+              unoptimized
+            />
+          )}
           <span>{translateTeamName(match.away_team)}</span>
         </div>
       </div>

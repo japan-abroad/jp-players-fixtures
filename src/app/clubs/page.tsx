@@ -2,9 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { getClubs, type Club } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
+import { SITE_URL } from "@/lib/structuredData";
 
 export const metadata = {
   title: "所属クラブ一覧 | 日本人選手フットボール便",
+  alternates: {
+    canonical: `${SITE_URL}/clubs/`,
+  },
 };
 
 // 主要リーグを国順に並べ、それ以外(2部・カップ経由で判明したリーグ等)は
@@ -59,7 +63,13 @@ export default function ClubsPage() {
                 href={`/clubs/${club.team_id}/`}
                 className="flex items-center gap-3 rounded-md border border-[var(--line)] bg-[var(--paper-raised)] p-4 shadow-sm transition hover:border-[var(--samurai)]"
               >
-                <Image src={club.logo} alt="" width={40} height={40} unoptimized />
+                <Image
+                  src={club.logo}
+                  alt={translateTeamName(club.team_name)}
+                  width={40}
+                  height={40}
+                  unoptimized
+                />
                 <div>
                   <p className="font-semibold text-[var(--ink)]">
                     {translateTeamName(club.team_name)}

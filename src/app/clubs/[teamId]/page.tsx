@@ -24,6 +24,9 @@ export async function generateMetadata({
   return {
     title: `${clubNameJa}の次の試合はいつ？日本人選手の出場予定 | 日本人選手フットボール便`,
     description: `${clubNameJa}(${club.league_name})の次の試合はいつ？日本時間の試合日程と、所属する${playerNames}の出場予定をチェック。`,
+    alternates: {
+      canonical: `${SITE_URL}/clubs/${teamId}/`,
+    },
   };
 }
 
@@ -64,7 +67,7 @@ export default async function ClubPage({
       />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
-          <Image src={club.logo} alt="" width={64} height={64} unoptimized />
+          <Image src={club.logo} alt={clubNameJa} width={64} height={64} unoptimized />
           <div>
             <p className="text-xs uppercase tracking-widest text-white/70">{club.league_name}</p>
             <h1 className="font-display text-3xl font-bold text-white">{clubNameJa}</h1>

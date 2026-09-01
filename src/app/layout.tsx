@@ -33,6 +33,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(new URL(SITE_URL).origin),
   title: TITLE,
   description: DESCRIPTION,
+  // alternates.canonicalはNext.jsのbasePath自動付与の対象外(画像パスとは
+  // 異なり相対パスのままだとbasePathが付かない)ため、絶対URLで指定する。
+  alternates: {
+    canonical: `${SITE_URL}/`,
+  },
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
