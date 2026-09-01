@@ -21,10 +21,31 @@ const mono = JetBrains_Mono({
   variable: "--font-mono",
 });
 
+const SITE_URL = "https://japan-abroad.github.io/jp-players-fixtures";
+const TITLE = "日本人選手フットボール便 | 欧州サッカー試合日程";
+const DESCRIPTION =
+  "欧州サッカークラブに所属する日本人選手の直近の試合予定を日本時間でまとめてチェックできるサイト。";
+
 export const metadata: Metadata = {
-  title: "日本人選手フットボール便 | 欧州サッカー試合日程",
-  description:
-    "欧州サッカークラブに所属する日本人選手の直近の試合予定を日本時間でまとめてチェックできるサイト。",
+  // basePath("/jp-players-fixtures")はNext.jsがog:image等の相対パス解決時に
+  // 自動で付与するため、metadataBaseにはオリジンのみを指定する
+  // (SITE_URLをそのまま渡すとbasePathが二重に付いてしまう)。
+  metadataBase: new URL(new URL(SITE_URL).origin),
+  title: TITLE,
+  description: DESCRIPTION,
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: SITE_URL,
+    siteName: "日本人選手フットボール便",
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
