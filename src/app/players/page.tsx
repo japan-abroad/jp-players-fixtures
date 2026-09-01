@@ -79,7 +79,7 @@ export default function PlayersPage() {
               <Link
                 key={p.slug}
                 href={`/players/${p.slug}/`}
-                className="rounded-full bg-[var(--samurai)]/10 px-4 py-1.5 text-sm font-semibold text-[var(--samurai)] hover:bg-[var(--samurai)]/20"
+                className="inline-block rounded-full bg-[var(--samurai)]/10 px-4 py-1.5 text-sm font-semibold text-[var(--samurai)] shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:bg-[var(--samurai)]/20 hover:shadow-md"
               >
                 {translatePlayerName(p.name)}
                 <span className="ml-1 text-xs font-normal text-[var(--ink-soft)]">
