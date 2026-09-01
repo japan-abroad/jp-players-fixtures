@@ -5,6 +5,8 @@ import type { Match } from "@/lib/data";
 import { toJstDateLabel } from "@/lib/time";
 import { groupMatchesByDate } from "@/lib/matches";
 import { countryColor } from "@/lib/countryStyle";
+import { translateTeamName } from "@/lib/teamNames";
+import { translatePlayerName } from "@/lib/playerNames";
 import MatchRow from "./MatchRow";
 
 const COUNTRIES: { code: string; label: string }[] = [
@@ -24,6 +26,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
   const [jpOnly, setJpOnly] = useState(false);
   const [showPast, setShowPast] = useState(false);
   const [activeCountries, setActiveCountries] = useState<Set<string>>(new Set());
+  const [query, setQuery] = useState("");
 
   const toggleCountry = (code: string) => {
     setActiveCountries((prev) => {
@@ -35,12 +38,18 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
   };
 
   const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
     return matches.filter((m) => {
       const okJp = !jpOnly || m.jp_players.length > 0;
       const okCountry = activeCountries.size === 0 || activeCountries.has(m.country_code);
-      return okJp && okCountry;
+      const okQuery =
+        !q ||
+        translateTeamName(m.home_team).toLowerCase().includes(q) ||
+        translateTeamName(m.away_team).toLowerCase().includes(q) ||
+        m.jp_players.some((p) => translatePlayerName(p.name).toLowerCase().includes(q));
+      return okJp && okCountry && okQuery;
     });
-  }, [matches, jpOnly, activeCountries]);
+  }, [matches, jpOnly, activeCountries, query]);
 
   const groups = useMemo(() => groupMatchesByDate(filtered, showPast), [filtered, showPast]);
 
@@ -84,6 +93,14 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
             日本人所属クラブのみ
           </button>
         </div>
+
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="チーム名・選手名で絞り込み"
+          className="w-full max-w-xs rounded-full border border-[var(--line)] bg-[var(--paper-raised)] px-4 py-1.5 text-sm text-[var(--ink)] placeholder:text-[var(--ink-soft)] focus:border-[var(--samurai)] focus:outline-none"
+        />
       </div>
 
       <div className="country-filter-scroll mt-3 flex items-center gap-2 overflow-x-auto pb-1">
