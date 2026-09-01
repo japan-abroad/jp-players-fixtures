@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Oswald, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
@@ -54,6 +54,10 @@ export const metadata: Metadata = {
   verification: {
     google: "tf6wU0rv40e0GuldZwRehsfm2w9l9lE9SYXT6ibiXIc",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1b3a78",
 };
 
 export default function RootLayout({
