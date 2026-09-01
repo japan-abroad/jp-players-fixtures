@@ -51,26 +51,37 @@ _MIN_INTERVAL_SEC = 2.0
 # 全試合を並べる「対象リーグ」表示からのみ漏れる程度の影響に留まる。
 LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     ("イギリス", "プレミアリーグ"): {"name": "プレミアリーグ", "country_code": "eng", "country_ja": "イングランド"},
-    ("イギリス", "プレミアシップ"): {"name": "スコティッシュ・プレミアシップ", "country_code": "sco", "country_ja": "スコットランド"},  # 要検証
-    ("イギリス", "FAカップ"): {"name": "FAカップ", "country_code": "eng", "country_ja": "イングランド"},  # 要検証
-    ("イギリス", "EFLカップ"): {"name": "EFLカップ", "country_code": "eng", "country_ja": "イングランド"},  # 要検証
-    ("イギリス", "スコティッシュカップ"): {"name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},  # 要検証
+    # 2026-09-01 実データで検証済み(セルティック・レンジャーズ等のスコットランド
+    # 勢のみが該当することを確認)。
+    ("イギリス", "プレミアシップ"): {"name": "スコティッシュ・プレミアシップ", "country_code": "sco", "country_ja": "スコットランド"},
+    ("イギリス", "FAカップ"): {"name": "FAカップ", "country_code": "eng", "country_ja": "イングランド"},  # 要検証(該当試合が未観測)
+    # 2026-09-01 実データ検証で発覚: goal.com側は"EFLカップ"ではなく
+    # "EFL カップ"(EFLとカップの間に半角スペース)表記だった。
+    ("イギリス", "EFL カップ"): {"name": "EFLカップ", "country_code": "eng", "country_ja": "イングランド"},
+    # 2026-09-01 実データで確認: スコットランドのリーグカップ(EFLカップに相当)は
+    # "リーグカップ"という名前で、該当試合は全てスコットランド勢だった。
+    ("イギリス", "リーグカップ"): {"name": "スコティッシュ・リーグカップ", "country_code": "sco", "country_ja": "スコットランド"},
+    ("イギリス", "スコティッシュカップ"): {"name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("スペイン", "ラ・リーガ"): {"name": "ラ・リーガ", "country_code": "esp", "country_ja": "スペイン"},
-    ("スペイン", "コパ・デル・レイ"): {"name": "コパ・デル・レイ", "country_code": "esp", "country_ja": "スペイン"},  # 要検証
+    ("スペイン", "コパ・デル・レイ"): {"name": "コパ・デル・レイ", "country_code": "esp", "country_ja": "スペイン"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("ドイツ", "ブンデスリーガ"): {"name": "ブンデスリーガ", "country_code": "ger", "country_ja": "ドイツ"},
-    ("ドイツ", "DFBポカール"): {"name": "DFBポカール", "country_code": "ger", "country_ja": "ドイツ"},  # 要検証
+    # 2026-09-01 実データで検証済み(プロイセン・ミュンスター等の実際の
+    # DFBポカール出場クラブで確認)。
+    ("ドイツ", "DFBポカール"): {"name": "DFBポカール", "country_code": "ger", "country_ja": "ドイツ"},
     ("イタリア", "セリエ A"): {"name": "セリエA", "country_code": "ita", "country_ja": "イタリア"},
-    ("イタリア", "コッパ・イタリア"): {"name": "コッパ・イタリア", "country_code": "ita", "country_ja": "イタリア"},  # 要検証
+    # 2026-09-01 実データで検証済み(ヴィチェンツァ・カターニャ等の実際の
+    # コッパ・イタリア出場クラブで確認)。
+    ("イタリア", "コッパ・イタリア"): {"name": "コッパ・イタリア", "country_code": "ita", "country_ja": "イタリア"},
     ("フランス", "リーグ・アン"): {"name": "リーグ・アン", "country_code": "fra", "country_ja": "フランス"},
-    ("フランス", "クープ・ド・フランス"): {"name": "クープ・ド・フランス", "country_code": "fra", "country_ja": "フランス"},  # 要検証
+    ("フランス", "クープ・ド・フランス"): {"name": "クープ・ド・フランス", "country_code": "fra", "country_ja": "フランス"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("オランダ", "エールディビジ"): {"name": "エールディヴィジ", "country_code": "ned", "country_ja": "オランダ"},
-    ("オランダ", "KNVBベーカー"): {"name": "KNVBベーカー", "country_code": "ned", "country_ja": "オランダ"},  # 要検証
+    ("オランダ", "KNVBベーカー"): {"name": "KNVBベーカー", "country_code": "ned", "country_ja": "オランダ"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("ポルトガル", "リガポルトガル"): {"name": "リーガ・ポルトガル", "country_code": "por", "country_ja": "ポルトガル"},
-    ("ポルトガル", "ポルトガルカップ"): {"name": "ポルトガルカップ", "country_code": "por", "country_ja": "ポルトガル"},  # 要検証
+    ("ポルトガル", "ポルトガルカップ"): {"name": "ポルトガルカップ", "country_code": "por", "country_ja": "ポルトガル"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("ベルギー", "ジュピラー･プロリーグ"): {"name": "ベルギー・プロリーグ", "country_code": "bel", "country_ja": "ベルギー"},
-    ("ベルギー", "ベルギーカップ"): {"name": "ベルギーカップ", "country_code": "bel", "country_ja": "ベルギー"},  # 要検証
+    ("ベルギー", "ベルギーカップ"): {"name": "ベルギーカップ", "country_code": "bel", "country_ja": "ベルギー"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("トルコ", "スーパーリグ"): {"name": "スュペル・リグ", "country_code": "tur", "country_ja": "トルコ"},
-    ("トルコ", "トルコカップ"): {"name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},  # 要検証
+    ("トルコ", "トルコカップ"): {"name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},  # 要検証(該当試合が未観測、開催時期が遅いため)
 }
 
 # goal.com側の表記がサッカーキング側(jp_clubs.jsonのteam_name_ja)と
