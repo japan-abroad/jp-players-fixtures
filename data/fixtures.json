@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-02T12:21:00.304763+00:00",
+  "fetched_at": "2026-09-02T18:15:52.592265+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -7554,15 +7554,15 @@
       "country_code": "ita",
       "country_ja": "イタリア",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "6tuibxq39fdryu8ou06wcm0q3",
       "home_team": "サッスオーロ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4btO5zas2N3AH8Y_DRG6b.png",
-      "home_score": null,
+      "home_score": 1,
       "away_team_id": "5khizzei8z0qbb7exz622wxw3",
       "away_team": "フロジノーネ",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sUJTU4hCC48T7kgLbTnXR.png",
-      "away_score": null,
+      "away_score": 1,
       "jp_players": []
     },
     {
@@ -7573,15 +7573,15 @@
       "country_code": "ita",
       "country_ja": "イタリア",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "dxq76zcvnokq07cszdx0i6kve",
       "home_team": "ウディネーゼ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/55ilL8H7D1Fy1Y4nycklh.png",
-      "home_score": null,
+      "home_score": 2,
       "away_team_id": "565sm63rjm2y7xeae0dcdbtnu",
       "away_team": "ヴェネツィア",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_HFoWwEpcDH8C3E5QnZNN.png",
-      "away_score": null,
+      "away_score": 1,
       "jp_players": []
     },
     {
@@ -9028,7 +9028,7 @@
     {
       "fixture_id": "WgktFuMOxNdHtW7Eq79UZ",
       "kickoff_utc": "2026-09-05T16:30:00.000Z",
-      "venue": "Campo de Futbol de Vallecas",
+      "venue": "Estadio Butarque",
       "league_name": "ラ・リーガ",
       "country_code": "esp",
       "country_ja": "スペイン",
