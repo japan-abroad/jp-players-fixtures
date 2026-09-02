@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ClubMatchesList from "@/components/ClubMatchesList";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
@@ -77,6 +78,7 @@ export default async function PlayerPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(person) }}
       />
+      <Breadcrumbs items={breadcrumb.itemListElement.map((i) => ({ name: i.name, url: i.item }))} />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
           <Image
