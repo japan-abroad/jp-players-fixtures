@@ -6,6 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
+import { toJstDateLabel } from "@/lib/time";
 import {
   matchesToSportsEventJsonLd,
   breadcrumbJsonLd,
@@ -27,9 +28,17 @@ export async function generateMetadata({
   if (!player) return {};
   const clubNameJa = translateTeamName(player.club.team_name);
   const playerNameJa = translatePlayerName(player.name);
+
+  const nextMatch = player.club.matches
+    .filter((m) => new Date(m.kickoff_utc).getTime() >= Date.now())
+    .sort((a, b) => new Date(a.kickoff_utc).getTime() - new Date(b.kickoff_utc).getTime())[0];
+  const description = nextMatch
+    ? `${playerNameJa}(${clubNameJa})の次の試合は${toJstDateLabel(nextMatch.kickoff_utc)}、${translateTeamName(nextMatch.home_team)} vs ${translateTeamName(nextMatch.away_team)}。日本時間での試合日程・出場予定をチェック。`
+    : `${clubNameJa}(${player.club.league_name})所属${playerNameJa}の次の試合はいつ？日本時間での試合日程・出場予定をチェック。`;
+
   return {
     title: `${playerNameJa}の次の試合はいつ？出場予定 | 日本人選手フットボール便`,
-    description: `${clubNameJa}(${player.club.league_name})所属${playerNameJa}の次の試合はいつ？日本時間での試合日程・出場予定をチェック。`,
+    description,
     alternates: {
       canonical: `${SITE_URL}/players/${playerSlug}/`,
     },
@@ -53,6 +62,9 @@ export default async function PlayerPage({
     `${SITE_URL}/players/${player.slug}/`
   );
   const playerNameJa = translatePlayerName(player.name);
+  const relatedPlayers = getAllPlayers().filter(
+    (p) => p.club.league_name === player.club.league_name && p.slug !== player.slug
+  );
   const breadcrumb = breadcrumbJsonLd([
     { name: "試合日程", url: `${SITE_URL}/` },
     { name: translateTeamName(player.club.team_name), url: `${SITE_URL}/clubs/${player.club.team_id}/` },
@@ -114,6 +126,25 @@ export default async function PlayerPage({
         <div className="mt-4">
           <ClubMatchesList matches={player.club.matches} />
         </div>
+
+        {relatedPlayers.length > 0 && (
+          <>
+            <h2 className="mt-10 border-b border-[var(--line)] pb-2 font-display text-lg font-semibold uppercase tracking-tight text-[var(--ink)]">
+              {player.club.league_name}の他の日本人選手
+            </h2>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {relatedPlayers.map((p) => (
+                <Link
+                  key={p.slug}
+                  href={`/players/${p.slug}/`}
+                  className="rounded-full bg-[var(--samurai)]/10 px-4 py-1.5 text-sm font-semibold text-[var(--samurai)] hover:bg-[var(--samurai)]/20"
+                >
+                  {translatePlayerName(p.name)}({translateTeamName(p.club.team_name)})
+                </Link>
+              ))}
+            </div>
+          </>
+        )}
       </section>
     </div>
   );
