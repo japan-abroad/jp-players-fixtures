@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-02T06:21:57.492141+00:00",
+  "fetched_at": "2026-09-02T12:19:05.166483+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -883,7 +883,7 @@
           "country_code": "",
           "country_ja": "イギリス",
           "round": null,
-          "status": "POSTPONED",
+          "status": "FIXTURE",
           "home_team_id": "ep3im6aygoatju4u3ws8v3mog",
           "home_team": "ブラックバーン・ローヴァーズ",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u7Gp7D-Cijc3qF4FHHeEt.png",
@@ -10597,7 +10597,7 @@
       "country_code": "",
       "country_ja": "イギリス",
       "round": null,
-      "status": "POSTPONED",
+      "status": "FIXTURE",
       "home_team_id": "ep3im6aygoatju4u3ws8v3mog",
       "home_team": "ブラックバーン・ローヴァーズ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u7Gp7D-Cijc3qF4FHHeEt.png",
