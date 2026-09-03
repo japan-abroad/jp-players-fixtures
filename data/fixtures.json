@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T12:18:03.431321+00:00",
+  "fetched_at": "2026-09-03T18:15:19.983686+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -1792,30 +1792,6 @@
           "away_team": "ソナーリュースケ",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZbCdjqr6HrCLSd246aesE.png",
           "away_score": 1,
-          "jp_players": [
-            {
-              "name": "鈴木淳之介",
-              "team_id": 400
-            }
-          ]
-        },
-        {
-          "fixture_id": "zJ6d9PVqkUqeoHusqyJ1k",
-          "kickoff_utc": "2026-09-03T18:00:00.000Z",
-          "venue": "Parken",
-          "league_name": "スーパーリーガ",
-          "country_code": "",
-          "country_ja": "デンマーク",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "b3r6d8ydtmtjckam6pku9y400",
-          "home_team": "コペンハーゲン",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
-          "home_score": null,
-          "away_team_id": "77tfx9me4aaqhzv78bmgsy9bg",
-          "away_team": "ノアシェラン",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/epUz-4Ys2oUs0PcIDMkTJ.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "鈴木淳之介",
@@ -7771,40 +7747,16 @@
       "country_code": "ita",
       "country_ja": "イタリア",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "2ungwfinfq61qrc6py1skd7ds",
       "home_team": "パレルモ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/L7-Wx8KST2Vblm06HCTOB.png",
-      "home_score": null,
+      "home_score": 5,
       "away_team_id": "r8fzkdrr5wh39uknwekrkr2",
       "away_team": "マントヴァ",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/8zw7KdKrgEAUn5xsyC9R3.png",
-      "away_score": null,
+      "away_score": 2,
       "jp_players": []
-    },
-    {
-      "fixture_id": "zJ6d9PVqkUqeoHusqyJ1k",
-      "kickoff_utc": "2026-09-03T18:00:00.000Z",
-      "venue": "Parken",
-      "league_name": "スーパーリーガ",
-      "country_code": "",
-      "country_ja": "デンマーク",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "b3r6d8ydtmtjckam6pku9y400",
-      "home_team": "コペンハーゲン",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
-      "home_score": null,
-      "away_team_id": "77tfx9me4aaqhzv78bmgsy9bg",
-      "away_team": "ノアシェラン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/epUz-4Ys2oUs0PcIDMkTJ.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "鈴木淳之介",
-          "team_id": 400
-        }
-      ]
     },
     {
       "fixture_id": "ZfpLdBffk4QycUM2ZLPmL",
