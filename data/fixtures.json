@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T00:20:49.734077+00:00",
+  "fetched_at": "2026-09-03T06:17:45.523633+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -4534,15 +4534,15 @@
           "country_code": "",
           "country_ja": "カナダ",
           "round": null,
-          "status": "FIXTURE",
+          "status": "RESULT",
           "home_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
           "home_team": "バンクーバー ホワイトキャップス",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
-          "home_score": null,
+          "home_score": 1,
           "away_team_id": "oisd4xgg4qxt18c7tikdejbe",
           "away_team": "CFモントリオール",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2f1YM2mtMNYoPPWxA09JR.png",
-          "away_score": null,
+          "away_score": 1,
           "jp_players": [
             {
               "name": "高丘陽平",
@@ -7747,15 +7747,15 @@
       "country_code": "",
       "country_ja": "カナダ",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
       "home_team": "バンクーバー ホワイトキャップス",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
-      "home_score": null,
+      "home_score": 1,
       "away_team_id": "oisd4xgg4qxt18c7tikdejbe",
       "away_team": "CFモントリオール",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2f1YM2mtMNYoPPWxA09JR.png",
-      "away_score": null,
+      "away_score": 1,
       "jp_players": [
         {
           "name": "高丘陽平",
