@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T06:17:45.523633+00:00",
+  "fetched_at": "2026-09-03T12:18:03.431321+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -9528,6 +9528,25 @@
           "team_id": 1603
         }
       ]
+    },
+    {
+      "fixture_id": "XouRLI70twiuJ1VQdtfUu",
+      "kickoff_utc": "2026-09-06T10:15:00.000Z",
+      "venue": "Euroborg",
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "cos9hxi16eitbcbthof7zrm4m",
+      "home_team": "フローニンゲン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FwP7hI5xSoNYboNFSWQ55.png",
+      "home_score": null,
+      "away_team_id": "4tic29sox7m39fy1ztgv0jsiq",
+      "away_team": "トゥウェンテ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nYmTDwICD9XzZcgS7yu6t.png",
+      "away_score": null,
+      "jp_players": []
     },
     {
       "fixture_id": "PM_P3MD7N8X_yvacQ1Mg4",
