@@ -228,6 +228,15 @@ _NON_FIRST_TEAM_SUFFIX_RE = re.compile(r"(B|II|U1[0-9]|U2[0-9])$")
 # フォールバックを無効化し、完全一致のみ許可する。
 _FUZZY_UNSAFE_COMPETITION_RE = re.compile(r"予選")
 
+# 前方一致/後方一致では区別できない無関係チームの個別除外(判明したものから
+# 追加)。2026-09-06発覚: ベルギー2部相当"チャレンジャー・プロ・リーグ"に
+# 実在する"Lierse Kempenzonen"の日本語表記"リールセケンペンゾーネン"が、
+# "リール"(Lille, フランス)の前方一致に誤ってヒットし、上田綺世の試合日程に
+# 無関係なベルギーの試合が紛れ込んでいた。
+_FUZZY_EXCLUDE_NAMES = {
+    "リールセケンペンゾーネン",
+}
+
 
 def _is_first_team_name(name: str) -> bool:
     name_lower = name.lower()
@@ -238,6 +247,8 @@ def _is_first_team_name(name: str) -> bool:
 
 def _find_club(name: str, club_by_norm_name: dict[str, dict], *, allow_fuzzy: bool) -> dict | None:
     if not _is_first_team_name(name):
+        return None
+    if name in _FUZZY_EXCLUDE_NAMES:
         return None
     name_norm = _normalize_name(name)
     exact = club_by_norm_name.get(name_norm)
