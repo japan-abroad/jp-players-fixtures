@@ -58,7 +58,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
       <div className="flex flex-wrap items-center gap-3">
         <div className="flex overflow-hidden rounded-full border border-[var(--line)]">
           <button
-            className={`px-4 py-1.5 text-xs font-bold ${
+            className={`px-4 py-3 sm:py-1.5 text-xs font-bold ${
               !showPast ? "bg-[var(--samurai)] text-white" : "bg-white text-[var(--ink-soft)]"
             }`}
             onClick={() => setShowPast(false)}
@@ -66,7 +66,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
             今後の試合
           </button>
           <button
-            className={`px-4 py-1.5 text-xs font-bold ${
+            className={`px-4 py-3 sm:py-1.5 text-xs font-bold ${
               showPast ? "bg-[var(--samurai)] text-white" : "bg-white text-[var(--ink-soft)]"
             }`}
             onClick={() => setShowPast(true)}
@@ -77,7 +77,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
 
         <div className="flex overflow-hidden rounded-full border border-[var(--line)]">
           <button
-            className={`px-4 py-1.5 text-xs font-bold ${
+            className={`px-4 py-3 sm:py-1.5 text-xs font-bold ${
               !jpOnly ? "bg-[var(--samurai)] text-white" : "bg-white text-[var(--ink-soft)]"
             }`}
             onClick={() => setJpOnly(false)}
@@ -85,7 +85,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
             全試合
           </button>
           <button
-            className={`px-4 py-1.5 text-xs font-bold ${
+            className={`px-4 py-3 sm:py-1.5 text-xs font-bold ${
               jpOnly ? "bg-[var(--samurai)] text-white" : "bg-white text-[var(--ink-soft)]"
             }`}
             onClick={() => setJpOnly(true)}
@@ -107,7 +107,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
         {COUNTRIES.map((c) => (
           <button
             key={c.code}
-            className="chip-btn"
+            className={`chip-btn${activeCountries.has(c.code) ? " active" : ""}`}
             style={
               activeCountries.has(c.code)
                 ? { backgroundColor: countryColor(c.code), borderColor: "transparent" }

@@ -12,14 +12,14 @@ export default function SiteHeader() {
             日本人選手フットボール便
           </span>
         </Link>
-        <nav className="flex items-center gap-4 text-sm font-medium text-[var(--ink-soft)]">
-          <Link href="/" className="hover:text-[var(--samurai)]">
+        <nav className="flex items-center gap-3 text-sm font-medium text-[var(--ink-soft)]">
+          <Link href="/" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
             試合日程
           </Link>
-          <Link href="/clubs" className="hover:text-[var(--samurai)]">
+          <Link href="/clubs" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
             クラブ一覧
           </Link>
-          <Link href="/players" className="hover:text-[var(--samurai)]">
+          <Link href="/players" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
             選手一覧
           </Link>
         </nav>

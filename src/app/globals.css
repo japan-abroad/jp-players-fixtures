@@ -64,6 +64,7 @@ body {
 .match-row {
   display: grid;
   grid-template-columns: 6.5rem 10.5rem 3.5rem minmax(0, 1fr) 5.5rem;
+  grid-template-areas: "country league time matchup players";
   align-items: center;
   gap: 0.6rem 0.75rem;
   padding: 0.6rem 0.75rem;
@@ -74,7 +75,24 @@ body {
   margin-bottom: 0.4rem;
 }
 
+.row-country {
+  grid-area: country;
+}
+
+.row-league {
+  grid-area: league;
+}
+
+.row-time {
+  grid-area: time;
+}
+
+.row-players {
+  grid-area: players;
+}
+
 .matchup {
+  grid-area: matchup;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
@@ -226,4 +244,50 @@ body {
 .chip-btn:not(.active):hover {
   border-color: var(--samurai);
   color: var(--samurai);
+}
+
+@media (max-width: 640px) {
+  .match-row {
+    grid-template-columns: minmax(4.5rem, 7rem) minmax(3.5rem, 6.5rem) 1fr;
+    grid-template-areas:
+      "country league time"
+      "matchup matchup matchup"
+      "players players players";
+    row-gap: 0.4rem;
+  }
+
+  .matchup {
+    width: auto;
+    justify-self: stretch;
+  }
+
+  .row-time {
+    justify-self: end;
+  }
+
+  .row-players {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-self: start;
+  }
+
+  .chip-btn {
+    padding: 0.7rem 0.9rem;
+  }
+
+  .jp-player-badge {
+    display: inline-block;
+    padding: 0.5rem 0;
+  }
+
+  .team {
+    align-items: flex-start;
+  }
+
+  .team span {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
 }

@@ -22,15 +22,15 @@ export default function MatchRow({ match }: { match: Match }) {
       id={`match-${match.fixture_id}`}
     >
       <span
-        className="country-chip shrink-0"
+        className="country-chip row-country shrink-0"
         style={{ backgroundColor: countryColor(match.country_code) }}
       >
         {match.country_ja}
       </span>
 
-      <span className="league-chip shrink-0">{match.league_name}</span>
+      <span className="league-chip row-league shrink-0">{match.league_name}</span>
 
-      <div className="font-mono text-[0.9375rem] font-bold text-[var(--samurai)] tabular-nums shrink-0">
+      <div className="row-time font-mono text-[0.9375rem] font-bold text-[var(--samurai)] tabular-nums shrink-0">
         {hasScore ? "終了" : STATUS_LABEL_JA[match.status] ?? toJstTime(match.kickoff_utc)}
       </div>
 
@@ -70,7 +70,7 @@ export default function MatchRow({ match }: { match: Match }) {
         </div>
       </div>
 
-      <div className="flex flex-col items-end gap-0.5 shrink-0">
+      <div className="row-players flex flex-col items-end gap-0.5 shrink-0">
         {match.jp_players.map((p) => (
           <Link
             key={p.name}
