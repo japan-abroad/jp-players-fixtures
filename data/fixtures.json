@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T00:21:48.008260+00:00",
+  "fetched_at": "2026-09-06T01:18:28.870801+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -371,30 +371,6 @@
           "away_team": "アトランタ",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_OTcQKrLz_JHXHQwF9QOs.png",
           "away_score": 1,
-          "jp_players": [
-            {
-              "name": "富樫敬真",
-              "team_id": 1608
-            }
-          ]
-        },
-        {
-          "fixture_id": "FPsBqWhppTdA_D-KEfZaa",
-          "kickoff_utc": "2026-09-05T23:30:00.000Z",
-          "venue": "Nu Stadium",
-          "league_name": "MLS",
-          "country_code": "",
-          "country_ja": "アメリカ合衆国",
-          "round": null,
-          "status": "POSTPONED",
-          "home_team_id": "7a7uyvix8axi28h7d3bwl4tbe",
-          "home_team": "インテルマイアミCF",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eP7VUfiow48_R8A-w2ADb.png",
-          "home_score": null,
-          "away_team_id": "943ue6l8ylnidoygbi9p8op2h",
-          "away_team": "アトランタユナイテッド",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "富樫敬真",
@@ -1455,13 +1431,13 @@
       "matches": [
         {
           "fixture_id": "wsObYktGE4dTSF221kG0D",
-          "kickoff_utc": "2026-09-05T23:30:00.000Z",
+          "kickoff_utc": "2026-09-06T01:30:00.000Z",
           "venue": "TQL Stadium",
           "league_name": "MLS",
           "country_code": "",
           "country_ja": "アメリカ合衆国",
           "round": null,
-          "status": "POSTPONED",
+          "status": "FIXTURE",
           "home_team_id": "652hppivbqchvrp3wopx1isyt",
           "home_team": "FCシンシナティ",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
@@ -7834,13 +7810,13 @@
     },
     {
       "fixture_id": "wsObYktGE4dTSF221kG0D",
-      "kickoff_utc": "2026-09-05T23:30:00.000Z",
+      "kickoff_utc": "2026-09-06T01:30:00.000Z",
       "venue": "TQL Stadium",
       "league_name": "MLS",
       "country_code": "",
       "country_ja": "アメリカ合衆国",
       "round": null,
-      "status": "POSTPONED",
+      "status": "FIXTURE",
       "home_team_id": "652hppivbqchvrp3wopx1isyt",
       "home_team": "FCシンシナティ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
@@ -7857,30 +7833,6 @@
         {
           "name": "黒川圭介",
           "team_id": 1615
-        }
-      ]
-    },
-    {
-      "fixture_id": "FPsBqWhppTdA_D-KEfZaa",
-      "kickoff_utc": "2026-09-05T23:30:00.000Z",
-      "venue": "Nu Stadium",
-      "league_name": "MLS",
-      "country_code": "",
-      "country_ja": "アメリカ合衆国",
-      "round": null,
-      "status": "POSTPONED",
-      "home_team_id": "7a7uyvix8axi28h7d3bwl4tbe",
-      "home_team": "インテルマイアミCF",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eP7VUfiow48_R8A-w2ADb.png",
-      "home_score": null,
-      "away_team_id": "943ue6l8ylnidoygbi9p8op2h",
-      "away_team": "アトランタユナイテッド",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "富樫敬真",
-          "team_id": 1608
         }
       ]
     },
