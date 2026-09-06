@@ -26,7 +26,7 @@ from config import COUNTRY_JA, COUNTRY_TOP_LEAGUE_JA, FREE_PLAN_SEASON
 # 育成年代・リザーブ・女子チームの命名によく含まれるトークン。検索結果に
 # トップチームとこれらが混在する場合、誤ってこちらを拾わないよう除外する。
 _NON_FIRST_TEAM_RE = re.compile(
-    r"(?:^|\s)(U1[0-9]|U2[0-3]|U9|II|III|IV|B|W|2|Youth|Yth|Reserves?|Fem\w*|Women|Ladies|Girls|Jugend|Jeugd)(?:$|\s)",
+    r"(?:^|\s)(U1[0-9]|U2[0-3]|U9|II|III|IV|B|W|2|Youth|Yth|Reserves?|Res\.?|Fem\w*|Women|Ladies|Girls|Jugend|Jeugd)(?:$|\s)",
     re.IGNORECASE,
 )
 
@@ -65,6 +65,15 @@ _MANUAL_QUERY_OVERRIDES = {
     # 似ているため類似度判定で誤って一致してしまった(2026-08-30発覚、
     # 本来はベルギーのSt. Truiden)。
     "Sint-Truidense": "Truiden",
+    # "Olympique Lyonnais"の一般的略称"Lyonnais"だけで検索すると無関係な
+    # 弱小クラブ"Val Lyonnais"に誤ヒットする(API-Football側の正式登録名は
+    # 単に"Lyon")。2026-09-06発覚。
+    "Olympique Lyonnais": "Lyon",
+    # "Bolton Wanderers"で検索するとレギュラーの"Bolton"がヒットせず
+    # リザーブチーム表記("Res.")のみ返る(2026-09-06発覚、除外正規表現に
+    # "Res."追加で対応済みだが、そもそも"Bolton Wanderers"というクエリでは
+    # 一軍"Bolton"がAPI検索結果に出てこないため明示指定する)。
+    "Bolton Wanderers F.C.": "Bolton",
     # 注意: "F.C. Bayern Munich"(男子トップチームはドイツ語表記"München"で
     # 登録されている)はここでは解決できない — "München"はAPIの検索クエリ
     # (英数字とスペースのみ許可)に使えず、"Bayern"単体だと無関係な弱小クラブ

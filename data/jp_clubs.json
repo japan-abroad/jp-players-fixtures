@@ -199,6 +199,21 @@
       ]
     },
     {
+      "team_id": 68,
+      "team_name": "Bolton",
+      "team_name_ja": "ボルトン・ワンダラーズ",
+      "logo": "https://media.api-sports.io/football/teams/68.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "players": [
+        {
+          "name": "伊藤敦樹",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 163,
       "team_name": "Borussia Mönchengladbach",
       "team_name_ja": "ボルシアMG",
@@ -207,6 +222,10 @@
       "country_code": "ger",
       "country_ja": "ドイツ",
       "players": [
+        {
+          "name": "板倉滉",
+          "position": null
+        },
         {
           "name": "町野修斗",
           "position": null
@@ -217,10 +236,6 @@
         },
         {
           "name": "橋岡大樹",
-          "position": null
-        },
-        {
-          "name": "板倉滉",
           "position": null
         }
       ]
@@ -256,16 +271,31 @@
       ]
     },
     {
-      "team_id": 247,
-      "team_name": "Celtic",
-      "team_name_ja": "セルティック",
-      "logo": "https://media.api-sports.io/football/teams/247.png",
-      "league_name": "スコティッシュ・プレミアシップ",
-      "country_code": "sco",
-      "country_ja": "スコットランド",
+      "team_id": 44,
+      "team_name": "Burnley",
+      "team_name_ja": "バーンリー",
+      "logo": "https://media.api-sports.io/football/teams/44.png",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
       "players": [
         {
           "name": "旗手怜央",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 490,
+      "team_name": "Cagliari",
+      "team_name_ja": "カリアリ",
+      "logo": "https://media.api-sports.io/football/teams/490.png",
+      "league_name": "セリエA",
+      "country_code": "ita",
+      "country_ja": "イタリア",
+      "players": [
+        {
+          "name": "菅原由勢",
           "position": null
         }
       ]
@@ -401,15 +431,30 @@
       "country_ja": "ドイツ",
       "players": [
         {
+          "name": "原大智",
+          "position": null
+        },
+        {
           "name": "藤田譲瑠チマ",
           "position": null
         },
         {
           "name": "安藤智哉",
           "position": null
-        },
+        }
+      ]
+    },
+    {
+      "team_id": 598,
+      "team_name": "FK Crvena Zvezda",
+      "team_name_ja": "ツルヴェナ・ズヴェズダ",
+      "logo": "https://media.api-sports.io/football/teams/598.png",
+      "league_name": "スーパーリーグ・セルビア",
+      "country_code": "ser",
+      "country_ja": "セルビア",
+      "players": [
         {
-          "name": "原大智",
+          "name": "中山雄太",
           "position": null
         }
       ]
@@ -444,10 +489,6 @@
       "players": [
         {
           "name": "渡辺剛",
-          "position": null
-        },
-        {
-          "name": "上田綺世",
           "position": null
         }
       ]
@@ -486,10 +527,6 @@
       "players": [
         {
           "name": "佃颯太",
-          "position": null
-        },
-        {
-          "name": "伊藤敦樹",
           "position": null
         }
       ]
@@ -669,6 +706,21 @@
       ]
     },
     {
+      "team_id": 79,
+      "team_name": "Lille",
+      "team_name_ja": "リール",
+      "logo": "https://media.api-sports.io/football/teams/79.png",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "players": [
+        {
+          "name": "上田綺世",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 40,
       "team_name": "Liverpool",
       "team_name_ja": "リヴァプール",
@@ -694,6 +746,21 @@
       "players": [
         {
           "name": "吉田麻也",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 80,
+      "team_name": "Lyon",
+      "team_name_ja": "リヨン",
+      "logo": "https://media.api-sports.io/football/teams/80.png",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "players": [
+        {
+          "name": "中村敬斗",
           "position": null
         }
       ]
@@ -831,21 +898,6 @@
       ]
     },
     {
-      "team_id": 93,
-      "team_name": "Reims",
-      "team_name_ja": "スタッド・ランス",
-      "logo": "https://media.api-sports.io/football/teams/93.png",
-      "league_name": "リーグ・アン",
-      "country_code": "fra",
-      "country_ja": "フランス",
-      "players": [
-        {
-          "name": "中村敬斗",
-          "position": null
-        }
-      ]
-    },
-    {
       "team_id": 160,
       "team_name": "SC Freiburg",
       "team_name_ja": "フライブルク",
@@ -912,10 +964,6 @@
       "country_ja": "イングランド",
       "players": [
         {
-          "name": "菅原由勢",
-          "position": null
-        },
-        {
           "name": "松木玖生",
           "position": null
         }
@@ -946,6 +994,10 @@
       "country_ja": "ベルギー",
       "players": [
         {
+          "name": "高井幸大",
+          "position": null
+        },
+        {
           "name": "荒木遼太郎",
           "position": null
         },
@@ -975,21 +1027,6 @@
         },
         {
           "name": "伊藤涼太郎",
-          "position": null
-        }
-      ]
-    },
-    {
-      "team_id": 47,
-      "team_name": "Tottenham",
-      "team_name_ja": "トッテナム・ホットスパー",
-      "logo": "https://media.api-sports.io/football/teams/47.png",
-      "league_name": "プレミアリーグ",
-      "country_code": "eng",
-      "country_ja": "イングランド",
-      "players": [
-        {
-          "name": "高井幸大",
           "position": null
         }
       ]
