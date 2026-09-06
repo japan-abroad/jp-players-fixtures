@@ -490,6 +490,10 @@
         {
           "name": "川﨑颯太",
           "position": null
+        },
+        {
+          "name": "川崎颯太",
+          "position": null
         }
       ]
     },
@@ -822,18 +826,7 @@
         {
           "name": "荻原拓也",
           "position": null
-        }
-      ]
-    },
-    {
-      "team_id": 260,
-      "team_name": "OH Leuven",
-      "team_name_ja": "OHルーベン",
-      "logo": "https://media.api-sports.io/football/teams/260.png",
-      "league_name": "ベルギー・プロリーグ",
-      "country_code": "bel",
-      "country_ja": "ベルギー",
-      "players": [
+        },
         {
           "name": "山田新",
           "position": null

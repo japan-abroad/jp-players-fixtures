@@ -4,12 +4,22 @@ name: Discover clubs with Japanese players
 # 「海外クラブ在籍日本人選手」一覧をスクレイピングし(APIクオータ消費なし)、
 # 得られたクラブ名をAPI-Footballでteam_idに解決する(クラブ数分のリクエスト、
 # 一度解決したクラブは data/team_id_cache.json に永続キャッシュされ再解決不要)。
-# 移籍市場が動いた後などに手動で実行する想定。resolve_jp_clubs.pyが
-# 残りクオータを自動検出して安全な範囲で実行するため、1回で終わらなければ
-# 同じワークフローをもう一度手動実行すれば続きから再開する。
+# resolve_jp_clubs.pyが残りクオータを自動検出して安全な範囲で実行するため、
+# 1回で終わらなければ同じワークフローをもう一度実行すれば続きから再開する。
+#
+# 2026-09-06追加: soccer-king.jpは移籍報道から掲載までのタイムラグが
+# 数週間〜数ヶ月に及ぶことがある(佐藤龍之介のバレンシア加入が2ヶ月未掲載
+# だった事例で発覚)。ゲキサカ「海外組ガイド」(主要7リーグのみだが反映が
+# 速い)を第2ソースとして追加し、突合で補完する。ゲキサカ側の取得自体は
+# APIクオータを消費しないため、この第2ソースの鮮度を活かすべく週次の
+# 自動実行(cron)も追加した。
 
 on:
   workflow_dispatch:
+  schedule:
+    # 毎週月曜3:00 UTC(日本時間12:00)。API-Footballクオータは新規クラブが
+    # 出た場合のみ消費するため、週次実行でも安全マージン内に収まる想定。
+    - cron: "0 3 * * 1"
 
 jobs:
   discover:
@@ -27,6 +37,9 @@ jobs:
       - name: Scrape Japanese players list from soccer-king.jp
         run: python scripts/scrape_jp_clubs.py
 
+      - name: Scrape Japanese players list from gekisaka.jp (supplementary)
+        run: python scripts/scrape_gekisaka_players.py
+
       - name: Resolve club names to API-Football team IDs
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -36,6 +49,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/soccerking_players.json data/team_id_cache.json data/jp_clubs.json
+          git add data/soccerking_players.json data/gekisaka_players.json data/team_id_cache.json data/jp_clubs.json
           git diff --cached --quiet || git commit -m "chore: update jp_clubs discovery data"
           git push || true

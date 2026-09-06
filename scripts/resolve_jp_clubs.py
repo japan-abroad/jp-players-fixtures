@@ -123,6 +123,41 @@ OUTPUT_PATH = DATA_DIR / "jp_clubs.json"
 # 報道で移籍を確認したうえで追加すること。
 MANUAL_PLAYERS_PATH = DATA_DIR / "manual_players.json"
 
+# scrape_gekisaka_players.py(ゲキサカ「海外組ガイド」、主要7リーグのみ)の
+# 出力。soccer-kingより移籍反映が速い傾向があり、2026-09-06に佐藤龍之介
+# (バレンシア)ほか2名の掲載漏れを補完できることを確認したため、
+# 自動突合する第2ソースとして追加(2026-09-06)。
+GEKISAKA_PLAYERS_PATH = DATA_DIR / "gekisaka_players.json"
+
+# ゲキサカ側のクラブ表記が中黒有無・「ヴ/ビ」表記ゆれの正規化だけでは
+# soccer-king側の既存クラブ名に一致しない既知のケース。ゲキサカのクラブ名
+# (表記そのまま) -> soccer-king側の既存club_name_ja。ここで解決できれば
+# 別クラブとして重複登録されるのを防げる(2026-09-06発覚: "アントワープ"が
+# 正規化しても"ロイヤル・アントワープ"と一致せず、同じチームが2件の
+# クラブとして重複表示される事故があった)。
+GEKISAKA_CLUB_JA_ALIASES: dict[str, str] = {
+    "アントワープ": "ロイヤル・アントワープ",
+    "アストン・ビラ": "アストン・ヴィラ",
+    "コベントリー": "コヴェントリー",
+    "ル・アーブル": "ル・アーヴル",
+    "ルーベン": "ルーヴェン",
+    "ソシエダ": "レアル・ソシエダ",
+}
+
+# soccer-king側に該当クラブがそもそも存在しない場合の、ゲキサカのクラブ名
+# (表記そのまま) -> API-Football検索用の英語名。
+GEKISAKA_CLUB_EN_OVERRIDES: dict[str, str] = {
+    "サンジロワーズ": "Union Saint-Gilloise",
+    "シャルルロワ": "Charleroi",
+    "バレンシア": "Valencia",
+}
+
+
+def _normalize_club_ja(name: str) -> str:
+    for ch in "・ ":
+        name = name.replace(ch, "")
+    return name
+
 
 def _load_json(path: Path, fallback):
     if not path.exists():
@@ -242,6 +277,35 @@ def main(max_requests: int | None) -> None:
         existing = players_by_club_ja.setdefault(m["club_name_ja"], [])
         if not any(p["name"] == m["name_ja"] for p in existing):
             existing.append({"name": m["name_ja"], "position": None})
+
+    # ゲキサカ「海外組ガイド」との突合。soccer-king側に無い選手・クラブを
+    # 補完する(中黒・表記ゆれは正規化して既存クラブに寄せ、それでも
+    # 一致しない場合はGEKISAKA_CLUB_EN_OVERRIDESで解決する)。
+    norm_to_club_ja = {_normalize_club_ja(k): k for k in club_name_map}
+    for gp in _load_json(GEKISAKA_PLAYERS_PATH, {}).get("players", []):
+        gk_club_ja = gp["club_name_ja"]
+        target_club_ja = norm_to_club_ja.get(_normalize_club_ja(gk_club_ja))
+        if target_club_ja is None and gk_club_ja in GEKISAKA_CLUB_JA_ALIASES:
+            target_club_ja = norm_to_club_ja.get(
+                _normalize_club_ja(GEKISAKA_CLUB_JA_ALIASES[gk_club_ja])
+            )
+        if target_club_ja is None:
+            name_en = GEKISAKA_CLUB_EN_OVERRIDES.get(gk_club_ja)
+            if name_en is None:
+                print(
+                    f"  注意: ゲキサカのクラブ「{gk_club_ja}」がsoccer-king側・"
+                    f"GEKISAKA_CLUB_EN_OVERRIDESのどちらにも一致しません "
+                    f"({gp['name_ja']})。resolve_jp_clubs.pyにオーバーライドを追加してください。",
+                    file=sys.stderr,
+                )
+                continue
+            target_club_ja = gk_club_ja
+            club_name_map.setdefault(target_club_ja, name_en)
+            norm_to_club_ja[_normalize_club_ja(target_club_ja)] = target_club_ja
+        existing = players_by_club_ja.setdefault(target_club_ja, [])
+        if not any(p["name"] == gp["name_ja"] for p in existing):
+            existing.append({"name": gp["name_ja"], "position": None})
+            print(f"  ゲキサカから補完: {gp['name_ja']} ({target_club_ja})")
 
     cache: dict[str, dict] = _load_json(CACHE_PATH, {})
 

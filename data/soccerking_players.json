@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-06T07:56:38.203561+00:00",
+  "scraped_at": "2026-09-06T09:16:40.487563+00:00",
   "source_url": "https://www.soccer-king.jp/league/japanese",
   "players": [
     {
@@ -99,10 +99,6 @@
       "club_name_ja": "ダルムシュタット"
     },
     {
-      "name_ja": "田中聡",
-      "club_name_ja": "シャルケ"
-    },
-    {
       "name_ja": "町田浩樹",
       "club_name_ja": "ホッフェンハイム"
     },
@@ -113,6 +109,10 @@
     {
       "name_ja": "川﨑颯太",
       "club_name_ja": "マインツ"
+    },
+    {
+      "name_ja": "田中聡",
+      "club_name_ja": "シャルケ"
     },
     {
       "name_ja": "伊藤洋輝",
@@ -227,20 +227,20 @@
       "club_name_ja": "コペンハーゲン"
     },
     {
-      "name_ja": "市原吏音",
-      "club_name_ja": "AZ"
-    },
-    {
-      "name_ja": "毎熊晟矢",
-      "club_name_ja": "AZ"
-    },
-    {
       "name_ja": "渡辺剛",
       "club_name_ja": "フェイエノールト"
     },
     {
       "name_ja": "佐野航大",
       "club_name_ja": "PSV"
+    },
+    {
+      "name_ja": "市原吏音",
+      "club_name_ja": "AZ"
+    },
+    {
+      "name_ja": "毎熊晟矢",
+      "club_name_ja": "AZ"
     },
     {
       "name_ja": "木村誠二",
@@ -420,10 +420,10 @@
     "バイエルン": "F.C. Bayern Munich",
     "ボルシアMG": "Borussia Monchengladbach",
     "フランクフルト": "Eintracht Frankfurt",
-    "シャルケ": "F.C. Schalke 04",
     "ハノーファー": "Hannover 96",
     "ホッフェンハイム": "TSG 1899 Hoffenheim",
     "マインツ": "1. FSV Mainz 05",
+    "シャルケ": "F.C. Schalke 04",
     "ブレーメン": "SV Werder Bremen",
     "ヴォルフスブルク": "VfL Wolfsburg",
     "レアル・ソシエダ": "Real Sociedad",
