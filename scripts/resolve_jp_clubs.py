@@ -114,6 +114,12 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 PLAYERS_PATH = DATA_DIR / "soccerking_players.json"
 CACHE_PATH = DATA_DIR / "team_id_cache.json"
 OUTPUT_PATH = DATA_DIR / "jp_clubs.json"
+# soccer-king.jpの一覧ページに掲載が間に合っていない選手を補うための
+# 手動追加リスト(2026-09-06新設)。移籍報道が出てから同ページに反映
+# されるまでにタイムラグがあり、佐藤龍之介(バレンシア加入)が
+# 2026-09-06時点で未掲載だったことが発端。各エントリは複数の一次
+# 報道で移籍を確認したうえで追加すること。
+MANUAL_PLAYERS_PATH = DATA_DIR / "manual_players.json"
 
 
 def _load_json(path: Path, fallback):
@@ -224,10 +230,16 @@ def main(max_requests: int | None) -> None:
             return
 
     scraped = json.loads(PLAYERS_PATH.read_text(encoding="utf-8"))
-    club_name_map: dict[str, str] = scraped["club_name_map"]
+    club_name_map: dict[str, str] = dict(scraped["club_name_map"])
     players_by_club_ja: dict[str, list[dict]] = {}
     for p in scraped["players"]:
         players_by_club_ja.setdefault(p["club_name_ja"], []).append({"name": p["name_ja"], "position": None})
+
+    for m in _load_json(MANUAL_PLAYERS_PATH, []):
+        club_name_map.setdefault(m["club_name_ja"], m["club_name_en"])
+        existing = players_by_club_ja.setdefault(m["club_name_ja"], [])
+        if not any(p["name"] == m["name_ja"] for p in existing):
+            existing.append({"name": m["name_ja"], "position": None})
 
     cache: dict[str, dict] = _load_json(CACHE_PATH, {})
 

@@ -590,5 +590,13 @@
     "country_code": "eng",
     "country_ja": "イングランド",
     "league_name": "プレミアリーグ"
+  },
+  "Valencia": {
+    "team_id": 532,
+    "team_name": "Valencia",
+    "logo": "https://media.api-sports.io/football/teams/532.png",
+    "country_code": "spa",
+    "country_ja": "スペイン",
+    "league_name": "ラ・リーガ"
   }
 }

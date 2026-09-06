@@ -1032,6 +1032,21 @@
       ]
     },
     {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_name_ja": "バレンシア",
+      "logo": "https://media.api-sports.io/football/teams/532.png",
+      "league_name": "ラ・リーガ",
+      "country_code": "spa",
+      "country_ja": "スペイン",
+      "players": [
+        {
+          "name": "佐藤龍之介",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 1603,
       "team_name": "Vancouver Whitecaps",
       "team_name_ja": "バンクーバー・ホワイトキャップス",
