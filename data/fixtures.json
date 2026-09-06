@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T01:18:28.870801+00:00",
+  "fetched_at": "2026-09-06T06:15:40.282781+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -371,6 +371,30 @@
           "away_team": "アトランタ",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_OTcQKrLz_JHXHQwF9QOs.png",
           "away_score": 1,
+          "jp_players": [
+            {
+              "name": "富樫敬真",
+              "team_id": 1608
+            }
+          ]
+        },
+        {
+          "fixture_id": "FPsBqWhppTdA_D-KEfZaa",
+          "kickoff_utc": "2026-09-06T01:00:00.000Z",
+          "venue": "Nu Stadium",
+          "league_name": "MLS",
+          "country_code": "",
+          "country_ja": "アメリカ合衆国",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "7a7uyvix8axi28h7d3bwl4tbe",
+          "home_team": "インテルマイアミCF",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eP7VUfiow48_R8A-w2ADb.png",
+          "home_score": 2,
+          "away_team_id": "943ue6l8ylnidoygbi9p8op2h",
+          "away_team": "アトランタユナイテッド",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+          "away_score": 2,
           "jp_players": [
             {
               "name": "富樫敬真",
@@ -1437,7 +1461,7 @@
           "country_code": "",
           "country_ja": "アメリカ合衆国",
           "round": null,
-          "status": "FIXTURE",
+          "status": "POSTPONED",
           "home_team_id": "652hppivbqchvrp3wopx1isyt",
           "home_team": "FCシンシナティ",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
@@ -3160,15 +3184,15 @@
           "country_code": "",
           "country_ja": "アメリカ合衆国",
           "round": null,
-          "status": "FIXTURE",
+          "status": "RESULT",
           "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
           "home_team": "LAギャラクシー",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
-          "home_score": null,
+          "home_score": 2,
           "away_team_id": "3ko4vrn7aouqpdr21sv4ipcvj",
           "away_team": "ニューイングランド レボリューション",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/1q82ywoJQrmme76ChhGux.png",
-          "away_score": null,
+          "away_score": 1,
           "jp_players": [
             {
               "name": "吉田麻也",
@@ -4534,15 +4558,15 @@
           "country_code": "",
           "country_ja": "アメリカ合衆国",
           "round": null,
-          "status": "FIXTURE",
+          "status": "RESULT",
           "home_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
           "home_team": "バンクーバー ホワイトキャップス",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
-          "home_score": null,
+          "home_score": 1,
           "away_team_id": "7rh4h3y77fl3s7rdqp61si49g",
           "away_team": "St. Louis City",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BZg0TCUCEswQgNXLaqJV8.png",
-          "away_score": null,
+          "away_score": 3,
           "jp_players": [
             {
               "name": "高丘陽平",
@@ -7809,6 +7833,30 @@
       "jp_players": []
     },
     {
+      "fixture_id": "FPsBqWhppTdA_D-KEfZaa",
+      "kickoff_utc": "2026-09-06T01:00:00.000Z",
+      "venue": "Nu Stadium",
+      "league_name": "MLS",
+      "country_code": "",
+      "country_ja": "アメリカ合衆国",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "7a7uyvix8axi28h7d3bwl4tbe",
+      "home_team": "インテルマイアミCF",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eP7VUfiow48_R8A-w2ADb.png",
+      "home_score": 2,
+      "away_team_id": "943ue6l8ylnidoygbi9p8op2h",
+      "away_team": "アトランタユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "富樫敬真",
+          "team_id": 1608
+        }
+      ]
+    },
+    {
       "fixture_id": "wsObYktGE4dTSF221kG0D",
       "kickoff_utc": "2026-09-06T01:30:00.000Z",
       "venue": "TQL Stadium",
@@ -7816,7 +7864,7 @@
       "country_code": "",
       "country_ja": "アメリカ合衆国",
       "round": null,
-      "status": "FIXTURE",
+      "status": "POSTPONED",
       "home_team_id": "652hppivbqchvrp3wopx1isyt",
       "home_team": "FCシンシナティ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
@@ -7844,15 +7892,15 @@
       "country_code": "",
       "country_ja": "アメリカ合衆国",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
       "home_team": "LAギャラクシー",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
-      "home_score": null,
+      "home_score": 2,
       "away_team_id": "3ko4vrn7aouqpdr21sv4ipcvj",
       "away_team": "ニューイングランド レボリューション",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/1q82ywoJQrmme76ChhGux.png",
-      "away_score": null,
+      "away_score": 1,
       "jp_players": [
         {
           "name": "吉田麻也",
@@ -7868,15 +7916,15 @@
       "country_code": "",
       "country_ja": "アメリカ合衆国",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
       "home_team": "バンクーバー ホワイトキャップス",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
-      "home_score": null,
+      "home_score": 1,
       "away_team_id": "7rh4h3y77fl3s7rdqp61si49g",
       "away_team": "St. Louis City",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BZg0TCUCEswQgNXLaqJV8.png",
-      "away_score": null,
+      "away_score": 3,
       "jp_players": [
         {
           "name": "高丘陽平",
