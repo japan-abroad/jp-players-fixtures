@@ -44,10 +44,12 @@ _GENERIC_CLUB_TOKENS = {
 # 段階的単純化のフォールバックでは単独使用を避ける。
 # 例: "Royal Antwerp F.C." の先頭語"Royal"だけで検索すると、本来の
 # Antwerpとは無関係な"Royal"という名のクラブ(id=8569)がヒットした。
+# 2026-09-06発覚: "Union Saint-Gilloise"の先頭語"Union"だけで検索すると、
+# ラトビアの無関係なクラブ"Union"(id=21371)に完全一致してしまった。
 _UNSAFE_STANDALONE_WORDS = {
     "royal", "koninklijke", "real", "sporting", "deportivo", "atletico",
     "athletic", "club", "international", "olympic", "olympique", "united",
-    "city", "town", "national", "stade", "racing", "sport",
+    "city", "town", "national", "stade", "racing", "sport", "union",
 }
 
 # サッカーキング側の英語表記とAPI-Football側の登録名が大きく異なり、

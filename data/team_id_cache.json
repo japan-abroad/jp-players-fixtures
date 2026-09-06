@@ -598,5 +598,21 @@
     "country_code": "spa",
     "country_ja": "スペイン",
     "league_name": "ラ・リーガ"
+  },
+  "Charleroi": {
+    "team_id": 736,
+    "team_name": "Charleroi",
+    "logo": "https://media.api-sports.io/football/teams/736.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
+  },
+  "Union Saint-Gilloise": {
+    "team_id": 1393,
+    "team_name": "Union St. Gilloise",
+    "logo": "https://media.api-sports.io/football/teams/1393.png",
+    "country_code": "bel",
+    "country_ja": "ベルギー",
+    "league_name": "ベルギー・プロリーグ"
   }
 }

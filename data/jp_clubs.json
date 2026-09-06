@@ -301,6 +301,21 @@
       ]
     },
     {
+      "team_id": 736,
+      "team_name": "Charleroi",
+      "team_name_ja": "シャルルロワ",
+      "logo": "https://media.api-sports.io/football/teams/736.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "名和田我空",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 1346,
       "team_name": "Coventry",
       "team_name_ja": "コヴェントリー",
@@ -811,6 +826,21 @@
       ]
     },
     {
+      "team_id": 260,
+      "team_name": "OH Leuven",
+      "team_name_ja": "OHルーベン",
+      "logo": "https://media.api-sports.io/football/teams/260.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "山田新",
+          "position": null
+        }
+      ]
+    },
+    {
       "team_id": 197,
       "team_name": "PSV Eindhoven",
       "team_name_ja": "PSV",
@@ -1027,6 +1057,21 @@
         },
         {
           "name": "伊藤涼太郎",
+          "position": null
+        }
+      ]
+    },
+    {
+      "team_id": 1393,
+      "team_name": "Union St. Gilloise",
+      "team_name_ja": "サンジロワーズ",
+      "logo": "https://media.api-sports.io/football/teams/1393.png",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "players": [
+        {
+          "name": "ハーフナー・ニッキ",
           "position": null
         }
       ]
