@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Match } from "@/lib/data";
 import { toJstDateLabel } from "@/lib/time";
 import { groupMatchesByDate } from "@/lib/matches";
@@ -23,11 +23,46 @@ const COUNTRIES: { code: string; label: string }[] = [
   { code: "uefa", label: "UEFA" },
 ];
 
+const SAVED_FILTERS_KEY = "jp-fixtures-saved-filters";
+
 export default function MatchesList({ matches }: { matches: Match[] }) {
   const [jpOnly, setJpOnly] = useState(false);
   const [showPast, setShowPast] = useState(false);
   const [activeCountries, setActiveCountries] = useState<Set<string>>(new Set());
   const [query, setQuery] = useState("");
+  const [saveEnabled, setSaveEnabled] = useState(false);
+  const [filtersLoaded, setFiltersLoaded] = useState(false);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(SAVED_FILTERS_KEY);
+      if (raw) {
+        const saved = JSON.parse(raw) as { jpOnly?: boolean; countries?: string[] };
+        if (saved.jpOnly) setJpOnly(true);
+        if (Array.isArray(saved.countries)) setActiveCountries(new Set(saved.countries));
+        setSaveEnabled(true);
+      }
+    } catch {
+      // localStorageが使えない環境(プライベートブラウジング等)では保存機能を無効のまま続行
+    }
+    setFiltersLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    if (!filtersLoaded) return;
+    try {
+      if (saveEnabled) {
+        localStorage.setItem(
+          SAVED_FILTERS_KEY,
+          JSON.stringify({ jpOnly, countries: Array.from(activeCountries) })
+        );
+      } else {
+        localStorage.removeItem(SAVED_FILTERS_KEY);
+      }
+    } catch {
+      // 保存に失敗しても検索機能自体は継続する
+    }
+  }, [filtersLoaded, saveEnabled, jpOnly, activeCountries]);
 
   const toggleCountry = (code: string) => {
     setActiveCountries((prev) => {
@@ -94,6 +129,14 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
             日本人所属クラブのみ
           </button>
         </div>
+
+        <button
+          className={`chip-btn${saveEnabled ? " active" : ""}`}
+          style={saveEnabled ? { backgroundColor: "var(--samurai)", borderColor: "transparent" } : undefined}
+          onClick={() => setSaveEnabled((v) => !v)}
+        >
+          {saveEnabled ? "条件を保存中" : "この条件を保存"}
+        </button>
 
         <input
           type="text"
