@@ -9,6 +9,7 @@ export const COUNTRY_COLOR: Record<string, string> = {
   bel: "#d97706",
   sco: "#7c3aed",
   tur: "#b91c1c",
+  uefa: "#0c2340",
 };
 
 export function countryColor(code: string): string {

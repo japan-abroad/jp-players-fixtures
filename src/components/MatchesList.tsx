@@ -20,6 +20,7 @@ const COUNTRIES: { code: string; label: string }[] = [
   { code: "bel", label: "ベルギー" },
   { code: "sco", label: "スコットランド" },
   { code: "tur", label: "トルコ" },
+  { code: "uefa", label: "UEFA" },
 ];
 
 export default function MatchesList({ matches }: { matches: Match[] }) {

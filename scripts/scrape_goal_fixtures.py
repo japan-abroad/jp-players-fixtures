@@ -82,6 +82,13 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     ("ベルギー", "ベルギーカップ"): {"name": "ベルギーカップ", "country_code": "bel", "country_ja": "ベルギー"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("トルコ", "スーパーリグ"): {"name": "スュペル・リグ", "country_code": "tur", "country_ja": "トルコ"},
     ("トルコ", "トルコカップ"): {"name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},  # 要検証(該当試合が未観測、開催時期が遅いため)
+    # 2026-09-08 実データで確認: goal.com側の表記は"チャンピオンズ"と"リーグ"の
+    # 間に半角スペースが入る。areaは参加国を問わず"International"。
+    ("International", "チャンピオンズ リーグ"): {"name": "チャンピオンズリーグ", "country_code": "uefa", "country_ja": "UEFA"},
+    # 2026-09-08 実データで確認(2026-09-17開幕分)。
+    ("International", "ヨーロッパリーグ"): {"name": "ヨーロッパリーグ", "country_code": "uefa", "country_ja": "UEFA"},
+    # 2026-09-08 実データで確認(2026-10-16開幕分)。
+    ("International", "ヨーロッパカンファレンス・リーグ"): {"name": "カンファレンスリーグ", "country_code": "uefa", "country_ja": "UEFA"},
 }
 
 # goal.com側の表記がサッカーキング側(jp_clubs.jsonのteam_name_ja)と
