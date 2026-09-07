@@ -237,6 +237,22 @@ _FUZZY_EXCLUDE_NAMES = {
     "リールセケンペンゾーネン",
 }
 
+# goal.comの"area"(国名表記)は、jp_clubs.jsonのcountry_jaと表記が
+# 微妙に異なる場合がある(例: MLSの試合は"アメリカ合衆国"、イングランド
+# 下部組織の大会は"イギリス"表記)。完全一致以外に許容してよい同義語。
+# "International"は欧州カップ戦(チャンピオンズリーグ等)で、参加国を
+# 問わず出現するため無条件で許容する。
+_AREA_COUNTRY_ALIASES: dict[str, set[str]] = {
+    "アメリカ合衆国": {"アメリカ", "カナダ"},
+    "イギリス": {"イングランド", "スコットランド"},
+}
+
+
+def _area_matches_country(area: str, country_ja: str) -> bool:
+    if area == country_ja or area == "International":
+        return True
+    return country_ja in _AREA_COUNTRY_ALIASES.get(area, set())
+
 
 def _is_first_team_name(name: str) -> bool:
     name_lower = name.lower()
@@ -245,7 +261,9 @@ def _is_first_team_name(name: str) -> bool:
     return not _NON_FIRST_TEAM_SUFFIX_RE.search(name)
 
 
-def _find_club(name: str, club_by_norm_name: dict[str, dict], *, allow_fuzzy: bool) -> dict | None:
+def _find_club(
+    name: str, club_by_norm_name: dict[str, dict], *, allow_fuzzy: bool, area: str
+) -> dict | None:
     if not _is_first_team_name(name):
         return None
     if name in _FUZZY_EXCLUDE_NAMES:
@@ -253,7 +271,13 @@ def _find_club(name: str, club_by_norm_name: dict[str, dict], *, allow_fuzzy: bo
     name_norm = _normalize_name(name)
     exact = club_by_norm_name.get(name_norm)
     if exact is not None:
-        return exact
+        # 2026-09-07発覚: コスタリカのクラブ"Cariari"がイタリアの
+        # "Cagliari"(カリアリ)と同じカタカナ表記になり、名前だけの
+        # 完全一致では区別できず菅原由勢(カリアリ/セリエA)の試合日程に
+        # 無関係なコスタリカの試合が紛れ込んでいた。国名の突き合わせで防ぐ。
+        if _area_matches_country(area, exact["country_ja"]):
+            return exact
+        return None
     if not allow_fuzzy:
         return None
     # サッカーキング側が短縮表記("コヴェントリー")、goal.com側が正式名称
@@ -265,7 +289,8 @@ def _find_club(name: str, club_by_norm_name: dict[str, dict], *, allow_fuzzy: bo
         if len(shorter) < _MIN_SUBSTRING_MATCH_LEN:
             continue
         if longer.startswith(shorter) or longer.endswith(shorter):
-            return club
+            if _area_matches_country(area, club["country_ja"]):
+                return club
     return None
 
 
@@ -307,8 +332,8 @@ def main() -> None:
             league_info = LEAGUE_ALLOWLIST.get((raw["area"], raw["league_name"]))
             allow_fuzzy = league_info is not None or raw["league_name"] in _FUZZY_TRUSTED_LEAGUES
 
-            home_club = _find_club(raw["home_team"], club_by_norm_name, allow_fuzzy=allow_fuzzy)
-            away_club = _find_club(raw["away_team"], club_by_norm_name, allow_fuzzy=allow_fuzzy)
+            home_club = _find_club(raw["home_team"], club_by_norm_name, allow_fuzzy=allow_fuzzy, area=raw["area"])
+            away_club = _find_club(raw["away_team"], club_by_norm_name, allow_fuzzy=allow_fuzzy, area=raw["area"])
             has_jp_club = home_club is not None or away_club is not None
 
             if league_info is None and not has_jp_club:
