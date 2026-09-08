@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T06:16:45.105848+00:00",
+  "fetched_at": "2026-09-08T12:17:33.615115+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -8044,25 +8044,6 @@
           "team_id": 548
         }
       ]
-    },
-    {
-      "fixture_id": "1fJsrYfuGPlgPSK2FaeMX",
-      "kickoff_utc": "2026-09-08T12:00:00.000Z",
-      "venue": "Stadion Galgenwaard",
-      "league_name": "エールディヴィジ",
-      "country_code": "ned",
-      "country_ja": "オランダ",
-      "round": null,
-      "status": "CANCELLED",
-      "home_team_id": "ccpscwdcm65czscrun048ecn5",
-      "home_team": "ユトレヒト",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P8_7wZDtPIX2i7fjGSyjB.png",
-      "home_score": null,
-      "away_team_id": "b79uipsy57y1jqpy07h4i5ovk",
-      "away_team": "ゴー・アヘッド・イーグルス",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/A99CwRg3I_It6Hj9Fkq9G.png",
-      "away_score": null,
-      "jp_players": []
     },
     {
       "fixture_id": "_BlDn4Q6ONEsZQHZ0VlTv",
