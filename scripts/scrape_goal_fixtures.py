@@ -35,6 +35,8 @@ sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CLUBS_PATH = DATA_DIR / "jp_clubs.json"
 OUTPUT_PATH = DATA_DIR / "fixtures.json"
+HISTORY_PATH = DATA_DIR / "fixtures_history.json"
+HISTORY_RETENTION_DAYS = 365
 
 BASE_URL = "https://www.goal.com/jp/%E8%A9%A6%E5%90%88%E6%97%A5%E7%A8%8B/{date}"
 DAYS_AHEAD = 7
@@ -301,6 +303,39 @@ def _find_club(
     return None
 
 
+def _update_history(new_matches: list[dict]) -> None:
+    """確定済み(RESULT)の試合をfixtures_history.jsonに追記蓄積する。
+
+    fixtures.jsonは直近±1週間しか保持しないため、過去の試合結果を
+    長期表示するには別ファイルに蓄積するしかない。fixture_idでupsert
+    (再取得のたびスコア確定等で内容が更新されうるため上書き)し、
+    HISTORY_RETENTION_DAYSより古い試合は保存時に間引く。
+    """
+    existing: dict[str, dict] = {}
+    if HISTORY_PATH.exists():
+        try:
+            existing_data = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            existing_data = {}
+        for m in existing_data.get("matches", []):
+            fixture_id = m.get("fixture_id")
+            if fixture_id is None or "kickoff_utc" not in m:
+                continue  # 不正なレコードだけスキップし、他の蓄積分は保持する
+            existing[fixture_id] = m
+
+    for m in new_matches:
+        if m["status"] == "RESULT":
+            existing[m["fixture_id"]] = m
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=HISTORY_RETENTION_DAYS)
+    kept = [m for m in existing.values() if datetime.fromisoformat(m["kickoff_utc"]) >= cutoff]
+    kept.sort(key=lambda m: m["kickoff_utc"])
+
+    HISTORY_PATH.write_text(
+        json.dumps({"matches": kept}, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
 def main() -> None:
     if not CLUBS_PATH.exists():
         print(f"{CLUBS_PATH} が見つかりません。先に resolve_jp_clubs.py を実行してください。", file=sys.stderr)
@@ -409,6 +444,7 @@ def main() -> None:
     }
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    _update_history([m for m in all_matches if m["jp_players"]])
     jp_count = sum(1 for m in all_matches if m["jp_players"])
     unmatched_clubs = [c["team_name_ja"] for c in clubs if not matches_by_team[c["team_id"]]]
     print(

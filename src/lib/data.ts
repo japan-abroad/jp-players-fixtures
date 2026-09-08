@@ -58,8 +58,43 @@ export function getFixturesData(): FixturesData {
   return readJson<FixturesData>("fixtures.json", { fetched_at: "", clubs: [], matches: [] });
 }
 
+function getHistoryMatches(): Match[] {
+  return readJson<{ matches: Match[] }>("fixtures_history.json", { matches: [] }).matches;
+}
+
+/** クラブごとに現行fixtures.jsonの試合とfixtures_history.jsonの過去の試合をマージする。
+ *  fixtures.jsonは直近±1週間分しか保持しないため、それより前の過去試合結果は
+ *  historyから補う(fixture_idで重複排除)。
+ *
+ *  静的書き出し時にgenerateStaticParams等から選手・クラブの数だけ(数百回)
+ *  呼ばれるため、ファイル読み込みとマージ結果をプロセス内でキャッシュする。
+ */
+let cachedClubs: Club[] | null = null;
+
 export function getClubs(): Club[] {
-  return getFixturesData().clubs;
+  if (cachedClubs) return cachedClubs;
+
+  const { clubs } = getFixturesData();
+  const history = getHistoryMatches();
+  if (history.length === 0) {
+    cachedClubs = clubs;
+    return cachedClubs;
+  }
+
+  cachedClubs = clubs.map((club) => {
+    const seen = new Set(club.matches.map((m) => m.fixture_id));
+    const historyForClub = history.filter(
+      (m) => !seen.has(m.fixture_id) && m.jp_players.some((p) => p.team_id === club.team_id)
+    );
+    if (historyForClub.length === 0) return club;
+    return {
+      ...club,
+      matches: [...club.matches, ...historyForClub].sort((a, b) =>
+        a.kickoff_utc < b.kickoff_utc ? -1 : 1
+      ),
+    };
+  });
+  return cachedClubs;
 }
 
 export function getClubById(teamId: number): Club | undefined {

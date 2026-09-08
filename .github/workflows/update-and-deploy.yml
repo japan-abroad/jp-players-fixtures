@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/fixtures.json
+          git add data/fixtures.json data/fixtures_history.json
           git diff --cached --quiet || git commit -m "chore: update fixtures data"
           git push || true
 
