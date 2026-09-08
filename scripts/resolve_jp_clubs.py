@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 import api_client
-from config import COUNTRY_JA, COUNTRY_TOP_LEAGUE_JA, FREE_PLAN_SEASON
+from config import COUNTRY_JA, COUNTRY_TOP_LEAGUE_JA, ENGLAND_DIVISION_JA, FREE_PLAN_SEASON
 
 # 育成年代・リザーブ・女子チームの命名によく含まれるトークン。検索結果に
 # トップチームとこれらが混在する場合、誤ってこちらを拾わないよう除外する。
@@ -76,6 +76,11 @@ _MANUAL_QUERY_OVERRIDES = {
     # "Res."追加で対応済みだが、そもそも"Bolton Wanderers"というクエリでは
     # 一軍"Bolton"がAPI検索結果に出てこないため明示指定する)。
     "Bolton Wanderers F.C.": "Bolton",
+    # "Queens Park Rangers"で検索するとAPI-Football側に同名で別登録されている
+    # 実体不明のチーム(id=18212、国内リーグの試合が一切無くFA女子カップの
+    # 記録しかない)がフルネーム一致で誤って選ばれてしまう(2026-09-09発覚)。
+    # 本来の男子トップチームはAPI-Football側で"QPR"という略称で登録されている。
+    "Queens Park Rangers F.C.": "QPR",
     # 注意: "F.C. Bayern Munich"(男子トップチームはドイツ語表記"München"で
     # 登録されている)はここでは解決できない — "München"はAPIの検索クエリ
     # (英数字とスペースのみ許可)に使えず、"Bayern"単体だと無関係な弱小クラブ
@@ -243,14 +248,40 @@ def _resolve_team(name_en: str, max_requests: int) -> dict | None:
     if team is None:
         return None
     country_ja = COUNTRY_JA.get(team.get("country"), team.get("country") or "")
+    league_name = COUNTRY_TOP_LEAGUE_JA.get(country_ja, country_ja)
+    if country_ja == "イングランド":
+        division = _resolve_england_division(team["id"], max_requests)
+        if division is not None:
+            league_name = division
     return {
         "team_id": team["id"],
         "team_name": team["name"],
         "logo": team.get("logo"),
         "country_code": (team.get("country") or "")[:3].lower(),
         "country_ja": country_ja,
-        "league_name": COUNTRY_TOP_LEAGUE_JA.get(country_ja, country_ja),
+        "league_name": league_name,
     }
+
+
+def _resolve_england_division(team_id: int, max_requests: int) -> str | None:
+    """イングランドのクラブが実際に所属するディビジョンをAPIで確認する。
+
+    国別トップリーグからの推定(COUNTRY_TOP_LEAGUE_JA)はイングランドでは
+    常にプレミアリーグ扱いになってしまい、チャンピオンシップ以下のクラブが
+    誤ってプレミアリーグ所属と表示される事故が発覚した(2026-09-09)。
+    """
+    if api_client.request_count >= max_requests:
+        raise _BudgetExceeded()
+    try:
+        leagues = api_client.get_leagues_for_team(team_id, FREE_PLAN_SEASON)
+    except RuntimeError as exc:
+        print(f"    ディビジョン判定エラー(team_id={team_id}): {exc}", file=sys.stderr)
+        return None
+    for entry in leagues:
+        league = entry.get("league", {})
+        if league.get("type") == "League" and league.get("id") in ENGLAND_DIVISION_JA:
+            return ENGLAND_DIVISION_JA[league["id"]]
+    return None
 
 
 def main(max_requests: int | None) -> None:

@@ -105,6 +105,12 @@ def search_team(name: str) -> list[dict]:
     return [item["team"] for item in data.get("response", [])]
 
 
+def get_leagues_for_team(team_id: int, season: int) -> list[dict]:
+    """指定チームが指定シーズンに実際に所属する大会一覧を返す(国内リーグ・カップ等)。"""
+    data = _get("/leagues", {"team": team_id, "season": season})
+    return data.get("response", [])
+
+
 def get_fixtures_by_date(date_str: str) -> list[dict]:
     """指定日(YYYY-MM-DD)の世界中の全試合を返す。
 

@@ -149,7 +149,7 @@
     "logo": "https://media.api-sports.io/football/teams/64.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "チャンピオンシップ"
   },
   "Celtic F.C.": {
     "team_id": 247,
@@ -191,14 +191,6 @@
     "country_ja": "イングランド",
     "league_name": "プレミアリーグ"
   },
-  "Queens Park Rangers F.C.": {
-    "team_id": 18212,
-    "team_name": "Queens Park Rangers",
-    "logo": "https://media.api-sports.io/football/teams/18212.png",
-    "country_code": "eng",
-    "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
-  },
   "Vancouver Whitecaps FC": {
     "team_id": 1603,
     "team_name": "Vancouver Whitecaps",
@@ -221,7 +213,7 @@
     "logo": "https://media.api-sports.io/football/teams/63.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "チャンピオンシップ"
   },
   "Sint-Truidense": {
     "team_id": 735,
@@ -301,7 +293,7 @@
     "logo": "https://media.api-sports.io/football/teams/67.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "チャンピオンシップ"
   },
   "Jagiellonia Bialystok": {
     "team_id": 336,
@@ -365,7 +357,7 @@
     "logo": "https://media.api-sports.io/football/teams/54.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "リーグ1"
   },
   "K.R.C. Genk": {
     "team_id": 742,
@@ -381,7 +373,7 @@
     "logo": "https://media.api-sports.io/football/teams/1346.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "チャンピオンシップ"
   },
   "Futebol Clube de Arouca": {
     "team_id": 240,
@@ -565,7 +557,7 @@
     "logo": "https://media.api-sports.io/football/teams/44.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "チャンピオンシップ"
   },
   "FK CRVENA ZVEZDA": {
     "team_id": 598,
@@ -589,7 +581,7 @@
     "logo": "https://media.api-sports.io/football/teams/68.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "リーグ1"
   },
   "Valencia": {
     "team_id": 532,
@@ -614,5 +606,13 @@
     "country_code": "bel",
     "country_ja": "ベルギー",
     "league_name": "ベルギー・プロリーグ"
+  },
+  "Queens Park Rangers F.C.": {
+    "team_id": 72,
+    "team_name": "QPR",
+    "logo": "https://media.api-sports.io/football/teams/72.png",
+    "country_code": "eng",
+    "country_ja": "イングランド",
+    "league_name": "チャンピオンシップ"
   }
 }
