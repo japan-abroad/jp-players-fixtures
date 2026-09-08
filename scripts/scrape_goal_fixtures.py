@@ -64,6 +64,9 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     # "リーグカップ"という名前で、該当試合は全てスコットランド勢だった。
     ("イギリス", "リーグカップ"): {"name": "スコティッシュ・リーグカップ", "country_code": "sco", "country_ja": "スコットランド"},
     ("イギリス", "スコティッシュカップ"): {"name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},  # 要検証(該当試合が未観測、開催時期が遅いため)
+    # 2026-09-08 発覚: LEAGUE_ALLOWLIST未登録のため国表示がフォールバックで
+    # goal.com生表記の"イギリス"のままになっていたバグを修正。
+    ("イギリス", "EFL チャンピオンシップ"): {"name": "EFLチャンピオンシップ", "country_code": "eng", "country_ja": "イングランド"},
     ("スペイン", "ラ・リーガ"): {"name": "ラ・リーガ", "country_code": "esp", "country_ja": "スペイン"},
     ("スペイン", "コパ・デル・レイ"): {"name": "コパ・デル・レイ", "country_code": "esp", "country_ja": "スペイン"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("ドイツ", "ブンデスリーガ"): {"name": "ブンデスリーガ", "country_code": "ger", "country_ja": "ドイツ"},
@@ -91,7 +94,20 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     ("International", "ヨーロッパリーグ"): {"name": "ヨーロッパリーグ", "country_code": "uefa", "country_ja": "UEFA"},
     # 2026-09-08 実データで確認(2026-10-16開幕分)。
     ("International", "ヨーロッパカンファレンス・リーグ"): {"name": "カンファレンスリーグ", "country_code": "uefa", "country_ja": "UEFA"},
+    # 2026-09-08 発覚: 未登録のためフォールバックでgoal.com生表記の
+    # "アメリカ合衆国"がそのまま使われていた(他リーグの短縮表記と不一致)。
+    # さらにMLSは米国・カナダのクラブが混在するため、country_jaは
+    # _MULTI_COUNTRY_LEAGUESの仕組みでJPクラブ自身の国名を優先する
+    # (このデフォルト値は所属JPクラブが無い試合のみに使われる)。
+    ("アメリカ合衆国", "MLS"): {"name": "MLS", "country_code": "usa", "country_ja": "アメリカ"},
 }
+
+# LEAGUE_ALLOWLISTのcountry_jaはリーグ単位の固定値だが、これらのリーグは
+# 複数国のクラブが混在するため単一の国名では不正確になりうる(例:
+# MLSはバンクーバー・ホワイトキャップス等カナダのクラブも参加)。該当リーグの
+# 試合はJPクラブ自身のcountry_ja(jp_clubs.json由来、API-Footballで
+# クラブ単位に正しく解決済み)があればそちらを優先する。
+_MULTI_COUNTRY_LEAGUES = {"MLS"}
 
 # goal.com側の表記がサッカーキング側(jp_clubs.jsonのteam_name_ja)と
 # 一致しないクラブの個別対応(判明したものから追加)。
@@ -396,6 +412,12 @@ def main() -> None:
                 league_name = raw["league_name"]
                 country_code = ""
                 country_ja = raw["area"]
+
+            if league_name in _MULTI_COUNTRY_LEAGUES:
+                jp_club_for_country = home_club or away_club
+                if jp_club_for_country is not None:
+                    country_code = jp_club_for_country["country_code"]
+                    country_ja = jp_club_for_country["country_ja"]
 
             match = {
                 "fixture_id": raw["match_id"],
