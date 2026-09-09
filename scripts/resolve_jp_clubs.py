@@ -234,7 +234,7 @@ def _best_first_team(candidates: list[dict], query: str) -> dict | None:
     return best if ratio(best) >= _MIN_MATCH_RATIO else None
 
 
-def _resolve_team(name_en: str, max_requests: int) -> dict | None:
+def _resolve_team(name_en: str, club_ja: str, max_requests: int) -> dict | None:
     team = None
     for query in _search_queries(name_en):
         if len(query) < _MIN_QUERY_LENGTH:
@@ -256,11 +256,16 @@ def _resolve_team(name_en: str, max_requests: int) -> dict | None:
     country_ja = COUNTRY_JA.get(team.get("country"), team.get("country") or "")
     league_name = COUNTRY_TOP_LEAGUE_JA.get(country_ja, country_ja)
     if country_ja == "イングランド":
-        division = _resolve_england_division(team["id"], max_requests)
+        # 優先順位: (1) Yahoo!スポーツの現行シーズン順位表(クオータ消費なし・
+        # 最新) (2) team_id手動オーバーライド(Yahoo側で見つからない場合の
+        # 保険) (3) API-Football season=2024の近似値(最後の手段)。
+        division = _resolve_england_division_from_yahoo(club_ja)
+        if division is None and team["id"] in ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID:
+            division = ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID[team["id"]]
+        if division is None:
+            division = _resolve_england_division(team["id"], max_requests)
         if division is not None:
             league_name = division
-        if team["id"] in ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID:
-            league_name = ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID[team["id"]]
     return {
         "team_id": team["id"],
         "team_name": team["name"],
@@ -269,6 +274,56 @@ def _resolve_team(name_en: str, max_requests: int) -> dict | None:
         "country_ja": country_ja,
         "league_name": league_name,
     }
+
+
+YAHOO_DIVISIONS_PATH = DATA_DIR / "england_divisions.json"
+
+# scrape_england_divisions.pyが取得するYahoo!スポーツ側のチーム表記は、
+# 略称("・C"="City"、無印="United"省略等)がサッカーキング側の表記
+# (team_name_ja)と異なる場合がある。正規化(・とスペースを除去)だけでは
+# 一致しないクラブをここで個別に吸収する(2026-09-09新設)。
+YAHOO_CLUB_JA_ALIASES: dict[str, str] = {
+    "ハル・シティ": "ハルC",
+    "コヴェントリー": "コベントリーC",
+    "クイーンズ・パーク・レンジャーズ": "クイーンズパーク",
+}
+
+_yahoo_divisions_cache: dict[str, str] | None = None
+
+
+def _load_yahoo_divisions() -> dict[str, str]:
+    """{正規化済みチーム名: ディビジョン名}の辞書を返す(1プロセス内でキャッシュ)。"""
+    global _yahoo_divisions_cache
+    if _yahoo_divisions_cache is not None:
+        return _yahoo_divisions_cache
+    if not YAHOO_DIVISIONS_PATH.exists():
+        _yahoo_divisions_cache = {}
+        return _yahoo_divisions_cache
+    data = json.loads(YAHOO_DIVISIONS_PATH.read_text(encoding="utf-8"))
+    mapping: dict[str, str] = {}
+    for name in data.get("premier_league", []):
+        mapping[_normalize_club_ja(name)] = "プレミアリーグ"
+    for name in data.get("championship", []):
+        mapping[_normalize_club_ja(name)] = "チャンピオンシップ"
+    _yahoo_divisions_cache = mapping
+    return mapping
+
+
+def _resolve_england_division_from_yahoo(club_ja: str) -> str | None:
+    divisions = _load_yahoo_divisions()
+    if not divisions:
+        return None
+    ja = YAHOO_CLUB_JA_ALIASES.get(club_ja, club_ja)
+    norm = _normalize_club_ja(ja)
+    if norm in divisions:
+        return divisions[norm]
+    # 表記ゆれ("リーズ"⇔"リーズ・ユナイテッド"等)を前方一致/後方一致で吸収する。
+    for yahoo_norm, division in divisions.items():
+        if len(yahoo_norm) < 3:
+            continue
+        if norm.startswith(yahoo_norm) or norm.endswith(yahoo_norm):
+            return division
+    return None
 
 
 def _resolve_england_division(team_id: int, max_requests: int) -> str | None:
@@ -357,7 +412,7 @@ def main(max_requests: int | None) -> None:
     while pending and api_client.request_count < max_requests:
         club_ja, name_en = pending[0]
         try:
-            resolved = _resolve_team(name_en, max_requests)
+            resolved = _resolve_team(name_en, club_ja, max_requests)
         except _BudgetExceeded:
             # このクラブは複数クエリを試す途中で予算に達した。
             # 未解決のまま確定させず、次回実行時に最初からやり直す。

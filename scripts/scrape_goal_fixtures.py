@@ -115,6 +115,17 @@ NAME_OVERRIDES: dict[str, str] = {
     "ロサンゼルス・ギャラクシー": "LAギャラクシー",
 }
 
+# _apply_yahoo_england_divisions用。Yahoo!スポーツ側の略称表記
+# ("・C"="City"、無印="United"省略等)がサッカーキング側のteam_name_ja
+# と異なるクラブの個別吸収(2026-09-09新設、resolve_jp_clubs.pyの
+# YAHOO_CLUB_JA_ALIASESと同じ対応関係)。
+YAHOO_ENGLAND_CLUB_JA_ALIASES: dict[str, str] = {
+    "ハル・シティ": "ハルC",
+    "コヴェントリー": "コベントリーC",
+    "クイーンズ・パーク・レンジャーズ": "クイーンズパーク",
+}
+YAHOO_DIVISIONS_PATH = DATA_DIR / "england_divisions.json"
+
 # LEAGUE_ALLOWLIST(トップリーグ+主要カップ)以外で、前方一致/後方一致の
 # フォールバックを許可してよいと確認済みの2部相当リーグ。ここに無い
 # リーグ(FAカップ予選、USLチャンピオンシップ等)は無関係な下部/海外
@@ -359,6 +370,45 @@ def _update_history(new_matches: list[dict]) -> None:
     )
 
 
+def _apply_yahoo_england_divisions(clubs: list[dict]) -> None:
+    """jp_clubs.json由来のleague_nameを、Yahoo!スポーツの現行シーズン
+    順位表(data/england_divisions.json)で上書きする(イングランドのみ)。
+
+    jp_clubs.jsonのleague_nameはresolve_jp_clubs.py(手動実行)を再実行
+    しない限り更新されないが、こちらは6時間おきに自動実行されるため、
+    昇降格が起きてもresolve_jp_clubs.pyの手動再実行を待たずに反映できる
+    (2026-09-09新設)。england_divisions.jsonが無い/古い場合は
+    jp_clubs.json側の値をそのまま使う。
+    """
+    if not YAHOO_DIVISIONS_PATH.exists():
+        return
+    yahoo_data = json.loads(YAHOO_DIVISIONS_PATH.read_text(encoding="utf-8"))
+    divisions: dict[str, str] = {}
+    for name in yahoo_data.get("premier_league", []):
+        divisions[_normalize_name(name)] = "プレミアリーグ"
+    for name in yahoo_data.get("championship", []):
+        divisions[_normalize_name(name)] = "チャンピオンシップ"
+    if not divisions:
+        return
+
+    for club in clubs:
+        if club.get("country_ja") != "イングランド" and club.get("country_code") != "eng":
+            continue
+        ja = YAHOO_ENGLAND_CLUB_JA_ALIASES.get(club["team_name_ja"], club["team_name_ja"])
+        norm = _normalize_name(ja)
+        division = divisions.get(norm)
+        if division is None:
+            for yahoo_norm, d in divisions.items():
+                if len(yahoo_norm) < 3:
+                    continue
+                if norm.startswith(yahoo_norm) or norm.endswith(yahoo_norm):
+                    division = d
+                    break
+        if division is not None and division != club["league_name"]:
+            print(f"  Yahoo順位表で更新: {club['team_name_ja']} {club['league_name']} -> {division}")
+            club["league_name"] = division
+
+
 def main() -> None:
     if not CLUBS_PATH.exists():
         print(f"{CLUBS_PATH} が見つかりません。先に resolve_jp_clubs.py を実行してください。", file=sys.stderr)
@@ -366,6 +416,7 @@ def main() -> None:
 
     clubs_data = json.loads(CLUBS_PATH.read_text(encoding="utf-8"))
     clubs = clubs_data["clubs"]
+    _apply_yahoo_england_divisions(clubs)
     club_by_norm_name: dict[str, dict] = {}
     for c in clubs:
         ja_name = NAME_OVERRIDES.get(c["team_name_ja"], c["team_name_ja"])
