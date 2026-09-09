@@ -149,7 +149,7 @@
     "logo": "https://media.api-sports.io/football/teams/64.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "チャンピオンシップ"
+    "league_name": "プレミアリーグ"
   },
   "Celtic F.C.": {
     "team_id": 247,
@@ -189,7 +189,7 @@
     "logo": "https://media.api-sports.io/football/teams/41.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "プレミアリーグ"
+    "league_name": "チャンピオンシップ"
   },
   "Vancouver Whitecaps FC": {
     "team_id": 1603,
@@ -213,7 +213,7 @@
     "logo": "https://media.api-sports.io/football/teams/63.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "チャンピオンシップ"
+    "league_name": "プレミアリーグ"
   },
   "Sint-Truidense": {
     "team_id": 735,
@@ -357,7 +357,7 @@
     "logo": "https://media.api-sports.io/football/teams/54.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "リーグ1"
+    "league_name": "チャンピオンシップ"
   },
   "K.R.C. Genk": {
     "team_id": 742,
@@ -373,7 +373,7 @@
     "logo": "https://media.api-sports.io/football/teams/1346.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "チャンピオンシップ"
+    "league_name": "プレミアリーグ"
   },
   "Futebol Clube de Arouca": {
     "team_id": 240,
@@ -581,7 +581,7 @@
     "logo": "https://media.api-sports.io/football/teams/68.png",
     "country_code": "eng",
     "country_ja": "イングランド",
-    "league_name": "リーグ1"
+    "league_name": "チャンピオンシップ"
   },
   "Valencia": {
     "team_id": 532,

@@ -21,7 +21,13 @@ import sys
 from pathlib import Path
 
 import api_client
-from config import COUNTRY_JA, COUNTRY_TOP_LEAGUE_JA, ENGLAND_DIVISION_JA, FREE_PLAN_SEASON
+from config import (
+    COUNTRY_JA,
+    COUNTRY_TOP_LEAGUE_JA,
+    ENGLAND_DIVISION_JA,
+    ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID,
+    FREE_PLAN_SEASON,
+)
 
 # 育成年代・リザーブ・女子チームの命名によく含まれるトークン。検索結果に
 # トップチームとこれらが混在する場合、誤ってこちらを拾わないよう除外する。
@@ -253,6 +259,8 @@ def _resolve_team(name_en: str, max_requests: int) -> dict | None:
         division = _resolve_england_division(team["id"], max_requests)
         if division is not None:
             league_name = division
+        if team["id"] in ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID:
+            league_name = ENGLAND_DIVISION_OVERRIDE_BY_TEAM_ID[team["id"]]
     return {
         "team_id": team["id"],
         "team_name": team["name"],

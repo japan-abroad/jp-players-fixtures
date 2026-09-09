@@ -161,7 +161,7 @@
       "team_name": "Birmingham",
       "team_name_ja": "バーミンガム",
       "logo": "https://media.api-sports.io/football/teams/54.png",
-      "league_name": "リーグ1",
+      "league_name": "チャンピオンシップ",
       "country_code": "eng",
       "country_ja": "イングランド",
       "players": [
@@ -203,7 +203,7 @@
       "team_name": "Bolton",
       "team_name_ja": "ボルトン・ワンダラーズ",
       "logo": "https://media.api-sports.io/football/teams/68.png",
-      "league_name": "リーグ1",
+      "league_name": "チャンピオンシップ",
       "country_code": "eng",
       "country_ja": "イングランド",
       "players": [
@@ -320,7 +320,7 @@
       "team_name": "Coventry",
       "team_name_ja": "コヴェントリー",
       "logo": "https://media.api-sports.io/football/teams/1346.png",
-      "league_name": "チャンピオンシップ",
+      "league_name": "プレミアリーグ",
       "country_code": "eng",
       "country_ja": "イングランド",
       "players": [
@@ -593,7 +593,7 @@
       "team_name": "Hull City",
       "team_name_ja": "ハル・シティ",
       "logo": "https://media.api-sports.io/football/teams/64.png",
-      "league_name": "チャンピオンシップ",
+      "league_name": "プレミアリーグ",
       "country_code": "eng",
       "country_ja": "イングランド",
       "players": [
@@ -714,7 +714,7 @@
       "team_name": "Leeds",
       "team_name_ja": "リーズ",
       "logo": "https://media.api-sports.io/football/teams/63.png",
-      "league_name": "チャンピオンシップ",
+      "league_name": "プレミアリーグ",
       "country_code": "eng",
       "country_ja": "イングランド",
       "players": [
@@ -982,7 +982,7 @@
       "team_name": "Southampton",
       "team_name_ja": "サウサンプトン",
       "logo": "https://media.api-sports.io/football/teams/41.png",
-      "league_name": "プレミアリーグ",
+      "league_name": "チャンピオンシップ",
       "country_code": "eng",
       "country_ja": "イングランド",
       "players": [
