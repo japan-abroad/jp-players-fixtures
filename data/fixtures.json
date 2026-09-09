@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09T13:37:37.499945+00:00",
+  "fetched_at": "2026-09-09T18:16:50.257898+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2218,30 +2218,6 @@
           "away_team": "フェイエノールト",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oFQJvuN4b8qeEHcuFsdoB.png",
           "away_score": 3,
-          "jp_players": [
-            {
-              "name": "渡辺剛",
-              "team_id": 209
-            }
-          ]
-        },
-        {
-          "fixture_id": "BmZmNapiiYVNhac92aduw",
-          "kickoff_utc": "2026-09-09T16:45:00.000Z",
-          "venue": "Spotify Camp Nou",
-          "league_name": "チャンピオンズリーグ",
-          "country_code": "uefa",
-          "country_ja": "UEFA",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "agh9ifb2mw3ivjusgedj7c3fe",
-          "home_team": "バルセロナ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eu0z1bZDA3gqIhdn-rHli.png",
-          "home_score": null,
-          "away_team_id": "20vymiy7bo8wkyxai3ew494fz",
-          "away_team": "フェイエノールト",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oFQJvuN4b8qeEHcuFsdoB.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "渡辺剛",
@@ -8612,68 +8588,6 @@
       ]
     },
     {
-      "fixture_id": "BmZmNapiiYVNhac92aduw",
-      "kickoff_utc": "2026-09-09T16:45:00.000Z",
-      "venue": "Spotify Camp Nou",
-      "league_name": "チャンピオンズリーグ",
-      "country_code": "uefa",
-      "country_ja": "UEFA",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "agh9ifb2mw3ivjusgedj7c3fe",
-      "home_team": "バルセロナ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eu0z1bZDA3gqIhdn-rHli.png",
-      "home_score": null,
-      "away_team_id": "20vymiy7bo8wkyxai3ew494fz",
-      "away_team": "フェイエノールト",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oFQJvuN4b8qeEHcuFsdoB.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "渡辺剛",
-          "team_id": 209
-        }
-      ]
-    },
-    {
-      "fixture_id": "IcysFKcTPvu743K-ufH2Z",
-      "kickoff_utc": "2026-09-09T16:45:00.000Z",
-      "venue": "MHPArena",
-      "league_name": "チャンピオンズリーグ",
-      "country_code": "uefa",
-      "country_ja": "UEFA",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "3dwlvz6cl4lcavvrg0y2dycrt",
-      "home_team": "シュトゥットガルト",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/wISHHM98darM05uz5rA-K.png",
-      "home_score": null,
-      "away_team_id": "VDZm6dDRtSJmU-WGvinmQ",
-      "away_team": "バイキング",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5B8vjBfwUVOmSH0djLu9g.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "qNU_JBcP03Dx-DBNv5_PN",
-      "kickoff_utc": "2026-09-09T16:45:00.000Z",
-      "venue": "De Grolsch Veste",
-      "league_name": "エールディヴィジ",
-      "country_code": "ned",
-      "country_ja": "オランダ",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "4tic29sox7m39fy1ztgv0jsiq",
-      "home_team": "トゥウェンテ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nYmTDwICD9XzZcgS7yu6t.png",
-      "home_score": null,
-      "away_team_id": "zjawy6qdzk3y69v5pa3zl2cb",
-      "away_team": "テルスター",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/KoTLsgcdqXmx5uJIpseAX.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
       "fixture_id": "jbGmmOKeS_kRXafmUlEKl",
       "kickoff_utc": "2026-09-09T18:45:00.000Z",
       "venue": "Ibrox Stadium",
@@ -8977,25 +8891,6 @@
       ]
     },
     {
-      "fixture_id": "F9KkpZhZ_sq6aKmFdaDRT",
-      "kickoff_utc": "2026-09-09T23:30:00.000Z",
-      "venue": "Subaru Park",
-      "league_name": "MLS",
-      "country_code": "usa",
-      "country_ja": "アメリカ",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "aq0m4zmew7kkplbi7fa0pv45c",
-      "home_team": "フィラデルフィア・ユニオン",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IJKeZUOqenZuRYgvfW1Oc.png",
-      "home_score": null,
-      "away_team_id": "652hppivbqchvrp3wopx1isyt",
-      "away_team": "FCシンシナティ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
       "fixture_id": "DBz39BZTGnkN32Aay4csv",
       "kickoff_utc": "2026-09-09T23:30:00.000Z",
       "venue": "BMO Field",
@@ -9011,6 +8906,25 @@
       "away_team_id": "1oogd0fpwledjm2ycsuv7afze",
       "away_team": "ナッシュビルSC",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/51-yaPSg49J2mbX7TTX1D.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "F9KkpZhZ_sq6aKmFdaDRT",
+      "kickoff_utc": "2026-09-09T23:45:00.000Z",
+      "venue": "Subaru Park",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "aq0m4zmew7kkplbi7fa0pv45c",
+      "home_team": "フィラデルフィア・ユニオン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IJKeZUOqenZuRYgvfW1Oc.png",
+      "home_score": null,
+      "away_team_id": "652hppivbqchvrp3wopx1isyt",
+      "away_team": "FCシンシナティ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
       "away_score": null,
       "jp_players": []
     },
