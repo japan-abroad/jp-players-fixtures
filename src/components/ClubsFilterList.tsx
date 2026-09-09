@@ -55,7 +55,14 @@ export default function ClubsFilterList({
                 href={`/clubs/${club.teamId}/`}
                 className="flex items-center gap-3 rounded-md border border-[var(--line)] bg-[var(--paper-raised)] p-4 shadow-sm transition hover:border-[var(--samurai)]"
               >
-                <Image src={club.logo} alt={club.name} width={40} height={40} unoptimized />
+                <Image
+                  src={club.logo}
+                  alt={club.name}
+                  width={40}
+                  height={40}
+                  unoptimized
+                  className="h-10 w-10 shrink-0 object-contain"
+                />
                 <div>
                   <p className="font-semibold text-[var(--ink)]">{club.name}</p>
                   <p className="text-xs text-[var(--ink-soft)]">{club.playerNames.join("・")}</p>

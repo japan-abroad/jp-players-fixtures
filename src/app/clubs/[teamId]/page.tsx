@@ -84,7 +84,14 @@ export default async function ClubPage({
       <Breadcrumbs items={breadcrumb.itemListElement.map((i) => ({ name: i.name, url: i.item }))} />
       <div className="flap">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-8">
-          <Image src={club.logo} alt={clubNameJa} width={64} height={64} unoptimized />
+          <Image
+            src={club.logo}
+            alt={clubNameJa}
+            width={64}
+            height={64}
+            unoptimized
+            className="h-16 w-16 shrink-0 object-contain"
+          />
           <div>
             <p className="text-xs uppercase tracking-widest text-white/70">{club.league_name}</p>
             <h1 className="font-display text-3xl font-bold text-white">{clubNameJa}</h1>

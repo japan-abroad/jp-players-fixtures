@@ -99,6 +99,7 @@ export default async function PlayerPage({
             width={56}
             height={56}
             unoptimized
+            className="h-14 w-14 shrink-0 object-contain"
           />
           <div>
             <p className="text-xs uppercase tracking-widest text-white/70">

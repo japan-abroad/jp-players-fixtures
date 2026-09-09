@@ -43,6 +43,7 @@ export default function MatchRow({ match }: { match: Match }) {
               width={22}
               height={22}
               unoptimized
+              className="h-[22px] w-[22px] shrink-0 object-contain"
             />
           )}
           <span>{translateTeamName(match.home_team)}</span>
@@ -64,6 +65,7 @@ export default function MatchRow({ match }: { match: Match }) {
               width={22}
               height={22}
               unoptimized
+              className="h-[22px] w-[22px] shrink-0 object-contain"
             />
           )}
           <span>{translateTeamName(match.away_team)}</span>
