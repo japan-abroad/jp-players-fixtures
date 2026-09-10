@@ -1969,6 +1969,58 @@
           "team_id": 63
         }
       ]
+    },
+    {
+      "fixture_id": "EbOBlp6eIbMqf7vsYLZ4w",
+      "kickoff_utc": "2026-09-09T23:30:00.000Z",
+      "venue": "Mercedes-Benz Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "943ue6l8ylnidoygbi9p8op2h",
+      "home_team": "アトランタユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+      "home_score": 2,
+      "away_team_id": "eaqreat4kxwvah0bvwg1wtoq5",
+      "away_team": "オーランドシティ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RWGc2Pgfmn9nEOGToxyRB.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "富樫敬真",
+          "team_id": 1608
+        }
+      ]
+    },
+    {
+      "fixture_id": "x7WNWXMk7akVinBT2qKyz",
+      "kickoff_utc": "2026-09-09T23:30:00.000Z",
+      "venue": "Audi Field",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "5qw82lpi6fio4fbljihlyyulb",
+      "home_team": "DCユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IaqZ8i3JSmF_gajeFPOA8.png",
+      "home_score": 2,
+      "away_team_id": "chjb0xe5vlaaguop3q2nbalni",
+      "away_team": "コロンバス クルー",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/-LbcS8hYh48KDZ7tq9qLQ.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "濃野公人",
+          "team_id": 1615
+        },
+        {
+          "name": "黒川圭介",
+          "team_id": 1615
+        }
+      ]
     }
   ]
 }
