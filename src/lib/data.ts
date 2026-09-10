@@ -48,6 +48,24 @@ export type FixturesData = {
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
+// アメリカ・カナダ・オーストラリア・ニュージーランドは全ページから非表示にする(2026-09-10指示)
+const HIDDEN_COUNTRY_CODES = new Set(["usa", "can"]);
+const HIDDEN_LEAGUE_NAMES = new Set([
+  "MLS",
+  "カナディアン・プレミアリーグ",
+  "カナディアンチャンピオンシップ",
+  "Aリーグ",
+  "ニュージーランド・ナショナルリーグ",
+]);
+
+function isHiddenMatch(m: Match): boolean {
+  return HIDDEN_COUNTRY_CODES.has(m.country_code) || HIDDEN_LEAGUE_NAMES.has(m.league_name);
+}
+
+function isHiddenClub(club: Club): boolean {
+  return HIDDEN_LEAGUE_NAMES.has(club.league_name) || club.matches.some(isHiddenMatch);
+}
+
 function readJson<T>(filename: string, fallback: T): T {
   const filePath = path.join(DATA_DIR, filename);
   if (!fs.existsSync(filePath)) return fallback;
@@ -55,11 +73,18 @@ function readJson<T>(filename: string, fallback: T): T {
 }
 
 export function getFixturesData(): FixturesData {
-  return readJson<FixturesData>("fixtures.json", { fetched_at: "", clubs: [], matches: [] });
+  const data = readJson<FixturesData>("fixtures.json", { fetched_at: "", clubs: [], matches: [] });
+  return {
+    ...data,
+    clubs: data.clubs.filter((c) => !isHiddenClub(c)),
+    matches: data.matches.filter((m) => !isHiddenMatch(m)),
+  };
 }
 
 function getHistoryMatches(): Match[] {
-  return readJson<{ matches: Match[] }>("fixtures_history.json", { matches: [] }).matches;
+  return readJson<{ matches: Match[] }>("fixtures_history.json", { matches: [] }).matches.filter(
+    (m) => !isHiddenMatch(m)
+  );
 }
 
 /** クラブごとに現行fixtures.jsonの試合とfixtures_history.jsonの過去の試合をマージする。
