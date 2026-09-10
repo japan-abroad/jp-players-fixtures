@@ -332,6 +332,30 @@
       ]
     },
     {
+      "fixture_id": "fWbwHEWC2bDVNbf9lRHNl",
+      "kickoff_utc": "2026-09-03T18:30:00.000Z",
+      "venue": "Stadion Poznan",
+      "league_name": "エクストラクラサ",
+      "country_code": "",
+      "country_ja": "ポーランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "duvz7klp081jpg8fx5nze7ks7",
+      "home_team": "レフ・ポズナン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/relOJ-g_KwjvF0YsNBfv-.png",
+      "home_score": 2,
+      "away_team_id": "8jw3s68b9lil5xcgjvbcmrgc2",
+      "away_team": "ヤギエロニア・ビャウィストク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sUgnbwMe4NBm6MYSThEbA.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "小林友希",
+          "team_id": 336
+        }
+      ]
+    },
+    {
       "fixture_id": "epMByCs4VS-dQWJdeXRzC",
       "kickoff_utc": "2026-09-03T18:45:00.000Z",
       "venue": "Stadium de Toulouse",
@@ -837,7 +861,7 @@
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Py3fY4UyMK_7xUDJlmU4t.png",
       "home_score": 0,
       "away_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
-      "away_team": "SCフライブルク",
+      "away_team": "フライブルク",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
       "away_score": 1,
       "jp_players": [
@@ -1563,6 +1587,30 @@
       ]
     },
     {
+      "fixture_id": "imdWeLIugh3gJbiG2xMvG",
+      "kickoff_utc": "2026-09-06T17:00:00.000Z",
+      "venue": "Stadion Rajko Mitic",
+      "league_name": "スーペルリーガ",
+      "country_code": "",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "81lpho34qr3dad0xzalq0abja",
+      "home_team": "ツルヴェナ・ズヴェズダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
+      "home_score": 2,
+      "away_team_id": "c0d1qca7kz0fi0ypx7aw4nusc",
+      "away_team": "パルチザン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BkY0xyCQ013n5xC-tdQQ8.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "中山雄太",
+          "team_id": 598
+        }
+      ]
+    },
+    {
       "fixture_id": "L3eW4IP1dyL0pAluC9aNa",
       "kickoff_utc": "2026-09-06T17:15:00.000Z",
       "venue": "Freethiel Stadion",
@@ -1587,6 +1635,30 @@
         {
           "name": "山田新",
           "team_id": 260
+        }
+      ]
+    },
+    {
+      "fixture_id": "2fsEofsDAwE0dODlR4o1Z",
+      "kickoff_utc": "2026-09-06T18:15:00.000Z",
+      "venue": "Stadion Miejski, Bialystok",
+      "league_name": "エクストラクラサ",
+      "country_code": "",
+      "country_ja": "ポーランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8jw3s68b9lil5xcgjvbcmrgc2",
+      "home_team": "ヤギエロニア・ビャウィストク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sUgnbwMe4NBm6MYSThEbA.png",
+      "home_score": 2,
+      "away_team_id": "2672w7jn6onmk0lmpsp94eutg",
+      "away_team": "スラスクヴロツワフ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5G0lzshzTm8Twgy35c5oC.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "小林友希",
+          "team_id": 336
         }
       ]
     },
@@ -1670,9 +1742,9 @@
       "fixture_id": "-pzOi-JlFgyh5yPsM5vEI",
       "kickoff_utc": "2026-09-08T16:45:00.000Z",
       "venue": "Jan Breydel Stadion",
-      "league_name": "チャンピオンズリーグ",
-      "country_code": "uefa",
-      "country_ja": "UEFA",
+      "league_name": "UEFAチャンピオンズリーグ",
+      "country_code": "",
+      "country_ja": "International",
       "round": null,
       "status": "RESULT",
       "home_team_id": "1oyb7oym5nwzny8vxf03szd2h",
@@ -1822,9 +1894,9 @@
       "fixture_id": "wnF_vS_YuDogqW7t4szSl",
       "kickoff_utc": "2026-09-08T19:00:00.000Z",
       "venue": "Decathlon Arena-Stade Pierre-Mauroy",
-      "league_name": "チャンピオンズリーグ",
-      "country_code": "uefa",
-      "country_ja": "UEFA",
+      "league_name": "UEFAチャンピオンズリーグ",
+      "country_code": "",
+      "country_ja": "International",
       "round": null,
       "status": "RESULT",
       "home_team_id": "be2k34rut1lz79jxenabttqlc",
@@ -1870,9 +1942,9 @@
       "fixture_id": "BmZmNapiiYVNhac92aduw",
       "kickoff_utc": "2026-09-09T16:45:00.000Z",
       "venue": "Spotify Camp Nou",
-      "league_name": "チャンピオンズリーグ",
-      "country_code": "uefa",
-      "country_ja": "UEFA",
+      "league_name": "UEFAチャンピオンズリーグ",
+      "country_code": "",
+      "country_ja": "International",
       "round": null,
       "status": "RESULT",
       "home_team_id": "agh9ifb2mw3ivjusgedj7c3fe",
@@ -1926,9 +1998,9 @@
       "fixture_id": "Pa5Jgy-eUzFLax_f1AkzP",
       "kickoff_utc": "2026-09-09T19:00:00.000Z",
       "venue": "Anfield",
-      "league_name": "チャンピオンズリーグ",
-      "country_code": "uefa",
-      "country_ja": "UEFA",
+      "league_name": "UEFAチャンピオンズリーグ",
+      "country_code": "",
+      "country_ja": "International",
       "round": null,
       "status": "RESULT",
       "home_team_id": "c8h9bw1l82s06h77xxrelzhur",
