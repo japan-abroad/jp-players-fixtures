@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T12:17:01.194022+00:00",
+  "fetched_at": "2026-09-10T18:15:21.885979+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2184,30 +2184,6 @@
           "away_team": "パルチザン",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BkY0xyCQ013n5xC-tdQQ8.png",
           "away_score": 1,
-          "jp_players": [
-            {
-              "name": "中山雄太",
-              "team_id": 598
-            }
-          ]
-        },
-        {
-          "fixture_id": "_voaGsb7DxAZ2b-HgqJJ3",
-          "kickoff_utc": "2026-09-10T17:00:00.000Z",
-          "venue": "Stadion Surdulica",
-          "league_name": "スーペルリーガ",
-          "country_code": "",
-          "country_ja": "セルビア",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "90e8Ofy41eHO5MSDbxebU",
-          "home_team": "FKラドニクサーデュリカ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
-          "home_score": null,
-          "away_team_id": "81lpho34qr3dad0xzalq0abja",
-          "away_team": "ツルヴェナ・ズヴェズダ",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "中山雄太",
@@ -8919,30 +8895,6 @@
         {
           "name": "吉田麻也",
           "team_id": 1605
-        }
-      ]
-    },
-    {
-      "fixture_id": "_voaGsb7DxAZ2b-HgqJJ3",
-      "kickoff_utc": "2026-09-10T17:00:00.000Z",
-      "venue": "Stadion Surdulica",
-      "league_name": "スーペルリーガ",
-      "country_code": "",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "90e8Ofy41eHO5MSDbxebU",
-      "home_team": "FKラドニクサーデュリカ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
-      "home_score": null,
-      "away_team_id": "81lpho34qr3dad0xzalq0abja",
-      "away_team": "ツルヴェナ・ズヴェズダ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "中山雄太",
-          "team_id": 598
         }
       ]
     },
