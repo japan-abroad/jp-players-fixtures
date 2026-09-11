@@ -2121,6 +2121,54 @@
           "team_id": 1605
         }
       ]
+    },
+    {
+      "fixture_id": "_voaGsb7DxAZ2b-HgqJJ3",
+      "kickoff_utc": "2026-09-10T17:00:00.000Z",
+      "venue": "Stadion Surdulica",
+      "league_name": "スーペルリーガ",
+      "country_code": "",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "90e8Ofy41eHO5MSDbxebU",
+      "home_team": "FKラドニクサーデュリカ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
+      "home_score": 0,
+      "away_team_id": "81lpho34qr3dad0xzalq0abja",
+      "away_team": "ツルヴェナ・ズヴェズダ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "中山雄太",
+          "team_id": 598
+        }
+      ]
+    },
+    {
+      "fixture_id": "m_ZMn5GKSEOK2P5D1fqiL",
+      "kickoff_utc": "2026-09-10T19:00:00.000Z",
+      "venue": "Allianz Arena",
+      "league_name": "UEFAチャンピオンズリーグ",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "apoawtpvac4zqlancmvw4nk4o",
+      "home_team": "バイエルン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2TlMSJkWTGqMX2lPN7Cgd.png",
+      "home_score": 5,
+      "away_team_id": "ctvzi2jbl1q6xzq0s3sexj73g",
+      "away_team": "ボデ/グリムト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zjkWCnFAxFmiPJF2siIgb.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "伊藤洋輝",
+          "team_id": 157
+        }
+      ]
     }
   ]
 }
