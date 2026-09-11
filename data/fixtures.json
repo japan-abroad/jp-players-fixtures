@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T06:16:52.404913+00:00",
+  "fetched_at": "2026-09-11T12:17:37.627861+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -4114,7 +4114,7 @@
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Py3fY4UyMK_7xUDJlmU4t.png",
           "home_score": 0,
           "away_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
-          "away_team": "フライブルク",
+          "away_team": "SCフライブルク",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
           "away_score": 1,
           "jp_players": [
@@ -5530,7 +5530,7 @@
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Py3fY4UyMK_7xUDJlmU4t.png",
       "home_score": 0,
       "away_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
-      "away_team": "フライブルク",
+      "away_team": "SCフライブルク",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
       "away_score": 1,
       "jp_players": [
@@ -6000,7 +6000,7 @@
       "round": null,
       "status": "RESULT",
       "home_team_id": "3xedluek08t2ka7oypwuullcn",
-      "home_team": "RCランス",
+      "home_team": "ランス",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/bBPYfU7vmkcTl-q4NtFj2.png",
       "home_score": 0,
       "away_team_id": "70nn27vgkt6l48lvv5e66q7ww",
