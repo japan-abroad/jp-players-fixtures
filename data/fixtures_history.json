@@ -2885,6 +2885,150 @@
           "team_id": 261
         }
       ]
+    },
+    {
+      "fixture_id": "qx4wjkO2dzk7w7ytZk3VC",
+      "kickoff_utc": "2026-09-12T18:30:00.000Z",
+      "venue": "Millerntor Stadion",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "85jtaw5dcxxx1yp8te6axh3p8",
+      "home_team": "ザンクト・パウリ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nrVUp1yGT9PaanlKgyGrw.png",
+      "home_score": 1,
+      "away_team_id": "a8l3w3n0j99qjlsxj3jnmgkz1",
+      "away_team": "ヴォルフスブルク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Ry9NoyRGMKs5Sgr22Cjg-.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "原大智",
+          "team_id": 186
+        },
+        {
+          "name": "藤田譲瑠チマ",
+          "team_id": 186
+        },
+        {
+          "name": "安藤智哉",
+          "team_id": 186
+        },
+        {
+          "name": "塩貝健人",
+          "team_id": 161
+        }
+      ]
+    },
+    {
+      "fixture_id": "kI3DqRW9nGcYMlE9TTUfa",
+      "kickoff_utc": "2026-09-12T18:45:00.000Z",
+      "venue": "New Balance Arena",
+      "league_name": "セリエA",
+      "country_code": "ita",
+      "country_ja": "イタリア",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "e75syeuawg3ql8nwpi3vr2btz",
+      "home_team": "アタランタ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4CGpPM0rgwp2T8GaN-lbX.png",
+      "home_score": 1,
+      "away_team_id": "5rwlg5cfv1hu7yf0ek1zxpzy3",
+      "away_team": "カリアリ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/AwqELsa7jywgE3abOYRfL.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "菅原由勢",
+          "team_id": 490
+        }
+      ]
+    },
+    {
+      "fixture_id": "Gcinf7cXVOCH1fQudLHEs",
+      "kickoff_utc": "2026-09-12T18:45:00.000Z",
+      "venue": "Stade Oceane",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "23pqcgxu1tip265hbe01kszbt",
+      "home_team": "ル・アーヴル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fTPGU439jhWdPwCnkcqdK.png",
+      "home_score": 0,
+      "away_team_id": "75qj99fhg5c0ztj2tva5u4uii",
+      "away_team": "アンジェ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Nh7HldKX3w-GmQDDadcOs.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "水多海斗",
+          "team_id": 111
+        },
+        {
+          "name": "中村草太",
+          "team_id": 111
+        },
+        {
+          "name": "瀬古歩夢",
+          "team_id": 111
+        }
+      ]
+    },
+    {
+      "fixture_id": "lqhG09o58lfMZBZ_YCS2E",
+      "kickoff_utc": "2026-09-12T18:45:00.000Z",
+      "venue": "Stade Jean Bouin",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8v00fx2zwhiwm05tqqkt122p5",
+      "home_team": "パリFC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WWz2gkQcwpjxdPlZkx-BZ.png",
+      "home_score": 0,
+      "away_team_id": "121le8unjfzug3iu9pgkqa1c7",
+      "away_team": "リヨン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9QuhS30De-PnujU8oknsX.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "中村敬斗",
+          "team_id": 80
+        }
+      ]
+    },
+    {
+      "fixture_id": "SgAbXBWN3M0UgdM3mh2W0",
+      "kickoff_utc": "2026-09-12T18:45:00.000Z",
+      "venue": "King Power at Den Dreef",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "bw9wm8pqfzcchumhiwdt2w15c",
+      "home_team": "ルーヴェン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_fZcqibogTdLBXYhvxvOg.png",
+      "home_score": 1,
+      "away_team_id": "3ix9om1svhd6obl0mbk1otgop",
+      "away_team": "サークル・ブルッヘ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/R4o-83B9ERKzmBpN7enUB.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "荻原拓也",
+          "team_id": 260
+        },
+        {
+          "name": "山田新",
+          "team_id": 260
+        }
+      ]
     }
   ]
 }
