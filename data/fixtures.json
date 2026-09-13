@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T06:20:47.855912+00:00",
+  "fetched_at": "2026-09-13T12:16:13.837132+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -99,40 +99,7 @@
           "position": null
         }
       ],
-      "matches": [
-        {
-          "fixture_id": "5BLNxNAsPyTXjXytdOVR_",
-          "kickoff_utc": "2026-09-13T11:30:00.000Z",
-          "venue": "Jan Breydel Stadion",
-          "league_name": "ベルギー・プロリーグ",
-          "country_code": "bel",
-          "country_ja": "ベルギー",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "1oyb7oym5nwzny8vxf03szd2h",
-          "home_team": "クラブ・ブルッヘ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P7IMTnd7DyvKabTxDNOdQ.png",
-          "home_score": null,
-          "away_team_id": "7zibyotq1x1hq6pmgibhr0e6s",
-          "away_team": "アントワープ",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PKbu1PaPCPc2BgBOV5Nvi.png",
-          "away_score": null,
-          "jp_players": [
-            {
-              "name": "安藤晃希",
-              "team_id": 740
-            },
-            {
-              "name": "野澤大志ブランドン",
-              "team_id": 740
-            },
-            {
-              "name": "綱島悠斗",
-              "team_id": 740
-            }
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "team_id": 240,
@@ -2505,30 +2472,6 @@
           "away_team": "ハンマルビー",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
           "away_score": 1,
-          "jp_players": [
-            {
-              "name": "島佑成",
-              "team_id": 363
-            }
-          ]
-        },
-        {
-          "fixture_id": "lCQeQcn80rOvlJ17uui3Y",
-          "kickoff_utc": "2026-09-13T12:00:00.000Z",
-          "venue": "3Arena",
-          "league_name": "アルスヴェンスカン",
-          "country_code": "",
-          "country_ja": "スウェーデン",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "2nnlsjfbcea40t4jeclcbw9lk",
-          "home_team": "ハンマルビー",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
-          "home_score": null,
-          "away_team_id": "jNmX_vC_ibxex7rI2OhIf",
-          "away_team": "ブロマポイカルナ",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f0KkCDbLVKlwP1m0PAFLo.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "島佑成",
@@ -8440,129 +8383,16 @@
       "country_code": "ned",
       "country_ja": "オランダ",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "dqk062lu0vm8epvytbm6r4mmf",
       "home_team": "エクセルシオール",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/yEg_sv9Un9QIbb9fgzwAy.png",
-      "home_score": null,
+      "home_score": 1,
       "away_team_id": "ccpscwdcm65czscrun048ecn5",
       "away_team": "ユトレヒト",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P8_7wZDtPIX2i7fjGSyjB.png",
-      "away_score": null,
+      "away_score": 2,
       "jp_players": []
-    },
-    {
-      "fixture_id": "bWKG3DhAMMBAxURDpWywE",
-      "kickoff_utc": "2026-09-13T11:00:00.000Z",
-      "venue": "Bramall Lane",
-      "league_name": "EFLチャンピオンシップ",
-      "country_code": "eng",
-      "country_ja": "イングランド",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "bws31egwjda253q9lvykgnivo",
-      "home_team": "シェフィールド・ユナイテッド",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/E-qne_XSKwyqS3UlSsH44.png",
-      "home_score": null,
-      "away_team_id": "b9si1jn1lfxfund69e9ogcu2n",
-      "away_team": "ウォルヴァーハンプトン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/q8LuXPdOIsqKGDbg8rjSp.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "1prYt4CIWrnnUmEB7PPZj",
-      "kickoff_utc": "2026-09-13T11:00:00.000Z",
-      "venue": "Ibrox Stadium",
-      "league_name": "スコティッシュ・リーグカップ",
-      "country_code": "sco",
-      "country_ja": "スコットランド",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "cnnku8uihko7u4th0fms4pvg6",
-      "home_team": "レンジャーズ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BOClk20rC_9i-88SEnIsN.png",
-      "home_score": null,
-      "away_team_id": "dvnjvad3p09dugr79gktlrtll",
-      "away_team": "セルティック",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/8UxaQpw2CLkIbVb6i3Avz.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "5BLNxNAsPyTXjXytdOVR_",
-      "kickoff_utc": "2026-09-13T11:30:00.000Z",
-      "venue": "Jan Breydel Stadion",
-      "league_name": "ベルギー・プロリーグ",
-      "country_code": "bel",
-      "country_ja": "ベルギー",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "1oyb7oym5nwzny8vxf03szd2h",
-      "home_team": "クラブ・ブルッヘ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P7IMTnd7DyvKabTxDNOdQ.png",
-      "home_score": null,
-      "away_team_id": "7zibyotq1x1hq6pmgibhr0e6s",
-      "away_team": "アントワープ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PKbu1PaPCPc2BgBOV5Nvi.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "安藤晃希",
-          "team_id": 740
-        },
-        {
-          "name": "野澤大志ブランドン",
-          "team_id": 740
-        },
-        {
-          "name": "綱島悠斗",
-          "team_id": 740
-        }
-      ]
-    },
-    {
-      "fixture_id": "iZVl2x2PEEL32gaY1m43T",
-      "kickoff_utc": "2026-09-13T12:00:00.000Z",
-      "venue": "Abanca Balaidos",
-      "league_name": "ラ・リーガ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "6f27yvbqcngegwsg2ozxxdj4",
-      "home_team": "セルタ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FTgkUPD0PmbUD4tk9KLzC.png",
-      "home_score": null,
-      "away_team_id": "7012hpp3p5vg4fzyn3h0yvf09",
-      "away_team": "マラガ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/N9ip4ws6bBGlRkUQc-Vvr.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "lCQeQcn80rOvlJ17uui3Y",
-      "kickoff_utc": "2026-09-13T12:00:00.000Z",
-      "venue": "3Arena",
-      "league_name": "アルスヴェンスカン",
-      "country_code": "",
-      "country_ja": "スウェーデン",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "2nnlsjfbcea40t4jeclcbw9lk",
-      "home_team": "ハンマルビー",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
-      "home_score": null,
-      "away_team_id": "jNmX_vC_ibxex7rI2OhIf",
-      "away_team": "ブロマポイカルナ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f0KkCDbLVKlwP1m0PAFLo.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "島佑成",
-          "team_id": 363
-        }
-      ]
     },
     {
       "fixture_id": "B8QtoylDpoxNpfNIsPIJ7",
