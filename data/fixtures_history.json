@@ -3029,6 +3029,62 @@
           "team_id": 260
         }
       ]
+    },
+    {
+      "fixture_id": "l1wzJTS8_a1HbQTJ6sSv7",
+      "kickoff_utc": "2026-09-12T23:30:00.000Z",
+      "venue": "Audi Field",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "5qw82lpi6fio4fbljihlyyulb",
+      "home_team": "DCユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IaqZ8i3JSmF_gajeFPOA8.png",
+      "home_score": 0,
+      "away_team_id": "943ue6l8ylnidoygbi9p8op2h",
+      "away_team": "アトランタユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "濃野公人",
+          "team_id": 1615
+        },
+        {
+          "name": "黒川圭介",
+          "team_id": 1615
+        },
+        {
+          "name": "富樫敬真",
+          "team_id": 1608
+        }
+      ]
+    },
+    {
+      "fixture_id": "WirqxyUMoDdqgokiO-u_F",
+      "kickoff_utc": "2026-09-13T02:30:00.000Z",
+      "venue": "Dignity Health Sports Park",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
+      "home_team": "LAギャラクシー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
+      "home_score": 1,
+      "away_team_id": "3st9rj62b3qnni6uolw0lwaqn",
+      "away_team": "シアトルサウンダーズFC",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iju_-94JIOiHTSVh4Nqgh.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "吉田麻也",
+          "team_id": 1605
+        }
+      ]
     }
   ]
 }
