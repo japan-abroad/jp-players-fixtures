@@ -2216,7 +2216,7 @@
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qEKLVOjy3NWkwocdIk7YK.png",
       "home_score": 2,
       "away_team_id": "bdlavlqj0dshxnepyfanzwu47",
-      "away_team": "ビーレフェルト",
+      "away_team": "アルミニア・ビーレフェルト",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/cbm_oTGdsgyQirFw5UBAz.png",
       "away_score": 1,
       "jp_players": [
@@ -2296,11 +2296,11 @@
       "round": null,
       "status": "RESULT",
       "home_team_id": "cyrrlv6l1onld5x247w1q1jlr",
-      "home_team": "ベールスホットVA",
+      "home_team": "ベールスホット",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/n_Bj4qmlxRfgWYXSF53p1.png",
       "home_score": 3,
       "away_team_id": "6ejjpyrug2vk1tcvxk0rby7oq",
-      "away_team": "リールセケンペンゾーネン",
+      "away_team": "リールセ・ケンペンゾーネン",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mved3iBycl8omQ0W9MTvL.png",
       "away_score": 1,
       "jp_players": [
@@ -2604,7 +2604,7 @@
       "round": null,
       "status": "RESULT",
       "home_team_id": "1c7qokc1j5z50cjj4tcu32haa",
-      "home_team": "1. FSV マインツ 05",
+      "home_team": "マインツ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f2-8qfj2bk5S0vTBEEa9G.png",
       "home_score": 1,
       "away_team_id": "c5hderjlkcoaze51e5wgvptk",
@@ -2612,6 +2612,18 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2Myurk0GUKAA2rF21Tx4Z.png",
       "away_score": 3,
       "jp_players": [
+        {
+          "name": "佐野海舟",
+          "team_id": 164
+        },
+        {
+          "name": "川﨑颯太",
+          "team_id": 164
+        },
+        {
+          "name": "川崎颯太",
+          "team_id": 164
+        },
         {
           "name": "堂安律",
           "team_id": 169
@@ -3408,7 +3420,7 @@
       "round": null,
       "status": "RESULT",
       "home_team_id": "cz6529flu1ynqzvmcwzu7ziyn",
-      "home_team": "パトロ・アイスデン",
+      "home_team": "パトロ・アイスデン・マースメヘレン",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/a7PWsdUDDQiOzXAUVUFDK.png",
       "home_score": 1,
       "away_team_id": "9njsy633rh1tyri7l2jaju5o",
