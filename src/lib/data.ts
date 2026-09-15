@@ -48,8 +48,9 @@ export type FixturesData = {
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
-// アメリカ・カナダ・オーストラリア・ニュージーランドは全ページから非表示にする(2026-09-10指示)
-const HIDDEN_COUNTRY_CODES = new Set(["usa", "can"]);
+// アメリカ・カナダ・オーストラリア・ニュージーランド・セルビアは全ページから非表示にする
+// (2026-09-10指示、セルビアは2026-09-16指示)
+const HIDDEN_COUNTRY_CODES = new Set(["usa", "can", "srb"]);
 const HIDDEN_LEAGUE_NAMES = new Set([
   "MLS",
   "カナディアン・プレミアリーグ",

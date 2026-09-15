@@ -73,6 +73,10 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     # 2026-09-08 発覚: LEAGUE_ALLOWLIST未登録のため国表示がフォールバックで
     # goal.com生表記の"イギリス"のままになっていたバグを修正。
     ("イギリス", "EFL チャンピオンシップ"): {"name": "EFLチャンピオンシップ", "country_code": "eng", "country_ja": "イングランド"},
+    # 2026-09-16実データで確認。カラバオカップ=EFLカップの通称(スポンサー名)。
+    ("イギリス", "カラバオカップ"): {"name": "カラバオカップ", "country_code": "eng", "country_ja": "イングランド"},
+    # 2026-09-16 ユーザー指示: "イギリス"という曖昧な表記はイングランドに含める
+    # (未登録の"イギリス"大会がフォールバックした場合も含む。_area_to_country_ja参照)。
     ("スペイン", "ラ・リーガ"): {"name": "ラ・リーガ", "country_code": "esp", "country_ja": "スペイン"},
     ("スペイン", "コパ・デル・レイ"): {"name": "コパ・デル・レイ", "country_code": "esp", "country_ja": "スペイン"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     ("ドイツ", "ブンデスリーガ"): {"name": "ブンデスリーガ", "country_code": "ger", "country_ja": "ドイツ"},
@@ -95,17 +99,28 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     ("トルコ", "トルコカップ"): {"name": "トルコカップ", "country_code": "tur", "country_ja": "トルコ"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     # 2026-09-08 実データで確認: goal.com側の表記は"チャンピオンズ"と"リーグ"の
     # 間に半角スペースが入る。areaは参加国を問わず"International"。
-    ("International", "チャンピオンズ リーグ"): {"name": "チャンピオンズリーグ", "country_code": "uefa", "country_ja": "UEFA"},
+    # 2026-09-16発覚: その後goal.com側の表記が"UEFAチャンピオンズリーグ"に
+    # 変わっており、旧キーは一致しなくなっていた(country_jaがフォールバックで
+    # "International"のまま表示される事故)。新表記のキーを追加し、
+    # ユーザー指示によりcountry_jaは"UEFA"ではなく"CL/EL"表示にする。
+    ("International", "チャンピオンズ リーグ"): {"name": "チャンピオンズリーグ", "country_code": "uefa", "country_ja": "CL/EL"},
+    ("International", "UEFAチャンピオンズリーグ"): {"name": "チャンピオンズリーグ", "country_code": "uefa", "country_ja": "CL/EL"},
     # 2026-09-08 実データで確認(2026-09-17開幕分)。
-    ("International", "ヨーロッパリーグ"): {"name": "ヨーロッパリーグ", "country_code": "uefa", "country_ja": "UEFA"},
-    # 2026-09-08 実データで確認(2026-10-16開幕分)。
-    ("International", "ヨーロッパカンファレンス・リーグ"): {"name": "カンファレンスリーグ", "country_code": "uefa", "country_ja": "UEFA"},
+    ("International", "ヨーロッパリーグ"): {"name": "ヨーロッパリーグ", "country_code": "uefa", "country_ja": "CL/EL"},
+    ("International", "UEFAヨーロッパリーグ"): {"name": "ヨーロッパリーグ", "country_code": "uefa", "country_ja": "CL/EL"},
+    # 2026-09-08 実データで確認(2026-10-16開幕分)。新表記は未観測のため
+    # 旧キーのみ("UEFAカンファレンスリーグ"等に変わっている可能性、要検証)。
+    ("International", "ヨーロッパカンファレンス・リーグ"): {"name": "カンファレンスリーグ", "country_code": "uefa", "country_ja": "CL/EL"},
     # 2026-09-08 発覚: 未登録のためフォールバックでgoal.com生表記の
     # "アメリカ合衆国"がそのまま使われていた(他リーグの短縮表記と不一致)。
     # さらにMLSは米国・カナダのクラブが混在するため、country_jaは
     # _MULTI_COUNTRY_LEAGUESの仕組みでJPクラブ自身の国名を優先する
     # (このデフォルト値は所属JPクラブが無い試合のみに使われる)。
     ("アメリカ合衆国", "MLS"): {"name": "MLS", "country_code": "usa", "country_ja": "アメリカ"},
+    # 2026-09-16 ユーザー指示で非表示対象に追加(country_code="srb"をdata.tsの
+    # HIDDEN_COUNTRY_CODESに登録)。未登録のままだとcountry_code=""になり
+    # country_codeベースの非表示フィルタが効かないため、まず登録が必要。
+    ("セルビア", "スーペルリーガ"): {"name": "スーペルリーガ", "country_code": "srb", "country_ja": "セルビア"},
 }
 
 # LEAGUE_ALLOWLISTのcountry_jaはリーグ単位の固定値だが、これらのリーグは
@@ -490,7 +505,10 @@ def main() -> None:
             else:
                 league_name = raw["league_name"]
                 country_code = ""
-                country_ja = raw["area"]
+                # 2026-09-16 ユーザー指示: goal.com側の"イギリス"という曖昧な
+                # area表記は、LEAGUE_ALLOWLIST未登録のフォールバック時も
+                # イングランドとして扱う。
+                country_ja = "イングランド" if raw["area"] == "イギリス" else raw["area"]
 
             if league_name in _MULTI_COUNTRY_LEAGUES:
                 jp_club_for_country = home_club or away_club
