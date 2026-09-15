@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T11:18:51.806177+00:00",
+  "fetched_at": "2026-09-15T16:29:44.534711+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -1978,30 +1978,6 @@
           "away_team": "ACホーセンス",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u-zaoAeGnj8Vsn-OFcgz4.png",
           "away_score": 0,
-          "jp_players": [
-            {
-              "name": "鈴木淳之介",
-              "team_id": 400
-            }
-          ]
-        },
-        {
-          "fixture_id": "w5W27THZwPZt0CVt3WdDg",
-          "kickoff_utc": "2026-09-15T16:00:00.000Z",
-          "venue": null,
-          "league_name": "DBUカップ",
-          "country_code": "",
-          "country_ja": "デンマーク",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "egz2zN0KIaZFQA-EPB5X1",
-          "home_team": "スコヴショヴェド",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/s7fhWkUVEi6j4h4gP6qV_.png",
-          "home_score": null,
-          "away_team_id": "b3r6d8ydtmtjckam6pku9y400",
-          "away_team": "コペンハーゲン",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "鈴木淳之介",
@@ -9433,49 +9409,6 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FwcoRaskwA7OW8SOScpwD.png",
       "away_score": 0,
       "jp_players": []
-    },
-    {
-      "fixture_id": "kWiOirROOluAf-q47JdGX",
-      "kickoff_utc": "2026-09-15T16:00:00.000Z",
-      "venue": null,
-      "league_name": "コッパ・イタリア",
-      "country_code": "ita",
-      "country_ja": "イタリア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "4kumqzwifv478caxed8zywlh3",
-      "home_team": "ジェノア",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/yIbz25l-fwQ0NWKqBReam.png",
-      "home_score": null,
-      "away_team_id": "4os8c4tugzqwx4hef5g7lic78",
-      "away_team": "ズュートティロール",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/U-9bJ0jDlL86SSK6d1MPM.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "w5W27THZwPZt0CVt3WdDg",
-      "kickoff_utc": "2026-09-15T16:00:00.000Z",
-      "venue": null,
-      "league_name": "DBUカップ",
-      "country_code": "",
-      "country_ja": "デンマーク",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "egz2zN0KIaZFQA-EPB5X1",
-      "home_team": "スコヴショヴェド",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/s7fhWkUVEi6j4h4gP6qV_.png",
-      "home_score": null,
-      "away_team_id": "b3r6d8ydtmtjckam6pku9y400",
-      "away_team": "コペンハーゲン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "鈴木淳之介",
-          "team_id": 400
-        }
-      ]
     },
     {
       "fixture_id": "q3PSOrdLpYp18VV_d58WX",
