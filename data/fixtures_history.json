@@ -3589,6 +3589,102 @@
           "team_id": 63
         }
       ]
+    },
+    {
+      "fixture_id": "w5W27THZwPZt0CVt3WdDg",
+      "kickoff_utc": "2026-09-15T16:15:00.000Z",
+      "venue": null,
+      "league_name": "DBUカップ",
+      "country_code": "",
+      "country_ja": "デンマーク",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "egz2zN0KIaZFQA-EPB5X1",
+      "home_team": "スコヴショヴェド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/s7fhWkUVEi6j4h4gP6qV_.png",
+      "home_score": 0,
+      "away_team_id": "b3r6d8ydtmtjckam6pku9y400",
+      "away_team": "コペンハーゲン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "鈴木淳之介",
+          "team_id": 400
+        }
+      ]
+    },
+    {
+      "fixture_id": "8csk-Rxk00kvrF7k7XuxF",
+      "kickoff_utc": "2026-09-15T18:00:00.000Z",
+      "venue": "Estadio Mendizorroza",
+      "league_name": "ラ・リーガ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "4dtdjgnpdq9uw4sdutti0vaar",
+      "home_team": "アラベス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/dqC3XtzsGeXe3c53Qqrn-.png",
+      "home_score": 0,
+      "away_team_id": "ba5e91hjacvma2sjvixn00pjo",
+      "away_team": "バレンシア",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/GBjhrfqF1SgdL1HLfI-7z.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "佐藤龍之介",
+          "team_id": 532
+        }
+      ]
+    },
+    {
+      "fixture_id": "8Q9c3NpQC9ZoqIto7nBIZ",
+      "kickoff_utc": "2026-09-15T19:00:00.000Z",
+      "venue": "Portman Road",
+      "league_name": "カラバオカップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8b523ujgl21tbc01me65q0aoh",
+      "home_team": "イプスウィッチ・タウン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zrA_YgKgSHz-G7qbhWYG-.png",
+      "home_score": 2,
+      "away_team_id": "4dsgumo7d4zupm2ugsvm4zm4d",
+      "away_team": "アーセナル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W1-BFEctS5BlEkf0u_ld3.png",
+      "away_score": 4,
+      "jp_players": [
+        {
+          "name": "前田大然",
+          "team_id": 57
+        }
+      ]
+    },
+    {
+      "fixture_id": "ErProvktkNx70BbRIlDhp",
+      "kickoff_utc": "2026-09-15T19:00:00.000Z",
+      "venue": "Anfield",
+      "league_name": "カラバオカップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "c8h9bw1l82s06h77xxrelzhur",
+      "home_team": "リヴァプール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+      "home_score": 3,
+      "away_team_id": "22doj4sgsocqpxw45h607udje",
+      "away_team": "トッテナム",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/KmdeSyXZ0p1BvszXZCBzu.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "遠藤航",
+          "team_id": 40
+        }
+      ]
     }
   ]
 }
