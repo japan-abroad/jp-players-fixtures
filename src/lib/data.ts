@@ -56,6 +56,7 @@ const HIDDEN_LEAGUE_NAMES = new Set([
   "カナディアンチャンピオンシップ",
   "Aリーグ",
   "ニュージーランド・ナショナルリーグ",
+  "EFLトロフィー", // プレミア/チャンピオンシップ下部組織(アカデミー)が参加するカップ戦のため非表示(2026-09-16指示)
 ]);
 
 function isHiddenMatch(m: Match): boolean {

@@ -62,6 +62,12 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     ("イギリス", "EFL カップ"): {"name": "EFLカップ", "country_code": "eng", "country_ja": "イングランド"},
     # 2026-09-01 実データで確認: スコットランドのリーグカップ(EFLカップに相当)は
     # "リーグカップ"という名前で、該当試合は全てスコットランド勢だった。
+    # 2026-09-16発覚: 同じ("イギリス","リーグカップ")キーはイングランドの
+    # EFLトロフィー(リーグ1/2クラブ+プレミア/チャンピオンシップ下部組織が
+    # 参加するカップ戦)にも使われており、9/1時点はたまたまスコットランド勢
+    # のみが観測されただけだった。EFLトロフィーは対戦相手が必ず「〇〇
+    # アカデミー」等の非トップチーム名になるため、それで判別する
+    # (_is_efl_trophy_matchを参照)。
     ("イギリス", "リーグカップ"): {"name": "スコティッシュ・リーグカップ", "country_code": "sco", "country_ja": "スコットランド"},
     ("イギリス", "スコティッシュカップ"): {"name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},  # 要検証(該当試合が未観測、開催時期が遅いため)
     # 2026-09-08 発覚: LEAGUE_ALLOWLIST未登録のため国表示がフォールバックで
@@ -108,6 +114,19 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
 # 試合はJPクラブ自身のcountry_ja(jp_clubs.json由来、API-Footballで
 # クラブ単位に正しく解決済み)があればそちらを優先する。
 _MULTI_COUNTRY_LEAGUES = {"MLS"}
+
+# ("イギリス","リーグカップ")のうち、対戦相手がプレミア/チャンピオンシップの
+# 下部組織(「〇〇アカデミー」等)であるものはスコットランドのリーグカップ
+# ではなくイングランドのEFLトロフィーなので、league_infoを上書きする。
+EFL_TROPHY_INFO = {"name": "EFLトロフィー", "country_code": "eng", "country_ja": "イングランド"}
+
+
+def _is_efl_trophy_match(raw: dict) -> bool:
+    return (
+        raw["area"] == "イギリス"
+        and raw["league_name"] == "リーグカップ"
+        and (not _is_first_team_name(raw["home_team"]) or not _is_first_team_name(raw["away_team"]))
+    )
 
 # goal.com側の表記がサッカーキング側(jp_clubs.jsonのteam_name_ja)と
 # 一致しないクラブの個別対応(判明したものから追加)。
@@ -446,6 +465,8 @@ def main() -> None:
                 continue  # 女子リーグ・育成年代リーグ自体を丸ごと除外
 
             league_info = LEAGUE_ALLOWLIST.get((raw["area"], raw["league_name"]))
+            if league_info is not None and _is_efl_trophy_match(raw):
+                league_info = EFL_TROPHY_INFO
             allow_fuzzy = league_info is not None or raw["league_name"] in _FUZZY_TRUSTED_LEAGUES
 
             home_club = _find_club(raw["home_team"], club_by_norm_name, allow_fuzzy=allow_fuzzy, area=raw["area"])
