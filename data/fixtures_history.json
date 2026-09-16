@@ -3685,6 +3685,106 @@
           "team_id": 40
         }
       ]
+    },
+    {
+      "fixture_id": "cV9V_A5YLMC4fd4eRhXb-",
+      "kickoff_utc": "2026-09-16T19:00:00.000Z",
+      "venue": "Lotto Park",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6vyr13j6kbwdtxjwm1m4m8nu2",
+      "home_team": "アンデルレヒト",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/cR4Ju_Hn49tM0giPdS7XI.png",
+      "home_score": 1,
+      "away_team_id": "121le8unjfzug3iu9pgkqa1c7",
+      "away_team": "リヨン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9QuhS30De-PnujU8oknsX.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "中村敬斗",
+          "team_id": 80
+        }
+      ]
+    },
+    {
+      "fixture_id": "QYHs1Pu5x4Z9C22Az_00-",
+      "kickoff_utc": "2026-09-16T19:00:00.000Z",
+      "venue": "Karaiskakis Stadium",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "9ghx7vbghs3628n5chm9r8ig3",
+      "home_team": "オリンピアコス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/DHe0XZ-mIjDNk0C4uCE3J.png",
+      "home_score": 2,
+      "away_team_id": "8jw3s68b9lil5xcgjvbcmrgc2",
+      "away_team": "ヤギエロニア・ビャウィストク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sUgnbwMe4NBm6MYSThEbA.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "小林友希",
+          "team_id": 336
+        }
+      ]
+    },
+    {
+      "fixture_id": "JBMXpo9zReOOrY5_gwc2m",
+      "kickoff_utc": "2026-09-16T19:00:00.000Z",
+      "venue": "Coventry Building Society Arena",
+      "league_name": "カラバオカップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "dacoc20k0n3fxu4zek8wufmko",
+      "home_team": "コヴェントリー・シティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W59RF9GwRrQAX4YSSlzQQ.png",
+      "home_score": 1,
+      "away_team_id": "b496gs285it6bheuikox6z9mj",
+      "away_team": "アストン・ヴィラ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "坂元達裕",
+          "team_id": 1346
+        },
+        {
+          "name": "鈴木彩艶",
+          "team_id": 66
+        }
+      ]
+    },
+    {
+      "fixture_id": "XW9NK01l3VqGETvldC26a",
+      "kickoff_utc": "2026-09-16T19:00:00.000Z",
+      "venue": "Old Trafford",
+      "league_name": "カラバオカップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6eqit8ye8aomdsrrq0hk3v7gh",
+      "home_team": "マンチェスター・ユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/StOWHY8QeOZ7MplXkp2KC.png",
+      "home_score": 2,
+      "away_team_id": "e5p0ehyguld7egzhiedpdnc3w",
+      "away_team": "ブライトン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "三笘薫",
+          "team_id": 51
+        }
+      ]
     }
   ]
 }
