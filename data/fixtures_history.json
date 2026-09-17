@@ -3809,6 +3809,162 @@
           "team_id": 1603
         }
       ]
+    },
+    {
+      "fixture_id": "VIqwVQv-GojWDFEjwTvOJ",
+      "kickoff_utc": "2026-09-17T16:45:00.000Z",
+      "venue": "Vasil Levski",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "yon73K3gSlf3jIhC9ZlQl",
+      "home_team": "レフスキ・ソフィア",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/DVnev29Cdc34hlqBCr9-Y.png",
+      "home_score": 0,
+      "away_team_id": "bonj6qc7po4anunhydmjmi6g5",
+      "away_team": "RBザルツブルク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/-PWqo_lcDVwCd2-FuHu94.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "北野颯太",
+          "team_id": 571
+        },
+        {
+          "name": "チェイス・アンリ",
+          "team_id": 571
+        }
+      ]
+    },
+    {
+      "fixture_id": "V6bzAwbZdK7Wfm7WeHlCs",
+      "kickoff_utc": "2026-09-17T16:45:00.000Z",
+      "venue": "Pankritio Stadium",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "dr4emys1xpm2h54oid0q5y2nx",
+      "home_team": "OFIクレタ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/SgPyQ0OVYX3wAKfcnalWo.png",
+      "home_score": 2,
+      "away_team_id": "4l9mrqzmajz5crzlz50mtbt6x",
+      "away_team": "ホッフェンハイム",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/1K9pUTQXHjmhK2eBCZumq.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "町田浩樹",
+          "team_id": 167
+        }
+      ]
+    },
+    {
+      "fixture_id": "pXWKoWSprDJRuKXGaurKe",
+      "kickoff_utc": "2026-09-17T18:00:00.000Z",
+      "venue": "Stadion Mladost, Krusevac",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "CW5O5dAilg0a82iOYREbE",
+      "home_team": "Zeleznicar Pancevo",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
+      "home_score": 1,
+      "away_team_id": "81lpho34qr3dad0xzalq0abja",
+      "away_team": "ツルヴェナ・ズヴェズダ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "中山雄太",
+          "team_id": 598
+        }
+      ]
+    },
+    {
+      "fixture_id": "ljPrxtEnAhQW-aWKRKOfh",
+      "kickoff_utc": "2026-09-17T19:00:00.000Z",
+      "venue": "Selhurst Park",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "1c8m2ko0wxq1asfkuykurdr0y",
+      "home_team": "クリスタル・パレス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fkqJeAhCc1RGGGO8bTZwl.png",
+      "home_score": 4,
+      "away_team_id": "duvz7klp081jpg8fx5nze7ks7",
+      "away_team": "レフ・ポズナン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/relOJ-g_KwjvF0YsNBfv-.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "冨安健洋",
+          "team_id": 52
+        },
+        {
+          "name": "鎌田大地",
+          "team_id": 52
+        }
+      ]
+    },
+    {
+      "fixture_id": "UX9eB9imDMnqW3JxvHACs",
+      "kickoff_utc": "2026-09-17T19:00:00.000Z",
+      "venue": "Aaraasen Stadion",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "EXGbGJDcNkxo9kAvlG9fe",
+      "home_team": "リールストロム",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IGbF2AvTnm-I_Vw_wbHJX.png",
+      "home_score": 1,
+      "away_team_id": "b4s4r679ggaejqjn6xcweh1qx",
+      "away_team": "トレエンセ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fdZcNDHxmIWX2AkdnVyto.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "上田綺世",
+          "team_id": 79
+        }
+      ]
+    },
+    {
+      "fixture_id": "T7w3jXxuzAvPI3Hj4RHdG",
+      "kickoff_utc": "2026-09-17T19:00:00.000Z",
+      "venue": "Reale Arena",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "CL/EL",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "63f5h8t5e9qm1fqmvfkb23ghh",
+      "home_team": "レアル・ソシエダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/N79j9O-sTkXZNhc9UZUsX.png",
+      "home_score": 1,
+      "away_team_id": "1pse9ta7a45pi2w2grjim70ge",
+      "away_team": "ボーンマス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FS7UO4BdZPMJrL5MlqxyL.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "久保建英",
+          "team_id": 548
+        },
+        {
+          "name": "喜多壱也",
+          "team_id": 548
+        }
+      ]
     }
   ]
 }
