@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-17T03:55:15.242035+00:00",
+  "fetched_at": "2026-09-17T11:11:38.925599+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -11944,6 +11944,25 @@
       ]
     },
     {
+      "fixture_id": "3fRbkVbTT1fbW1-gSdC-V",
+      "kickoff_utc": "2026-09-20T18:00:00.000Z",
+      "venue": "Stadion Mladost, Krusevac",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "CW5O5dAilg0a82iOYREbE",
+      "home_team": "Zeleznicar Pancevo",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
+      "home_score": null,
+      "away_team_id": "c7o9hpr4axv7govpi4s5ohbnd",
+      "away_team": "チュカリチュキ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vLH43dTpda1LE7WcXUcWg.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
       "fixture_id": "X7qW0dcpTiiOozULzTaiP",
       "kickoff_utc": "2026-09-20T18:45:00.000Z",
       "venue": "San Siro",
@@ -12048,25 +12067,6 @@
       "away_team_id": "pyOgsKc8IWzAULRTD7ugh",
       "away_team": "San Diego FC",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/e9q-SR6UaUW4PCOu2coIb.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "3fRbkVbTT1fbW1-gSdC-V",
-      "kickoff_utc": "2026-09-21T17:00:00.000Z",
-      "venue": "Stadion Mladost, Krusevac",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "CW5O5dAilg0a82iOYREbE",
-      "home_team": "Zeleznicar Pancevo",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
-      "home_score": null,
-      "away_team_id": "c7o9hpr4axv7govpi4s5ohbnd",
-      "away_team": "チュカリチュキ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vLH43dTpda1LE7WcXUcWg.png",
       "away_score": null,
       "jp_players": []
     },
