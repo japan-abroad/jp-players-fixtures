@@ -3965,6 +3965,62 @@
           "team_id": 548
         }
       ]
+    },
+    {
+      "fixture_id": "4rnocxiXqHXmEfTe1zoB6",
+      "kickoff_utc": "2026-09-18T16:30:00.000Z",
+      "venue": "Volkswagen Arena",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "a8l3w3n0j99qjlsxj3jnmgkz1",
+      "home_team": "ヴォルフスブルク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Ry9NoyRGMKs5Sgr22Cjg-.png",
+      "home_score": 5,
+      "away_team_id": "1y7e48j8swyafegsucvewse5a",
+      "away_team": "ダルムシュタット",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qEKLVOjy3NWkwocdIk7YK.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "塩貝健人",
+          "team_id": 161
+        },
+        {
+          "name": "古川陽介",
+          "team_id": 181
+        },
+        {
+          "name": "秋山裕紀",
+          "team_id": 181
+        }
+      ]
+    },
+    {
+      "fixture_id": "Q8njM_VTL1U_vImKQdiBf",
+      "kickoff_utc": "2026-09-18T18:30:00.000Z",
+      "venue": "Allianz Arena",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "apoawtpvac4zqlancmvw4nk4o",
+      "home_team": "バイエルン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2TlMSJkWTGqMX2lPN7Cgd.png",
+      "home_score": 7,
+      "away_team_id": "a8d2gb2nag8fy0itbuxmcibh2",
+      "away_team": "ウニオン・ベルリン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/L23XBxLVG-r2wXOUzV1QT.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "伊藤洋輝",
+          "team_id": 157
+        }
+      ]
     }
   ]
 }
