@@ -4021,6 +4021,54 @@
           "team_id": 157
         }
       ]
+    },
+    {
+      "fixture_id": "k187XVXTx4py25uVPS3H0",
+      "kickoff_utc": "2026-09-18T18:45:00.000Z",
+      "venue": "Stade Louis II, Monaco",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "4t4hod56fsj7utpjdor8so5q6",
+      "home_team": "モナコ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/F_zla_b5a_HE5hGvveHfz.png",
+      "home_score": 2,
+      "away_team_id": "3xedluek08t2ka7oypwuullcn",
+      "away_team": "RCランス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/bBPYfU7vmkcTl-q4NtFj2.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "南野拓実",
+          "team_id": 91
+        }
+      ]
+    },
+    {
+      "fixture_id": "bqrFlM1d_ZAK7f8TYg1Rg",
+      "kickoff_utc": "2026-09-18T18:45:00.000Z",
+      "venue": "Planet Group Arena",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8y3iucyxguipljcmf87a11bk9",
+      "home_team": "ヘント",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RbRJAkTnt3dvn2Naugpud.png",
+      "home_score": 2,
+      "away_team_id": "5z1b7fuvpqe6vnigvopomvecu",
+      "away_team": "スタンダール・リエージュ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iMYtK_CDLSEAEZtBT4FIr.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "佃颯太",
+          "team_id": 631
+        }
+      ]
     }
   ]
 }
