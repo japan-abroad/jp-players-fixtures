@@ -4095,6 +4095,30 @@
       ]
     },
     {
+      "fixture_id": "1L2iGEbRfJ_hSO2LZNta2",
+      "kickoff_utc": "2026-09-19T12:00:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "qtvG1Pcof2vOoKNOrwiOh",
+      "home_team": "PSV",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fdDZSbE4B5fm29f_4YsSq.png",
+      "home_score": 0,
+      "away_team_id": "dHFB6zOkUMgxm3gnf05Wg",
+      "away_team": "FCトゥエンテ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
+      "away_score": 4,
+      "jp_players": [
+        {
+          "name": "佐野航大",
+          "team_id": 197
+        }
+      ]
+    },
+    {
       "fixture_id": "nwA8bMj-9u7BL20mjdS8E",
       "kickoff_utc": "2026-09-19T13:00:00.000Z",
       "venue": "Bluenergy Stadium - Stadio Friuli",
