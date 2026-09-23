@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T16:19:19.295617+00:00",
+  "fetched_at": "2026-09-23T21:13:45.680164+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -612,6 +612,42 @@
             {
               "name": "川崎颯太",
               "team_id": 164
+            }
+          ]
+        },
+        {
+          "fixture_id": "OOYMoUIf9rAOFqzspoKyd",
+          "kickoff_utc": "2026-09-24T16:30:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "J8MbXGrbOjydpkoIyO-RG",
+          "home_team": "Sportfreunde Siegen",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iQBqEScJm2evgk4q8SZ-D.png",
+          "home_score": null,
+          "away_team_id": "go76xxm0xyfgqt1h6tcrtimm",
+          "away_team": "ボルシアMG",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/HM49b4dKNaIgkvz6V2U4U.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "板倉滉",
+              "team_id": 163
+            },
+            {
+              "name": "町野修斗",
+              "team_id": 163
+            },
+            {
+              "name": "宇野禅斗",
+              "team_id": 163
+            },
+            {
+              "name": "橋岡大樹",
+              "team_id": 163
             }
           ]
         }
@@ -7374,6 +7410,42 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VuH5_ELAgPDNeGoVUhYOr.png",
       "away_score": null,
       "jp_players": []
+    },
+    {
+      "fixture_id": "OOYMoUIf9rAOFqzspoKyd",
+      "kickoff_utc": "2026-09-24T16:30:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "J8MbXGrbOjydpkoIyO-RG",
+      "home_team": "Sportfreunde Siegen",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iQBqEScJm2evgk4q8SZ-D.png",
+      "home_score": null,
+      "away_team_id": "go76xxm0xyfgqt1h6tcrtimm",
+      "away_team": "ボルシアMG",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/HM49b4dKNaIgkvz6V2U4U.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "板倉滉",
+          "team_id": 163
+        },
+        {
+          "name": "町野修斗",
+          "team_id": 163
+        },
+        {
+          "name": "宇野禅斗",
+          "team_id": 163
+        },
+        {
+          "name": "橋岡大樹",
+          "team_id": 163
+        }
+      ]
     },
     {
       "fixture_id": "hhJsKlmpgqsJ4kxwCX1jC",
