@@ -60,7 +60,13 @@ jobs:
         run: npm ci
 
       - name: Build static site
-        run: npm run build
+        # next/font/google がビルド時にGoogle FontsへHTTPリクエストするため、
+        # CI環境のネットワーク不調で稀に失敗する。リトライで吸収する。
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: npm run build
 
       - uses: actions/configure-pages@v5
 
