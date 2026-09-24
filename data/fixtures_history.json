@@ -5401,6 +5401,42 @@
           "team_id": 548
         }
       ]
+    },
+    {
+      "fixture_id": "OOYMoUIf9rAOFqzspoKyd",
+      "kickoff_utc": "2026-09-24T16:30:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "J8MbXGrbOjydpkoIyO-RG",
+      "home_team": "Sportfreunde Siegen",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iQBqEScJm2evgk4q8SZ-D.png",
+      "home_score": 0,
+      "away_team_id": "go76xxm0xyfgqt1h6tcrtimm",
+      "away_team": "ボルシアMG",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/HM49b4dKNaIgkvz6V2U4U.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "板倉滉",
+          "team_id": 163
+        },
+        {
+          "name": "町野修斗",
+          "team_id": 163
+        },
+        {
+          "name": "宇野禅斗",
+          "team_id": 163
+        },
+        {
+          "name": "橋岡大樹",
+          "team_id": 163
+        }
+      ]
     }
   ]
 }
