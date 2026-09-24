@@ -4071,6 +4071,34 @@
       ]
     },
     {
+      "fixture_id": "3RG3OOYz25hKyKMF-NvSp",
+      "kickoff_utc": "2026-09-19T10:00:00.000Z",
+      "venue": null,
+      "league_name": "リーガF",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "e7p3lxg97gac51s71hotzi0a5",
+      "home_team": "FC Badalona",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jr2IqcJQ7-YfVfUQInY_5.png",
+      "home_score": 0,
+      "away_team_id": "9euoni3f3sh08tsplt2gh5dex",
+      "away_team": "レアルソシエダ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MqNBq2lHzMAxOdkBIdV9U.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "久保建英",
+          "team_id": 548
+        },
+        {
+          "name": "喜多壱也",
+          "team_id": 548
+        }
+      ]
+    },
+    {
       "fixture_id": "-gpaEQd-ZHVWbT5z83FIU",
       "kickoff_utc": "2026-09-19T11:30:00.000Z",
       "venue": "Tottenham Hotspur Stadium",
@@ -4658,8 +4686,8 @@
       "fixture_id": "PTiNnzx_SKRw-Un-AKZ1n",
       "kickoff_utc": "2026-09-19T19:30:00.000Z",
       "venue": "Estadio Jose Alvalade",
-      "league_name": "リーガ・ポルトガル",
-      "country_code": "por",
+      "league_name": "プリメイラ・リーガ",
+      "country_code": "",
       "country_ja": "ポルトガル",
       "round": null,
       "status": "RESULT",
@@ -5222,7 +5250,7 @@
       "fixture_id": "_r37UP1aFvfmVZcBE7QXQ",
       "kickoff_utc": "2026-09-20T16:30:00.000Z",
       "venue": "Estadio de Gran Canaria",
-      "league_name": "ラ・リーガ 2部",
+      "league_name": "セグンダ・ディビシオン",
       "country_code": "",
       "country_ja": "スペイン",
       "round": null,
