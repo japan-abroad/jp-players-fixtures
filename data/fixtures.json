@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-26T15:59:51.731604+00:00",
+  "fetched_at": "2026-09-26T20:45:59.215662+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -6162,6 +6162,44 @@
           "team_id": 197
         }
       ]
+    },
+    {
+      "fixture_id": "4Trduv0tDm1sJT4PvThw0",
+      "kickoff_utc": "2026-09-26T14:30:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8uwvjzazv3wsaswlsfg3if4q1",
+      "home_team": "Ajax",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oiPxzUR8VEx4KbSHJ04hw.png",
+      "home_score": 7,
+      "away_team_id": "a5trlgdq6k0s4whhg5b2btzw",
+      "away_team": "ADO Den Haag",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/AK9OKG3rS1JaDUQpo4xrl.png",
+      "away_score": 1,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "W2fRbiGo_lZ_Dja1NCheI",
+      "kickoff_utc": "2026-09-26T14:30:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "9xx15yz7sl5dore0z8d8556ok",
+      "home_team": "Feyenoord",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/lDabOADIWGP6uJuLKI9Gq.png",
+      "home_score": 2,
+      "away_team_id": "p1DBPWYwf390OL9Zg0gxI",
+      "away_team": "PEC Zwolle",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MIRMqYltXWtNiNTA0-96d.png",
+      "away_score": 3,
+      "jp_players": []
     },
     {
       "fixture_id": "G2RYpkiO-i5WZYQItvLvJ",
