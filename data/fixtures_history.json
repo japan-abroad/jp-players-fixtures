@@ -5437,6 +5437,58 @@
           "team_id": 163
         }
       ]
+    },
+    {
+      "fixture_id": "33ESyDrux-hltXrG87lun",
+      "kickoff_utc": "2026-09-26T10:00:00.000Z",
+      "venue": null,
+      "league_name": "リーガF",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "9euoni3f3sh08tsplt2gh5dex",
+      "home_team": "レアルソシエダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MqNBq2lHzMAxOdkBIdV9U.png",
+      "home_score": 3,
+      "away_team_id": "vaikl8nl7hdr4y9jj4jyb9ey",
+      "away_team": "レアル・マドリード・フェメニーノ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vTjdaLWCnszhzCrGtCOlr.png",
+      "away_score": 5,
+      "jp_players": [
+        {
+          "name": "久保建英",
+          "team_id": 548
+        },
+        {
+          "name": "喜多壱也",
+          "team_id": 548
+        }
+      ]
+    },
+    {
+      "fixture_id": "hhJsKlmpgqsJ4kxwCX1jC",
+      "kickoff_utc": "2026-09-26T12:00:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "qtvG1Pcof2vOoKNOrwiOh",
+      "home_team": "PSV",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fdDZSbE4B5fm29f_4YsSq.png",
+      "home_score": 4,
+      "away_team_id": "Wtkpf6I-FQRkVXkUNB8Ej",
+      "away_team": "De Graafschap",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "佐野航大",
+          "team_id": 197
+        }
+      ]
     }
   ]
 }
