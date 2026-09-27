@@ -5489,6 +5489,30 @@
           "team_id": 197
         }
       ]
+    },
+    {
+      "fixture_id": "G2RYpkiO-i5WZYQItvLvJ",
+      "kickoff_utc": "2026-09-26T23:30:00.000Z",
+      "venue": "Mercedes-Benz Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "943ue6l8ylnidoygbi9p8op2h",
+      "home_team": "アトランタ・ユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+      "home_score": 2,
+      "away_team_id": "1bksy4rix8pm8rjve81uqo8ut",
+      "away_team": "ニューヨーク・シティFC",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FPjtdu6yLX4I7Kk0BaxRB.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "富樫敬真",
+          "team_id": 1608
+        }
+      ]
     }
   ]
 }
