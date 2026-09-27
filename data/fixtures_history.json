@@ -5601,6 +5601,30 @@
           "team_id": 169
         }
       ]
+    },
+    {
+      "fixture_id": "ZMWSsnbqOTUCesdMqkXvt",
+      "kickoff_utc": "2026-09-27T16:30:00.000Z",
+      "venue": "Municipal de Ipurua",
+      "league_name": "セグンダ・ディビシオン",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "bjltc68ihd23uu3svnq0o3qrs",
+      "home_team": "エイバル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pafNvSN2D_ZG74DFqZKK5.png",
+      "home_score": 3,
+      "away_team_id": "1ae3awgwm3i1jds5tfct5441j",
+      "away_team": "ラス・パルマス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "宮代大聖",
+          "team_id": 534
+        }
+      ]
     }
   ]
 }
