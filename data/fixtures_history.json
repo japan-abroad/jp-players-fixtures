@@ -5569,6 +5569,38 @@
           "team_id": 1615
         }
       ]
+    },
+    {
+      "fixture_id": "a46xuSMOoz4hn98qGET8D",
+      "kickoff_utc": "2026-09-27T12:00:00.000Z",
+      "venue": null,
+      "league_name": "DFB Pokal Frauen",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "0o2iDtnCWvunEfHPGU5j7",
+      "home_team": "Karlsruher SC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
+      "home_score": 1,
+      "away_team_id": "e8os1xpomlperuedy2f9a9ttu",
+      "away_team": "フランクフルト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/byLfqdBAJyepmk88Eeh8n.png",
+      "away_score": 6,
+      "jp_players": [
+        {
+          "name": "堂安律",
+          "team_id": 169
+        },
+        {
+          "name": "小杉啓太",
+          "team_id": 169
+        },
+        {
+          "name": "神代慶人",
+          "team_id": 169
+        }
+      ]
     }
   ]
 }

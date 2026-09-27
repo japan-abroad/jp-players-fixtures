@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-27T11:36:32.222466+00:00",
+  "fetched_at": "2026-09-27T16:35:24.927721+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -670,15 +670,15 @@
           "country_code": "",
           "country_ja": "ドイツ",
           "round": null,
-          "status": "FIXTURE",
+          "status": "RESULT",
           "home_team_id": "0o2iDtnCWvunEfHPGU5j7",
           "home_team": "Karlsruher SC",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
-          "home_score": null,
+          "home_score": 1,
           "away_team_id": "e8os1xpomlperuedy2f9a9ttu",
           "away_team": "フランクフルト",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/byLfqdBAJyepmk88Eeh8n.png",
-          "away_score": null,
+          "away_score": 6,
           "jp_players": [
             {
               "name": "堂安律",
@@ -1426,30 +1426,6 @@
           "away_team": "ブルゴス",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/D9mIzC4r6DmX9XM_ShcPD.png",
           "away_score": 2,
-          "jp_players": [
-            {
-              "name": "宮代大聖",
-              "team_id": 534
-            }
-          ]
-        },
-        {
-          "fixture_id": "ZMWSsnbqOTUCesdMqkXvt",
-          "kickoff_utc": "2026-09-27T16:30:00.000Z",
-          "venue": "Municipal de Ipurua",
-          "league_name": "セグンダ・ディビシオン",
-          "country_code": "",
-          "country_ja": "スペイン",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "bjltc68ihd23uu3svnq0o3qrs",
-          "home_team": "エイバル",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pafNvSN2D_ZG74DFqZKK5.png",
-          "home_score": null,
-          "away_team_id": "1ae3awgwm3i1jds5tfct5441j",
-          "away_team": "ラス・パルマス",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
-          "away_score": null,
           "jp_players": [
             {
               "name": "宮代大聖",
@@ -4225,6 +4201,25 @@
       ]
     },
     {
+      "fixture_id": "dfnSO5Ooxf88yry_Y3eMl",
+      "kickoff_utc": "2026-09-27T10:15:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "okOqWarNqfyMXzaX47-_F",
+      "home_team": "AZ Alkmaar",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/TUZDgzpO5vAMFTXIPu7hl.png",
+      "home_score": 0,
+      "away_team_id": "dHFB6zOkUMgxm3gnf05Wg",
+      "away_team": "FCトゥエンテ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
+      "away_score": 5,
+      "jp_players": []
+    },
+    {
       "fixture_id": "a46xuSMOoz4hn98qGET8D",
       "kickoff_utc": "2026-09-27T12:00:00.000Z",
       "venue": null,
@@ -4232,15 +4227,15 @@
       "country_code": "",
       "country_ja": "ドイツ",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "0o2iDtnCWvunEfHPGU5j7",
       "home_team": "Karlsruher SC",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
-      "home_score": null,
+      "home_score": 1,
       "away_team_id": "e8os1xpomlperuedy2f9a9ttu",
       "away_team": "フランクフルト",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/byLfqdBAJyepmk88Eeh8n.png",
-      "away_score": null,
+      "away_score": 6,
       "jp_players": [
         {
           "name": "堂安律",
@@ -4253,49 +4248,6 @@
         {
           "name": "神代慶人",
           "team_id": 169
-        }
-      ]
-    },
-    {
-      "fixture_id": "cpyChjotaTrTcNggHJriU",
-      "kickoff_utc": "2026-09-27T14:45:00.000Z",
-      "venue": null,
-      "league_name": "エールディヴィジ",
-      "country_code": "ned",
-      "country_ja": "オランダ",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "T7EmL-wqD-X72UkakaU3V",
-      "home_team": "SC Heerenveen",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nnKWmKw975Nghdj2cHJzc.png",
-      "home_score": null,
-      "away_team_id": "aoaced38v02b2trzucbou0ulz",
-      "away_team": "FC Utrecht",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/hgKI8FFG-LcOJ1kW4EU_J.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "ZMWSsnbqOTUCesdMqkXvt",
-      "kickoff_utc": "2026-09-27T16:30:00.000Z",
-      "venue": "Municipal de Ipurua",
-      "league_name": "セグンダ・ディビシオン",
-      "country_code": "",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "bjltc68ihd23uu3svnq0o3qrs",
-      "home_team": "エイバル",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pafNvSN2D_ZG74DFqZKK5.png",
-      "home_score": null,
-      "away_team_id": "1ae3awgwm3i1jds5tfct5441j",
-      "away_team": "ラス・パルマス",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "宮代大聖",
-          "team_id": 534
         }
       ]
     },
