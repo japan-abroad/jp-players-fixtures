@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T23:03:42.956754+00:00",
+  "fetched_at": "2026-09-30T23:07:46.324562+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -517,38 +517,6 @@
         }
       ],
       "matches": [
-        {
-          "fixture_id": "a46xuSMOoz4hn98qGET8D",
-          "kickoff_utc": "2026-09-27T12:00:00.000Z",
-          "venue": null,
-          "league_name": "DFB Pokal Frauen",
-          "country_code": "",
-          "country_ja": "ドイツ",
-          "round": null,
-          "status": "RESULT",
-          "home_team_id": "0o2iDtnCWvunEfHPGU5j7",
-          "home_team": "Karlsruher SC",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
-          "home_score": 1,
-          "away_team_id": "e8os1xpomlperuedy2f9a9ttu",
-          "away_team": "フランクフルト",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/byLfqdBAJyepmk88Eeh8n.png",
-          "away_score": 6,
-          "jp_players": [
-            {
-              "name": "堂安律",
-              "team_id": 169
-            },
-            {
-              "name": "小杉啓太",
-              "team_id": 169
-            },
-            {
-              "name": "神代慶人",
-              "team_id": 169
-            }
-          ]
-        },
         {
           "fixture_id": "2ylQKVNJxLVmcpdtesnPh",
           "kickoff_utc": "2026-10-02T13:30:00.000Z",
@@ -1261,64 +1229,7 @@
           "position": null
         }
       ],
-      "matches": [
-        {
-          "fixture_id": "33ESyDrux-hltXrG87lun",
-          "kickoff_utc": "2026-09-26T10:00:00.000Z",
-          "venue": null,
-          "league_name": "リーガF",
-          "country_code": "",
-          "country_ja": "スペイン",
-          "round": null,
-          "status": "RESULT",
-          "home_team_id": "9euoni3f3sh08tsplt2gh5dex",
-          "home_team": "レアルソシエダ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MqNBq2lHzMAxOdkBIdV9U.png",
-          "home_score": 3,
-          "away_team_id": "vaikl8nl7hdr4y9jj4jyb9ey",
-          "away_team": "レアル・マドリード・フェメニーノ",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vTjdaLWCnszhzCrGtCOlr.png",
-          "away_score": 5,
-          "jp_players": [
-            {
-              "name": "久保建英",
-              "team_id": 548
-            },
-            {
-              "name": "喜多壱也",
-              "team_id": 548
-            }
-          ]
-        },
-        {
-          "fixture_id": "SYheu6hXNc8S_ZDKhDN1V",
-          "kickoff_utc": "2026-10-04T17:30:00.000Z",
-          "venue": null,
-          "league_name": "リーガF",
-          "country_code": "",
-          "country_ja": "スペイン",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "cd1ottifbgcfrn6pdrdpwt7z0",
-          "home_team": "バレンシア・フェメニーノ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/AVBXPDjxVEVlGMyrsZi-Q.png",
-          "home_score": null,
-          "away_team_id": "9euoni3f3sh08tsplt2gh5dex",
-          "away_team": "レアルソシエダ",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MqNBq2lHzMAxOdkBIdV9U.png",
-          "away_score": null,
-          "jp_players": [
-            {
-              "name": "久保建英",
-              "team_id": 548
-            },
-            {
-              "name": "喜多壱也",
-              "team_id": 548
-            }
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "team_id": 571,
@@ -1698,34 +1609,6 @@
       ]
     },
     {
-      "fixture_id": "33ESyDrux-hltXrG87lun",
-      "kickoff_utc": "2026-09-26T10:00:00.000Z",
-      "venue": null,
-      "league_name": "リーガF",
-      "country_code": "",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "9euoni3f3sh08tsplt2gh5dex",
-      "home_team": "レアルソシエダ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MqNBq2lHzMAxOdkBIdV9U.png",
-      "home_score": 3,
-      "away_team_id": "vaikl8nl7hdr4y9jj4jyb9ey",
-      "away_team": "レアル・マドリード・フェメニーノ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vTjdaLWCnszhzCrGtCOlr.png",
-      "away_score": 5,
-      "jp_players": [
-        {
-          "name": "久保建英",
-          "team_id": 548
-        },
-        {
-          "name": "喜多壱也",
-          "team_id": 548
-        }
-      ]
-    },
-    {
       "fixture_id": "hhJsKlmpgqsJ4kxwCX1jC",
       "kickoff_utc": "2026-09-26T12:00:00.000Z",
       "venue": null,
@@ -2075,38 +1958,6 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
       "away_score": 5,
       "jp_players": []
-    },
-    {
-      "fixture_id": "a46xuSMOoz4hn98qGET8D",
-      "kickoff_utc": "2026-09-27T12:00:00.000Z",
-      "venue": null,
-      "league_name": "DFB Pokal Frauen",
-      "country_code": "",
-      "country_ja": "ドイツ",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "0o2iDtnCWvunEfHPGU5j7",
-      "home_team": "Karlsruher SC",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
-      "home_score": 1,
-      "away_team_id": "e8os1xpomlperuedy2f9a9ttu",
-      "away_team": "フランクフルト",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/byLfqdBAJyepmk88Eeh8n.png",
-      "away_score": 6,
-      "jp_players": [
-        {
-          "name": "堂安律",
-          "team_id": 169
-        },
-        {
-          "name": "小杉啓太",
-          "team_id": 169
-        },
-        {
-          "name": "神代慶人",
-          "team_id": 169
-        }
-      ]
     },
     {
       "fixture_id": "cpyChjotaTrTcNggHJriU",
@@ -3095,34 +2946,6 @@
         {
           "name": "宮代大聖",
           "team_id": 534
-        }
-      ]
-    },
-    {
-      "fixture_id": "SYheu6hXNc8S_ZDKhDN1V",
-      "kickoff_utc": "2026-10-04T17:30:00.000Z",
-      "venue": null,
-      "league_name": "リーガF",
-      "country_code": "",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "cd1ottifbgcfrn6pdrdpwt7z0",
-      "home_team": "バレンシア・フェメニーノ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/AVBXPDjxVEVlGMyrsZi-Q.png",
-      "home_score": null,
-      "away_team_id": "9euoni3f3sh08tsplt2gh5dex",
-      "away_team": "レアルソシエダ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MqNBq2lHzMAxOdkBIdV9U.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "久保建英",
-          "team_id": 548
-        },
-        {
-          "name": "喜多壱也",
-          "team_id": 548
         }
       ]
     },
