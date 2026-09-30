@@ -18,7 +18,6 @@ const COUNTRIES: { code: string; label: string }[] = [
   { code: "ned", label: "オランダ" },
   { code: "por", label: "ポルトガル" },
   { code: "bel", label: "ベルギー" },
-  { code: "sco", label: "スコットランド" },
   { code: "tur", label: "トルコ" },
   { code: "uefa", label: "UEFA" },
 ];

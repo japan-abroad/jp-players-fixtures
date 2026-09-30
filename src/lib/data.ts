@@ -50,7 +50,10 @@ const DATA_DIR = path.join(process.cwd(), "data");
 
 // アメリカ・カナダ・オーストラリア・ニュージーランド・セルビアは全ページから非表示にする
 // (2026-09-10指示、セルビアは2026-09-16指示)
-const HIDDEN_COUNTRY_CODES = new Set(["usa", "can", "srb"]);
+// スコットランドも非表示(2026-09-16指示、日本人選手不在。加えてgoal.com側で
+// EFLトロフィー(イングランド下部組織カップ)の一部試合がスコティッシュ・
+// リーグカップと同名"リーグカップ"で区別できず誤って紛れ込む問題の回避も兼ねる)
+const HIDDEN_COUNTRY_CODES = new Set(["usa", "can", "srb", "sco"]);
 const HIDDEN_LEAGUE_NAMES = new Set([
   "MLS",
   "カナディアン・プレミアリーグ",
