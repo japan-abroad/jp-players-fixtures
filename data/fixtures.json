@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T04:42:16.073951+00:00",
+  "fetched_at": "2026-10-01T12:38:52.652489+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -562,7 +562,32 @@
           "position": null
         }
       ],
-      "matches": []
+      "matches": [
+        {
+          "fixture_id": "_ClUlWsbepX2klElKo9Cx",
+          "kickoff_utc": "2026-10-03T14:30:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "o0lDDy01JaVLhSN3VlWm0",
+          "home_team": "ヴィンタートゥール",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JaeXrA7eQLBs0X9QlrYR9.png",
+          "home_score": null,
+          "away_team_id": "5u18kvqiqhup2vd345dci1069",
+          "away_team": "バーゼル",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZFLaYXd4L5aWIGe9ne0Px.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "常本佳吾",
+              "team_id": 551
+            }
+          ]
+        }
+      ]
     },
     {
       "team_id": 400,
@@ -784,7 +809,40 @@
           "position": null
         }
       ],
-      "matches": []
+      "matches": [
+        {
+          "fixture_id": "X8HLKmbqmit-fmVKbHeit",
+          "kickoff_utc": "2026-10-03T11:00:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "89xivtxk59uzvhdsd6miao6tm",
+          "home_team": "ゲンク",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
+          "home_score": null,
+          "away_team_id": "3ebril33e08ddzob4bhq8awsr",
+          "away_team": "フォルトゥナ・シッタート",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/uK9qiSBg0YEIGdrXQxnbj.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "伊東純也",
+              "team_id": 742
+            },
+            {
+              "name": "吉永夢希",
+              "team_id": 742
+            },
+            {
+              "name": "横山歩夢",
+              "team_id": 742
+            }
+          ]
+        }
+      ]
     },
     {
       "team_id": 631,
@@ -810,7 +868,32 @@
           "position": null
         }
       ],
-      "matches": []
+      "matches": [
+        {
+          "fixture_id": "EiMLoYhlTBz08Yupks4xf",
+          "kickoff_utc": "2026-10-03T11:30:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "2nnlsjfbcea40t4jeclcbw9lk",
+          "home_team": "ハンマルビー",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
+          "home_score": null,
+          "away_team_id": "7LbqowsakzEez9ZMTbMBm",
+          "away_team": "ヴェステルオースSK",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZwmKw2Fu1TbQ78RJAsR1v.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "島佑成",
+              "team_id": 363
+            }
+          ]
+        }
+      ]
     },
     {
       "team_id": 166,
@@ -2152,6 +2235,38 @@
       ]
     },
     {
+      "fixture_id": "X8HLKmbqmit-fmVKbHeit",
+      "kickoff_utc": "2026-10-03T11:00:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "89xivtxk59uzvhdsd6miao6tm",
+      "home_team": "ゲンク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
+      "home_score": null,
+      "away_team_id": "3ebril33e08ddzob4bhq8awsr",
+      "away_team": "フォルトゥナ・シッタート",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/uK9qiSBg0YEIGdrXQxnbj.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "伊東純也",
+          "team_id": 742
+        },
+        {
+          "name": "吉永夢希",
+          "team_id": 742
+        },
+        {
+          "name": "横山歩夢",
+          "team_id": 742
+        }
+      ]
+    },
+    {
       "fixture_id": "WodzvgnVDSLeYEOAqhzhr",
       "kickoff_utc": "2026-10-03T11:00:00.000Z",
       "venue": null,
@@ -2180,6 +2295,30 @@
         {
           "name": "川崎颯太",
           "team_id": 164
+        }
+      ]
+    },
+    {
+      "fixture_id": "EiMLoYhlTBz08Yupks4xf",
+      "kickoff_utc": "2026-10-03T11:30:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "2nnlsjfbcea40t4jeclcbw9lk",
+      "home_team": "ハンマルビー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
+      "home_score": null,
+      "away_team_id": "7LbqowsakzEez9ZMTbMBm",
+      "away_team": "ヴェステルオースSK",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZwmKw2Fu1TbQ78RJAsR1v.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "島佑成",
+          "team_id": 363
         }
       ]
     },
@@ -2781,6 +2920,30 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/QiZ_qnJhLjtxEpH0qYuL1.png",
       "away_score": null,
       "jp_players": []
+    },
+    {
+      "fixture_id": "_ClUlWsbepX2klElKo9Cx",
+      "kickoff_utc": "2026-10-03T14:30:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "o0lDDy01JaVLhSN3VlWm0",
+      "home_team": "ヴィンタートゥール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JaeXrA7eQLBs0X9QlrYR9.png",
+      "home_score": null,
+      "away_team_id": "5u18kvqiqhup2vd345dci1069",
+      "away_team": "バーゼル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZFLaYXd4L5aWIGe9ne0Px.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "常本佳吾",
+          "team_id": 551
+        }
+      ]
     },
     {
       "fixture_id": "tf4wSv_Bm7EjkrDB6EuHb",
