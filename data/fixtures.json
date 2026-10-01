@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T12:38:52.652489+00:00",
+  "fetched_at": "2026-10-01T22:26:33.290312+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -76,7 +76,32 @@
           "position": null
         }
       ],
-      "matches": []
+      "matches": [
+        {
+          "fixture_id": "JdoIHUghcM9CIf1mZeKiU",
+          "kickoff_utc": "2026-10-02T18:30:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "10eyb18v5puw4ez03ocaug09m",
+          "home_team": "セビージャ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/crn6HYOO9QzfqMRAUuGIF.png",
+          "home_score": null,
+          "away_team_id": "b496gs285it6bheuikox6z9mj",
+          "away_team": "アストン・ヴィラ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "鈴木彩艶",
+              "team_id": 66
+            }
+          ]
+        }
+      ]
     },
     {
       "team_id": 1608,
@@ -2184,23 +2209,28 @@
       ]
     },
     {
-      "fixture_id": "dBvMEuIcAsjCmE-SiibQo",
+      "fixture_id": "JdoIHUghcM9CIf1mZeKiU",
       "kickoff_utc": "2026-10-02T18:30:00.000Z",
-      "venue": "Broadwood Stadium",
-      "league_name": "FAカップ",
-      "country_code": "eng",
-      "country_ja": "イングランド",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "mQm_DvDmxQMargtptgWR1",
-      "home_team": "クムノックジュニア",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/aYIx_GCSh_uYiIfI0rmus.png",
+      "home_team_id": "10eyb18v5puw4ez03ocaug09m",
+      "home_team": "セビージャ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/crn6HYOO9QzfqMRAUuGIF.png",
       "home_score": null,
-      "away_team_id": "g54PUGXaLz5lCHqkw9QBS",
-      "away_team": "オーキンレックタルボット",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pNvmmYgPutptm_ZDIOVCU.png",
+      "away_team_id": "b496gs285it6bheuikox6z9mj",
+      "away_team": "アストン・ヴィラ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
       "away_score": null,
-      "jp_players": []
+      "jp_players": [
+        {
+          "name": "鈴木彩艶",
+          "team_id": 66
+        }
+      ]
     },
     {
       "fixture_id": "sicpcKNO0led-t5Z9hVv1",
