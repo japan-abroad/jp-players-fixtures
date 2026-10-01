@@ -5537,6 +5537,34 @@
           "team_id": 534
         }
       ]
+    },
+    {
+      "fixture_id": "BEjLb4yI-_T7r0S7NsBlS",
+      "kickoff_utc": "2026-09-30T23:30:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "5qw82lpi6fio4fbljihlyyulb",
+      "home_team": "DCユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IaqZ8i3JSmF_gajeFPOA8.png",
+      "home_score": 0,
+      "away_team_id": "62ljqd4za2a6svd9wgctg8b53",
+      "away_team": "パーダーボルン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Py3fY4UyMK_7xUDJlmU4t.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "濃野公人",
+          "team_id": 1615
+        },
+        {
+          "name": "黒川圭介",
+          "team_id": 1615
+        }
+      ]
     }
   ]
 }
