@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T04:34:12.510023+00:00",
+  "fetched_at": "2026-10-02T12:03:08.357737+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2904,7 +2904,7 @@
       ]
     },
     {
-      "fixture_id": "tf4wSv_Bm7EjkrDB6EuHb",
+      "fixture_id": "TyzJdqSmN3NkkggQgG7F1",
       "kickoff_utc": "2026-10-04T10:15:00.000Z",
       "venue": null,
       "league_name": "エールディヴィジ",
@@ -2912,13 +2912,13 @@
       "country_ja": "オランダ",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "Wtkpf6I-FQRkVXkUNB8Ej",
-      "home_team": "De Graafschap",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
+      "home_team_id": "dHFB6zOkUMgxm3gnf05Wg",
+      "home_team": "FCトゥエンテ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
       "home_score": null,
-      "away_team_id": "okOqWarNqfyMXzaX47-_F",
-      "away_team": "AZ Alkmaar",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/TUZDgzpO5vAMFTXIPu7hl.png",
+      "away_team_id": "aoaced38v02b2trzucbou0ulz",
+      "away_team": "FC Utrecht",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/hgKI8FFG-LcOJ1kW4EU_J.png",
       "away_score": null,
       "jp_players": []
     },
@@ -2971,7 +2971,7 @@
       ]
     },
     {
-      "fixture_id": "TyzJdqSmN3NkkggQgG7F1",
+      "fixture_id": "tf4wSv_Bm7EjkrDB6EuHb",
       "kickoff_utc": "2026-10-04T14:45:00.000Z",
       "venue": null,
       "league_name": "エールディヴィジ",
@@ -2979,13 +2979,13 @@
       "country_ja": "オランダ",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "dHFB6zOkUMgxm3gnf05Wg",
-      "home_team": "FCトゥエンテ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
+      "home_team_id": "Wtkpf6I-FQRkVXkUNB8Ej",
+      "home_team": "De Graafschap",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
       "home_score": null,
-      "away_team_id": "aoaced38v02b2trzucbou0ulz",
-      "away_team": "FC Utrecht",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/hgKI8FFG-LcOJ1kW4EU_J.png",
+      "away_team_id": "okOqWarNqfyMXzaX47-_F",
+      "away_team": "AZ Alkmaar",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/TUZDgzpO5vAMFTXIPu7hl.png",
       "away_score": null,
       "jp_players": []
     },
