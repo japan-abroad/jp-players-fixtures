@@ -5567,6 +5567,86 @@
       ]
     },
     {
+      "fixture_id": "1XnpRU0oSpZzhD3jDB4X6",
+      "kickoff_utc": "2026-10-02T10:00:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "23pqcgxu1tip265hbe01kszbt",
+      "home_team": "ル・アーヴル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fTPGU439jhWdPwCnkcqdK.png",
+      "home_score": 6,
+      "away_team_id": "9az8hqkkijc34ol021425ixg5",
+      "away_team": "ブローニュ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oZ7O4rQdK9AdeC3zmrrP_.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "水多海斗",
+          "team_id": 111
+        },
+        {
+          "name": "中村草太",
+          "team_id": 111
+        },
+        {
+          "name": "瀬古歩夢",
+          "team_id": 111
+        }
+      ]
+    },
+    {
+      "fixture_id": "tEqW6Op5zcSsRiT0_vOAx",
+      "kickoff_utc": "2026-10-02T11:00:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
+      "home_team": "ボーフム",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
+      "home_score": 4,
+      "away_team_id": "8xvajtyria7w2ejfn2ilwq28i",
+      "away_team": "オスナブリュック",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/GAR1hK7S9NxKuIUHcNPQg.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "三好康児",
+          "team_id": 176
+        }
+      ]
+    },
+    {
+      "fixture_id": "JdHl14aXdlTk2ZGMgGFGd",
+      "kickoff_utc": "2026-10-02T12:00:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "be2k34rut1lz79jxenabttqlc",
+      "home_team": "リール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nphkDirYGP1JFaopFVqQy.png",
+      "home_score": 2,
+      "away_team_id": "by6ot96a7bsewhbqd13cwizv8",
+      "away_team": "ズルテ・ワレヘム",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/7Yl4jvzGvE252NtkdamHl.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "上田綺世",
+          "team_id": 79
+        }
+      ]
+    },
+    {
       "fixture_id": "2ylQKVNJxLVmcpdtesnPh",
       "kickoff_utc": "2026-10-02T14:00:00.000Z",
       "venue": null,
