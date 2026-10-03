@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T04:16:50.354335+00:00",
+  "fetched_at": "2026-10-03T11:15:32.716288+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -357,7 +357,36 @@
           "position": null
         }
       ],
-      "matches": []
+      "matches": [
+        {
+          "fixture_id": "avjWfrlHjXj3QLH6W5GUS",
+          "kickoff_utc": "2026-10-03T11:30:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "1c8m2ko0wxq1asfkuykurdr0y",
+          "home_team": "クリスタル・パレス",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fkqJeAhCc1RGGGO8bTZwl.png",
+          "home_score": null,
+          "away_team_id": "c5485h5qulh4l0k0py5b9xug1",
+          "away_team": "ブリストル・シティ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/7SRy0SDFsLgz70r_QV7SC.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "冨安健洋",
+              "team_id": 52
+            },
+            {
+              "name": "鎌田大地",
+              "team_id": 52
+            }
+          ]
+        }
+      ]
     },
     {
       "team_id": 1615,
@@ -608,40 +637,7 @@
           "position": null
         }
       ],
-      "matches": [
-        {
-          "fixture_id": "WodzvgnVDSLeYEOAqhzhr",
-          "kickoff_utc": "2026-10-03T11:00:00.000Z",
-          "venue": null,
-          "league_name": "クラブ 親善試合",
-          "country_code": "",
-          "country_ja": "International",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "c4avukfubmikbchq9an2ulrik",
-          "home_team": "ヴァルトホーフマンハイム",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VffTp7AkfydvV0jgakCs8.png",
-          "home_score": null,
-          "away_team_id": "1c7qokc1j5z50cjj4tcu32haa",
-          "away_team": "マインツ",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f2-8qfj2bk5S0vTBEEa9G.png",
-          "away_score": null,
-          "jp_players": [
-            {
-              "name": "佐野海舟",
-              "team_id": 164
-            },
-            {
-              "name": "川﨑颯太",
-              "team_id": 164
-            },
-            {
-              "name": "川崎颯太",
-              "team_id": 164
-            }
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "team_id": 209,
@@ -1236,40 +1232,7 @@
           "position": null
         }
       ],
-      "matches": [
-        {
-          "fixture_id": "sicpcKNO0led-t5Z9hVv1",
-          "kickoff_utc": "2026-10-03T11:00:00.000Z",
-          "venue": null,
-          "league_name": "クラブ 親善試合",
-          "country_code": "",
-          "country_ja": "International",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
-          "home_team": "フライブルク",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
-          "home_score": null,
-          "away_team_id": "dk531bvjn5bmeonqs9hbbmfgr",
-          "away_team": "ルツェルン",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6-pX1RVLGOx2dN7pJpxrF.png",
-          "away_score": null,
-          "jp_players": [
-            {
-              "name": "後藤啓介",
-              "team_id": 160
-            },
-            {
-              "name": "山本理仁",
-              "team_id": 160
-            },
-            {
-              "name": "鈴木唯人",
-              "team_id": 160
-            }
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "team_id": 618,
@@ -2086,66 +2049,30 @@
       ]
     },
     {
-      "fixture_id": "sicpcKNO0led-t5Z9hVv1",
-      "kickoff_utc": "2026-10-03T11:00:00.000Z",
+      "fixture_id": "avjWfrlHjXj3QLH6W5GUS",
+      "kickoff_utc": "2026-10-03T11:30:00.000Z",
       "venue": null,
       "league_name": "クラブ 親善試合",
       "country_code": "",
       "country_ja": "International",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
-      "home_team": "フライブルク",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
+      "home_team_id": "1c8m2ko0wxq1asfkuykurdr0y",
+      "home_team": "クリスタル・パレス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fkqJeAhCc1RGGGO8bTZwl.png",
       "home_score": null,
-      "away_team_id": "dk531bvjn5bmeonqs9hbbmfgr",
-      "away_team": "ルツェルン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6-pX1RVLGOx2dN7pJpxrF.png",
+      "away_team_id": "c5485h5qulh4l0k0py5b9xug1",
+      "away_team": "ブリストル・シティ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/7SRy0SDFsLgz70r_QV7SC.png",
       "away_score": null,
       "jp_players": [
         {
-          "name": "後藤啓介",
-          "team_id": 160
+          "name": "冨安健洋",
+          "team_id": 52
         },
         {
-          "name": "山本理仁",
-          "team_id": 160
-        },
-        {
-          "name": "鈴木唯人",
-          "team_id": 160
-        }
-      ]
-    },
-    {
-      "fixture_id": "WodzvgnVDSLeYEOAqhzhr",
-      "kickoff_utc": "2026-10-03T11:00:00.000Z",
-      "venue": null,
-      "league_name": "クラブ 親善試合",
-      "country_code": "",
-      "country_ja": "International",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "c4avukfubmikbchq9an2ulrik",
-      "home_team": "ヴァルトホーフマンハイム",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VffTp7AkfydvV0jgakCs8.png",
-      "home_score": null,
-      "away_team_id": "1c7qokc1j5z50cjj4tcu32haa",
-      "away_team": "マインツ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f2-8qfj2bk5S0vTBEEa9G.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "佐野海舟",
-          "team_id": 164
-        },
-        {
-          "name": "川﨑颯太",
-          "team_id": 164
-        },
-        {
-          "name": "川崎颯太",
-          "team_id": 164
+          "name": "鎌田大地",
+          "team_id": 52
         }
       ]
     },
