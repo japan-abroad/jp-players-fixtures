@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04T04:48:08.534513+00:00",
+  "fetched_at": "2026-10-04T11:55:15.995734+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2735,25 +2735,6 @@
           "team_id": 52
         }
       ]
-    },
-    {
-      "fixture_id": "TyzJdqSmN3NkkggQgG7F1",
-      "kickoff_utc": "2026-10-04T10:15:00.000Z",
-      "venue": null,
-      "league_name": "エールディヴィジ",
-      "country_code": "ned",
-      "country_ja": "オランダ",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "dHFB6zOkUMgxm3gnf05Wg",
-      "home_team": "FCトゥエンテ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
-      "home_score": null,
-      "away_team_id": "aoaced38v02b2trzucbou0ulz",
-      "away_team": "FC Utrecht",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/hgKI8FFG-LcOJ1kW4EU_J.png",
-      "away_score": null,
-      "jp_players": []
     },
     {
       "fixture_id": "C3wV7Qr_CzgbHPw3GkZUE",
