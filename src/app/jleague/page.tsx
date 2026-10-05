@@ -35,6 +35,16 @@ export default function JleaguePage() {
           最終更新: {toJstDateLabel(fetched_at)} {toJstTime(fetched_at)}
         </p>
       )}
+      <p className="mt-3 text-sm text-[var(--ink-soft)]">
+        各試合のAI勝敗予想は{" "}
+        <a
+          href="https://jleagueyosou.blog.fc2.com/"
+          className="font-bold text-[var(--samurai)] hover:underline"
+        >
+          全ツッパうさちゃも
+        </a>
+        {" "}でどうぞ
+      </p>
 
       <div className="mt-6">
         <JleagueMatchesList matches={matches} />
