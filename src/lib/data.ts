@@ -157,7 +157,20 @@ export function getPlayerBySlug(slug: string): PlayerEntry | undefined {
   return getAllPlayers().find((p) => p.slug === slug);
 }
 
-/** 対象リーグの全試合(日本人選手の有無を問わない)をキックオフ日時(UTC)昇順で返す */
+// Jリーグ・ルヴァンカップ・天皇杯(2026-10-05追加)。海外組の一覧とは分け、
+// Jリーグタブ(/jleague)にのみ表示する。
+const JLEAGUE_COUNTRY_CODE = "jpn";
+
+function isJleagueMatch(m: Match): boolean {
+  return m.country_code === JLEAGUE_COUNTRY_CODE;
+}
+
+/** 対象リーグの全試合(日本人選手の有無を問わない、Jリーグを除く)をキックオフ日時(UTC)昇順で返す */
 export function getAllMatches(): Match[] {
-  return getFixturesData().matches;
+  return getFixturesData().matches.filter((m) => !isJleagueMatch(m));
+}
+
+/** Jリーグ・国内カップ戦の試合をキックオフ日時(UTC)昇順で返す */
+export function getJleagueMatches(): Match[] {
+  return getFixturesData().matches.filter(isJleagueMatch);
 }

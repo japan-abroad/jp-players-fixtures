@@ -122,6 +122,22 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
     # HIDDEN_COUNTRY_CODESに登録)。未登録のままだとcountry_code=""になり
     # country_codeベースの非表示フィルタが効かないため、まず登録が必要。
     ("セルビア", "スーペルリーガ"): {"name": "スーペルリーガ", "country_code": "srb", "country_ja": "セルビア"},
+    # 2026-10-05 ユーザー指示でJリーグタブ(/jleague)用に追加。country_code="jpn"
+    # の試合はトップページ等の海外組一覧から除外し、Jリーグタブにのみ表示する。
+    # 2026-10-05 実データで確認(J1は10/10・10/17、ルヴァンは9/2〜10/14分)。
+    ("日本", "J1リーグ"): {"name": "J1リーグ", "country_code": "jpn", "country_ja": "日本"},
+    ("日本", "J2リーグ"): {"name": "J2リーグ", "country_code": "jpn", "country_ja": "日本"},
+    ("日本", "J3リーグ"): {"name": "J3リーグ", "country_code": "jpn", "country_ja": "日本"},
+    ("日本", "ヤマザキビスケット ルヴァンカップ"): {"name": "ルヴァンカップ", "country_code": "jpn", "country_ja": "日本"},
+}
+
+# goal.com側の大会名だけでは特定できない大会を、大会ID(見出しリンク末尾)で
+# 判定する。LEAGUE_ALLOWLISTより優先。
+# 天皇杯はgoal.com上で大会名が"カップ"(area="日本")とだけ表記されており、
+# 皇后杯等の別大会が同じ表記で現れても混ざらないようIDで固定する
+# (2026-10-05 8/19・8/26・9/23・10/7の4日分で同一IDを確認)。
+COMPETITION_ID_ALLOWLIST: dict[str, dict] = {
+    "eitf7hulqfv1clb7toewkil24": {"name": "天皇杯", "country_code": "jpn", "country_ja": "日本"},
 }
 
 # LEAGUE_ALLOWLISTのcountry_jaはリーグ単位の固定値だが、これらのリーグは
@@ -165,6 +181,10 @@ HEADER_RE = re.compile(
     r'fco-competition-section__header-name">([^<]+)</span>'
     r'<span class="fco-competition-section__header-area">([^<]+)</span>'
 )
+# 見出しリンク(<a class="fco-competition-section__header" href=".../{大会ID}">)。
+# HEADER_REの直前にあるため、各見出しから後方に最も近いものを採用する。
+HEADER_ID_RE = re.compile(r'fco-competition-section__header" href="[^"]*/([^"/]+)"')
+_HEADER_ID_LOOKBEHIND = 2000
 MATCH_RE = re.compile(
     r'data-match-id="([^"]+)" data-match-status="([^"]+)">.*?'
     r'data-team-id="([^"]+)">.*?fco-full-name">([^<]+)</div>'
@@ -209,7 +229,10 @@ def _fetch_day(day: date) -> str:
 
 
 def _parse_day(html: str) -> list[dict]:
-    headers = [(m.start(), m.group(1), m.group(2)) for m in HEADER_RE.finditer(html)]
+    headers = []
+    for m in HEADER_RE.finditer(html):
+        id_matches = HEADER_ID_RE.findall(html, max(0, m.start() - _HEADER_ID_LOOKBEHIND), m.start())
+        headers.append((m.start(), m.group(1), m.group(2), id_matches[-1] if id_matches else ""))
     header_positions = [h[0] for h in headers]
 
     ld_by_id: dict[str, dict] = {}
@@ -229,7 +252,7 @@ def _parse_day(html: str) -> list[dict]:
         ) = m.groups()
 
         idx = _bisect_right(header_positions, m.start()) - 1
-        league_name, area = (headers[idx][1], headers[idx][2]) if idx >= 0 else ("", "")
+        league_name, area, competition_id = headers[idx][1:] if idx >= 0 else ("", "", "")
 
         ld = ld_by_id.get(match_id)
         matches.append(
@@ -238,6 +261,7 @@ def _parse_day(html: str) -> list[dict]:
                 "status": status,
                 "area": area,
                 "league_name": league_name,
+                "competition_id": competition_id,
                 "home_team_id": team_a_id,
                 "home_team": name_a,
                 "home_code": code_a,
@@ -472,7 +496,9 @@ def main() -> None:
             if not _is_first_team_name(raw["league_name"]):
                 continue  # 女子リーグ・育成年代リーグ自体を丸ごと除外
 
-            league_info = LEAGUE_ALLOWLIST.get((raw["area"], raw["league_name"]))
+            league_info = COMPETITION_ID_ALLOWLIST.get(raw["competition_id"]) or LEAGUE_ALLOWLIST.get(
+                (raw["area"], raw["league_name"])
+            )
             allow_fuzzy = league_info is not None or raw["league_name"] in _FUZZY_TRUSTED_LEAGUES
 
             home_club = _find_club(raw["home_team"], club_by_norm_name, allow_fuzzy=allow_fuzzy, area=raw["area"])

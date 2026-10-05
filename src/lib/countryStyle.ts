@@ -10,6 +10,7 @@ export const COUNTRY_COLOR: Record<string, string> = {
   sco: "#7c3aed",
   tur: "#b91c1c",
   uefa: "#0c2340",
+  jpn: "#bc002d",
 };
 
 export function countryColor(code: string): string {
