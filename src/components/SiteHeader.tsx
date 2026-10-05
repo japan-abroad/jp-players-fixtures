@@ -12,18 +12,20 @@ export default function SiteHeader() {
             日本人選手フットボール便
           </span>
         </Link>
-        <nav className="flex items-center gap-2.5 text-xs font-medium sm:gap-3 sm:text-sm text-[var(--ink-soft)]">
+        <nav className="flex items-center gap-2 text-xs font-medium sm:gap-3 sm:text-sm text-[var(--ink-soft)]">
           <Link href="/" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
             試合日程
-          </Link>
-          <Link href="/jleague" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
-            Jリーグ
           </Link>
           <Link href="/clubs" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
             クラブ<span className="hidden sm:inline">一覧</span>
           </Link>
           <Link href="/players" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
             選手<span className="hidden sm:inline">一覧</span>
+          </Link>
+          {/* 上の3つは海外組のページ。Jリーグは別枠であることを区切り線で示す */}
+          <span aria-hidden="true" className="h-4 w-0.5 bg-[var(--ink-soft)]" />
+          <Link href="/jleague" className="whitespace-nowrap py-3 hover:text-[var(--samurai)]">
+            Jリーグ
           </Link>
         </nav>
       </div>
