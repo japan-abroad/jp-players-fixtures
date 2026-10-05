@@ -35,20 +35,32 @@ export default function JleaguePage() {
           最終更新: {toJstDateLabel(fetched_at)} {toJstTime(fetched_at)}
         </p>
       )}
-      <p className="mt-3 text-sm text-[var(--ink-soft)]">
-        各試合のAI勝敗予想は{" "}
-        <a
-          href="https://jleagueyosou.blog.fc2.com/"
-          className="font-bold text-[var(--samurai)] hover:underline"
-        >
-          全ツッパうさちゃも
-        </a>
-        {" "}でどうぞ
-      </p>
 
       <div className="mt-6">
         <JleagueMatchesList matches={matches} />
       </div>
+
+      <a
+        href="https://jleagueyosou.blog.fc2.com/"
+        className="mt-8 flex max-w-[480px] items-center gap-3.5 rounded-[10px] border border-[var(--line)] bg-[var(--paper-raised)] py-3 pl-3 pr-4 text-[var(--ink)] transition-colors hover:border-[var(--samurai)] focus-visible:border-[var(--samurai)]"
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/usachamo.png`}
+          alt="うさちゃも"
+          width={64}
+          height={64}
+          className="h-16 w-16 flex-none rounded-full bg-[#fbf3d9] object-cover"
+        />
+        <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <span className="text-[11px] tracking-wider text-[var(--ink-soft)]">関連サイト</span>
+          <span className="text-base font-bold text-[var(--samurai)]">全ツッパうさちゃも</span>
+          <span className="text-xs text-[var(--ink-soft)]">J1・J2の勝敗をAIで予想するブログ</span>
+        </span>
+        <span aria-hidden="true" className="flex-none text-2xl text-[var(--ink-soft)]">
+          ›
+        </span>
+      </a>
     </section>
   );
 }
