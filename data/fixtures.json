@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T05:04:36.657530+00:00",
+  "fetched_at": "2026-10-09T12:46:00.982460+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -5696,15 +5696,15 @@
       "country_code": "jpn",
       "country_ja": "日本",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "3n18bj1qqi65diefmjmkxx4gc",
       "home_team": "SC相模原",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/O9jMx-IL80VXiKWOYoLNt.png",
-      "home_score": null,
+      "home_score": 3,
       "away_team_id": "19olw6x3cf4cvt9tslkat4yux",
       "away_team": "カマタマーレ讃岐",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Clev0V_lotSjlXySdf_yW.png",
-      "away_score": null,
+      "away_score": 2,
       "jp_players": []
     },
     {
@@ -5715,15 +5715,15 @@
       "country_code": "jpn",
       "country_ja": "日本",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "9s2g5k3dlmfii452t8edaeozh",
       "home_team": "鹿島アントラーズ",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/AKmeZOrFx8TdExAsHBl28.png",
-      "home_score": null,
+      "home_score": 2,
       "away_team_id": "92br3632xgmc25jvr0jesfvl6",
       "away_team": "ガンバ大阪",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pmOx2KyUQyiYesvjsQsg1.png",
-      "away_score": null,
+      "away_score": 0,
       "jp_players": []
     },
     {
@@ -5734,15 +5734,15 @@
       "country_code": "jpn",
       "country_ja": "日本",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "3lyo0vqgndy4fuzlfo5l9ql30",
       "home_team": "柏レイソル",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/k4W_R3N6Jow9zxNWpydx7.png",
-      "home_score": null,
+      "home_score": 4,
       "away_team_id": "bbt5nqwufsne7r0zfa6pvpmfa",
       "away_team": "ヴィッセル神戸",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mR-cLuMQKD6chkPFfD58S.png",
-      "away_score": null,
+      "away_score": 2,
       "jp_players": []
     },
     {
@@ -5753,15 +5753,15 @@
       "country_code": "jpn",
       "country_ja": "日本",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "e0u1sbhnf87oujxqvma544a8l",
       "home_team": "FC大阪",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VPHfPZ3csBXgvI2Ti3b5u.png",
-      "home_score": null,
+      "home_score": 1,
       "away_team_id": "6eafkwa8gyra2lmnn1855986d",
       "away_team": "ツエーゲン金沢",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ehoZlrP1AcK3HK1avVL-s.png",
-      "away_score": null,
+      "away_score": 1,
       "jp_players": []
     },
     {
