@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T04:51:29.407478+00:00",
+  "fetched_at": "2026-10-12T14:42:15.399080+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2089,7 +2089,7 @@
         },
         {
           "fixture_id": "24Jke5xt2GMRnhaTeIBqQ",
-          "kickoff_utc": "2026-10-17T16:00:00.000Z",
+          "kickoff_utc": "2026-10-18T14:00:00.000Z",
           "venue": "Stadion Rajko Mitic",
           "league_name": "スーペルリーガ",
           "country_code": "srb",
@@ -10181,6 +10181,25 @@
       ]
     },
     {
+      "fixture_id": "ny3YNZYqoAtyzpCPnrbFZ",
+      "kickoff_utc": "2026-10-16T15:00:00.000Z",
+      "venue": "Stadion Surdulica",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "90e8Ofy41eHO5MSDbxebU",
+      "home_team": "FKラドニクサーデュリカ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
+      "home_score": null,
+      "away_team_id": "nfztg2vOLu6GI-bOEANzR",
+      "away_team": "ラドニッキニス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u2i1_6lucjBr5eDriY-6O.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
       "fixture_id": "QHYjW1-zx1E87XUhR4GMM",
       "kickoff_utc": "2026-10-16T17:00:00.000Z",
       "venue": "Turhan Kiliccioglu Stadi",
@@ -11052,6 +11071,25 @@
       "jp_players": []
     },
     {
+      "fixture_id": "kWXwssdJRI7qVy2lmcweJ",
+      "kickoff_utc": "2026-10-17T13:00:00.000Z",
+      "venue": "Stadion Cukaricki",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "c7o9hpr4axv7govpi4s5ohbnd",
+      "home_team": "チュカリチュキ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vLH43dTpda1LE7WcXUcWg.png",
+      "home_score": null,
+      "away_team_id": "YwjgueTbACPi-alKCeXpq",
+      "away_team": "FK Zemun",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4mJNAmTtXEkAVyKwV4VLT.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
       "fixture_id": "av9L52Yxwf4GTMRn-xM08",
       "kickoff_utc": "2026-10-17T13:30:00.000Z",
       "venue": "Ursapharm-Arena",
@@ -11538,6 +11576,25 @@
       ]
     },
     {
+      "fixture_id": "NPmx-8gKbphauO49BHgUD",
+      "kickoff_utc": "2026-10-17T15:00:00.000Z",
+      "venue": "Karadjordje Stadium",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "5dogxolrtabaz69epd35liubg",
+      "home_team": "ボイボディナ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vM3Tn60o9zBl8iVez0EkR.png",
+      "home_score": null,
+      "away_team_id": "pk0qQPIzAL0BAFTOr8Brg",
+      "away_team": "FKラドニチュ1923",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CMg74RJwoUjhTTgxcbecp.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
       "fixture_id": "17OJGzOjkfW2wPGd79hXs",
       "kickoff_utc": "2026-10-17T15:15:00.000Z",
       "venue": "Stade de la Meinau",
@@ -11647,144 +11704,6 @@
       "jp_players": []
     },
     {
-      "fixture_id": "kWXwssdJRI7qVy2lmcweJ",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Stadion Cukaricki",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "c7o9hpr4axv7govpi4s5ohbnd",
-      "home_team": "チュカリチュキ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vLH43dTpda1LE7WcXUcWg.png",
-      "home_score": null,
-      "away_team_id": "YwjgueTbACPi-alKCeXpq",
-      "away_team": "FK Zemun",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4mJNAmTtXEkAVyKwV4VLT.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "24Jke5xt2GMRnhaTeIBqQ",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Stadion Rajko Mitic",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "81lpho34qr3dad0xzalq0abja",
-      "home_team": "ツルヴェナ・ズヴェズダ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
-      "home_score": null,
-      "away_team_id": "RIcCwzF6WFUIYbistKmK8",
-      "away_team": "ムラドスト・ルチャニ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/tPVZzFUWOFD1ZVU0LifPn.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "中山雄太",
-          "team_id": 598
-        }
-      ]
-    },
-    {
-      "fixture_id": "ny3YNZYqoAtyzpCPnrbFZ",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Stadion Surdulica",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "90e8Ofy41eHO5MSDbxebU",
-      "home_team": "FKラドニクサーデュリカ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
-      "home_score": null,
-      "away_team_id": "nfztg2vOLu6GI-bOEANzR",
-      "away_team": "ラドニッキニス",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u2i1_6lucjBr5eDriY-6O.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "1OWOWczqmRyQkbowLsoRs",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Gradski Stadion Sabac",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "tB8XPoZ80vOoOwvaC011_",
-      "home_team": "マックバシャバツ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/7V_Nk4jsMPphVUBY8yUnI.png",
-      "home_score": null,
-      "away_team_id": "8OM-DhuzrZWlbeQhLsZrE",
-      "away_team": "OFK Beograd",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XdhmXIqzrtEs1nV420QD6.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "zEMW_Zy0JQdJivB_ghMGs",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Stadion Gradski, Novi Pazar",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "4CxxHrUE7Gl2m3r6a8wrb",
-      "home_team": "ノビ・パザル",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_mQ-DiwG7QJoLUVBw1HKX.png",
-      "home_score": null,
-      "away_team_id": "_9Hk2zwTlmZWGyU9uFRuN",
-      "away_team": "FKIMTベオグラード",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XfbcHLor8s6YkhTteiYes.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "NPmx-8gKbphauO49BHgUD",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Karadjordje Stadium",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "5dogxolrtabaz69epd35liubg",
-      "home_team": "ボイボディナ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vM3Tn60o9zBl8iVez0EkR.png",
-      "home_score": null,
-      "away_team_id": "pk0qQPIzAL0BAFTOr8Brg",
-      "away_team": "FKラドニチュ1923",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CMg74RJwoUjhTTgxcbecp.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "g6CLQPoWDCNPZBodwPGjO",
-      "kickoff_utc": "2026-10-17T16:00:00.000Z",
-      "venue": "Stadion Mladost, Krusevac",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "CW5O5dAilg0a82iOYREbE",
-      "home_team": "Zeleznicar Pancevo",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
-      "home_score": null,
-      "away_team_id": "c0d1qca7kz0fi0ypx7aw4nusc",
-      "away_team": "パルチザン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BkY0xyCQ013n5xC-tdQQ8.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
       "fixture_id": "AmtQF3Sxbl--8q1QBMZqb",
       "kickoff_utc": "2026-10-17T16:30:00.000Z",
       "venue": "St James&apos; Park",
@@ -11850,6 +11769,25 @@
           "team_id": 157
         }
       ]
+    },
+    {
+      "fixture_id": "1OWOWczqmRyQkbowLsoRs",
+      "kickoff_utc": "2026-10-17T17:00:00.000Z",
+      "venue": "Gradski Stadion Sabac",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "tB8XPoZ80vOoOwvaC011_",
+      "home_team": "マックバシャバツ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/7V_Nk4jsMPphVUBY8yUnI.png",
+      "home_score": null,
+      "away_team_id": "8OM-DhuzrZWlbeQhLsZrE",
+      "away_team": "OFK Beograd",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XdhmXIqzrtEs1nV420QD6.png",
+      "away_score": null,
+      "jp_players": []
     },
     {
       "fixture_id": "Jejy5HeBAz5fXhzrTzuLZ",
@@ -12680,6 +12618,25 @@
       "jp_players": []
     },
     {
+      "fixture_id": "zEMW_Zy0JQdJivB_ghMGs",
+      "kickoff_utc": "2026-10-18T12:00:00.000Z",
+      "venue": "Stadion Gradski, Novi Pazar",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "4CxxHrUE7Gl2m3r6a8wrb",
+      "home_team": "ノビ・パザル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_mQ-DiwG7QJoLUVBw1HKX.png",
+      "home_score": null,
+      "away_team_id": "_9Hk2zwTlmZWGyU9uFRuN",
+      "away_team": "FKIMTベオグラード",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XfbcHLor8s6YkhTteiYes.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
       "fixture_id": "4fV0spVlBawCoUx0OT-DM",
       "kickoff_utc": "2026-10-18T12:30:00.000Z",
       "venue": "Kooi Stadium",
@@ -12950,6 +12907,30 @@
         {
           "name": "福田翔生",
           "team_id": 407
+        }
+      ]
+    },
+    {
+      "fixture_id": "24Jke5xt2GMRnhaTeIBqQ",
+      "kickoff_utc": "2026-10-18T14:00:00.000Z",
+      "venue": "Stadion Rajko Mitic",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "81lpho34qr3dad0xzalq0abja",
+      "home_team": "ツルヴェナ・ズヴェズダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
+      "home_score": null,
+      "away_team_id": "RIcCwzF6WFUIYbistKmK8",
+      "away_team": "ムラドスト・ルチャニ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/tPVZzFUWOFD1ZVU0LifPn.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "中山雄太",
+          "team_id": 598
         }
       ]
     },
@@ -13289,6 +13270,25 @@
           "team_id": 548
         }
       ]
+    },
+    {
+      "fixture_id": "g6CLQPoWDCNPZBodwPGjO",
+      "kickoff_utc": "2026-10-18T16:30:00.000Z",
+      "venue": "Stadion Mladost, Krusevac",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "CW5O5dAilg0a82iOYREbE",
+      "home_team": "Zeleznicar Pancevo",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
+      "home_score": null,
+      "away_team_id": "c0d1qca7kz0fi0ypx7aw4nusc",
+      "away_team": "パルチザン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BkY0xyCQ013n5xC-tdQQ8.png",
+      "away_score": null,
+      "jp_players": []
     },
     {
       "fixture_id": "XQEUDEvtHqDiU88LYBhCE",
