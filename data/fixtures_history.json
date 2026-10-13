@@ -7465,6 +7465,30 @@
           "team_id": 1605
         }
       ]
+    },
+    {
+      "fixture_id": "HcgO7Sl0HOcJX5z9aBWgb",
+      "kickoff_utc": "2026-10-12T19:00:00.000Z",
+      "venue": "Coventry Building Society Arena",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "dacoc20k0n3fxu4zek8wufmko",
+      "home_team": "コヴェントリー・シティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W59RF9GwRrQAX4YSSlzQQ.png",
+      "home_score": 4,
+      "away_team_id": "7vn2i2kd35zuetw6b38gw9jsz",
+      "away_team": "ニューカッスル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/1iD-fvEOrJtrHuYnqjZ2y.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "坂元達裕",
+          "team_id": 1346
+        }
+      ]
     }
   ]
 }
