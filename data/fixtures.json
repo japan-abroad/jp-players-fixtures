@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T03:39:13.676083+00:00",
+  "fetched_at": "2026-10-15T11:00:46.536416+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -3638,6 +3638,30 @@
           "away_team": "LAギャラクシー",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
           "away_score": 2,
+          "jp_players": [
+            {
+              "name": "吉田麻也",
+              "team_id": 1605
+            }
+          ]
+        },
+        {
+          "fixture_id": "KYOqDVazAzATSEyfKaUp0",
+          "kickoff_utc": "2026-10-15T02:30:00.000Z",
+          "venue": "Dignity Health Sports Park",
+          "league_name": "MLS",
+          "country_code": "usa",
+          "country_ja": "アメリカ",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
+          "home_team": "LAギャラクシー",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
+          "home_score": 2,
+          "away_team_id": "77o8sorlijzpr0t4s7231zzxp",
+          "away_team": "ポートランド・ティンバーズ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/SKjxmXIK0QAwEEpHQ5tnW.png",
+          "away_score": 0,
           "jp_players": [
             {
               "name": "吉田麻也",
@@ -9499,6 +9523,25 @@
       ]
     },
     {
+      "fixture_id": "pWa6YNldqv4z20WZBkTJK",
+      "kickoff_utc": "2026-10-15T01:30:00.000Z",
+      "venue": "Dick&apos;s Sporting Goods Park",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "cvrl5bces32x6fup1ks1hvets",
+      "home_team": "コロラド・ラピッズ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JJvhZ4Jvn_BK3lykfL2c9.png",
+      "home_score": 2,
+      "away_team_id": "dna80a164iz5ta6pp6ivk64rx",
+      "away_team": "ミネソタ・ユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YiEb7kRmnliBML8q9WgpU.png",
+      "away_score": 2,
+      "jp_players": []
+    },
+    {
       "fixture_id": "Ojp1QBcvK0syMrBbaG6bJ",
       "kickoff_utc": "2026-10-15T01:30:00.000Z",
       "venue": "America First Field",
@@ -9515,6 +9558,68 @@
       "away_team": "サンノゼ・アースクエイクス",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ueRdQP9FLwwLi8h5goEXh.png",
       "away_score": 1,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "KYOqDVazAzATSEyfKaUp0",
+      "kickoff_utc": "2026-10-15T02:30:00.000Z",
+      "venue": "Dignity Health Sports Park",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
+      "home_team": "LAギャラクシー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
+      "home_score": 2,
+      "away_team_id": "77o8sorlijzpr0t4s7231zzxp",
+      "away_team": "ポートランド・ティンバーズ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/SKjxmXIK0QAwEEpHQ5tnW.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "吉田麻也",
+          "team_id": 1605
+        }
+      ]
+    },
+    {
+      "fixture_id": "3VV5QOLfFSYyw6PzAvXEQ",
+      "kickoff_utc": "2026-10-15T02:30:00.000Z",
+      "venue": "BMO Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "c6e7kqqrkt389ysrth6yy6puy",
+      "home_team": "ロサンゼルスFC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Wv0w3tqrAN4Pm9g0Rymzf.png",
+      "home_score": 3,
+      "away_team_id": "yrsr1hyy65062qyzw8sug3ys",
+      "away_team": "オースティンFC",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/UO1_wzoKF8NzyN3OVTmqC.png",
+      "away_score": 1,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "pUHIWZauwggbL9si1owfd",
+      "kickoff_utc": "2026-10-15T02:30:00.000Z",
+      "venue": "Snapdragon Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "pyOgsKc8IWzAULRTD7ugh",
+      "home_team": "サンディエゴFC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/e9q-SR6UaUW4PCOu2coIb.png",
+      "home_score": 3,
+      "away_team_id": "69m5c06m9up1j8vf8ulnb80xu",
+      "away_team": "ヒューストン・ダイナモ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jeh4F4XSPlDnZ7BnKf47E.png",
+      "away_score": 3,
       "jp_players": []
     },
     {

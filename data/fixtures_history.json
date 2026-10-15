@@ -7841,6 +7841,30 @@
           "team_id": 1603
         }
       ]
+    },
+    {
+      "fixture_id": "KYOqDVazAzATSEyfKaUp0",
+      "kickoff_utc": "2026-10-15T02:30:00.000Z",
+      "venue": "Dignity Health Sports Park",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
+      "home_team": "LAギャラクシー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
+      "home_score": 2,
+      "away_team_id": "77o8sorlijzpr0t4s7231zzxp",
+      "away_team": "ポートランド・ティンバーズ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/SKjxmXIK0QAwEEpHQ5tnW.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "吉田麻也",
+          "team_id": 1605
+        }
+      ]
     }
   ]
 }
