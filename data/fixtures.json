@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T03:35:09.469006+00:00",
+  "fetched_at": "2026-10-16T10:55:42.596324+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -252,7 +252,7 @@
         },
         {
           "fixture_id": "izO9b0ZhCi8PFuujp03Y6",
-          "kickoff_utc": "2026-10-18T13:00:00.000Z",
+          "kickoff_utc": "2026-10-18T18:45:00.000Z",
           "venue": null,
           "league_name": "タッサ・デ・ポルトガル",
           "country_code": "",
@@ -13170,30 +13170,6 @@
       "jp_players": []
     },
     {
-      "fixture_id": "izO9b0ZhCi8PFuujp03Y6",
-      "kickoff_utc": "2026-10-18T13:00:00.000Z",
-      "venue": null,
-      "league_name": "タッサ・デ・ポルトガル",
-      "country_code": "",
-      "country_ja": "ポルトガル",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "6x8hnvh0kwd576v1ustzv6r30",
-      "home_team": "CF Os Belenenses",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WgdHGKC7qLjdcwdtP60Rg.png",
-      "home_score": null,
-      "away_team_id": "dich5v7sw466smbqap0d9rbyj",
-      "away_team": "アロウカ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/EwmSRPOxRzlt0DsrevQXE.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "福井太智",
-          "team_id": 240
-        }
-      ]
-    },
-    {
       "fixture_id": "Jf2CMLIC_1OkNGdR_7H3j",
       "kickoff_utc": "2026-10-18T13:30:00.000Z",
       "venue": "BayArena",
@@ -13726,6 +13702,30 @@
         {
           "name": "中村敬斗",
           "team_id": 80
+        }
+      ]
+    },
+    {
+      "fixture_id": "izO9b0ZhCi8PFuujp03Y6",
+      "kickoff_utc": "2026-10-18T18:45:00.000Z",
+      "venue": null,
+      "league_name": "タッサ・デ・ポルトガル",
+      "country_code": "",
+      "country_ja": "ポルトガル",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "6x8hnvh0kwd576v1ustzv6r30",
+      "home_team": "CF Os Belenenses",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WgdHGKC7qLjdcwdtP60Rg.png",
+      "home_score": null,
+      "away_team_id": "dich5v7sw466smbqap0d9rbyj",
+      "away_team": "アロウカ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/EwmSRPOxRzlt0DsrevQXE.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "福井太智",
+          "team_id": 240
         }
       ]
     },
