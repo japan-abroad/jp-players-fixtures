@@ -8177,6 +8177,102 @@
           "team_id": 160
         }
       ]
+    },
+    {
+      "fixture_id": "dIf7-nmFxLHy9ePk45HrK",
+      "kickoff_utc": "2026-10-16T18:15:00.000Z",
+      "venue": null,
+      "league_name": "カップ",
+      "country_code": "",
+      "country_ja": "スイス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "WZndVyckn3n8cU1PiFkdd",
+      "home_team": "スタッド・ニヨン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
+      "home_score": 0,
+      "away_team_id": "5u18kvqiqhup2vd345dci1069",
+      "away_team": "バーゼル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZFLaYXd4L5aWIGe9ne0Px.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "常本佳吾",
+          "team_id": 551
+        }
+      ]
+    },
+    {
+      "fixture_id": "3bK_hyCCu3N3xQNVoBBw4",
+      "kickoff_utc": "2026-10-16T18:30:00.000Z",
+      "venue": "Deutsche Bank Park",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "c5hderjlkcoaze51e5wgvptk",
+      "home_team": "フランクフルト",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2Myurk0GUKAA2rF21Tx4Z.png",
+      "home_score": 1,
+      "away_team_id": "8q1ul09cygzswb7tb456bmifv",
+      "away_team": "ケルン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ElZxB_J96MBe8X1MIVM9K.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "堂安律",
+          "team_id": 169
+        },
+        {
+          "name": "小杉啓太",
+          "team_id": 169
+        },
+        {
+          "name": "神代慶人",
+          "team_id": 169
+        }
+      ]
+    },
+    {
+      "fixture_id": "DLYIFHpuDd-CXJ2gzqgWE",
+      "kickoff_utc": "2026-10-16T18:30:00.000Z",
+      "venue": null,
+      "league_name": "カップ",
+      "country_code": "",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "2nhn3ikl1ciq34w3hcp883d6p",
+      "home_team": "ウェステルロー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pZW-dkEAZk539-eqyGOi2.png",
+      "home_score": 2,
+      "away_team_id": "cz6529flu1ynqzvmcwzu7ziyn",
+      "away_team": "パトロ・アイスデン・マースメヘレン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/a7PWsdUDDQiOzXAUVUFDK.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "木村誠二",
+          "team_id": 261
+        },
+        {
+          "name": "齋藤俊輔",
+          "team_id": 261
+        },
+        {
+          "name": "坂本一彩",
+          "team_id": 261
+        },
+        {
+          "name": "高岡伶颯",
+          "team_id": 6222
+        },
+        {
+          "name": "笠柳翼",
+          "team_id": 6222
+        }
+      ]
     }
   ]
 }
