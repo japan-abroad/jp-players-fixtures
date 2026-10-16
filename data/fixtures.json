@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T10:55:42.596324+00:00",
+  "fetched_at": "2026-10-16T16:15:29.508340+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -10537,25 +10537,6 @@
           "team_id": 160
         }
       ]
-    },
-    {
-      "fixture_id": "ny3YNZYqoAtyzpCPnrbFZ",
-      "kickoff_utc": "2026-10-16T15:00:00.000Z",
-      "venue": "Stadion Surdulica",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "90e8Ofy41eHO5MSDbxebU",
-      "home_team": "FKラドニクサーデュリカ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
-      "home_score": null,
-      "away_team_id": "nfztg2vOLu6GI-bOEANzR",
-      "away_team": "ラドニッキニス",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u2i1_6lucjBr5eDriY-6O.png",
-      "away_score": null,
-      "jp_players": []
     },
     {
       "fixture_id": "QHYjW1-zx1E87XUhR4GMM",
