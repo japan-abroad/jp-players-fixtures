@@ -34,6 +34,29 @@ export function toJstTime(isoUtc: string): string {
   }).format(d);
 }
 
+/** 試合日の切り替え時刻(JST)。これより前の深夜キックオフは前日の試合として扱う。 */
+const MATCH_DAY_CUTOFF_HOUR = 6;
+
+function shiftToMatchDay(isoUtc: string): string {
+  return new Date(new Date(isoUtc).getTime() - MATCH_DAY_CUTOFF_HOUR * 3600 * 1000).toISOString();
+}
+
+export function toMatchDayKey(isoUtc: string): string {
+  // JST 0:00〜5:59開始の試合は前日の日付キーにまとめる。
+  return toJstDateKey(shiftToMatchDay(isoUtc));
+}
+
+export function toMatchDayLabel(isoUtc: string): string {
+  return toJstDateLabel(shiftToMatchDay(isoUtc));
+}
+
+export function toMatchDayTime(isoUtc: string): string {
+  // 前日扱いの深夜キックオフは "24:30" "27:00" のように24時以降表記にする。
+  const [h, m] = toJstTime(isoUtc).split(":").map(Number);
+  const hour = h < MATCH_DAY_CUTOFF_HOUR ? h + 24 : h;
+  return `${String(hour).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+}
+
 export function toLocalKickoffLabel(isoUtc: string): string {
   const d = new Date(isoUtc);
   return new Intl.DateTimeFormat("en-GB", {

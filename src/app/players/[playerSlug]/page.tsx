@@ -6,7 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { getAllPlayers, getPlayerBySlug } from "@/lib/data";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
-import { toJstDateLabel } from "@/lib/time";
+import { toMatchDayLabel, toMatchDayTime } from "@/lib/time";
 import {
   matchesToSportsEventJsonLd,
   breadcrumbJsonLd,
@@ -33,7 +33,7 @@ export async function generateMetadata({
     .filter((m) => new Date(m.kickoff_utc).getTime() >= Date.now())
     .sort((a, b) => new Date(a.kickoff_utc).getTime() - new Date(b.kickoff_utc).getTime())[0];
   const description = nextMatch
-    ? `${playerNameJa}(${clubNameJa})の次の試合は${toJstDateLabel(nextMatch.kickoff_utc)}、${translateTeamName(nextMatch.home_team)} vs ${translateTeamName(nextMatch.away_team)}。日本時間での試合日程・出場予定をチェック。`
+    ? `${playerNameJa}(${clubNameJa})の次の試合は${toMatchDayLabel(nextMatch.kickoff_utc)}${toMatchDayTime(nextMatch.kickoff_utc)}、${translateTeamName(nextMatch.home_team)} vs ${translateTeamName(nextMatch.away_team)}。日本時間での試合日程・出場予定をチェック。`
     : `${clubNameJa}(${player.club.league_name})所属${playerNameJa}の次の試合はいつ？日本時間での試合日程・出場予定をチェック。`;
 
   return {

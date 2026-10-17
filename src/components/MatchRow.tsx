@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Match } from "@/lib/data";
-import { toJstTime } from "@/lib/time";
+import { toMatchDayTime } from "@/lib/time";
 import { translateTeamName } from "@/lib/teamNames";
 import { translatePlayerName } from "@/lib/playerNames";
 import { countryColor } from "@/lib/countryStyle";
@@ -31,7 +31,7 @@ export default function MatchRow({ match }: { match: Match }) {
       <span className="league-chip row-league shrink-0">{match.league_name}</span>
 
       <div className="row-time font-mono text-[0.9375rem] font-bold text-[var(--samurai)] tabular-nums shrink-0">
-        {hasScore ? "終了" : STATUS_LABEL_JA[match.status] ?? toJstTime(match.kickoff_utc)}
+        {hasScore ? "終了" : STATUS_LABEL_JA[match.status] ?? toMatchDayTime(match.kickoff_utc)}
       </div>
 
       <div className="matchup min-w-0">

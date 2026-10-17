@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Match } from "@/lib/data";
-import { toJstDateLabel } from "@/lib/time";
+import { toMatchDayLabel } from "@/lib/time";
 import { groupMatchesByDate } from "@/lib/matches";
 import { countryColor } from "@/lib/countryStyle";
 import { translateTeamName } from "@/lib/teamNames";
@@ -171,7 +171,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
       <div className="mt-6">
         {groups.map(([dateKey, dayMatches]) => (
           <div key={dateKey}>
-            <h2 className="date-heading">{toJstDateLabel(dayMatches[0].kickoff_utc)}</h2>
+            <h2 className="date-heading">{toMatchDayLabel(dayMatches[0].kickoff_utc)}</h2>
             {dayMatches.map((m) => (
               <MatchRow key={m.fixture_id} match={m} />
             ))}
