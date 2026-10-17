@@ -8273,6 +8273,30 @@
           "team_id": 6222
         }
       ]
+    },
+    {
+      "fixture_id": "2fEvtwaeL7sJyQKHp9oMz",
+      "kickoff_utc": "2026-10-16T19:00:00.000Z",
+      "venue": "Turf Moor",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "64bxxwu2mv2qqlv0monbkj1om",
+      "home_team": "バーンリー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JZgdxK1yXzWOwWXY1ZeAL.png",
+      "home_score": 1,
+      "away_team_id": "b9si1jn1lfxfund69e9ogcu2n",
+      "away_team": "ウォルヴァーハンプトン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/q8LuXPdOIsqKGDbg8rjSp.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "旗手怜央",
+          "team_id": 44
+        }
+      ]
     }
   ]
 }
