@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T01:40:03.884918+00:00",
+  "fetched_at": "2026-10-18T02:09:24.018972+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -450,6 +450,30 @@
           "away_team_id": "943ue6l8ylnidoygbi9p8op2h",
           "away_team": "アトランタ・ユナイテッド",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+          "away_score": 3,
+          "jp_players": [
+            {
+              "name": "富樫敬真",
+              "team_id": 1608
+            }
+          ]
+        },
+        {
+          "fixture_id": "NmegOGdLgoDgjjsC4eYw4",
+          "kickoff_utc": "2026-10-17T23:30:00.000Z",
+          "venue": "Mercedes-Benz Stadium",
+          "league_name": "MLS",
+          "country_code": "usa",
+          "country_ja": "アメリカ",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "943ue6l8ylnidoygbi9p8op2h",
+          "home_team": "アトランタ・ユナイテッド",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+          "home_score": 1,
+          "away_team_id": "7a7uyvix8axi28h7d3bwl4tbe",
+          "away_team": "インテル・マイアミ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eP7VUfiow48_R8A-w2ADb.png",
           "away_score": 3,
           "jp_players": [
             {
@@ -10296,6 +10320,30 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BZg0TCUCEswQgNXLaqJV8.png",
       "away_score": 2,
       "jp_players": []
+    },
+    {
+      "fixture_id": "NmegOGdLgoDgjjsC4eYw4",
+      "kickoff_utc": "2026-10-17T23:30:00.000Z",
+      "venue": "Mercedes-Benz Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "943ue6l8ylnidoygbi9p8op2h",
+      "home_team": "アトランタ・ユナイテッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xLGFdmaPfb7dY7PI5OEPk.png",
+      "home_score": 1,
+      "away_team_id": "7a7uyvix8axi28h7d3bwl4tbe",
+      "away_team": "インテル・マイアミ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eP7VUfiow48_R8A-w2ADb.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "富樫敬真",
+          "team_id": 1608
+        }
+      ]
     },
     {
       "fixture_id": "g1rSQvMCCEg4NIftZnen4",
