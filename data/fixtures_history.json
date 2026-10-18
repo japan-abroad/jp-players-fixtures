@@ -8679,6 +8679,206 @@
           "team_id": 209
         }
       ]
+    },
+    {
+      "fixture_id": "GxImoG00WCSJecGjD4mHF",
+      "kickoff_utc": "2026-10-17T18:30:00.000Z",
+      "venue": "Heinz von Heiden-Arena",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "5lidfwkteyu9dj9ysmdq2v4tk",
+      "home_team": "ハノーファー96",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5hgh_rQvQkVRTh0fJL_VM.png",
+      "home_score": 1,
+      "away_team_id": "85jtaw5dcxxx1yp8te6axh3p8",
+      "away_team": "ザンクト・パウリ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nrVUp1yGT9PaanlKgyGrw.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "松田隼風",
+          "team_id": 166
+        },
+        {
+          "name": "横田大祐",
+          "team_id": 166
+        },
+        {
+          "name": "碇明日麻",
+          "team_id": 166
+        },
+        {
+          "name": "原大智",
+          "team_id": 186
+        },
+        {
+          "name": "藤田譲瑠チマ",
+          "team_id": 186
+        },
+        {
+          "name": "安藤智哉",
+          "team_id": 186
+        }
+      ]
+    },
+    {
+      "fixture_id": "dQrajtvTMa9KWjNcIqLyd",
+      "kickoff_utc": "2026-10-17T18:45:00.000Z",
+      "venue": "Decathlon Arena-Stade Pierre-Mauroy",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "be2k34rut1lz79jxenabttqlc",
+      "home_team": "リール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nphkDirYGP1JFaopFVqQy.png",
+      "home_score": 1,
+      "away_team_id": "3adj8hkws0z1al232bg2h6tk0",
+      "away_team": "ブレスト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/lWIe19WyksP2CpUqUD0-K.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "上田綺世",
+          "team_id": 79
+        }
+      ]
+    },
+    {
+      "fixture_id": "Y4MSChC4XQ4tvAqvuN4Nd",
+      "kickoff_utc": "2026-10-17T18:45:00.000Z",
+      "venue": null,
+      "league_name": "カップ",
+      "country_code": "",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "3azhmz8ph0ei9qflbo7mrkw9d",
+      "home_team": "ヴィルトン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/0QJvs6QBJ_IljEPZu2Q2G.png",
+      "home_score": 0,
+      "away_team_id": "89xivtxk59uzvhdsd6miao6tm",
+      "away_team": "ゲンク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "伊東純也",
+          "team_id": 742
+        },
+        {
+          "name": "吉永夢希",
+          "team_id": 742
+        },
+        {
+          "name": "横山歩夢",
+          "team_id": 742
+        }
+      ]
+    },
+    {
+      "fixture_id": "0C_wJEjdTnWfJVKV-2ZdT",
+      "kickoff_utc": "2026-10-17T19:00:00.000Z",
+      "venue": "Estadio Mestalla",
+      "league_name": "ラ・リーガ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "ba5e91hjacvma2sjvixn00pjo",
+      "home_team": "バレンシア",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/GBjhrfqF1SgdL1HLfI-7z.png",
+      "home_score": 0,
+      "away_team_id": "3czravw89omgc9o4s0w3l1bg5",
+      "away_team": "アスレティック・クルブ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/7h4N4ZU17VQqx1GNJwuvF.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "佐藤龍之介",
+          "team_id": 532
+        }
+      ]
+    },
+    {
+      "fixture_id": "r7_td1aJrOxm5f04BtPzV",
+      "kickoff_utc": "2026-10-17T19:00:00.000Z",
+      "venue": "Sparta Stadion Het Kasteel",
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "89w5c6pw7vn0dxypi61tt0g4k",
+      "home_team": "スパルタ・ロッテルダム",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zyb_L1aPzQxMQkCu1lBUr.png",
+      "home_score": 3,
+      "away_team_id": "bk5ltsueqmeng29eovd8m2tml",
+      "away_team": "ヴィレムII",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/UcGx31DBs289ovl9NIEbs.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "三戸舜介",
+          "team_id": 426
+        }
+      ]
+    },
+    {
+      "fixture_id": "7tgcwKaiGEAy7upWX86Ne",
+      "kickoff_utc": "2026-10-17T19:00:00.000Z",
+      "venue": "Estadio de Gran Canaria",
+      "league_name": "セグンダ・ディビシオン",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "1ae3awgwm3i1jds5tfct5441j",
+      "home_team": "ラス・パルマス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
+      "home_score": 0,
+      "away_team_id": "5ziakdomggtzs5xqnb50jpi5o",
+      "away_team": "カステリョン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PZtrdHXH-m-ix4-dHYV8w.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "宮代大聖",
+          "team_id": 534
+        }
+      ]
+    },
+    {
+      "fixture_id": "MaXTC5S2qTwkXOBliy6zg",
+      "kickoff_utc": "2026-10-17T23:30:00.000Z",
+      "venue": "Inter&amp;Co Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "eaqreat4kxwvah0bvwg1wtoq5",
+      "home_team": "オーランド・シティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RWGc2Pgfmn9nEOGToxyRB.png",
+      "home_score": 4,
+      "away_team_id": "5qw82lpi6fio4fbljihlyyulb",
+      "away_team": "DCユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IaqZ8i3JSmF_gajeFPOA8.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "濃野公人",
+          "team_id": 1615
+        },
+        {
+          "name": "黒川圭介",
+          "team_id": 1615
+        }
+      ]
     }
   ]
 }
