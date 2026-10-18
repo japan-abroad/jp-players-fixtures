@@ -3931,12 +3931,7 @@
       "away_team": "トレエンセ",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fdZcNDHxmIWX2AkdnVyto.png",
       "away_score": 2,
-      "jp_players": [
-        {
-          "name": "上田綺世",
-          "team_id": 79
-        }
-      ]
+      "jp_players": []
     },
     {
       "fixture_id": "T7w3jXxuzAvPI3Hj4RHdG",
@@ -7943,12 +7938,7 @@
       "away_team": "リールストロム",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IGbF2AvTnm-I_Vw_wbHJX.png",
       "away_score": 1,
-      "jp_players": [
-        {
-          "name": "上田綺世",
-          "team_id": 79
-        }
-      ]
+      "jp_players": []
     },
     {
       "fixture_id": "cyOMnXdiZ2zcDRFjIRMsA",
