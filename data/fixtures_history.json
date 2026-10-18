@@ -8951,6 +8951,194 @@
           "team_id": 1605
         }
       ]
+    },
+    {
+      "fixture_id": "cq4WoMG8_LKZKs9CkoE9Q",
+      "kickoff_utc": "2026-10-18T10:15:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8uwvjzazv3wsaswlsfg3if4q1",
+      "home_team": "Ajax",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oiPxzUR8VEx4KbSHJ04hw.png",
+      "home_score": 1,
+      "away_team_id": "qtvG1Pcof2vOoKNOrwiOh",
+      "away_team": "PSV",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fdDZSbE4B5fm29f_4YsSq.png",
+      "away_score": 4,
+      "jp_players": [
+        {
+          "name": "佐野航大",
+          "team_id": 197
+        }
+      ]
+    },
+    {
+      "fixture_id": "deiJoIAKzOwrRCdOby9oS",
+      "kickoff_utc": "2026-10-18T11:30:00.000Z",
+      "venue": null,
+      "league_name": "カップ",
+      "country_code": "",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "ItIEk91zXLm4BapbCYZrb",
+      "home_team": "Union Rochefortoise",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zG5Ho9UlN9AqV5a0OKY1x.png",
+      "home_score": 3,
+      "away_team_id": "8y3iucyxguipljcmf87a11bk9",
+      "away_team": "ヘント",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RbRJAkTnt3dvn2Naugpud.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "佃颯太",
+          "team_id": 631
+        }
+      ]
+    },
+    {
+      "fixture_id": "Z9WlKDrIxCS_3Abx1y6Re",
+      "kickoff_utc": "2026-10-18T11:30:00.000Z",
+      "venue": "BBBank Wildpark",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "aojwbjr39s1w2mcd9l2bf2dhk",
+      "home_team": "カールスルーエ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/yvrf8KVsL4z32wC0LXOUZ.png",
+      "home_score": 4,
+      "away_team_id": "1y7e48j8swyafegsucvewse5a",
+      "away_team": "ダルムシュタット",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qEKLVOjy3NWkwocdIk7YK.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "古川陽介",
+          "team_id": 181
+        },
+        {
+          "name": "秋山裕紀",
+          "team_id": 181
+        }
+      ]
+    },
+    {
+      "fixture_id": "lerfdqXCxy2D4gDYQNeDq",
+      "kickoff_utc": "2026-10-18T12:45:00.000Z",
+      "venue": "KGHM Zaglebie Arena",
+      "league_name": "エクストラクラサ",
+      "country_code": "",
+      "country_ja": "ポーランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "145oko43h2g50ck9kn3d51xae",
+      "home_team": "ザグウェンビェ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pNj91yiHXpdZIivRuWoS9.png",
+      "home_score": 1,
+      "away_team_id": "8jw3s68b9lil5xcgjvbcmrgc2",
+      "away_team": "ヤギエロニア・ビャウィストク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sUgnbwMe4NBm6MYSThEbA.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "小林友希",
+          "team_id": 336
+        }
+      ]
+    },
+    {
+      "fixture_id": "x9CJJvvQQ-_Q1h_y8Ishr",
+      "kickoff_utc": "2026-10-18T13:00:00.000Z",
+      "venue": "The American Express Community Stadium",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "e5p0ehyguld7egzhiedpdnc3w",
+      "home_team": "ブライトン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
+      "home_score": 5,
+      "away_team_id": "1c8m2ko0wxq1asfkuykurdr0y",
+      "away_team": "クリスタル・パレス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fkqJeAhCc1RGGGO8bTZwl.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "三笘薫",
+          "team_id": 51
+        },
+        {
+          "name": "冨安健洋",
+          "team_id": 52
+        },
+        {
+          "name": "鎌田大地",
+          "team_id": 52
+        }
+      ]
+    },
+    {
+      "fixture_id": "ZB3DPj0PQPkCKJ-dG5C39",
+      "kickoff_utc": "2026-10-18T13:00:00.000Z",
+      "venue": "Elland Road",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "48gk2hpqtsl6p9sx9kjhaydq4",
+      "home_team": "リーズ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/aHnEa_wImk48agGWeQmpX.png",
+      "home_score": 1,
+      "away_team_id": "6eqit8ye8aomdsrrq0hk3v7gh",
+      "away_team": "マンチェスター・ユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/StOWHY8QeOZ7MplXkp2KC.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "田中碧",
+          "team_id": 63
+        }
+      ]
+    },
+    {
+      "fixture_id": "Jf2CMLIC_1OkNGdR_7H3j",
+      "kickoff_utc": "2026-10-18T13:30:00.000Z",
+      "venue": "BayArena",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "7ad69ngbpjuyzv96drf8d9sn2",
+      "home_team": "レヴァークーゼン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jEUaq-mmqK2hKxbzCjsUh.png",
+      "home_score": 2,
+      "away_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
+      "away_team": "フライブルク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "後藤啓介",
+          "team_id": 160
+        },
+        {
+          "name": "山本理仁",
+          "team_id": 160
+        },
+        {
+          "name": "鈴木唯人",
+          "team_id": 160
+        }
+      ]
     }
   ]
 }
