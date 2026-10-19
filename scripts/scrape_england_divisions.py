@@ -48,10 +48,13 @@ REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
 }
 
+# 2026-10-19にページ構造が変わり、ロゴ用とラベル用の2つの<a>に分かれ、
+# チーム名が<span>の入れ子になった。ラベル側の<a>の中身からタグを除いて取る。
 TEAM_ROW_RE = re.compile(
-    r'class="sc-tableValue__team"\s+href="https://soccer\.yahoo\.co\.jp/ws/team/(\d+)"[^>]*>([^<]+)</a>',
+    r'<a class="sc-tableValue__team(?: sc-tableValue__team--label)?"\s+href="https://soccer\.yahoo\.co\.jp/ws/team/(\d+)"[^>]*>(.*?)</a>',
     re.S,
 )
+TAG_RE = re.compile(r"<[^>]+>")
 
 
 def _fetch_division(params: dict) -> list[str]:
@@ -59,11 +62,12 @@ def _fetch_division(params: dict) -> list[str]:
     resp.raise_for_status()
     seen_ids: set[str] = set()
     names: list[str] = []
-    for team_id, name in TEAM_ROW_RE.findall(resp.text):
-        if team_id in seen_ids:
+    for team_id, inner in TEAM_ROW_RE.findall(resp.text):
+        name = unicodedata.normalize("NFKC", TAG_RE.sub("", inner)).strip()
+        if not name or team_id in seen_ids:
             continue
         seen_ids.add(team_id)
-        names.append(unicodedata.normalize("NFKC", name).strip())
+        names.append(name)
     return names
 
 
