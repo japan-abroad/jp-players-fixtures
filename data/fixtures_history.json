@@ -9391,6 +9391,54 @@
           "team_id": 548
         }
       ]
+    },
+    {
+      "fixture_id": "quykXDQwvB6tvHOwdFqbS",
+      "kickoff_utc": "2026-10-18T18:45:00.000Z",
+      "venue": "Groupama Stadium",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "121le8unjfzug3iu9pgkqa1c7",
+      "home_team": "リヨン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9QuhS30De-PnujU8oknsX.png",
+      "home_score": 2,
+      "away_team_id": "bx0cdmzr2gwr70ez72dorx82p",
+      "away_team": "ニース",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/29Qp98UEQtRCniX583-x2.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "中村敬斗",
+          "team_id": 80
+        }
+      ]
+    },
+    {
+      "fixture_id": "izO9b0ZhCi8PFuujp03Y6",
+      "kickoff_utc": "2026-10-18T18:45:00.000Z",
+      "venue": null,
+      "league_name": "タッサ・デ・ポルトガル",
+      "country_code": "",
+      "country_ja": "ポルトガル",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6x8hnvh0kwd576v1ustzv6r30",
+      "home_team": "CF Os Belenenses",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WgdHGKC7qLjdcwdtP60Rg.png",
+      "home_score": 3,
+      "away_team_id": "dich5v7sw466smbqap0d9rbyj",
+      "away_team": "アロウカ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/EwmSRPOxRzlt0DsrevQXE.png",
+      "away_score": 4,
+      "jp_players": [
+        {
+          "name": "福井太智",
+          "team_id": 240
+        }
+      ]
     }
   ]
 }
