@@ -9487,6 +9487,54 @@
           "team_id": 1346
         }
       ]
+    },
+    {
+      "fixture_id": "bSQqZk0drZcZdEO6Pz8oZ",
+      "kickoff_utc": "2026-10-20T19:00:00.000Z",
+      "venue": "Estadio do Dragao",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "66bsnl0zjb7l5akwo00h0y5me",
+      "home_team": "ポルト",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5q7vuByZ8XO_L7ZuEeep2.png",
+      "home_score": 0,
+      "away_team_id": "24fvcruwqrqvqa3aonf8c3zuy",
+      "away_team": "PSVアイントホーフェン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/dz7iJVaQ-OmykCM9NpxQV.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "佐野航大",
+          "team_id": 197
+        }
+      ]
+    },
+    {
+      "fixture_id": "uc6hdlMHrujH3gepSLxwA",
+      "kickoff_utc": "2026-10-20T19:00:00.000Z",
+      "venue": "Anfield",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "c8h9bw1l82s06h77xxrelzhur",
+      "home_team": "リヴァプール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+      "home_score": 4,
+      "away_team_id": "74mcjsm72vr3l9pw2i4qfjchj",
+      "away_team": "ビジャレアル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Wq9oBgwBzFNsQIFp7begY.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "遠藤航",
+          "team_id": 40
+        }
+      ]
     }
   ]
 }
