@@ -9535,6 +9535,102 @@
           "team_id": 40
         }
       ]
+    },
+    {
+      "fixture_id": "c7Eb4s-qgwokd3PDDjo7v",
+      "kickoff_utc": "2026-10-21T16:45:00.000Z",
+      "venue": "Decathlon Arena-Stade Pierre-Mauroy",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "be2k34rut1lz79jxenabttqlc",
+      "home_team": "リール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nphkDirYGP1JFaopFVqQy.png",
+      "home_score": 2,
+      "away_team_id": "esa748l653sss1wurz5ps3228",
+      "away_team": "ガラタサライ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/3-2NYgRA5dm1M_VdeXR4q.png",
+      "away_score": 4,
+      "jp_players": [
+        {
+          "name": "上田綺世",
+          "team_id": 79
+        }
+      ]
+    },
+    {
+      "fixture_id": "yNRPx9PcdHcB59DGs_B3t",
+      "kickoff_utc": "2026-10-21T19:00:00.000Z",
+      "venue": "Villa Park",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "b496gs285it6bheuikox6z9mj",
+      "home_team": "アストン・ヴィラ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
+      "home_score": 3,
+      "away_team_id": "VDZm6dDRtSJmU-WGvinmQ",
+      "away_team": "バイキング",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5B8vjBfwUVOmSH0djLu9g.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "鈴木彩艶",
+          "team_id": 66
+        }
+      ]
+    },
+    {
+      "fixture_id": "8yDS7nnq8kbP4c2sBoiBd",
+      "kickoff_utc": "2026-10-21T19:00:00.000Z",
+      "venue": "Allianz Arena",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "apoawtpvac4zqlancmvw4nk4o",
+      "home_team": "バイエルン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2TlMSJkWTGqMX2lPN7Cgd.png",
+      "home_score": 2,
+      "away_team_id": "4dsgumo7d4zupm2ugsvm4zm4d",
+      "away_team": "アーセナル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W1-BFEctS5BlEkf0u_ld3.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "伊藤洋輝",
+          "team_id": 157
+        }
+      ]
+    },
+    {
+      "fixture_id": "mco7DiFWnp_smt9E1jApA",
+      "kickoff_utc": "2026-10-21T19:00:00.000Z",
+      "venue": "Estadio Benito Villamarin",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "ah8dala7suqqkj04n2l8xz4zd",
+      "home_team": "ベティス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/gezsEknLaMwmk3X3Zcc76.png",
+      "home_score": 1,
+      "away_team_id": "20vymiy7bo8wkyxai3ew494fz",
+      "away_team": "フェイエノールト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oFQJvuN4b8qeEHcuFsdoB.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "渡辺剛",
+          "team_id": 209
+        }
+      ]
     }
   ]
 }
