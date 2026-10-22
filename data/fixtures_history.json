@@ -9611,7 +9611,7 @@
     {
       "fixture_id": "mco7DiFWnp_smt9E1jApA",
       "kickoff_utc": "2026-10-21T19:00:00.000Z",
-      "venue": "Estadio Benito Villamarin",
+      "venue": "Estadio de La Cartuja",
       "league_name": "チャンピオンズリーグ",
       "country_code": "uefa",
       "country_ja": "UEFA",
@@ -9629,6 +9629,34 @@
         {
           "name": "渡辺剛",
           "team_id": 209
+        }
+      ]
+    },
+    {
+      "fixture_id": "wsObYktGE4dTSF221kG0D",
+      "kickoff_utc": "2026-10-21T23:15:00.000Z",
+      "venue": "TQL Stadium",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "652hppivbqchvrp3wopx1isyt",
+      "home_team": "FCシンシナティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_keXtbhSV-qpuJju2hyJG.png",
+      "home_score": 2,
+      "away_team_id": "5qw82lpi6fio4fbljihlyyulb",
+      "away_team": "DCユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/IaqZ8i3JSmF_gajeFPOA8.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "濃野公人",
+          "team_id": 1615
+        },
+        {
+          "name": "黒川圭介",
+          "team_id": 1615
         }
       ]
     }
