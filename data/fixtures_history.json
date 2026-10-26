@@ -11167,6 +11167,54 @@
           "team_id": 1605
         }
       ]
+    },
+    {
+      "fixture_id": "QzmxaFtZkQTl5HVKgJThf",
+      "kickoff_utc": "2026-10-26T18:00:00.000Z",
+      "venue": "Parken",
+      "league_name": "スーパーリーガ",
+      "country_code": "",
+      "country_ja": "デンマーク",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "b3r6d8ydtmtjckam6pku9y400",
+      "home_team": "コペンハーゲン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
+      "home_score": 1,
+      "away_team_id": "dbl7ir1qugqz8nvp1vzn8im50",
+      "away_team": "OB",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qZHrgl7Uhm6gWjhrmqb9h.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "鈴木淳之介",
+          "team_id": 400
+        }
+      ]
+    },
+    {
+      "fixture_id": "vF0wyd1-2wWdNVWenz2kd",
+      "kickoff_utc": "2026-10-26T19:30:00.000Z",
+      "venue": "Parc des Princes",
+      "league_name": "リーグ・アン",
+      "country_code": "fra",
+      "country_ja": "フランス",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "2b3mar72yy8d6uvat1ka6tn3r",
+      "home_team": "パリ・サンジェルマン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Gt8F5QmiB3gbYqX46lCUq.png",
+      "home_score": 2,
+      "away_team_id": "121le8unjfzug3iu9pgkqa1c7",
+      "away_team": "リヨン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9QuhS30De-PnujU8oknsX.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "中村敬斗",
+          "team_id": 80
+        }
+      ]
     }
   ]
 }
