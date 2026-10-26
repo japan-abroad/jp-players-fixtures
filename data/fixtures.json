@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T03:42:57.740715+00:00",
+  "fetched_at": "2026-10-26T12:26:46.108721+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -433,7 +433,7 @@
         {
           "fixture_id": "agVQMLvcNax5L87u82Cg6",
           "kickoff_utc": "2026-10-28T23:30:00.000Z",
-          "venue": "Yankee Stadium",
+          "venue": "Citi Field",
           "league_name": "MLS",
           "country_code": "usa",
           "country_ja": "アメリカ",
@@ -11878,7 +11878,7 @@
     {
       "fixture_id": "agVQMLvcNax5L87u82Cg6",
       "kickoff_utc": "2026-10-28T23:30:00.000Z",
-      "venue": "Yankee Stadium",
+      "venue": "Citi Field",
       "league_name": "MLS",
       "country_code": "usa",
       "country_ja": "アメリカ",
