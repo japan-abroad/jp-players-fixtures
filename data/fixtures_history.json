@@ -11215,6 +11215,186 @@
           "team_id": 80
         }
       ]
+    },
+    {
+      "fixture_id": "Wh5sDYZgutb7_xdhZvSJS",
+      "kickoff_utc": "2026-10-27T17:00:00.000Z",
+      "venue": "Vonovia Ruhrstadion",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
+      "home_team": "ボーフム",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
+      "home_score": 2,
+      "away_team_id": "1c7qokc1j5z50cjj4tcu32haa",
+      "away_team": "マインツ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f2-8qfj2bk5S0vTBEEa9G.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "三好康児",
+          "team_id": 176
+        },
+        {
+          "name": "佐野海舟",
+          "team_id": 164
+        },
+        {
+          "name": "川﨑颯太",
+          "team_id": 164
+        },
+        {
+          "name": "川崎颯太",
+          "team_id": 164
+        }
+      ]
+    },
+    {
+      "fixture_id": "aAeAEZOuKLCIPFFooI2Ng",
+      "kickoff_utc": "2026-10-27T17:00:00.000Z",
+      "venue": "Volksparkstadion",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "75xi6hloabmnjn2kzgj1g8h1s",
+      "home_team": "ハンブルガーSV",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/G7u0-FKJsANMgyoQvFcx9.png",
+      "home_score": 1,
+      "away_team_id": "c5hderjlkcoaze51e5wgvptk",
+      "away_team": "フランクフルト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2Myurk0GUKAA2rF21Tx4Z.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "堂安律",
+          "team_id": 169
+        },
+        {
+          "name": "小杉啓太",
+          "team_id": 169
+        },
+        {
+          "name": "神代慶人",
+          "team_id": 169
+        }
+      ]
+    },
+    {
+      "fixture_id": "UTFKPj2u2j4MtEKrbTnkO",
+      "kickoff_utc": "2026-10-27T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパデルレイ",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "kUcRMnhP-dxZTqCizRVvt",
+      "home_team": "RSD Alcala",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/uwxDMkd_8gCeihzgZrOFt.png",
+      "home_score": 1,
+      "away_team_id": "1ae3awgwm3i1jds5tfct5441j",
+      "away_team": "ラス・パルマス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "宮代大聖",
+          "team_id": 534
+        }
+      ]
+    },
+    {
+      "fixture_id": "AZvIf_-QT1NGAAGvfwyhE",
+      "kickoff_utc": "2026-10-27T19:45:00.000Z",
+      "venue": "Stadio Olimpico, Rome",
+      "league_name": "セリエA",
+      "country_code": "ita",
+      "country_ja": "イタリア",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "2tk2l9sgktwc9jhzqdd4mpdtb",
+      "home_team": "ローマ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fqxU8GBeoLw0gLDZvhELq.png",
+      "home_score": 4,
+      "away_team_id": "5rwlg5cfv1hu7yf0ek1zxpzy3",
+      "away_team": "カリアリ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/AwqELsa7jywgE3abOYRfL.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "菅原由勢",
+          "team_id": 490
+        }
+      ]
+    },
+    {
+      "fixture_id": "-ptaUFaSMunZWdyl4hzIV",
+      "kickoff_utc": "2026-10-27T19:45:00.000Z",
+      "venue": "Ista-Borussia-Park",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "go76xxm0xyfgqt1h6tcrtimm",
+      "home_team": "ボルシアMG",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/HM49b4dKNaIgkvz6V2U4U.png",
+      "home_score": 2,
+      "away_team_id": "aojwbjr39s1w2mcd9l2bf2dhk",
+      "away_team": "カールスルーエ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/yvrf8KVsL4z32wC0LXOUZ.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "板倉滉",
+          "team_id": 163
+        },
+        {
+          "name": "町野修斗",
+          "team_id": 163
+        },
+        {
+          "name": "宇野禅斗",
+          "team_id": 163
+        },
+        {
+          "name": "橋岡大樹",
+          "team_id": 163
+        }
+      ]
+    },
+    {
+      "fixture_id": "vtpjaf8Pt3CBTQbikbYcy",
+      "kickoff_utc": "2026-10-27T19:45:00.000Z",
+      "venue": "Ursapharm-Arena",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "cig09m7g3wx983agnqgovggoh",
+      "home_team": "エルフェアスベルク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iLZSMG8Oc30AomkBDV7fp.png",
+      "home_score": 0,
+      "away_team_id": "1y7e48j8swyafegsucvewse5a",
+      "away_team": "ダルムシュタット",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qEKLVOjy3NWkwocdIk7YK.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "古川陽介",
+          "team_id": 181
+        },
+        {
+          "name": "秋山裕紀",
+          "team_id": 181
+        }
+      ]
     }
   ]
 }
