@@ -11759,6 +11759,54 @@
           "team_id": 1603
         }
       ]
+    },
+    {
+      "fixture_id": "YHGoen4-7ABXMg4t8a21t",
+      "kickoff_utc": "2026-10-29T12:30:00.000Z",
+      "venue": null,
+      "league_name": "DBUカップ",
+      "country_code": "",
+      "country_ja": "デンマーク",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "ZwF73RGGXTtgOAsSuAAUx",
+      "home_team": "オーフスフリーマッド",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fC7YyETWJdEnvC8pWOMWG.png",
+      "home_score": 0,
+      "away_team_id": "b3r6d8ydtmtjckam6pku9y400",
+      "away_team": "コペンハーゲン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "鈴木淳之介",
+          "team_id": 400
+        }
+      ]
+    },
+    {
+      "fixture_id": "m6UsYhc0KDFtkFKzOhIBn",
+      "kickoff_utc": "2026-10-29T17:45:00.000Z",
+      "venue": "3Arena",
+      "league_name": "アルスヴェンスカン",
+      "country_code": "",
+      "country_ja": "スウェーデン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "2nnlsjfbcea40t4jeclcbw9lk",
+      "home_team": "ハンマルビー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
+      "home_score": 2,
+      "away_team_id": "grII4_oMyV7ocPWyOvPAc",
+      "away_team": "シリウス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fQLoFhZxG4gfp5SNkArbT.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "島佑成",
+          "team_id": 363
+        }
+      ]
     }
   ]
 }
