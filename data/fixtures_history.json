@@ -12619,6 +12619,86 @@
           "team_id": 1615
         }
       ]
+    },
+    {
+      "fixture_id": "OqLLdPqFhHsl6YJTPlWcB",
+      "kickoff_utc": "2026-10-31T19:45:00.000Z",
+      "venue": "Lotto Park",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6vyr13j6kbwdtxjwm1m4m8nu2",
+      "home_team": "アンデルレヒト",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/cR4Ju_Hn49tM0giPdS7XI.png",
+      "home_score": 4,
+      "away_team_id": "2nhn3ikl1ciq34w3hcp883d6p",
+      "away_team": "ウェステルロー",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pZW-dkEAZk539-eqyGOi2.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "木村誠二",
+          "team_id": 261
+        },
+        {
+          "name": "齋藤俊輔",
+          "team_id": 261
+        },
+        {
+          "name": "坂本一彩",
+          "team_id": 261
+        }
+      ]
+    },
+    {
+      "fixture_id": "3zZh37zxpRNTcE0i9byYz",
+      "kickoff_utc": "2026-10-31T20:00:00.000Z",
+      "venue": "Villa Park",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "b496gs285it6bheuikox6z9mj",
+      "home_team": "アストン・ヴィラ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
+      "home_score": 1,
+      "away_team_id": "hzqh7z0mdl3v7gwete66syxp",
+      "away_team": "フラム",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LX9q9cnrBN2TnIu8byLFT.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "鈴木彩艶",
+          "team_id": 66
+        }
+      ]
+    },
+    {
+      "fixture_id": "HSH867xzgr1htwoIUFryZ",
+      "kickoff_utc": "2026-10-31T21:00:00.000Z",
+      "venue": "Dignity Health Sports Park",
+      "league_name": "MLS",
+      "country_code": "usa",
+      "country_ja": "アメリカ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "6qr5y32dthc4dqycckwmfj1si",
+      "home_team": "LAギャラクシー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/oRBt8K7nlQfcAkM7-UPUQ.png",
+      "home_score": 4,
+      "away_team_id": "yrsr1hyy65062qyzw8sug3ys",
+      "away_team": "オースティンFC",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/UO1_wzoKF8NzyN3OVTmqC.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "吉田麻也",
+          "team_id": 1605
+        }
+      ]
     }
   ]
 }
