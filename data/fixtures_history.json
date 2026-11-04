@@ -13519,6 +13519,86 @@
           "team_id": 41
         }
       ]
+    },
+    {
+      "fixture_id": "DmXNWuaLIBVUZswcbkv6x",
+      "kickoff_utc": "2026-11-04T17:45:00.000Z",
+      "venue": "Chobani Stadyumu Fenerbahce Sukru Saracoglu Spor Kompleksi",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "8lroq0cbhdxj8124qtxwrhvmm",
+      "home_team": "フェネルバフチェ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_exgztvNgcpD9d4fNWmAS.png",
+      "home_score": 3,
+      "away_team_id": "c8h9bw1l82s06h77xxrelzhur",
+      "away_team": "リヴァプール",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "遠藤航",
+          "team_id": 40
+        }
+      ]
+    },
+    {
+      "fixture_id": "aSz8W3jKTKYI7vzCIp52D",
+      "kickoff_utc": "2026-11-04T19:30:00.000Z",
+      "venue": "Guldensporenstadion",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "1uk609mhtsfhokhaewjapb26",
+      "home_team": "コルトレイク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CpQaciiUdKiwA25L3fpKU.png",
+      "home_score": 1,
+      "away_team_id": "b7jmo07lqav0wfe2mtlzyspak",
+      "away_team": "メヘレン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/0yeIDu1lVJb_jv4r3qK5l.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "倍井謙",
+          "team_id": 734
+        },
+        {
+          "name": "高岡伶颯",
+          "team_id": 6222
+        },
+        {
+          "name": "笠柳翼",
+          "team_id": 6222
+        }
+      ]
+    },
+    {
+      "fixture_id": "qfqKRd0yriAwqMf23RphW",
+      "kickoff_utc": "2026-11-04T20:00:00.000Z",
+      "venue": "Philips Stadion",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "24fvcruwqrqvqa3aonf8c3zuy",
+      "home_team": "PSVアイントホーフェン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/dz7iJVaQ-OmykCM9NpxQV.png",
+      "home_score": 1,
+      "away_team_id": "1oyb7oym5nwzny8vxf03szd2h",
+      "away_team": "クラブ・ブルッヘ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P7IMTnd7DyvKabTxDNOdQ.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "佐野航大",
+          "team_id": 197
+        }
+      ]
     }
   ]
 }
