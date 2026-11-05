@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T05:38:02.077144+00:00",
+  "fetched_at": "2026-11-05T14:11:58.754439+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2442,7 +2442,7 @@
         {
           "fixture_id": "A9gquixZzs_lX2T1uDxck",
           "kickoff_utc": "2026-11-05T17:45:00.000Z",
-          "venue": "Savon Sanomat Areena",
+          "venue": "Tammela Stadion",
           "league_name": "UEFAカンファレンスリーグ",
           "country_code": "",
           "country_ja": "International",
@@ -10246,25 +10246,6 @@
       "jp_players": []
     },
     {
-      "fixture_id": "Xui_xQGvEk0ghc3dLixeq",
-      "kickoff_utc": "2026-11-04T20:00:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "POSTPONED",
-      "home_team_id": "AzJyy7aQThxhIqVgGDZSk",
-      "home_team": "CDバダホス",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PDJg5rpvj7SfacuyzLn2w.png",
-      "home_score": null,
-      "away_team_id": "c2v5gyres2yaemc7t3ns323bj",
-      "away_team": "テネリフェ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4FpPu5m_daZlcAI43k7xA.png",
-      "away_score": null,
-      "jp_players": []
-    },
-    {
       "fixture_id": "mm_LXfUc-hIIBsKuo0QQR",
       "kickoff_utc": "2026-11-04T20:00:00.000Z",
       "venue": "Ashton Gate",
@@ -10502,7 +10483,7 @@
     {
       "fixture_id": "A9gquixZzs_lX2T1uDxck",
       "kickoff_utc": "2026-11-05T17:45:00.000Z",
-      "venue": "Savon Sanomat Areena",
+      "venue": "Tammela Stadion",
       "league_name": "UEFAカンファレンスリーグ",
       "country_code": "",
       "country_ja": "International",
@@ -15005,6 +14986,25 @@
       "away_team_id": "6943vv6vi331m2z4dw4eamnec",
       "away_team": "バーカムステッド",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/R6Vf7bpv5Z38pyzf8tIe9.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "Xui_xQGvEk0ghc3dLixeq",
+      "kickoff_utc": "2026-11-10T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "AzJyy7aQThxhIqVgGDZSk",
+      "home_team": "CDバダホス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PDJg5rpvj7SfacuyzLn2w.png",
+      "home_score": null,
+      "away_team_id": "c2v5gyres2yaemc7t3ns323bj",
+      "away_team": "テネリフェ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4FpPu5m_daZlcAI43k7xA.png",
       "away_score": null,
       "jp_players": []
     },
