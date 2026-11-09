@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T05:06:01.704537+00:00",
+  "fetched_at": "2026-11-09T15:29:13.220092+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2109,13 +2109,13 @@
         },
         {
           "fixture_id": "aPy5gd40JMr9ugnXTd_Xm",
-          "kickoff_utc": "2026-11-08T17:30:00.000Z",
+          "kickoff_utc": "2026-11-09T19:30:00.000Z",
           "venue": "Estadio de Gran Canaria",
           "league_name": "セグンダ・ディビシオン",
           "country_code": "",
           "country_ja": "スペイン",
           "round": null,
-          "status": "POSTPONED",
+          "status": "FIXTURE",
           "home_team_id": "1ae3awgwm3i1jds5tfct5441j",
           "home_team": "ラス・パルマス",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
@@ -9190,30 +9190,6 @@
       ]
     },
     {
-      "fixture_id": "aPy5gd40JMr9ugnXTd_Xm",
-      "kickoff_utc": "2026-11-08T17:30:00.000Z",
-      "venue": "Estadio de Gran Canaria",
-      "league_name": "セグンダ・ディビシオン",
-      "country_code": "",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "POSTPONED",
-      "home_team_id": "1ae3awgwm3i1jds5tfct5441j",
-      "home_team": "ラス・パルマス",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
-      "home_score": null,
-      "away_team_id": "ba8jyjo18tvjwei7w7thljw10",
-      "away_team": "エルデンセ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sCQgzHvBXR0QgSxheH37W.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "宮代大聖",
-          "team_id": 534
-        }
-      ]
-    },
-    {
       "fixture_id": "RgfXUBw2hj1Z89Zck7oS-",
       "kickoff_utc": "2026-11-08T18:00:00.000Z",
       "venue": "Tupras Stadyumu",
@@ -9397,6 +9373,30 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/R6Vf7bpv5Z38pyzf8tIe9.png",
       "away_score": null,
       "jp_players": []
+    },
+    {
+      "fixture_id": "aPy5gd40JMr9ugnXTd_Xm",
+      "kickoff_utc": "2026-11-09T19:30:00.000Z",
+      "venue": "Estadio de Gran Canaria",
+      "league_name": "セグンダ・ディビシオン",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "1ae3awgwm3i1jds5tfct5441j",
+      "home_team": "ラス・パルマス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
+      "home_score": null,
+      "away_team_id": "ba8jyjo18tvjwei7w7thljw10",
+      "away_team": "エルデンセ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sCQgzHvBXR0QgSxheH37W.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "宮代大聖",
+          "team_id": 534
+        }
+      ]
     },
     {
       "fixture_id": "kCRljpnHmMfyiyDyeiGl-",
