@@ -15227,6 +15227,30 @@
           "team_id": 534
         }
       ]
+    },
+    {
+      "fixture_id": "r72KAPzzW26P-N-mSKf2W",
+      "kickoff_utc": "2026-11-10T20:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "3_MwvX5c1KeS1Vfo5DWqu",
+      "home_team": "Tavernes de la Valldigna",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
+      "home_score": 0,
+      "away_team_id": "ba5e91hjacvma2sjvixn00pjo",
+      "away_team": "バレンシア",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/GBjhrfqF1SgdL1HLfI-7z.png",
+      "away_score": 6,
+      "jp_players": [
+        {
+          "name": "佐藤龍之介",
+          "team_id": 532
+        }
+      ]
     }
   ]
 }
