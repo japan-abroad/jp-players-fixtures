@@ -15311,6 +15311,30 @@
           "team_id": 161
         }
       ]
+    },
+    {
+      "fixture_id": "olbHpel6ts_7WexfTadKK",
+      "kickoff_utc": "2026-11-13T11:30:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
+      "home_team": "ボーフム",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
+      "home_score": 4,
+      "away_team_id": "3qheqndokbtwr4smt85w4fr82",
+      "away_team": "SCフェール",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YaYjI79fMmVYN3goh5qUO.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "三好康児",
+          "team_id": 176
+        }
+      ]
     }
   ]
 }

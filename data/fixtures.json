@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T05:33:09.036073+00:00",
+  "fetched_at": "2026-11-13T14:06:07.144550+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -2717,15 +2717,15 @@
           "country_code": "",
           "country_ja": "International",
           "round": null,
-          "status": "FIXTURE",
+          "status": "RESULT",
           "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
           "home_team": "ボーフム",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
-          "home_score": null,
+          "home_score": 4,
           "away_team_id": "3qheqndokbtwr4smt85w4fr82",
           "away_team": "SCフェール",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YaYjI79fMmVYN3goh5qUO.png",
-          "away_score": null,
+          "away_score": 1,
           "jp_players": [
             {
               "name": "三好康児",
@@ -7317,15 +7317,15 @@
       "country_code": "",
       "country_ja": "International",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
       "home_team": "ボーフム",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
-      "home_score": null,
+      "home_score": 4,
       "away_team_id": "3qheqndokbtwr4smt85w4fr82",
       "away_team": "SCフェール",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YaYjI79fMmVYN3goh5qUO.png",
-      "away_score": null,
+      "away_score": 1,
       "jp_players": [
         {
           "name": "三好康児",
