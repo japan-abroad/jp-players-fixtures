@@ -15253,6 +15253,38 @@
       ]
     },
     {
+      "fixture_id": "EaWuTEIeyV2_8uSscmO_m",
+      "kickoff_utc": "2026-11-12T11:00:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "89xivtxk59uzvhdsd6miao6tm",
+      "home_team": "ゲンク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
+      "home_score": 1,
+      "away_team_id": "9njsy633rh1tyri7l2jaju5o",
+      "away_team": "オイペン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f8XTdv3qcvymzM9wNW1hQ.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "伊東純也",
+          "team_id": 742
+        },
+        {
+          "name": "吉永夢希",
+          "team_id": 742
+        },
+        {
+          "name": "横山歩夢",
+          "team_id": 742
+        }
+      ]
+    },
+    {
       "fixture_id": "_26h5VJgwELI5Jb-KW4zt",
       "kickoff_utc": "2026-11-12T13:00:00.000Z",
       "venue": null,

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T14:06:07.144550+00:00",
+  "fetched_at": "2026-11-13T23:20:56.517983+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -1322,6 +1322,38 @@
           "away_team": "ゲンク",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
           "away_score": 0,
+          "jp_players": [
+            {
+              "name": "伊東純也",
+              "team_id": 742
+            },
+            {
+              "name": "吉永夢希",
+              "team_id": 742
+            },
+            {
+              "name": "横山歩夢",
+              "team_id": 742
+            }
+          ]
+        },
+        {
+          "fixture_id": "EaWuTEIeyV2_8uSscmO_m",
+          "kickoff_utc": "2026-11-12T11:00:00.000Z",
+          "venue": null,
+          "league_name": "クラブ 親善試合",
+          "country_code": "",
+          "country_ja": "International",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "89xivtxk59uzvhdsd6miao6tm",
+          "home_team": "ゲンク",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
+          "home_score": 1,
+          "away_team_id": "9njsy633rh1tyri7l2jaju5o",
+          "away_team": "オイペン",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f8XTdv3qcvymzM9wNW1hQ.png",
+          "away_score": 3,
           "jp_players": [
             {
               "name": "伊東純也",
@@ -7193,6 +7225,38 @@
       "jp_players": []
     },
     {
+      "fixture_id": "EaWuTEIeyV2_8uSscmO_m",
+      "kickoff_utc": "2026-11-12T11:00:00.000Z",
+      "venue": null,
+      "league_name": "クラブ 親善試合",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "89xivtxk59uzvhdsd6miao6tm",
+      "home_team": "ゲンク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jvIhB8l1Lf3H-JKdTWTzC.png",
+      "home_score": 1,
+      "away_team_id": "9njsy633rh1tyri7l2jaju5o",
+      "away_team": "オイペン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/f8XTdv3qcvymzM9wNW1hQ.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "伊東純也",
+          "team_id": 742
+        },
+        {
+          "name": "吉永夢希",
+          "team_id": 742
+        },
+        {
+          "name": "横山歩夢",
+          "team_id": 742
+        }
+      ]
+    },
+    {
       "fixture_id": "_26h5VJgwELI5Jb-KW4zt",
       "kickoff_utc": "2026-11-12T13:00:00.000Z",
       "venue": null,
@@ -7341,15 +7405,15 @@
       "country_code": "esp",
       "country_ja": "スペイン",
       "round": null,
-      "status": "FIXTURE",
+      "status": "RESULT",
       "home_team_id": "LIMvvRdEM9Pwh8FFiNVoB",
       "home_team": "サラマンカCFUDS",
       "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
-      "home_score": null,
+      "home_score": 0,
       "away_team_id": "6f27yvbqcngegwsg2ozxxdj4",
       "away_team": "セルタ",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FTgkUPD0PmbUD4tk9KLzC.png",
-      "away_score": null,
+      "away_score": 5,
       "jp_players": []
     },
     {
