@@ -15367,6 +15367,54 @@
           "team_id": 176
         }
       ]
+    },
+    {
+      "fixture_id": "KHz9REw2ummBg7wCC-tmZ",
+      "kickoff_utc": "2026-11-15T15:15:00.000Z",
+      "venue": "Estadio Nuevo Los Carmenes",
+      "league_name": "セグンダ・ディビシオン",
+      "country_code": "",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "26fes5ubaeq0fk1nay2pj2ob2",
+      "home_team": "グラナダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/GZRkX6FnwdXWGQQoyr4g3.png",
+      "home_score": 1,
+      "away_team_id": "1ae3awgwm3i1jds5tfct5441j",
+      "away_team": "ラス・パルマス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9gcZ5s5iuZKzzi6G4y3il.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "宮代大聖",
+          "team_id": 534
+        }
+      ]
+    },
+    {
+      "fixture_id": "_jlN6AJhRgqV86BxH3O9u",
+      "kickoff_utc": "2026-11-15T15:45:00.000Z",
+      "venue": null,
+      "league_name": "エールディヴィジ",
+      "country_code": "ned",
+      "country_ja": "オランダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "dHFB6zOkUMgxm3gnf05Wg",
+      "home_team": "FCトゥエンテ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_7bP3QgB5MzFvXTZY1Aq9.png",
+      "home_score": 0,
+      "away_team_id": "qtvG1Pcof2vOoKNOrwiOh",
+      "away_team": "PSV",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fdDZSbE4B5fm29f_4YsSq.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "佐野航大",
+          "team_id": 197
+        }
+      ]
     }
   ]
 }
