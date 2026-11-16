@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T05:18:47.440677+00:00",
+  "fetched_at": "2026-11-16T15:06:31.588129+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -567,36 +567,7 @@
           "position": null
         }
       ],
-      "matches": [
-        {
-          "fixture_id": "OoSYMtEm-hHGYQBLikLyp",
-          "kickoff_utc": "2026-11-22T14:00:00.000Z",
-          "venue": "The MKM Stadium",
-          "league_name": "プレミアリーグ",
-          "country_code": "eng",
-          "country_ja": "イングランド",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "f0figafm2v9h8ofo6slajj7xf",
-          "home_team": "ハル・シティ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CIbMqRusYuY1igSiiTwCp.png",
-          "home_score": null,
-          "away_team_id": "e5p0ehyguld7egzhiedpdnc3w",
-          "away_team": "ブライトン",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
-          "away_score": null,
-          "jp_players": [
-            {
-              "name": "守田英正",
-              "team_id": 64
-            },
-            {
-              "name": "三笘薫",
-              "team_id": 51
-            }
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "team_id": 407,
@@ -1408,36 +1379,7 @@
           "position": null
         }
       ],
-      "matches": [
-        {
-          "fixture_id": "OoSYMtEm-hHGYQBLikLyp",
-          "kickoff_utc": "2026-11-22T14:00:00.000Z",
-          "venue": "The MKM Stadium",
-          "league_name": "プレミアリーグ",
-          "country_code": "eng",
-          "country_ja": "イングランド",
-          "round": null,
-          "status": "FIXTURE",
-          "home_team_id": "f0figafm2v9h8ofo6slajj7xf",
-          "home_team": "ハル・シティ",
-          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CIbMqRusYuY1igSiiTwCp.png",
-          "home_score": null,
-          "away_team_id": "e5p0ehyguld7egzhiedpdnc3w",
-          "away_team": "ブライトン",
-          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
-          "away_score": null,
-          "jp_players": [
-            {
-              "name": "守田英正",
-              "team_id": 64
-            },
-            {
-              "name": "三笘薫",
-              "team_id": 51
-            }
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "team_id": 57,
@@ -2573,7 +2515,32 @@
           "position": null
         }
       ],
-      "matches": []
+      "matches": [
+        {
+          "fixture_id": "HguzfwUmQUbz0F93TOILU",
+          "kickoff_utc": "2026-11-23T01:30:00.000Z",
+          "venue": "BC Place",
+          "league_name": "MLS",
+          "country_code": "can",
+          "country_ja": "カナダ",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
+          "home_team": "バンクーバー・ホワイトキャップス",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
+          "home_score": null,
+          "away_team_id": "f0figafm2v9h8ofo6slajj7xf",
+          "away_team": "ブライトン",
+          "away_logo": null,
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "高丘陽平",
+              "team_id": 1603
+            }
+          ]
+        }
+      ]
     },
     {
       "team_id": 176,
@@ -6405,34 +6372,6 @@
       ]
     },
     {
-      "fixture_id": "OoSYMtEm-hHGYQBLikLyp",
-      "kickoff_utc": "2026-11-22T14:00:00.000Z",
-      "venue": "The MKM Stadium",
-      "league_name": "プレミアリーグ",
-      "country_code": "eng",
-      "country_ja": "イングランド",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "f0figafm2v9h8ofo6slajj7xf",
-      "home_team": "ハル・シティ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CIbMqRusYuY1igSiiTwCp.png",
-      "home_score": null,
-      "away_team_id": "e5p0ehyguld7egzhiedpdnc3w",
-      "away_team": "ブライトン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "守田英正",
-          "team_id": 64
-        },
-        {
-          "name": "三笘薫",
-          "team_id": 51
-        }
-      ]
-    },
-    {
       "fixture_id": "cJUfqCxnZ5BR4oRVzAJOX",
       "kickoff_utc": "2026-11-22T14:00:00.000Z",
       "venue": "Stadio Renato Dell&apos;Ara",
@@ -7039,23 +6978,47 @@
       "jp_players": []
     },
     {
-      "fixture_id": "XO4q9-UHYLJJk9ywaWziT",
-      "kickoff_utc": "2026-11-22T23:30:00.000Z",
-      "venue": "Soldier Field",
+      "fixture_id": "VjOOu-upgAElREyQMTaaC",
+      "kickoff_utc": "2026-11-22T21:00:00.000Z",
+      "venue": "Geodis Park",
       "league_name": "MLS",
       "country_code": "usa",
       "country_ja": "アメリカ",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "apsqaaege20za4re5wm6bzq9a",
-      "home_team": "シカゴ・ファイアー",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MhZuAFMljELeTYnjBwsdP.png",
+      "home_team_id": "1oogd0fpwledjm2ycsuv7afze",
+      "home_team": "ナッシュビルSC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/51-yaPSg49J2mbX7TTX1D.png",
       "home_score": null,
-      "away_team_id": "dqq34048nqex146r77i5l8twq",
+      "away_team_id": "apsqaaege20za4re5wm6bzq9a",
       "away_team": "シャーロットFC",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Q9-SjTuXDGLkyflJrPhnu.png",
+      "away_logo": null,
       "away_score": null,
       "jp_players": []
+    },
+    {
+      "fixture_id": "HguzfwUmQUbz0F93TOILU",
+      "kickoff_utc": "2026-11-23T01:30:00.000Z",
+      "venue": "BC Place",
+      "league_name": "MLS",
+      "country_code": "can",
+      "country_ja": "カナダ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
+      "home_team": "バンクーバー・ホワイトキャップス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
+      "home_score": null,
+      "away_team_id": "f0figafm2v9h8ofo6slajj7xf",
+      "away_team": "ブライトン",
+      "away_logo": null,
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "高丘陽平",
+          "team_id": 1603
+        }
+      ]
     }
   ]
 }
