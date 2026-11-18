@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T00:41:26.507188+00:00",
+  "fetched_at": "2026-11-18T15:16:58.666552+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -1110,7 +1110,7 @@
       "matches": [
         {
           "fixture_id": "mcAed2a9rUFte8fjVi74X",
-          "kickoff_utc": "2026-11-21T17:00:00.000Z",
+          "kickoff_utc": "2026-11-21T13:00:00.000Z",
           "venue": "Stadion Rajko Mitic",
           "league_name": "スーペルリーガ",
           "country_code": "srb",
@@ -4666,6 +4666,30 @@
       "jp_players": []
     },
     {
+      "fixture_id": "mcAed2a9rUFte8fjVi74X",
+      "kickoff_utc": "2026-11-21T13:00:00.000Z",
+      "venue": "Stadion Rajko Mitic",
+      "league_name": "スーペルリーガ",
+      "country_code": "srb",
+      "country_ja": "セルビア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "81lpho34qr3dad0xzalq0abja",
+      "home_team": "ツルヴェナ・ズヴェズダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
+      "home_score": null,
+      "away_team_id": "90e8Ofy41eHO5MSDbxebU",
+      "away_team": "FKラドニクサーデュリカ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "中山雄太",
+          "team_id": 598
+        }
+      ]
+    },
+    {
       "fixture_id": "uYAfxTQnNpgVEUecf-mnC",
       "kickoff_utc": "2026-11-21T13:45:00.000Z",
       "venue": "Marshal Jozef Pilsudski Stadium, Cracow",
@@ -4757,21 +4781,21 @@
       ]
     },
     {
-      "fixture_id": "VoCOZESa0L2DK_Fq00Gti",
+      "fixture_id": "kWUufHGIoDf669hy0_8Of",
       "kickoff_utc": "2026-11-21T14:00:00.000Z",
-      "venue": "Stadion Omladinski",
+      "venue": "Stadion Mladost, Pancevo",
       "league_name": "スーペルリーガ",
       "country_code": "srb",
       "country_ja": "セルビア",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "8OM-DhuzrZWlbeQhLsZrE",
-      "home_team": "OFK Beograd",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XdhmXIqzrtEs1nV420QD6.png",
+      "home_team_id": "RIcCwzF6WFUIYbistKmK8",
+      "home_team": "ムラドスト・ルチャニ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/tPVZzFUWOFD1ZVU0LifPn.png",
       "home_score": null,
-      "away_team_id": "4CxxHrUE7Gl2m3r6a8wrb",
-      "away_team": "ノビ・パザル",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_mQ-DiwG7QJoLUVBw1HKX.png",
+      "away_team_id": "CW5O5dAilg0a82iOYREbE",
+      "away_team": "Zeleznicar Pancevo",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
       "away_score": null,
       "jp_players": []
     },
@@ -5378,21 +5402,21 @@
       "jp_players": []
     },
     {
-      "fixture_id": "kWUufHGIoDf669hy0_8Of",
+      "fixture_id": "VoCOZESa0L2DK_Fq00Gti",
       "kickoff_utc": "2026-11-21T16:00:00.000Z",
-      "venue": "Stadion Mladost, Pancevo",
+      "venue": "Stadion Omladinski",
       "league_name": "スーペルリーガ",
       "country_code": "srb",
       "country_ja": "セルビア",
       "round": null,
       "status": "FIXTURE",
-      "home_team_id": "RIcCwzF6WFUIYbistKmK8",
-      "home_team": "ムラドスト・ルチャニ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/tPVZzFUWOFD1ZVU0LifPn.png",
+      "home_team_id": "8OM-DhuzrZWlbeQhLsZrE",
+      "home_team": "OFK Beograd",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XdhmXIqzrtEs1nV420QD6.png",
       "home_score": null,
-      "away_team_id": "CW5O5dAilg0a82iOYREbE",
-      "away_team": "Zeleznicar Pancevo",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/RBqybq_h6m7m0aBoSadIF.png",
+      "away_team_id": "4CxxHrUE7Gl2m3r6a8wrb",
+      "away_team": "ノビ・パザル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_mQ-DiwG7QJoLUVBw1HKX.png",
       "away_score": null,
       "jp_players": []
     },
@@ -5433,30 +5457,6 @@
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fqxU8GBeoLw0gLDZvhELq.png",
       "away_score": null,
       "jp_players": []
-    },
-    {
-      "fixture_id": "mcAed2a9rUFte8fjVi74X",
-      "kickoff_utc": "2026-11-21T17:00:00.000Z",
-      "venue": "Stadion Rajko Mitic",
-      "league_name": "スーペルリーガ",
-      "country_code": "srb",
-      "country_ja": "セルビア",
-      "round": null,
-      "status": "FIXTURE",
-      "home_team_id": "81lpho34qr3dad0xzalq0abja",
-      "home_team": "ツルヴェナ・ズヴェズダ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W7IbBBGPssNW0JYd4z34d.png",
-      "home_score": null,
-      "away_team_id": "90e8Ofy41eHO5MSDbxebU",
-      "away_team": "FKラドニクサーデュリカ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/iCAEW_cwfLiOwZn3dUBT6.png",
-      "away_score": null,
-      "jp_players": [
-        {
-          "name": "中山雄太",
-          "team_id": 598
-        }
-      ]
     },
     {
       "fixture_id": "cTXUkwYDpvDuMxjimd_rE",
