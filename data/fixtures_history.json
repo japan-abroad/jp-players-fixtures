@@ -15415,6 +15415,34 @@
           "team_id": 197
         }
       ]
+    },
+    {
+      "fixture_id": "sIoQaKYGrRnM6OSqcExuD",
+      "kickoff_utc": "2026-11-20T17:30:00.000Z",
+      "venue": "Merck-Stadion am Boellenfalltor",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "1y7e48j8swyafegsucvewse5a",
+      "home_team": "ダルムシュタット",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qEKLVOjy3NWkwocdIk7YK.png",
+      "home_score": 3,
+      "away_team_id": "3xcg7xikgrn2x8oa65sopb2is",
+      "away_team": "ハイデンハイム",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PLpiKddTc2GU0ZKAokqJo.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "古川陽介",
+          "team_id": 181
+        },
+        {
+          "name": "秋山裕紀",
+          "team_id": 181
+        }
+      ]
     }
   ]
 }
