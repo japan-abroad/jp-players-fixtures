@@ -15531,6 +15531,86 @@
           "team_id": 261
         }
       ]
+    },
+    {
+      "fixture_id": "MEZ-4CTaTdTPHCAjc3-uN",
+      "kickoff_utc": "2026-11-21T12:00:00.000Z",
+      "venue": "Heinz von Heiden-Arena",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "5lidfwkteyu9dj9ysmdq2v4tk",
+      "home_team": "ハノーファー96",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5hgh_rQvQkVRTh0fJL_VM.png",
+      "home_score": 2,
+      "away_team_id": "9dlxuym0eab00j9ggrdr87soj",
+      "away_team": "グロイター・フュルト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/EIgE0U3GuG5-V4l0TxwmT.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "松田隼風",
+          "team_id": 166
+        },
+        {
+          "name": "横田大祐",
+          "team_id": 166
+        },
+        {
+          "name": "碇明日麻",
+          "team_id": 166
+        }
+      ]
+    },
+    {
+      "fixture_id": "a69po1DFM6MhgVwAEostm",
+      "kickoff_utc": "2026-11-21T12:00:00.000Z",
+      "venue": "Volkswagen Arena",
+      "league_name": "2. ブンデスリーガ",
+      "country_code": "",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "a8l3w3n0j99qjlsxj3jnmgkz1",
+      "home_team": "ヴォルフスブルク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Ry9NoyRGMKs5Sgr22Cjg-.png",
+      "home_score": 3,
+      "away_team_id": "6zwg0wxjie31da2i4wwh2h4ho",
+      "away_team": "ホルシュタイン・キール",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fh7vyaE3X4JP9iROOvOL2.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "塩貝健人",
+          "team_id": 161
+        }
+      ]
+    },
+    {
+      "fixture_id": "GdBaYoo_31-VgpmV0vZzH",
+      "kickoff_utc": "2026-11-21T12:30:00.000Z",
+      "venue": "St. Mary&apos;s Stadium",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "d5ydtvt96bv7fq04yqm2w2632",
+      "home_team": "サウサンプトン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2qkRHmQu3EGctqnnL2_fM.png",
+      "home_score": 2,
+      "away_team_id": "3ptd7zlc5isrongig0wij2id4",
+      "away_team": "ダービー・カウンティ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VwdFT253uXCc4Hf7-YKS6.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "松木玖生",
+          "team_id": 41
+        }
+      ]
     }
   ]
 }
