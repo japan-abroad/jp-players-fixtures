@@ -16299,6 +16299,38 @@
           "team_id": 740
         }
       ]
+    },
+    {
+      "fixture_id": "w3Oy-Df2mxQmsxy-h3r2S",
+      "kickoff_utc": "2026-11-22T12:00:00.000Z",
+      "venue": "Turf Moor",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "64bxxwu2mv2qqlv0monbkj1om",
+      "home_team": "バーンリー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JZgdxK1yXzWOwWXY1ZeAL.png",
+      "home_score": 2,
+      "away_team_id": "ep3im6aygoatju4u3ws8v3mog",
+      "away_team": "ブラックバーン・ローヴァーズ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u7Gp7D-Cijc3qF4FHHeEt.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "旗手怜央",
+          "team_id": 44
+        },
+        {
+          "name": "森下龍矢",
+          "team_id": 67
+        },
+        {
+          "name": "大橋祐紀",
+          "team_id": 67
+        }
+      ]
     }
   ]
 }
