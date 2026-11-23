@@ -16695,6 +16695,54 @@
           "team_id": 1603
         }
       ]
+    },
+    {
+      "fixture_id": "K5aCGWj7BLpF_BpzeJeV7",
+      "kickoff_utc": "2026-11-23T18:00:00.000Z",
+      "venue": "Broendby Stadion",
+      "league_name": "スーパーリーガ",
+      "country_code": "",
+      "country_ja": "デンマーク",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "9qsmopgutr7ut5g6workk8w4i",
+      "home_team": "ブレンビーIF",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/MIaToS5wmmu_7P8qHQXLw.png",
+      "home_score": 0,
+      "away_team_id": "59as3grjvj19voay31j3yfgni",
+      "away_team": "ミッティラン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/TZPdiUaeB9oCU4FUh4DoO.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "福田翔生",
+          "team_id": 407
+        }
+      ]
+    },
+    {
+      "fixture_id": "feIr9G1esgL52e0hLbVgC",
+      "kickoff_utc": "2026-11-23T18:00:00.000Z",
+      "venue": "3Arena",
+      "league_name": "アルスヴェンスカン",
+      "country_code": "",
+      "country_ja": "スウェーデン",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "2nnlsjfbcea40t4jeclcbw9lk",
+      "home_team": "ハンマルビー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/LjzQjl7S4xv5J9rfYRWBv.png",
+      "home_score": 3,
+      "away_team_id": "kOg8nznkDOfJNTWgr0wm_",
+      "away_team": "IFKヨーテボリ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/wXXZ4mDoss8gsDCc2_Ug7.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "島佑成",
+          "team_id": 363
+        }
+      ]
     }
   ]
 }
