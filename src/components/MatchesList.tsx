@@ -28,6 +28,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
   const [jpOnly, setJpOnly] = useState(false);
   const [showPast, setShowPast] = useState(false);
   const [activeCountries, setActiveCountries] = useState<Set<string>>(new Set());
+  const [activeLeagues, setActiveLeagues] = useState<Set<string>>(new Set());
   const [query, setQuery] = useState("");
   const [saveEnabled, setSaveEnabled] = useState(false);
   const [filtersLoaded, setFiltersLoaded] = useState(false);
@@ -36,9 +37,14 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
     try {
       const raw = localStorage.getItem(SAVED_FILTERS_KEY);
       if (raw) {
-        const saved = JSON.parse(raw) as { jpOnly?: boolean; countries?: string[] };
+        const saved = JSON.parse(raw) as {
+          jpOnly?: boolean;
+          countries?: string[];
+          leagues?: string[];
+        };
         if (saved.jpOnly) setJpOnly(true);
         if (Array.isArray(saved.countries)) setActiveCountries(new Set(saved.countries));
+        if (Array.isArray(saved.leagues)) setActiveLeagues(new Set(saved.leagues));
         setSaveEnabled(true);
       }
     } catch {
@@ -53,7 +59,11 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
       if (saveEnabled) {
         localStorage.setItem(
           SAVED_FILTERS_KEY,
-          JSON.stringify({ jpOnly, countries: Array.from(activeCountries) })
+          JSON.stringify({
+            jpOnly,
+            countries: Array.from(activeCountries),
+            leagues: Array.from(activeLeagues),
+          })
         );
       } else {
         localStorage.removeItem(SAVED_FILTERS_KEY);
@@ -61,7 +71,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
     } catch {
       // 保存に失敗しても検索機能自体は継続する
     }
-  }, [filtersLoaded, saveEnabled, jpOnly, activeCountries]);
+  }, [filtersLoaded, saveEnabled, jpOnly, activeCountries, activeLeagues]);
 
   const toggleCountry = (code: string) => {
     setActiveCountries((prev) => {
@@ -72,11 +82,39 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
     });
   };
 
+  const toggleLeague = (key: string) => {
+    setActiveLeagues((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  };
+
+  // 国ごとのリーグ一覧(2つ以上ある国のみ絞り込み対象)。キーは「国コード|リーグ名」
+  const leaguesByCountry = useMemo(() => {
+    const map = new Map<string, string[]>();
+    for (const m of matches) {
+      if (!m.league_name) continue;
+      const list = map.get(m.country_code) ?? [];
+      if (!list.includes(m.league_name)) list.push(m.league_name);
+      map.set(m.country_code, list);
+    }
+    for (const [k, v] of map) if (v.length < 2) map.delete(k);
+    return map;
+  }, [matches]);
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return matches.filter((m) => {
       const okJp = !jpOnly || m.jp_players.length > 0;
-      const okCountry = activeCountries.size === 0 || activeCountries.has(m.country_code);
+      let okCountry = activeCountries.size === 0 || activeCountries.has(m.country_code);
+      if (okCountry && leaguesByCountry.has(m.country_code)) {
+        const chosen = (leaguesByCountry.get(m.country_code) ?? []).filter((l) =>
+          activeLeagues.has(`${m.country_code}|${l}`)
+        );
+        if (chosen.length > 0) okCountry = chosen.includes(m.league_name);
+      }
       const okQuery =
         !q ||
         translateTeamName(m.home_team).toLowerCase().includes(q) ||
@@ -84,7 +122,7 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
         m.jp_players.some((p) => translatePlayerName(p.name).toLowerCase().includes(q));
       return okJp && okCountry && okQuery;
     });
-  }, [matches, jpOnly, activeCountries, query]);
+  }, [matches, jpOnly, activeCountries, activeLeagues, leaguesByCountry, query]);
 
   const groups = useMemo(() => groupMatchesByDate(filtered, showPast), [filtered, showPast]);
 
@@ -162,11 +200,42 @@ export default function MatchesList({ matches }: { matches: Match[] }) {
           </button>
         ))}
         {activeCountries.size > 0 && (
-          <button className="chip-btn" onClick={() => setActiveCountries(new Set())}>
+          <button
+            className="chip-btn"
+            onClick={() => {
+              setActiveCountries(new Set());
+              setActiveLeagues(new Set());
+            }}
+          >
             絞り込み解除
           </button>
         )}
       </div>
+
+      {COUNTRIES.filter((c) => activeCountries.has(c.code) && leaguesByCountry.has(c.code)).map(
+        (c) => (
+          <div
+            key={c.code}
+            className="country-filter-scroll mt-2 flex items-center gap-2 overflow-x-auto pb-1"
+          >
+            <span className="shrink-0 text-xs text-[var(--ink-soft)]">{c.label}:</span>
+            {(leaguesByCountry.get(c.code) ?? []).map((l) => {
+              const key = `${c.code}|${l}`;
+              const on = activeLeagues.has(key);
+              return (
+                <button
+                  key={key}
+                  className={`chip-btn${on ? " active" : ""}`}
+                  style={on ? { backgroundColor: countryColor(c.code), borderColor: "transparent" } : undefined}
+                  onClick={() => toggleLeague(key)}
+                >
+                  {l}
+                </button>
+              );
+            })}
+          </div>
+        )
+      )}
 
       <div className="mt-6">
         {groups.map(([dateKey, dayMatches]) => (
