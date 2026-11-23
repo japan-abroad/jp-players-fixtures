@@ -138,6 +138,11 @@ LEAGUE_ALLOWLIST: dict[tuple[str, str], dict] = {
 # (2026-10-05 8/19・8/26・9/23・10/7の4日分で同一IDを確認)。
 COMPETITION_ID_ALLOWLIST: dict[str, dict] = {
     "eitf7hulqfv1clb7toewkil24": {"name": "天皇杯", "country_code": "jpn", "country_ja": "日本"},
+    # 2026-11-23 発覚: goal.comはスコティッシュカップとイングランドFAカップの両方を
+    # (area="イギリス", 大会名="FAカップ")と表記し、スコットランド勢の試合がイングランドの
+    # FAカップとして表示されていた。大会IDで区別する。
+    "8kt53kt3mfo29gldhkl05u25b": {"name": "スコティッシュカップ", "country_code": "sco", "country_ja": "スコットランド"},
+    "2hj3286pqov1g1g59k2t2qcgm": {"name": "FAカップ", "country_code": "eng", "country_ja": "イングランド"},
 }
 
 # LEAGUE_ALLOWLISTのcountry_jaはリーグ単位の固定値だが、これらのリーグは
