@@ -16979,6 +16979,82 @@
           "team_id": 157
         }
       ]
+    },
+    {
+      "fixture_id": "DzWsmEzwqazBgbNRk4A5j",
+      "kickoff_utc": "2026-11-26T17:45:00.000Z",
+      "venue": "Red Bull Arena",
+      "league_name": "ヨーロッパリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "bonj6qc7po4anunhydmjmi6g5",
+      "home_team": "RBザルツブルク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/-PWqo_lcDVwCd2-FuHu94.png",
+      "home_score": 2,
+      "away_team_id": "rXQBnvtRNAxutL4IR_xLG",
+      "away_team": "アララト＝アルメニア",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FY4zR6lpqwWFueNv_58A4.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "北野颯太",
+          "team_id": 571
+        },
+        {
+          "name": "チェイス・アンリ",
+          "team_id": 571
+        }
+      ]
+    },
+    {
+      "fixture_id": "ehdt5CNWhU9skVzNROkRU",
+      "kickoff_utc": "2026-11-26T17:45:00.000Z",
+      "venue": "The American Express Community Stadium",
+      "league_name": "UEFAカンファレンスリーグ",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "e5p0ehyguld7egzhiedpdnc3w",
+      "home_team": "ブライトン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
+      "home_score": 4,
+      "away_team_id": "ACX4G1SmHqEniZ6jv3Khu",
+      "away_team": "ウニヴェルシタテア・クラヨヴァ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/dJVx12CsM66oxX7AjBToq.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "三笘薫",
+          "team_id": 51
+        }
+      ]
+    },
+    {
+      "fixture_id": "o9Rv2JmPRB_uCRhe2GJbl",
+      "kickoff_utc": "2026-11-26T17:45:00.000Z",
+      "venue": "Tynecastle Park",
+      "league_name": "UEFAカンファレンスリーグ",
+      "country_code": "",
+      "country_ja": "International",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "1hcbcuu846pa3iw6qskiws1cu",
+      "home_team": "ハーツ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4BTIkdBd_rRF9ZpCmIeNn.png",
+      "home_score": 2,
+      "away_team_id": "4t4hod56fsj7utpjdor8so5q6",
+      "away_team": "モナコ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/F_zla_b5a_HE5hGvveHfz.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "南野拓実",
+          "team_id": 91
+        }
+      ]
     }
   ]
 }
