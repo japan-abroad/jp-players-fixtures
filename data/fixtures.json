@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T21:14:55.487954+00:00",
+  "fetched_at": "2026-11-26T07:17:00.007061+00:00",
   "clubs": [
     {
       "team_id": 167,
@@ -351,6 +351,30 @@
               "team_id": 66
             }
           ]
+        },
+        {
+          "fixture_id": "-sCkl0uCi7NfJRoRMSz7m",
+          "kickoff_utc": "2026-12-02T20:15:00.000Z",
+          "venue": "Villa Park",
+          "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "b496gs285it6bheuikox6z9mj",
+          "home_team": "アストン・ヴィラ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
+          "home_score": null,
+          "away_team_id": "ehd2iemqmschhj2ec0vayztzz",
+          "away_team": "エヴァートン",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/KpdwLlfU5HTu0Xg7fXxof.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "鈴木彩艶",
+              "team_id": 66
+            }
+          ]
         }
       ]
     },
@@ -410,6 +434,34 @@
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ElZxB_J96MBe8X1MIVM9K.png",
           "away_score": 1,
           "jp_players": [
+            {
+              "name": "伊藤洋輝",
+              "team_id": 157
+            }
+          ]
+        },
+        {
+          "fixture_id": "vpseu-lkhq8aBn7y9h-aQ",
+          "kickoff_utc": "2026-11-25T20:00:00.000Z",
+          "venue": "Decathlon Arena-Stade Pierre-Mauroy",
+          "league_name": "チャンピオンズリーグ",
+          "country_code": "uefa",
+          "country_ja": "UEFA",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "be2k34rut1lz79jxenabttqlc",
+          "home_team": "リール",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nphkDirYGP1JFaopFVqQy.png",
+          "home_score": 2,
+          "away_team_id": "apoawtpvac4zqlancmvw4nk4o",
+          "away_team": "バイエルン",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2TlMSJkWTGqMX2lPN7Cgd.png",
+          "away_score": 1,
+          "jp_players": [
+            {
+              "name": "上田綺世",
+              "team_id": 79
+            },
             {
               "name": "伊藤洋輝",
               "team_id": 157
@@ -605,6 +657,42 @@
           ]
         },
         {
+          "fixture_id": "_eq3ZhRy8g1lgaY9VZ2lb",
+          "kickoff_utc": "2026-11-25T19:45:00.000Z",
+          "venue": "Turf Moor",
+          "league_name": "EFLチャンピオンシップ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "64bxxwu2mv2qqlv0monbkj1om",
+          "home_team": "バーンリー",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JZgdxK1yXzWOwWXY1ZeAL.png",
+          "home_score": 0,
+          "away_team_id": "8kreqtde5jdktcib0kg7dknac",
+          "away_team": "バーミンガム・シティ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w87I_BEoFYqpdY2S4ePJJ.png",
+          "away_score": 2,
+          "jp_players": [
+            {
+              "name": "旗手怜央",
+              "team_id": 44
+            },
+            {
+              "name": "古橋亨梧",
+              "team_id": 54
+            },
+            {
+              "name": "藤本寛也",
+              "team_id": 54
+            },
+            {
+              "name": "岩田智輝",
+              "team_id": 54
+            }
+          ]
+        },
+        {
           "fixture_id": "DBUq5qQ-byLWJ9QM5406N",
           "kickoff_utc": "2026-11-28T15:00:00.000Z",
           "venue": "St Andrew&apos;s Knighthead Park",
@@ -691,6 +779,34 @@
           ]
         },
         {
+          "fixture_id": "umA-9pRqi7GhHwJOoIKy7",
+          "kickoff_utc": "2026-11-25T19:45:00.000Z",
+          "venue": "Vicarage Road Stadium",
+          "league_name": "EFLチャンピオンシップ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "4t83rqbdbekinxl5fz2ygsyta",
+          "home_team": "ワトフォード",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_vTwjktByU9cZi4WIJfwe.png",
+          "home_score": 0,
+          "away_team_id": "ep3im6aygoatju4u3ws8v3mog",
+          "away_team": "ブラックバーン・ローヴァーズ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u7Gp7D-Cijc3qF4FHHeEt.png",
+          "away_score": 1,
+          "jp_players": [
+            {
+              "name": "森下龍矢",
+              "team_id": 67
+            },
+            {
+              "name": "大橋祐紀",
+              "team_id": 67
+            }
+          ]
+        },
+        {
           "fixture_id": "hndc_RB3hHflfK4nMvF7b",
           "kickoff_utc": "2026-11-28T12:30:00.000Z",
           "venue": "Ewood Park",
@@ -749,6 +865,30 @@
           "away_team": "ポーツマス",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/uC-iyteHBgQ1xPN_Qg9xX.png",
           "away_score": 1,
+          "jp_players": [
+            {
+              "name": "伊藤敦樹",
+              "team_id": 68
+            }
+          ]
+        },
+        {
+          "fixture_id": "BqZ0B6uCdWtEFzHnWmIep",
+          "kickoff_utc": "2026-11-25T19:45:00.000Z",
+          "venue": "Toughsheet Community Stadium",
+          "league_name": "EFLチャンピオンシップ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "69t8imcdaqlgfbds2p58596my",
+          "home_team": "ボルトン・ワンダラーズ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6N6EcCoHrYmMl5AW_DsSS.png",
+          "home_score": 1,
+          "away_team_id": "d1lhefp805y0rcbjqkpu4fq0n",
+          "away_team": "ウェスト・ブロムウィッチ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pUgZYZ5rE4IyskOoxrCjG.png",
+          "away_score": 3,
           "jp_players": [
             {
               "name": "伊藤敦樹",
@@ -1023,6 +1163,30 @@
               "team_id": 51
             }
           ]
+        },
+        {
+          "fixture_id": "TBTZIqSCJfOWUJgKuHtbZ",
+          "kickoff_utc": "2026-12-02T20:15:00.000Z",
+          "venue": "Vitality Stadium",
+          "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "1pse9ta7a45pi2w2grjim70ge",
+          "home_team": "ボーンマス",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FS7UO4BdZPMJrL5MlqxyL.png",
+          "home_score": null,
+          "away_team_id": "e5p0ehyguld7egzhiedpdnc3w",
+          "away_team": "ブライトン",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "三笘薫",
+              "team_id": 51
+            }
+          ]
         }
       ]
     },
@@ -1129,6 +1293,42 @@
             {
               "name": "大橋祐紀",
               "team_id": 67
+            }
+          ]
+        },
+        {
+          "fixture_id": "_eq3ZhRy8g1lgaY9VZ2lb",
+          "kickoff_utc": "2026-11-25T19:45:00.000Z",
+          "venue": "Turf Moor",
+          "league_name": "EFLチャンピオンシップ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "64bxxwu2mv2qqlv0monbkj1om",
+          "home_team": "バーンリー",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JZgdxK1yXzWOwWXY1ZeAL.png",
+          "home_score": 0,
+          "away_team_id": "8kreqtde5jdktcib0kg7dknac",
+          "away_team": "バーミンガム・シティ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w87I_BEoFYqpdY2S4ePJJ.png",
+          "away_score": 2,
+          "jp_players": [
+            {
+              "name": "旗手怜央",
+              "team_id": 44
+            },
+            {
+              "name": "古橋亨梧",
+              "team_id": 54
+            },
+            {
+              "name": "藤本寛也",
+              "team_id": 54
+            },
+            {
+              "name": "岩田智輝",
+              "team_id": 54
             }
           ]
         },
@@ -1499,6 +1699,34 @@
               "team_id": 64
             }
           ]
+        },
+        {
+          "fixture_id": "aFaHHtvrlc-6A61oPmCVO",
+          "kickoff_utc": "2026-12-02T19:30:00.000Z",
+          "venue": "Stamford Bridge",
+          "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "9q0arba2kbnywth8bkxlhgmdr",
+          "home_team": "チェルシー",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w5N6rBTPf_J_brPwrNIOG.png",
+          "home_score": null,
+          "away_team_id": "1c8m2ko0wxq1asfkuykurdr0y",
+          "away_team": "クリスタル・パレス",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fkqJeAhCc1RGGGO8bTZwl.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "冨安健洋",
+              "team_id": 52
+            },
+            {
+              "name": "鎌田大地",
+              "team_id": 52
+            }
+          ]
         }
       ]
     },
@@ -1606,6 +1834,38 @@
               "team_id": 169
             }
           ]
+        },
+        {
+          "fixture_id": "t7x8yAjgdZTARSiK2Ev4j",
+          "kickoff_utc": "2026-12-02T19:45:00.000Z",
+          "venue": "Deutsche Bank Park",
+          "league_name": "DFBポカール",
+          "country_code": "ger",
+          "country_ja": "ドイツ",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "c5hderjlkcoaze51e5wgvptk",
+          "home_team": "フランクフルト",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2Myurk0GUKAA2rF21Tx4Z.png",
+          "home_score": null,
+          "away_team_id": "dt4pinj0vw0t0cvz7za6mhmzy",
+          "away_team": "ボルシア・ドルトムント",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/EmDXkZ5B61SrXUUTUPV3X.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "堂安律",
+              "team_id": 169
+            },
+            {
+              "name": "小杉啓太",
+              "team_id": 169
+            },
+            {
+              "name": "神代慶人",
+              "team_id": 169
+            }
+          ]
         }
       ]
     },
@@ -1657,6 +1917,30 @@
           "home_team_id": "9dqlf92t42brv71kvaet67tm4",
           "home_team": "グラスホッパー",
           "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/9WV14UZ1UtDtyEwhIJTjL.png",
+          "home_score": null,
+          "away_team_id": "5u18kvqiqhup2vd345dci1069",
+          "away_team": "バーゼル",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZFLaYXd4L5aWIGe9ne0Px.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "常本佳吾",
+              "team_id": 551
+            }
+          ]
+        },
+        {
+          "fixture_id": "qMqkPrtpOhsMo-At9OSQZ",
+          "kickoff_utc": "2026-12-02T19:30:00.000Z",
+          "venue": null,
+          "league_name": "カップ",
+          "country_code": "",
+          "country_ja": "スイス",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "5fd9f9bti2cdgb6r1lf8l2bc7",
+          "home_team": "ヤングボーイズ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qPMtaYDeypTdTXZnCuM1F.png",
           "home_score": null,
           "away_team_id": "5u18kvqiqhup2vd345dci1069",
           "away_team": "バーゼル",
@@ -1736,6 +2020,30 @@
           "kickoff_utc": "2026-11-29T15:00:00.000Z",
           "venue": "Parken",
           "league_name": "スーパーリーガ",
+          "country_code": "",
+          "country_ja": "デンマーク",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "b3r6d8ydtmtjckam6pku9y400",
+          "home_team": "コペンハーゲン",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
+          "home_score": null,
+          "away_team_id": "59as3grjvj19voay31j3yfgni",
+          "away_team": "ミッティラン",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/TZPdiUaeB9oCU4FUh4DoO.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "鈴木淳之介",
+              "team_id": 400
+            }
+          ]
+        },
+        {
+          "fixture_id": "G0_TaJDUT1952XMk4t-PE",
+          "kickoff_utc": "2026-12-02T18:30:00.000Z",
+          "venue": null,
+          "league_name": "DBUカップ",
           "country_code": "",
           "country_ja": "デンマーク",
           "round": null,
@@ -2566,6 +2874,30 @@
               "team_id": 64
             }
           ]
+        },
+        {
+          "fixture_id": "CzTOBMkAX1ZElexHLe6vC",
+          "kickoff_utc": "2026-12-02T19:30:00.000Z",
+          "venue": "The MKM Stadium",
+          "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "f0figafm2v9h8ofo6slajj7xf",
+          "home_team": "ハル・シティ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CIbMqRusYuY1igSiiTwCp.png",
+          "home_score": null,
+          "away_team_id": "1qtaiy11gswx327s0vkibf70n",
+          "away_team": "ノッティンガム・フォレスト",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BNAy0MWCqOxdSF4SLgCPK.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "守田英正",
+              "team_id": 64
+            }
+          ]
         }
       ]
     },
@@ -3140,6 +3472,30 @@
               "team_id": 1346
             }
           ]
+        },
+        {
+          "fixture_id": "EatgvCAYkfE14JanYVD66",
+          "kickoff_utc": "2026-12-02T19:30:00.000Z",
+          "venue": "Etihad Stadium",
+          "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "a3nyxabgsqlnqfkeg41m6tnpp",
+          "home_team": "マンチェスター・シティ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YaWwRy_S6TKMuwJHBvDbR.png",
+          "home_score": null,
+          "away_team_id": "48gk2hpqtsl6p9sx9kjhaydq4",
+          "away_team": "リーズ",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/aHnEa_wImk48agGWeQmpX.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "田中碧",
+              "team_id": 63
+            }
+          ]
         }
       ]
     },
@@ -3180,6 +3536,34 @@
             {
               "name": "中村敬斗",
               "team_id": 80
+            }
+          ]
+        },
+        {
+          "fixture_id": "vpseu-lkhq8aBn7y9h-aQ",
+          "kickoff_utc": "2026-11-25T20:00:00.000Z",
+          "venue": "Decathlon Arena-Stade Pierre-Mauroy",
+          "league_name": "チャンピオンズリーグ",
+          "country_code": "uefa",
+          "country_ja": "UEFA",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "be2k34rut1lz79jxenabttqlc",
+          "home_team": "リール",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nphkDirYGP1JFaopFVqQy.png",
+          "home_score": 2,
+          "away_team_id": "apoawtpvac4zqlancmvw4nk4o",
+          "away_team": "バイエルン",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2TlMSJkWTGqMX2lPN7Cgd.png",
+          "away_score": 1,
+          "jp_players": [
+            {
+              "name": "上田綺世",
+              "team_id": 79
+            },
+            {
+              "name": "伊藤洋輝",
+              "team_id": 157
             }
           ]
         },
@@ -3246,6 +3630,30 @@
           ]
         },
         {
+          "fixture_id": "h_wzTW9d1zK_WtfZICbBv",
+          "kickoff_utc": "2026-11-25T20:00:00.000Z",
+          "venue": "Jan Breydel Stadion",
+          "league_name": "チャンピオンズリーグ",
+          "country_code": "uefa",
+          "country_ja": "UEFA",
+          "round": null,
+          "status": "RESULT",
+          "home_team_id": "1oyb7oym5nwzny8vxf03szd2h",
+          "home_team": "クラブ・ブルッヘ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P7IMTnd7DyvKabTxDNOdQ.png",
+          "home_score": 0,
+          "away_team_id": "c8h9bw1l82s06h77xxrelzhur",
+          "away_team": "リヴァプール",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+          "away_score": 3,
+          "jp_players": [
+            {
+              "name": "遠藤航",
+              "team_id": 40
+            }
+          ]
+        },
+        {
           "fixture_id": "LeptXI2x4DrWAYy-xm9QN",
           "kickoff_utc": "2026-11-29T12:00:00.000Z",
           "venue": "Hill Dickinson Stadium",
@@ -3261,6 +3669,30 @@
           "away_team_id": "c8h9bw1l82s06h77xxrelzhur",
           "away_team": "リヴァプール",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "遠藤航",
+              "team_id": 40
+            }
+          ]
+        },
+        {
+          "fixture_id": "tURAxsXCM6gtuqCGVU5oV",
+          "kickoff_utc": "2026-12-02T19:30:00.000Z",
+          "venue": "Anfield",
+          "league_name": "プレミアリーグ",
+          "country_code": "eng",
+          "country_ja": "イングランド",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "c8h9bw1l82s06h77xxrelzhur",
+          "home_team": "リヴァプール",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+          "home_score": null,
+          "away_team_id": "1r3545b2dzan8yqa80gtmcjch",
+          "away_team": "サンダーランド",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/hRMDFkwiIhvjfGNfMkNk_.png",
           "away_score": null,
           "jp_players": [
             {
@@ -3944,6 +4376,34 @@
               "team_id": 548
             }
           ]
+        },
+        {
+          "fixture_id": "zjoJN88kCB3DEQJpFVj40",
+          "kickoff_utc": "2026-12-02T18:00:00.000Z",
+          "venue": "Reale Arena",
+          "league_name": "ラ・リーガ",
+          "country_code": "esp",
+          "country_ja": "スペイン",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "63f5h8t5e9qm1fqmvfkb23ghh",
+          "home_team": "レアル・ソシエダ",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/N79j9O-sTkXZNhc9UZUsX.png",
+          "home_score": null,
+          "away_team_id": "3kq9cckrnlogidldtdie2fkbl",
+          "away_team": "レアル・マドリー",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VOlkxOIoXAXF_11lYJ_Ve.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "久保建英",
+              "team_id": 548
+            },
+            {
+              "name": "喜多壱也",
+              "team_id": 548
+            }
+          ]
         }
       ]
     },
@@ -4093,6 +4553,38 @@
           "away_team_id": "9gefq4dz9b2hl8rqrxwrlrzmp",
           "away_team": "RBライプツィヒ",
           "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/0GckKHYTdGCldV4jrlIc1.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "後藤啓介",
+              "team_id": 160
+            },
+            {
+              "name": "山本理仁",
+              "team_id": 160
+            },
+            {
+              "name": "鈴木唯人",
+              "team_id": 160
+            }
+          ]
+        },
+        {
+          "fixture_id": "0ZBUv20CO9vz4AumsETLN",
+          "kickoff_utc": "2026-12-02T17:00:00.000Z",
+          "venue": "Fritz Walter Stadion",
+          "league_name": "DFBポカール",
+          "country_code": "ger",
+          "country_ja": "ドイツ",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "dmw05a03pgt48fnf9ikxs6i1o",
+          "home_team": "カイザースラウテルン",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eNZhIUdrLnF3DNQ5K8TTu.png",
+          "home_score": null,
+          "away_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
+          "away_team": "フライブルク",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
           "away_score": null,
           "jp_players": [
             {
@@ -4655,6 +5147,30 @@
               "team_id": 181
             }
           ]
+        },
+        {
+          "fixture_id": "Lo3Phj-_p6M8EOtwmdWZp",
+          "kickoff_utc": "2026-12-02T19:45:00.000Z",
+          "venue": "Vonovia Ruhrstadion",
+          "league_name": "DFBポカール",
+          "country_code": "ger",
+          "country_ja": "ドイツ",
+          "round": null,
+          "status": "FIXTURE",
+          "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
+          "home_team": "ボーフム",
+          "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
+          "home_score": null,
+          "away_team_id": "ex3psl8e3ajeypwjy4xfltpx6",
+          "away_team": "アウクスブルク",
+          "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Cym9JdkRpXALz4AJUjd8e.png",
+          "away_score": null,
+          "jp_players": [
+            {
+              "name": "三好康児",
+              "team_id": 176
+            }
+          ]
         }
       ]
     },
@@ -4748,120 +5264,6 @@
     }
   ],
   "matches": [
-    {
-      "fixture_id": "xA8BfWjkbQ7zlxQVMHjtq",
-      "kickoff_utc": "2026-11-18T18:00:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "OaKc8H_8L9ZcbAOwNW8kX",
-      "home_team": "Portugalete",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w0WeDm5y4wuX9MDez-DJ6.png",
-      "home_score": 0,
-      "away_team_id": "66iu3gfb2fo0xntwcrosenx5m",
-      "away_team": "レアルユニオン",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/tzKcv-qy05ISt5Y0LEp_G.png",
-      "away_score": 0,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "szPg2P6MaWU-vDWGYqS_e",
-      "kickoff_utc": "2026-11-18T18:00:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "d6nvkgtwizny6pz1ymw1ytb0q",
-      "home_team": "Utebo",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/21434lRH24HeSauipnvR6.png",
-      "home_score": 0,
-      "away_team_id": "55twm9j9y3hvwk7hlk1vi6zst",
-      "away_team": "サバデル",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FiMxpl6IfQHGrvBtBwlT-.png",
-      "away_score": 3,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "bseWu7cCENTgNhXre2xhr",
-      "kickoff_utc": "2026-11-18T19:00:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "f4rjm5f6N44_Feq7N1Iaa",
-      "home_team": "アルコヤーノ",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/default.png",
-      "home_score": 1,
-      "away_team_id": "50x1m4u58lffhq6v6ga1hbxmy",
-      "away_team": "マヨルカ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/bE7wfVD_uxZOlicMBWmmX.png",
-      "away_score": 3,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "Xui_xQGvEk0ghc3dLixeq",
-      "kickoff_utc": "2026-11-18T19:00:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "AzJyy7aQThxhIqVgGDZSk",
-      "home_team": "CDバダホス",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PDJg5rpvj7SfacuyzLn2w.png",
-      "home_score": 2,
-      "away_team_id": "c2v5gyres2yaemc7t3ns323bj",
-      "away_team": "テネリフェ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4FpPu5m_daZlcAI43k7xA.png",
-      "away_score": 5,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "GViUNvL6qUzA9qbORGZjo",
-      "kickoff_utc": "2026-11-18T19:30:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "uDjDumhphEqdqtvXGjsy3",
-      "home_team": "Deportiva Minera",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qscIhxAR4fFRL2Vrmoezi.png",
-      "home_score": 1,
-      "away_team_id": "5wxu1zqzg59vcv980gd8f946c",
-      "away_team": "カルタヘナ",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CpSlAzPbtBMh4yMaQzxd8.png",
-      "away_score": 2,
-      "jp_players": []
-    },
-    {
-      "fixture_id": "VCMMg8Av2wK4U5Q5jBmkE",
-      "kickoff_utc": "2026-11-18T19:30:00.000Z",
-      "venue": null,
-      "league_name": "コパ・デル・レイ",
-      "country_code": "esp",
-      "country_ja": "スペイン",
-      "round": null,
-      "status": "RESULT",
-      "home_team_id": "REGnGGA1gf3Lt5xhRsp2s",
-      "home_team": "Reus",
-      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zB9ybNDlCdkAp6z5fyhUM.png",
-      "home_score": 1,
-      "away_team_id": "caghidiok1z6ksd3iym8feghw",
-      "away_team": "Barakaldo",
-      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/vKMZv541jMsLIpKDIwgWE.png",
-      "away_score": 1,
-      "jp_players": []
-    },
     {
       "fixture_id": "kLmxVN_pnG58nAxBnKq1V",
       "kickoff_utc": "2026-11-20T00:30:00.000Z",
@@ -9209,6 +9611,260 @@
       "away_team_id": "74mcjsm72vr3l9pw2i4qfjchj",
       "away_team": "ビジャレアル",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Wq9oBgwBzFNsQIFp7begY.png",
+      "away_score": 1,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "BqZ0B6uCdWtEFzHnWmIep",
+      "kickoff_utc": "2026-11-25T19:45:00.000Z",
+      "venue": "Toughsheet Community Stadium",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "69t8imcdaqlgfbds2p58596my",
+      "home_team": "ボルトン・ワンダラーズ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6N6EcCoHrYmMl5AW_DsSS.png",
+      "home_score": 1,
+      "away_team_id": "d1lhefp805y0rcbjqkpu4fq0n",
+      "away_team": "ウェスト・ブロムウィッチ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pUgZYZ5rE4IyskOoxrCjG.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "伊藤敦樹",
+          "team_id": 68
+        }
+      ]
+    },
+    {
+      "fixture_id": "_eq3ZhRy8g1lgaY9VZ2lb",
+      "kickoff_utc": "2026-11-25T19:45:00.000Z",
+      "venue": "Turf Moor",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "64bxxwu2mv2qqlv0monbkj1om",
+      "home_team": "バーンリー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/JZgdxK1yXzWOwWXY1ZeAL.png",
+      "home_score": 0,
+      "away_team_id": "8kreqtde5jdktcib0kg7dknac",
+      "away_team": "バーミンガム・シティ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w87I_BEoFYqpdY2S4ePJJ.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "旗手怜央",
+          "team_id": 44
+        },
+        {
+          "name": "古橋亨梧",
+          "team_id": 54
+        },
+        {
+          "name": "藤本寛也",
+          "team_id": 54
+        },
+        {
+          "name": "岩田智輝",
+          "team_id": 54
+        }
+      ]
+    },
+    {
+      "fixture_id": "umA-9pRqi7GhHwJOoIKy7",
+      "kickoff_utc": "2026-11-25T19:45:00.000Z",
+      "venue": "Vicarage Road Stadium",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "4t83rqbdbekinxl5fz2ygsyta",
+      "home_team": "ワトフォード",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_vTwjktByU9cZi4WIJfwe.png",
+      "home_score": 0,
+      "away_team_id": "ep3im6aygoatju4u3ws8v3mog",
+      "away_team": "ブラックバーン・ローヴァーズ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/u7Gp7D-Cijc3qF4FHHeEt.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "森下龍矢",
+          "team_id": 67
+        },
+        {
+          "name": "大橋祐紀",
+          "team_id": 67
+        }
+      ]
+    },
+    {
+      "fixture_id": "3tiU67qyMfw8jV8A_CgQ9",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Riyadh Air Metropolitano",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "4ku8o6uf87yd8iecdalipo6wd",
+      "home_team": "アトレティコ・マドリー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xWY4as7vKsiitaDE-lmIe.png",
+      "home_score": 2,
+      "away_team_id": "VDZm6dDRtSJmU-WGvinmQ",
+      "away_team": "バイキング",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5B8vjBfwUVOmSH0djLu9g.png",
+      "away_score": 0,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "h_wzTW9d1zK_WtfZICbBv",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Jan Breydel Stadion",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "1oyb7oym5nwzny8vxf03szd2h",
+      "home_team": "クラブ・ブルッヘ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/P7IMTnd7DyvKabTxDNOdQ.png",
+      "home_score": 0,
+      "away_team_id": "c8h9bw1l82s06h77xxrelzhur",
+      "away_team": "リヴァプール",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "遠藤航",
+          "team_id": 40
+        }
+      ]
+    },
+    {
+      "fixture_id": "Xatt4Sxo79Lf4r2DaG_TT",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Giuseppe Meazza",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "3vo5mpj7catp66nrwwqiuhuup",
+      "home_team": "インテル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/QMLrilrNtKpq2UmCOH9FK.png",
+      "home_score": 2,
+      "away_team_id": "3dwlvz6cl4lcavvrg0y2dycrt",
+      "away_team": "シュトゥットガルト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/wISHHM98darM05uz5rA-K.png",
+      "away_score": 0,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "vpseu-lkhq8aBn7y9h-aQ",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Decathlon Arena-Stade Pierre-Mauroy",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "be2k34rut1lz79jxenabttqlc",
+      "home_team": "リール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/nphkDirYGP1JFaopFVqQy.png",
+      "home_score": 2,
+      "away_team_id": "apoawtpvac4zqlancmvw4nk4o",
+      "away_team": "バイエルン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2TlMSJkWTGqMX2lPN7Cgd.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "上田綺世",
+          "team_id": 79
+        },
+        {
+          "name": "伊藤洋輝",
+          "team_id": 157
+        }
+      ]
+    },
+    {
+      "fixture_id": "zNmL_YVgH2cEW2lsOi1N6",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Parc des Princes",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "2b3mar72yy8d6uvat1ka6tn3r",
+      "home_team": "パリ・サンジェルマン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Gt8F5QmiB3gbYqX46lCUq.png",
+      "home_score": 2,
+      "away_team_id": "2tk2l9sgktwc9jhzqdd4mpdtb",
+      "away_team": "ローマ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fqxU8GBeoLw0gLDZvhELq.png",
+      "away_score": 2,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "PLzL_BmvNXku8VMhG8pGf",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Stamford Bridge",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "cf8plcmeniaen0fc5emyb5j93",
+      "home_team": "シャフタール・ドネツク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jZLyNXTuZ0CUYXDBSeHDn.png",
+      "home_score": 0,
+      "away_team_id": "8lroq0cbhdxj8124qtxwrhvmm",
+      "away_team": "フェネルバフチェ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_exgztvNgcpD9d4fNWmAS.png",
+      "away_score": 1,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "LHnbCGm5JNxtk1PKvVmwe",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Estadio Jose Alvalade",
+      "league_name": "チャンピオンズリーグ",
+      "country_code": "uefa",
+      "country_ja": "UEFA",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "7catg5lpivcmpf4xhggh6d8rk",
+      "home_team": "スポルティングCP",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/0kdOpU-I5oBF-d1aBr7fd.png",
+      "home_score": 2,
+      "away_team_id": "6eqit8ye8aomdsrrq0hk3v7gh",
+      "away_team": "マンチェスター・ユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/StOWHY8QeOZ7MplXkp2KC.png",
+      "away_score": 2,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "6klseIcFQPI133m9NI1xp",
+      "kickoff_utc": "2026-11-25T20:00:00.000Z",
+      "venue": "Bet365 Stadium",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "4qioq44vcv619vnyy2rpovk4e",
+      "home_team": "ストーク・シティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/lZkgbLrIAUg7w0qAS-02E.png",
+      "home_score": 2,
+      "away_team_id": "40d2qd8lr1tgsvmg5l1fzaf4o",
+      "away_team": "ミルウォール",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pwytYPYcOdkvNiRFCBa5j.png",
       "away_score": 1,
       "jp_players": []
     },
@@ -13717,6 +14373,755 @@
       "away_team_id": "4kumqzwifv478caxed8zywlh3",
       "away_team": "ジェノア",
       "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/yIbz25l-fwQ0NWKqBReam.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "GMBwQV3s6tzIQGqw_eA5K",
+      "kickoff_utc": "2026-12-02T17:00:00.000Z",
+      "venue": "BayArena",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "7ad69ngbpjuyzv96drf8d9sn2",
+      "home_team": "レヴァークーゼン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/jEUaq-mmqK2hKxbzCjsUh.png",
+      "home_score": null,
+      "away_team_id": "9gefq4dz9b2hl8rqrxwrlrzmp",
+      "away_team": "RBライプツィヒ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/0GckKHYTdGCldV4jrlIc1.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "0ZBUv20CO9vz4AumsETLN",
+      "kickoff_utc": "2026-12-02T17:00:00.000Z",
+      "venue": "Fritz Walter Stadion",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "dmw05a03pgt48fnf9ikxs6i1o",
+      "home_team": "カイザースラウテルン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eNZhIUdrLnF3DNQ5K8TTu.png",
+      "home_score": null,
+      "away_team_id": "6k5zscdm9ufw0tguvzyjlp5hq",
+      "away_team": "フライブルク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mmLX2coDWVHnrrt376Otc.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "後藤啓介",
+          "team_id": 160
+        },
+        {
+          "name": "山本理仁",
+          "team_id": 160
+        },
+        {
+          "name": "鈴木唯人",
+          "team_id": 160
+        }
+      ]
+    },
+    {
+      "fixture_id": "XT7WMvOyHO6suJlrb8HZ9",
+      "kickoff_utc": "2026-12-02T17:30:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "1yv0nsv98q2g8jwxeu0ji6ic0",
+      "home_team": "セウタ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/wwYiA1wIlPgULqhDyyW4J.png",
+      "home_score": null,
+      "away_team_id": "82q9159y2u7mkfn3z6hy75r4o",
+      "away_team": "カディス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/s-jKrAYj7RdyeR7pXy8DA.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "zjoJN88kCB3DEQJpFVj40",
+      "kickoff_utc": "2026-12-02T18:00:00.000Z",
+      "venue": "Reale Arena",
+      "league_name": "ラ・リーガ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "63f5h8t5e9qm1fqmvfkb23ghh",
+      "home_team": "レアル・ソシエダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/N79j9O-sTkXZNhc9UZUsX.png",
+      "home_score": null,
+      "away_team_id": "3kq9cckrnlogidldtdie2fkbl",
+      "away_team": "レアル・マドリー",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VOlkxOIoXAXF_11lYJ_Ve.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "久保建英",
+          "team_id": 548
+        },
+        {
+          "name": "喜多壱也",
+          "team_id": 548
+        }
+      ]
+    },
+    {
+      "fixture_id": "gbF0S43bZ6J0sKtsH2G0o",
+      "kickoff_utc": "2026-12-02T18:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "OaKc8H_8L9ZcbAOwNW8kX",
+      "home_team": "Portugalete",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w0WeDm5y4wuX9MDez-DJ6.png",
+      "home_score": null,
+      "away_team_id": "1r541mega6d838hi0p44sv0h2",
+      "away_team": "デポルティーボ・ラ・コルーニャ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/dzWI12lwIaS-1ly_2d227.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "xkPdTtxsqUJ6JPmZ1YVWu",
+      "kickoff_utc": "2026-12-02T18:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "Z9OhXOq0IGvUXnXpKge4a",
+      "home_team": "Sant Andreu",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/uok2AiMQFcP43I9Iypix8.png",
+      "home_score": null,
+      "away_team_id": "bjltc68ihd23uu3svnq0o3qrs",
+      "away_team": "エイバル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pafNvSN2D_ZG74DFqZKK5.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "G0_TaJDUT1952XMk4t-PE",
+      "kickoff_utc": "2026-12-02T18:30:00.000Z",
+      "venue": null,
+      "league_name": "DBUカップ",
+      "country_code": "",
+      "country_ja": "デンマーク",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "b3r6d8ydtmtjckam6pku9y400",
+      "home_team": "コペンハーゲン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/6fI5Od-fvYeXN0W0P6Y6t.png",
+      "home_score": null,
+      "away_team_id": "59as3grjvj19voay31j3yfgni",
+      "away_team": "ミッティラン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/TZPdiUaeB9oCU4FUh4DoO.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "鈴木淳之介",
+          "team_id": 400
+        }
+      ]
+    },
+    {
+      "fixture_id": "UvEcC16LYGc7L4LUzpHIn",
+      "kickoff_utc": "2026-12-02T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "cobffe32r7g4skka9m19qib63",
+      "home_team": "アルメリア",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/XWDp8jlQsT731qKbAdap9.png",
+      "home_score": null,
+      "away_team_id": "26fes5ubaeq0fk1nay2pj2ob2",
+      "away_team": "グラナダ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/GZRkX6FnwdXWGQQoyr4g3.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "hjWdd1J97_MuBwo89EDw1",
+      "kickoff_utc": "2026-12-02T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "a745ojopc6f75ma1fyfzayono",
+      "home_team": "ミランデス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Eg15QXjmRirCPSmxm_CX8.png",
+      "home_score": null,
+      "away_team_id": "3krm0f4yr1l80j1sd7823f9xn",
+      "away_team": "レガネス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/M08qKmv8nkpWySvrmWozr.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "2mShAlyUMQmFd5vOEBaKQ",
+      "kickoff_utc": "2026-12-02T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "4szvjv7xibphumticc9438w2g",
+      "home_team": "レオネサ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zMY9rR0tyjUs_qaLp1j46.png",
+      "home_score": null,
+      "away_team_id": "5ziakdomggtzs5xqnb50jpi5o",
+      "away_team": "カステリョン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PZtrdHXH-m-ix4-dHYV8w.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "zFBs-nnQwZXG97-CkbaSf",
+      "kickoff_utc": "2026-12-02T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "ba8jyjo18tvjwei7w7thljw10",
+      "home_team": "エルデンセ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/sCQgzHvBXR0QgSxheH37W.png",
+      "home_score": null,
+      "away_team_id": "c2v5gyres2yaemc7t3ns323bj",
+      "away_team": "テネリフェ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4FpPu5m_daZlcAI43k7xA.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "nL7tS_nNnOZtdv5rS52GH",
+      "kickoff_utc": "2026-12-02T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "55twm9j9y3hvwk7hlk1vi6zst",
+      "home_team": "サバデル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FiMxpl6IfQHGrvBtBwlT-.png",
+      "home_score": null,
+      "away_team_id": "9wfi6tgumbrnkp72z8zab89kr",
+      "away_team": "スポルティング・ヒホン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/8Z7tEVJ_06-afGkVgUWKg.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "mX6lcTUSKzUd0YsgRJO0A",
+      "kickoff_utc": "2026-12-02T19:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "2x73rccjb6uyd5soojyyw9bwl",
+      "home_team": "サモラ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Rl-6UwzJAY-zNr1eYdm-x.png",
+      "home_score": null,
+      "away_team_id": "4jelr92fsge73q39is6qvhxb3",
+      "away_team": "バリャドリー",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/B2lSkOIDu7ljZZ0EuRhTY.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "aFaHHtvrlc-6A61oPmCVO",
+      "kickoff_utc": "2026-12-02T19:30:00.000Z",
+      "venue": "Stamford Bridge",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "9q0arba2kbnywth8bkxlhgmdr",
+      "home_team": "チェルシー",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/w5N6rBTPf_J_brPwrNIOG.png",
+      "home_score": null,
+      "away_team_id": "1c8m2ko0wxq1asfkuykurdr0y",
+      "away_team": "クリスタル・パレス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/fkqJeAhCc1RGGGO8bTZwl.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "冨安健洋",
+          "team_id": 52
+        },
+        {
+          "name": "鎌田大地",
+          "team_id": 52
+        }
+      ]
+    },
+    {
+      "fixture_id": "CzTOBMkAX1ZElexHLe6vC",
+      "kickoff_utc": "2026-12-02T19:30:00.000Z",
+      "venue": "The MKM Stadium",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "f0figafm2v9h8ofo6slajj7xf",
+      "home_team": "ハル・シティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CIbMqRusYuY1igSiiTwCp.png",
+      "home_score": null,
+      "away_team_id": "1qtaiy11gswx327s0vkibf70n",
+      "away_team": "ノッティンガム・フォレスト",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BNAy0MWCqOxdSF4SLgCPK.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "守田英正",
+          "team_id": 64
+        }
+      ]
+    },
+    {
+      "fixture_id": "tURAxsXCM6gtuqCGVU5oV",
+      "kickoff_utc": "2026-12-02T19:30:00.000Z",
+      "venue": "Anfield",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "c8h9bw1l82s06h77xxrelzhur",
+      "home_team": "リヴァプール",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/5pqbkK17JBIe7kMzOPSdr.png",
+      "home_score": null,
+      "away_team_id": "1r3545b2dzan8yqa80gtmcjch",
+      "away_team": "サンダーランド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/hRMDFkwiIhvjfGNfMkNk_.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "遠藤航",
+          "team_id": 40
+        }
+      ]
+    },
+    {
+      "fixture_id": "EatgvCAYkfE14JanYVD66",
+      "kickoff_utc": "2026-12-02T19:30:00.000Z",
+      "venue": "Etihad Stadium",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "a3nyxabgsqlnqfkeg41m6tnpp",
+      "home_team": "マンチェスター・シティ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/YaWwRy_S6TKMuwJHBvDbR.png",
+      "home_score": null,
+      "away_team_id": "48gk2hpqtsl6p9sx9kjhaydq4",
+      "away_team": "リーズ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/aHnEa_wImk48agGWeQmpX.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "田中碧",
+          "team_id": 63
+        }
+      ]
+    },
+    {
+      "fixture_id": "qMqkPrtpOhsMo-At9OSQZ",
+      "kickoff_utc": "2026-12-02T19:30:00.000Z",
+      "venue": null,
+      "league_name": "カップ",
+      "country_code": "",
+      "country_ja": "スイス",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "5fd9f9bti2cdgb6r1lf8l2bc7",
+      "home_team": "ヤングボーイズ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qPMtaYDeypTdTXZnCuM1F.png",
+      "home_score": null,
+      "away_team_id": "5u18kvqiqhup2vd345dci1069",
+      "away_team": "バーゼル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ZFLaYXd4L5aWIGe9ne0Px.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "常本佳吾",
+          "team_id": 551
+        }
+      ]
+    },
+    {
+      "fixture_id": "BkWf3rHJOHhkePl60zb5o",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "Scot Foam Stadium at Dens Park",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "g7em7tpuicehjy3wmsbimsee",
+      "home_team": "ダンディーFC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/mIF43jPnpF8X1qHlLRnnm.png",
+      "home_score": null,
+      "away_team_id": "dvnjvad3p09dugr79gktlrtll",
+      "away_team": "セルティック",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/8UxaQpw2CLkIbVb6i3Avz.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "z58JAfvCbTZeDy1Ed_7OS",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "Falkirk Stadium",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "1pq8av8ecx28pshgtpkdj36nt",
+      "home_team": "フォルカーク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Zq2kOtFd6icsBg0nWjC0j.png",
+      "home_score": null,
+      "away_team_id": "759fhii7hsnldanli06j5jmf6",
+      "away_team": "マザーウェル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/pP93FXnzYycoJEgiJgRQ9.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "Pib0_iCcMlKcJO6VSA1QB",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "Tynecastle Park",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "1hcbcuu846pa3iw6qskiws1cu",
+      "home_team": "ハーツ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/4BTIkdBd_rRF9ZpCmIeNn.png",
+      "home_score": null,
+      "away_team_id": "841zp0njrq63yv4fvw6lgf60q",
+      "away_team": "アバディーン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/saOIIte70U3PrtA3XCCVW.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "ZVTQKcYnr0XbNPVixN9bY",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "The BBSP Stadium, Rugby Park",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "enzoyc121va61wtmjf4cm7p3d",
+      "home_team": "キルマーノック",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qIP59dFxLc-kkYVybZ1Dt.png",
+      "home_score": null,
+      "away_team_id": "c9ky1957qli8v2lylfga7io8b",
+      "away_team": "ハイバーニアン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/_B6zF7rSi6ZzWs2CoVA_4.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "jUJSJJ8GDETkK3iXEgDzF",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "Ibrox Stadium",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "cnnku8uihko7u4th0fms4pvg6",
+      "home_team": "レンジャーズ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/BOClk20rC_9i-88SEnIsN.png",
+      "home_score": null,
+      "away_team_id": "4qdzzur2cuuridyb0jso8mksi",
+      "away_team": "ダンディー・ユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/t0z7zXfNJbJET9oxpB4g6.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "UN_jo2uFmZY4iQumEnSxr",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "McDiarmid Park",
+      "league_name": "スコティッシュ・プレミアシップ",
+      "country_code": "sco",
+      "country_ja": "スコットランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "ez46dadmx0virt38cgeq2n6pf",
+      "home_team": "セントジョンストン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/8OYTdiGrjTwdotKkvXEIT.png",
+      "home_score": null,
+      "away_team_id": "muo4d1nfi1vgyvz5n07tjmoo",
+      "away_team": "セント・ミレン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/v9KMC5w2M2mvTm7e4QcHm.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "Lo3Phj-_p6M8EOtwmdWZp",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "Vonovia Ruhrstadion",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "eq1oq6y61xnzq88zu0cnw131z",
+      "home_team": "ボーフム",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qwhqIg6jBXEyOvtteBQGG.png",
+      "home_score": null,
+      "away_team_id": "ex3psl8e3ajeypwjy4xfltpx6",
+      "away_team": "アウクスブルク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Cym9JdkRpXALz4AJUjd8e.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "三好康児",
+          "team_id": 176
+        }
+      ]
+    },
+    {
+      "fixture_id": "t7x8yAjgdZTARSiK2Ev4j",
+      "kickoff_utc": "2026-12-02T19:45:00.000Z",
+      "venue": "Deutsche Bank Park",
+      "league_name": "DFBポカール",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "c5hderjlkcoaze51e5wgvptk",
+      "home_team": "フランクフルト",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2Myurk0GUKAA2rF21Tx4Z.png",
+      "home_score": null,
+      "away_team_id": "dt4pinj0vw0t0cvz7za6mhmzy",
+      "away_team": "ボルシア・ドルトムント",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/EmDXkZ5B61SrXUUTUPV3X.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "堂安律",
+          "team_id": 169
+        },
+        {
+          "name": "小杉啓太",
+          "team_id": 169
+        },
+        {
+          "name": "神代慶人",
+          "team_id": 169
+        }
+      ]
+    },
+    {
+      "fixture_id": "SiqTOxKGpHarm4jLTtvi5",
+      "kickoff_utc": "2026-12-02T20:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "ccrhs7sbdbdj05nd9mpwy7n60",
+      "home_team": "アローサSC",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/ccrhs7sbdbdj05nd9mpwy7n60.png",
+      "home_score": null,
+      "away_team_id": "6f27yvbqcngegwsg2ozxxdj4",
+      "away_team": "セルタ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FTgkUPD0PmbUD4tk9KLzC.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "CafapldjlA1CoCuf8uD1M",
+      "kickoff_utc": "2026-12-02T20:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "7moivfj8at1o62oyhjbkex13h",
+      "home_team": "ラヨマハダオンダ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/lozuEyPnlN5nlK-jA0P-j.png",
+      "home_score": null,
+      "away_team_id": "50x1m4u58lffhq6v6ga1hbxmy",
+      "away_team": "マヨルカ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/bE7wfVD_uxZOlicMBWmmX.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "I8Byl2SitfN7FwTYg6RND",
+      "kickoff_utc": "2026-12-02T20:00:00.000Z",
+      "venue": null,
+      "league_name": "コパ・デル・レイ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "54xwyrnjkyklf232w3n75s1d5",
+      "home_team": "セスタオ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zodSINS3zUHvVaUgoh6Hm.png",
+      "home_score": null,
+      "away_team_id": "74mcjsm72vr3l9pw2i4qfjchj",
+      "away_team": "ビジャレアル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/Wq9oBgwBzFNsQIFp7begY.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "JC5psxnECk3wwICpo6p6J",
+      "kickoff_utc": "2026-12-02T20:00:00.000Z",
+      "venue": null,
+      "league_name": "コッパ・イタリア",
+      "country_code": "ita",
+      "country_ja": "イタリア",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "6uzfw7ahyxg4wrrfxo5u7qt0n",
+      "home_team": "コモ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/3rB5oJN66n2Qa0XbuR9v8.png",
+      "home_score": null,
+      "away_team_id": "af91jdcs6x0bqkmdb78rokod2",
+      "away_team": "クレモネーゼ",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FnmfMzvcu_32_RynNiPom.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "TBTZIqSCJfOWUJgKuHtbZ",
+      "kickoff_utc": "2026-12-02T20:15:00.000Z",
+      "venue": "Vitality Stadium",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "1pse9ta7a45pi2w2grjim70ge",
+      "home_team": "ボーンマス",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/FS7UO4BdZPMJrL5MlqxyL.png",
+      "home_score": null,
+      "away_team_id": "e5p0ehyguld7egzhiedpdnc3w",
+      "away_team": "ブライトン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/WiirpxPm2UOiRN90nCKOM.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "三笘薫",
+          "team_id": 51
+        }
+      ]
+    },
+    {
+      "fixture_id": "-sCkl0uCi7NfJRoRMSz7m",
+      "kickoff_utc": "2026-12-02T20:15:00.000Z",
+      "venue": "Villa Park",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "b496gs285it6bheuikox6z9mj",
+      "home_team": "アストン・ヴィラ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/qgf3Tx9R3nphdWIS9SgyB.png",
+      "home_score": null,
+      "away_team_id": "ehd2iemqmschhj2ec0vayztzz",
+      "away_team": "エヴァートン",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/KpdwLlfU5HTu0Xg7fXxof.png",
+      "away_score": null,
+      "jp_players": [
+        {
+          "name": "鈴木彩艶",
+          "team_id": 66
+        }
+      ]
+    },
+    {
+      "fixture_id": "xOcINO6DG-OD2fETEkHhp",
+      "kickoff_utc": "2026-12-02T20:15:00.000Z",
+      "venue": "Gtech Community Stadium",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "7yx5dqhhphyvfisohikodajhv",
+      "home_team": "ブレントフォード",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/zIuTQ00RiiL1vS9A2Uhv8.png",
+      "home_score": null,
+      "away_team_id": "4dsgumo7d4zupm2ugsvm4zm4d",
+      "away_team": "アーセナル",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/W1-BFEctS5BlEkf0u_ld3.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "sc-whh_FGRWAJrBH4ge32",
+      "kickoff_utc": "2026-12-02T20:15:00.000Z",
+      "venue": "St James&apos; Park",
+      "league_name": "プレミアリーグ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "7vn2i2kd35zuetw6b38gw9jsz",
+      "home_team": "ニューカッスル",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/1iD-fvEOrJtrHuYnqjZ2y.png",
+      "home_score": null,
+      "away_team_id": "6eqit8ye8aomdsrrq0hk3v7gh",
+      "away_team": "マンチェスター・ユナイテッド",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/StOWHY8QeOZ7MplXkp2KC.png",
+      "away_score": null,
+      "jp_players": []
+    },
+    {
+      "fixture_id": "QdqslWobwdQbBfK71Chyo",
+      "kickoff_utc": "2026-12-02T20:30:00.000Z",
+      "venue": "Spotify Camp Nou",
+      "league_name": "ラ・リーガ",
+      "country_code": "esp",
+      "country_ja": "スペイン",
+      "round": null,
+      "status": "FIXTURE",
+      "home_team_id": "agh9ifb2mw3ivjusgedj7c3fe",
+      "home_team": "バルセロナ",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/eu0z1bZDA3gqIhdn-rHli.png",
+      "home_score": null,
+      "away_team_id": "4ku8o6uf87yd8iecdalipo6wd",
+      "away_team": "アトレティコ・マドリー",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/xWY4as7vKsiitaDE-lmIe.png",
       "away_score": null,
       "jp_players": []
     }
