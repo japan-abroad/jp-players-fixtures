@@ -17303,6 +17303,122 @@
           "team_id": 407
         }
       ]
+    },
+    {
+      "fixture_id": "gFJ57CKR5segUFkW3oVEW",
+      "kickoff_utc": "2026-11-27T19:30:00.000Z",
+      "venue": "Wohninvest WESERSTADION",
+      "league_name": "ブンデスリーガ",
+      "country_code": "ger",
+      "country_ja": "ドイツ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "cu0eztmjcsbydyp53aleznorw",
+      "home_team": "ブレーメン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/QvXc_LEra3PfYsmFMp9pH.png",
+      "home_score": 3,
+      "away_team_id": "go76xxm0xyfgqt1h6tcrtimm",
+      "away_team": "ボルシアMG",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/HM49b4dKNaIgkvz6V2U4U.png",
+      "away_score": 3,
+      "jp_players": [
+        {
+          "name": "板倉滉",
+          "team_id": 163
+        },
+        {
+          "name": "町野修斗",
+          "team_id": 163
+        },
+        {
+          "name": "宇野禅斗",
+          "team_id": 163
+        },
+        {
+          "name": "橋岡大樹",
+          "team_id": 163
+        }
+      ]
+    },
+    {
+      "fixture_id": "-OcyEx5Xlv5snzy-XWgmL",
+      "kickoff_utc": "2026-11-27T19:45:00.000Z",
+      "venue": "King Power at Den Dreef",
+      "league_name": "ベルギー・プロリーグ",
+      "country_code": "bel",
+      "country_ja": "ベルギー",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "bw9wm8pqfzcchumhiwdt2w15c",
+      "home_team": "ルーヴェン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/D1cXjkAvehiVetb4VDVk0.png",
+      "home_score": 2,
+      "away_team_id": "1uk609mhtsfhokhaewjapb26",
+      "away_team": "コルトレイク",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/CpQaciiUdKiwA25L3fpKU.png",
+      "away_score": 2,
+      "jp_players": [
+        {
+          "name": "荻原拓也",
+          "team_id": 260
+        },
+        {
+          "name": "山田新",
+          "team_id": 260
+        },
+        {
+          "name": "倍井謙",
+          "team_id": 734
+        }
+      ]
+    },
+    {
+      "fixture_id": "dSXu5PEfMC8UC9u4Kh_yv",
+      "kickoff_utc": "2026-11-27T20:00:00.000Z",
+      "venue": "St. Mary&apos;s Stadium",
+      "league_name": "EFLチャンピオンシップ",
+      "country_code": "eng",
+      "country_ja": "イングランド",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "d5ydtvt96bv7fq04yqm2w2632",
+      "home_team": "サウサンプトン",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/2qkRHmQu3EGctqnnL2_fM.png",
+      "home_score": 2,
+      "away_team_id": "cq0jd5ztepqjjeikk5trb15vr",
+      "away_team": "Middlesbrough",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/PJOF632C49yyoGP7vrnD4.png",
+      "away_score": 0,
+      "jp_players": [
+        {
+          "name": "松木玖生",
+          "team_id": 41
+        }
+      ]
+    },
+    {
+      "fixture_id": "jNcGIx8ruUChRT2lIk4qC",
+      "kickoff_utc": "2026-11-28T03:30:00.000Z",
+      "venue": "America First Field",
+      "league_name": "MLS",
+      "country_code": "can",
+      "country_ja": "カナダ",
+      "round": null,
+      "status": "RESULT",
+      "home_team_id": "29zyafx618w7tvp34n53pzwwb",
+      "home_team": "レアル・ソルトレイク",
+      "home_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/VuH5_ELAgPDNeGoVUhYOr.png",
+      "home_score": 0,
+      "away_team_id": "cdmq2tqfwo5td2ztv1s62bqlf",
+      "away_team": "バンクーバー・ホワイトキャップス",
+      "away_logo": "https://cdn.sportfeeds.io/sdl/images/team/crest/medium/OL8kJSLnulGeqt2uiwe0s.png",
+      "away_score": 1,
+      "jp_players": [
+        {
+          "name": "高丘陽平",
+          "team_id": 1603
+        }
+      ]
     }
   ]
 }
